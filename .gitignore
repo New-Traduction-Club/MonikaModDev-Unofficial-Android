@@ -1,0 +1,6 @@
+*.rpyc
+*.rpa
+*.bak
+game/saves/
+.vscode/
+game/cache/
