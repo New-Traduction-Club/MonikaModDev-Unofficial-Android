@@ -9,6 +9,10 @@ init -10 python in mas_games:
     def is_platform_good_for_chess():
         import platform
         import sys
+        import renpy
+
+        if renpy.android:
+            return True
 
         if sys.maxsize > 2**32:
             return platform.system() == 'Windows' or platform.system() == 'Linux' or platform.system() == 'Darwin'

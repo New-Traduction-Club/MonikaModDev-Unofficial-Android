@@ -1964,6 +1964,39 @@ init python:
             mas_utils.mas_log.error("Chess game folder could not be created '{0}'".format(file_path))
 
 
+    def get_stockfish_executable():
+        """
+        Gets the stockfish executable path on Android.
+
+        OUT:
+            The path to the stockfish binary if found, or None otherwise.
+        """
+        if not renpy.android:
+            return None
+
+        try:
+            # Resolve the native library directory path from the system
+            from jnius import autoclass
+
+            PythonSDLActivity = autoclass('org.renpy.android.PythonSDLActivity')
+            mActivity = PythonSDLActivity.mActivity
+
+            app_info = mActivity.getApplicationInfo()
+            native_lib_dir = app_info.nativeLibraryDir
+            stockfish_so = os.path.join(native_lib_dir, "libstockfish.so")
+
+            if os.path.exists(stockfish_so):
+                mas_utils.mas_log.info("Android Stockfish: Found via JNI at " + stockfish_so)
+                return stockfish_so
+
+            mas_utils.mas_log.error("Android Stockfish: libstockfish.so NOT found in nativeLibraryDir: " + native_lib_dir)
+
+        except Exception as e:
+            mas_utils.mas_log.error("Android Stockfish: JNI Setup failed: " + str(e))
+
+        return None
+
+
     #START: DISPLAYABLES AND RELATED CLASSES
     class MASChessDisplayableBase(renpy.Displayable):
         """
@@ -3461,7 +3494,22 @@ init python:
 
             is_64_bit = sys.maxsize > 2**32
 
-            if renpy.windows:
+            if renpy.android:
+                stockfish_exe = get_stockfish_executable()
+                if stockfish_exe:
+                    try:
+                        self.stockfish = subprocess.Popen(
+                            stockfish_exe,
+                            stdin=subprocess.PIPE,
+                            stdout=subprocess.PIPE
+                        )
+                    except Exception as ex:
+                        mas_utils.mas_log.exception(ex)
+                        renpy.jump("mas_chess_cannot_work_embarrassing")
+                else:
+                    renpy.jump("mas_chess_cannot_work_embarrassing")
+
+            elif renpy.windows:
                 startupinfo = subprocess.STARTUPINFO()
                 startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
 
