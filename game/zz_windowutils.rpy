@@ -342,6 +342,36 @@ init python in mas_windowutils:
         """
         return ""
 
+    def _to_byte_string(s):
+        """
+        Converts a string to a byte string (str in Python 2) for PyJnius compatibility.
+        """
+        if isinstance(s, unicode):
+            return s.encode('utf-8')
+        return str(s)
+
+    def _getActiveWindowHandle_Android():
+        """
+        Funtion to get the active window on Android systems via PyJnius JNI bridge
+
+        OUT:
+            string representing the active window handle
+
+        ASSUMES: OS is Android
+        """
+        try:
+            from jnius import autoclass
+            DesktopWindowManager = autoclass(str('org.renpy.android.DesktopWindowManager'))
+            active_window = DesktopWindowManager.getActiveWindowName()
+            
+            if isinstance(active_window, str):
+                active_window = active_window.decode('utf-8')
+                
+            return active_window
+        except Exception as e:
+            mas_utils.mas_log.error("[Android Window Detection] Error: {}".format(e))
+            return ""
+
     #Notif show internals
     def _tryShowNotification_Windows(title, body):
         """
@@ -396,6 +426,31 @@ init python in mas_windowutils:
         """
         os.system('osascript -e \'display notification "{0}" with title "{1}"\''.format(body, title))
         return True
+
+    def _tryShowNotification_Android(title, body):
+        """
+        Tries to push a virtual desktop notification toast on Android via PyJnius JNI bridge.
+        If it can't it should fail silently to the user.
+
+        IN:
+            title - notification title
+            body - notification body
+
+        OUT:
+            bool. True if the notification was successfully sent, False otherwise
+        """
+        try:
+            from jnius import autoclass
+            NotificationWorker = autoclass(str('org.renpy.android.NotificationWorker'))
+            
+            title_str = _to_byte_string(title)
+            body_str = _to_byte_string(body)
+            
+            NotificationWorker.showDesktopNotification(title_str, body_str)
+            return True
+        except Exception as e:
+            mas_utils.mas_log.error("[Android Notification] Error: {}".format(e))
+            return False
 
     #Mouse Position related funcs
     def _getAbsoluteMousePos_Windows():
@@ -586,6 +641,25 @@ init python in mas_windowutils:
             _tryShowNotif = _tryShowNotification_Linux
             getMASWindowPos = _getMASWindowPos_Linux
             getMousePos = _getAbsoluteMousePos_Linux
+
+        elif renpy.android:
+            _window_get = _getActiveWindowHandle_Android
+            _tryShowNotif = _tryShowNotification_Android
+
+            # Desktop mouse coordinates are not available on mobile touchscreens for now
+            getMASWindowPos = store.dummy
+            getMousePos = store.dummy
+
+            # Now make sure we don't use cursor positioning checks since we have no mouse pointer
+            isCursorAboveMASWindow = return_false
+            isCursorBelowMASWindow = return_false
+            isCursorLeftOfMASWindow = return_false
+            isCursorRightOfMASWindow = return_false
+            isCursorInMASWindow = return_true
+
+            # Now enable notifications and window reacts
+            store.mas_windowreacts.can_show_notifs = True
+            store.mas_windowreacts.can_do_windowreacts = True
 
         else:
             _window_get = _getActiveWindowHandle_OSX
