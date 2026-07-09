@@ -471,8 +471,8 @@ screen say(who, what):
 
     # If there's a side image, display it above the text. Do not display
     # on the phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign (0.0 if not mas_globals.dark_mode else 2.5) yalign (1.0 if not mas_globals.dark_mode else 2.5)
+    # if not renpy.variant("small"):
+    #     add SideImage() xalign (0.0 if not mas_globals.dark_mode else 2.5) yalign (1.0 if not mas_globals.dark_mode else 2.5)
 
     use quick_menu
 
@@ -726,6 +726,8 @@ screen quick_menu():
 #            textbutton _("Settings") action ShowMenu("preferences")
             textbutton _("Settings") action Function(_mas_quick_menu_cb, "preferences")
 
+            textbutton _("Hide") action HideInterface()
+
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -939,7 +941,8 @@ screen navigation():
 
             ## The quit button is banned on iOS and unnecessary on Android.
             #If we're on the main menu, we don't want to confirm quit as Monika isn't back yet
-            textbutton _("Quit") action Quit(confirm=(None if main_menu else _confirm_quit))
+        
+        textbutton _("Quit") action Quit(confirm=(None if main_menu else _confirm_quit))
 
         if not main_menu:
             textbutton _("Return") action Return()
@@ -1441,13 +1444,13 @@ screen preferences():
             hbox:
                 box_wrap True
 
-                if renpy.variant("pc"):
+                # if renpy.variant("pc"):
 
-                    vbox:
-                        style_prefix "generic_fancy_check"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                vbox:
+                    style_prefix "generic_fancy_check"
+                    label _("Display")
+                    textbutton _("Window") action Preference("display", "window")
+                    textbutton _("Fullscreen") action Preference("display", "fullscreen")
 
 #                vbox:
 #                    style_prefix "check"
@@ -1461,10 +1464,11 @@ screen preferences():
                     style_prefix "generic_fancy_check"
                     label _("Graphics")
 
-                    # this is a normal button
-                    textbutton _("Change Renderer"):
-                        style "check_button"
-                        action Function(renpy.call_in_new_context, "mas_gmenu_start")
+                    if not renpy.android:
+                        # this is a normal button
+                        textbutton _("Change Renderer"):
+                            style "check_button"
+                            action Function(renpy.call_in_new_context, "mas_gmenu_start")
 
                     textbutton _("Disable Animation") action ToggleField(persistent, "_mas_disable_animations")
 
@@ -1658,17 +1662,17 @@ screen preferences():
                         action Preference("all mute", "toggle")
 
 
-            hbox:
+            # hbox:
                 #We disable updating on the main menu because it causes graphical issues
                 #due to the spaceroom not being loaded in
-                if not main_menu:
-                    textbutton _("Update Version"):
-                        action Function(renpy.call_in_new_context, 'forced_update_now')
-                        style "navigation_button"
+                # if not main_menu:
+                #     textbutton _("Update Version"):
+                #         action Function(renpy.call_in_new_context, 'forced_update_now')
+                #         style "navigation_button"
 
-                textbutton _("Import DDLC Save Data"):
-                    action Function(renpy.call_in_new_context, 'import_ddlc_persistent_in_settings')
-                    style "navigation_button"
+                # textbutton _("Import DDLC Save Data"):
+                #     action Function(renpy.call_in_new_context, 'import_ddlc_persistent_in_settings')
+                #     style "navigation_button"
 
 
     text tooltip.value:
