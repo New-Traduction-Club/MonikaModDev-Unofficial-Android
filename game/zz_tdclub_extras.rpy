@@ -1,5 +1,7 @@
 default persistent.language = None
 
+default end_letter_gender = "o"
+
 init python:
 
     # current plataform string for spanish use

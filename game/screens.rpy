@@ -1666,8 +1666,8 @@ screen preferences():
                     label _("Language")
 
                     # Real languages should go alphabetical order by English name.
-                    textbutton "English" text_font "DejaVuSans.ttf" action [SetField(persistent, "language", "english"), Show("dialog", message="It is recommended to restart to apply the changes.", ok_action=Hide("dialog"))]
-                    textbutton "Español" text_font "DejaVuSans.ttf" action [SetField(persistent, "language", "spanish"), Show("dialog", message="Se recomienda reiniciar el juego\npara aplicar los cambios.", ok_action=Hide("dialog"))]
+                    textbutton "English" text_font "DejaVuSans.ttf" action [Language(None), SetField(persistent, "language", "english"), Show("dialog", message="It is recommended to restart to apply the changes.", ok_action=Hide("dialog"))]
+                    textbutton "Español" text_font "DejaVuSans.ttf" action [Language("spanish"), SetField(persistent, "language", "spanish"), Show("dialog", message="Se recomienda reiniciar el juego\npara aplicar los cambios.", ok_action=Hide("dialog"))]
 
             # hbox:
                 #We disable updating on the main menu because it causes graphical issues

@@ -224,6 +224,34 @@ init python:
 
         style.rebuild()
 
+    if not hasattr(renpy, "_masl_original_change_language"):
+        renpy._masl_original_change_language = renpy.change_language
+
+        def _masl_change_language(language, force=False):
+            """
+            Wraps change_language to prevent recursion errors when using custom themes/swaps.
+
+            IN:
+                language - language string or None
+                force - boolean to force the update
+            """
+            for _masl_name, _masl_style_obj in _masl_original_style_objects.iteritems():
+                renpy.style.styles[_masl_name] = _masl_style_obj
+                if len(_masl_name) == 1:
+                    setattr(style, _masl_name[0], _masl_style_obj)
+
+            renpy._masl_original_change_language(language, force=force)
+
+            if mas_ui.style_stash:
+                mas_darkMode(morning_flag=not mas_globals.dark_mode)
+
+        renpy.change_language = _masl_change_language
+
+init 999 python:
+    _masl_original_style_objects = {}
+    for _masl_name, _masl_style_obj in renpy.style.styles.iteritems():
+        _masl_original_style_objects[_masl_name] = _masl_style_obj
+
 # START: Settings menu helpers
 init python in mas_settings:
     _persistent = renpy.game.persistent
