@@ -214,8 +214,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_sing_song_pool",
-            prompt="Can you sing me a song?",
-            category=["music"],
+            prompt=__("Can you sing me a song?"),
+            category=[__("music")],
             pool=True,
             aff_range=(mas_aff.NORMAL,None),
             rules={"no_unlock": None}
@@ -296,8 +296,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_sing_song_analysis",
-            prompt="Let's talk about a song",
-            category=["music"],
+            prompt=__("Let's talk about a song"),
+            category=[__("music")],
             pool=True,
             unlocked=False,
             aff_range=(mas_aff.NORMAL, None),
@@ -338,8 +338,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_sing_song_rerandom",
-            prompt="Can you sing a song on your own again?",
-            category=['music'],
+            prompt=__("Can you sing a song on your own again?"),
+            category=[__('music')],
             pool=True,
             unlocked=False,
             aff_range=(mas_aff.NORMAL, None),
@@ -440,7 +440,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_aiwfc",
-            prompt="All I Want for Christmas",
+            prompt=__("All I Want for Christmas"),
             category=[store.mas_songs.TYPE_LONG],
             unlocked=False,
             aff_range=(mas_aff.NORMAL, None)
@@ -461,7 +461,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_merry_christmas_baby",
-            prompt="Merry Christmas Baby",
+            prompt=__("Merry Christmas Baby"),
             category=[store.mas_songs.TYPE_LONG],
             unlocked=False,
             aff_range=(mas_aff.NORMAL, None)
@@ -498,7 +498,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_this_christmas_kiss",
-            prompt="This Christmas Kiss",
+            prompt=__("This Christmas Kiss"),
             category=[store.mas_songs.TYPE_LONG],
             unlocked=False,
             aff_range=(mas_aff.ENAMORED, None)
@@ -527,7 +527,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_lover_boy",
-            prompt="Old Fashioned Lover Boy",
+            prompt=__("Old Fashioned Lover Boy"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.NORMAL,None)
@@ -549,7 +549,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_burning_love",
-            prompt="Burning Love",
+            prompt=__("Burning Love"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.NORMAL,None)
@@ -571,7 +571,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_aries",
-            prompt="Aries",
+            prompt=__("Aries"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.NORMAL,None)
@@ -595,7 +595,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_need_you",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="I Need You",
+            prompt=__("I Need You"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -618,7 +618,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_i_will",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="I Will",
+            prompt=__("I Will"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -640,7 +640,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_belong_together",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="We Belong Together",
+            prompt=__("We Belong Together"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -664,7 +664,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_everythings_alright",
-            prompt="Everything's Alright",
+            prompt=__("Everything's Alright"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.NORMAL,None)
@@ -691,7 +691,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_your_song",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Your Song",
+            prompt=__("Your Song"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -718,7 +718,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_with_you",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Happy Just to Dance With You",
+            prompt=__("Happy Just to Dance With You"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -740,7 +740,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_dream",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="All I Have to Do Is Dream",
+            prompt=__("All I Have to Do Is Dream"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -761,7 +761,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_im_glad_youre_evil_too",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="I'm Glad You're Evil Too",
+            prompt=__("I'm Glad You're Evil Too"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -800,7 +800,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_nobody_makes_sense",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Nobody Makes Sense",
+            prompt=__("Nobody Makes Sense"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -827,7 +827,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_yozurina",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Yozurina",
+            prompt=__("Yozurina"),
             random=True,
             aff_range=(mas_aff.LOVE, None)
         ),
@@ -855,7 +855,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_stand_by_me",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Stand by Me",
+            prompt=__("Stand by Me"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -882,7 +882,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_drift_away",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Drift Away",
+            prompt=__("Drift Away"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -912,7 +912,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_stand_by_me_long",
             category=[store.mas_songs.TYPE_LONG],
-            prompt="Stand by Me",
+            prompt=__("Stand by Me"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.NORMAL,None)
@@ -944,7 +944,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_rewrite_the_stars",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Rewrite the Stars",
+            prompt=__("Rewrite the Stars"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -973,7 +973,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_hero",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Hero",
+            prompt=__("Hero"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1029,7 +1029,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_hero_long",
             category=[store.mas_songs.TYPE_LONG],
-            prompt="Hero",
+            prompt=__("Hero"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.NORMAL,None)
@@ -1084,7 +1084,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_memories_of_a_girl",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Memories of a Girl I Haven't Met",
+            prompt=__("Memories of a Girl I Haven't Met"),
             random=True,
             aff_range=(mas_aff.AFFECTIONATE,None)
         ),
@@ -1108,7 +1108,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_my_silver_lining",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="My Silver Lining",
+            prompt=__("My Silver Lining"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1150,7 +1150,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_my_silver_lining_analysis",
             category=[store.mas_songs.TYPE_ANALYSIS],
-            prompt="My silver lining",
+            prompt=__("My silver lining"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.NORMAL,None)
@@ -1217,7 +1217,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_amaranthine",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Amaranthine",
+            prompt=__("Amaranthine"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1249,7 +1249,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_shelter",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Shelter",
+            prompt=__("Shelter"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1292,7 +1292,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_shelter_analysis",
             category=[store.mas_songs.TYPE_ANALYSIS],
-            prompt="Shelter",
+            prompt=__("Shelter"),
             aff_range=(mas_aff.NORMAL,None)
         ),
         code="SNG"
@@ -1370,7 +1370,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_cant_help_falling_in_love",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Can't Help Falling in Love",
+            prompt=__("Can't Help Falling in Love"),
             random=True,
             aff_range=(mas_aff.AFFECTIONATE,None)
         ),
@@ -1404,7 +1404,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_cant_help_falling_in_love_long",
             category=[store.mas_songs.TYPE_LONG],
-            prompt="Can't Help Falling in Love",
+            prompt=__("Can't Help Falling in Love"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.AFFECTIONATE,None)
@@ -1442,7 +1442,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_lamour_toujours",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="L'Amour Toujours",
+            prompt=__("L'Amour Toujours"),
             random=True,
             aff_range=(mas_aff.AFFECTIONATE, None)
         ),
@@ -1476,7 +1476,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_god_knows",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="God Knows",
+            prompt=__("God Knows"),
             random=True,
             aff_range=(mas_aff.AFFECTIONATE,None)
         ),
@@ -1505,7 +1505,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_ageage_again",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Ageage Again",
+            prompt=__("Ageage Again"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1538,7 +1538,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_falling_in_love_at_a_coffee_shop",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Falling in Love at a Coffee Shop",
+            prompt=__("Falling in Love at a Coffee Shop"),
             random=True,
             aff_range=(mas_aff.NORMAL, None)
         ),
@@ -1570,7 +1570,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_wonderwall",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Wonderwall",
+            prompt=__("Wonderwall"),
             random=True,
             aff_range=(mas_aff.NORMAL,None)
         ),
@@ -1624,7 +1624,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_wonderwall_analysis",
             category=[store.mas_songs.TYPE_ANALYSIS],
-            prompt="Wonderwall",
+            prompt=__("Wonderwall"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.NORMAL,None)
@@ -1675,7 +1675,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_when_youre_gone",
-            prompt="When You're Gone",
+            prompt=__("When You're Gone"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.AFFECTIONATE,None)
@@ -1705,7 +1705,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_we_have_all_the_time_in_the_world",
-            prompt="We Have All the Time in the World",
+            prompt=__("We Have All the Time in the World"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.LOVE, None)
@@ -1734,7 +1734,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_we_have_all_the_time_in_the_world_long",
-            prompt="We Have All the Time in the World",
+            prompt=__("We Have All the Time in the World"),
             category=[store.mas_songs.TYPE_LONG],
             aff_range=(mas_aff.LOVE, None)
         ),
@@ -1772,7 +1772,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_when_you_say_nothing_at_all",
-            prompt="When You Say Nothing at All",
+            prompt=__("When You Say Nothing at All"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.LOVE, None)
@@ -1801,7 +1801,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_when_you_say_nothing_at_all_long",
-            prompt="When You Say Nothing at All",
+            prompt=__("When You Say Nothing at All"),
             category=[store.mas_songs.TYPE_LONG],
             aff_range=(mas_aff.LOVE, None)
         ),
@@ -1831,7 +1831,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_strawberry",
             category=[store.mas_songs.TYPE_SHORT],
-            prompt="Strawberry",
+            prompt=__("Strawberry"),
             random=True,
             aff_range=(mas_aff.AFFECTIONATE,None)
         ),
@@ -1863,7 +1863,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_strawberry_long",
             category=[store.mas_songs.TYPE_LONG],
-            prompt="Strawberry",
+            prompt=__("Strawberry"),
             aff_range=(mas_aff.AFFECTIONATE,None)
         ),
         code="SNG"
@@ -1893,7 +1893,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_save_the_last_dance_for_me",
-            prompt="Save the Last Dance for Me",
+            prompt=__("Save the Last Dance for Me"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.LOVE,None)
@@ -1941,7 +1941,7 @@ init 5 python:
             persistent._mas_songs_database,
             eventlabel="mas_song_save_the_last_dance_for_me_analysis",
             category=[store.mas_songs.TYPE_ANALYSIS],
-            prompt="Save the Last Dance for Me",
+            prompt=__("Save the Last Dance for Me"),
             random=False,
             unlocked=False,
             aff_range=(mas_aff.LOVE,None)
@@ -1974,7 +1974,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_fly_me_to_the_moon",
-            prompt="Fly Me to the Moon",
+            prompt=__("Fly Me to the Moon"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.ENAMORED, None)
@@ -2003,7 +2003,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_heaven",
-            prompt="Heaven",
+            prompt=__("Heaven"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.ENAMORED, None)
@@ -2029,7 +2029,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_can_you_feel_the_sunshine",
-            prompt="Can You Feel the Sunshine?",
+            prompt=__("Can You Feel the Sunshine?"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.ENAMORED, None)
@@ -2052,7 +2052,7 @@ init 5 python:
         Event(
             persistent._mas_songs_database,
             eventlabel="mas_song_on_the_front_porch",
-            prompt="On the Front Porch",
+            prompt=__("On the Front Porch"),
             category=[store.mas_songs.TYPE_SHORT],
             random=True,
             aff_range=(mas_aff.ENAMORED, None)
@@ -2088,8 +2088,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_monika_plays_yr",
-            category=['monika','music'],
-            prompt="Can you play 'Your Reality' for me?",
+            category=[__('monika'),__('music')],
+            prompt=__("Can you play 'Your Reality' for me?"),
             unlocked=False,
             pool=True,
             rules={"no_unlock": None, "bookmark_rule": store.mas_bookmarks_derand.WHITELIST}
@@ -2197,8 +2197,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_monika_plays_or",
-            category=['monika','music'],
-            prompt="Can you play 'Our Reality' for me?",
+            category=[__('monika'),__('music')],
+            prompt=__("Can you play 'Our Reality' for me?"),
             unlocked=False,
             pool=True,
             rules={"no_unlock": None, "bookmark_rule": store.mas_bookmarks_derand.WHITELIST}

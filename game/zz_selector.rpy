@@ -41,57 +41,57 @@ init -100 python in mas_selspr:
     PROMPT_MAP = {
         "choker": {
             "_ev": "monika_choker_select",
-            "change": "Can you change your choker?",
-            "wear": "Can you wear a choker?",
+            "change": __("Can you change your choker?"),
+            "wear": __("Can you wear a choker?"),
         },
         "clothes": {
             "_not_group": True,
             "_ev": "monika_clothes_select",
-            "change": "Can you change your clothes?",
+            "change": __("Can you change your clothes?"),
             # TODO: min-items
         },
         "earrings": {
             "_ev": "monika_earrings_select",
             "_min-items": 1,
-            "change": "Can you change your earrings?",
-            "wear": "Can you wear earrings?",
+            "change": __("Can you change your earrings?"),
+            "wear": __("Can you wear earrings?"),
         },
         "hair": {
             "_not_group": True,
             "_ev": "monika_hair_select",
-            "change": "Can you change your hairstyle?",
+            "change": __("Can you change your hairstyle?"),
             # TODO: min-items
         },
         "hat": {
             "_ev": "monika_hat_select",
             "_min-items": 1,
-            "change": "Can you change your hat?",
-            "wear": "Can you wear a hat?",
+            "change": __("Can you change your hat?"),
+            "wear": __("Can you wear a hat?"),
         },
         "left-hair-clip": {
             "_ev": "monika_hairclip_select",
             "_min-items": 1,
-            "change": "Can you change your hairclip?",
-            "wear": "Can you wear a hairclip?",
+            "change": __("Can you change your hairclip?"),
+            "wear": __("Can you wear a hairclip?"),
         },
         "left-hair-flower": {
             "_ev": "monika_hairflower_select",
             "_min-items": 1,
-            "change": "Can you change the flower in your hair?",
-            "wear": "Can you wear a flower in your hair?",
+            "change": __("Can you change the flower in your hair?"),
+            "wear": __("Can you wear a flower in your hair?"),
         },
         "necklace": {
             "_ev": "monika_necklace_select",
             "_min-items": 1,
-            "change": "Can you change your necklace?",
-            "wear": "Can you wear a necklace?",
+            "change": __("Can you change your necklace?"),
+            "wear": __("Can you wear a necklace?"),
         },
         "ribbon": {
             "_ev": "monika_ribbon_select",
             "_min-items": 1,
             "_rule": _rule_ribbon,
-            "change": "Can you tie your hair with something else?",
-            "wear": "Can you tie your hair with something else?",
+            "change": __("Can you tie your hair with something else?"),
+            "wear": __("Can you tie your hair with something else?"),
         },
     }
 
@@ -3991,7 +3991,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_clothes_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("clothes", "change"),
             pool=True,
             unlocked=True,
@@ -4073,7 +4073,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_event_clothes_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("clothes", "change"),
             pool=True,
             unlocked=False,
@@ -4141,7 +4141,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_hair_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("hair", "change"),
             pool=True,
             unlocked=False,
@@ -4187,7 +4187,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_ribbon_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("ribbon", "change"),
             pool=True,
             unlocked=False,
@@ -4259,7 +4259,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_hairclip_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("left-hair-clip", "change"),
             pool=True,
             unlocked=False,
@@ -4283,7 +4283,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_hairflower_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("left-hair-flower", "change"),
             pool=True,
             unlocked=False,
@@ -4333,7 +4333,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_choker_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("choker", "change"),
             pool=True,
             unlocked=False,
@@ -4357,7 +4357,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_hat_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("hat", "change"),
             pool=True,
             unlocked=False,
@@ -4379,7 +4379,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_earrings_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("earrings", "change"),
             pool=True,
             unlocked=False,
@@ -4401,7 +4401,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_necklace_select",
-            category=["appearance"],
+            category=[__("appearance")],
             prompt=store.mas_selspr.get_prompt("necklace", "change"),
             pool=True,
             unlocked=False,

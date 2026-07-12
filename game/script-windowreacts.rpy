@@ -3,7 +3,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_pinterest",
-            category=["Pinterest"],
+            category=[__("Pinterest")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -36,7 +36,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_duolingo",
-            category=["Duolingo"],
+            category=[__("Duolingo")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -69,7 +69,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_wikipedia",
-            category=["- Wikipedia"],
+            category=[__("- Wikipedia")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -120,7 +120,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_virtualpiano",
-            category=["^Virtual Piano"],
+            category=[__("^Virtual Piano")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -157,7 +157,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_youtube",
-            category=["- YouTube"],
+            category=[__("- YouTube")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -189,7 +189,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_r34m",
-            category=[r"(?i)(((r34|rule\s?34).*monika)|(post \d+:[\w\s]+monika)|(monika.*(r34|rule\s?34)))"],
+            category=[__(r"(?i)(((r34|rule\s?34).*monika)|(post \d+:[\w\s]+monika)|(monika.*(r34|rule\s?34)))")],
             aff_range=(mas_aff.AFFECTIONATE, None),
             rules={
                 "notif-group": "Window Reactions",
@@ -237,7 +237,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_monikamoddev",
-            category=["MonikaModDev"],
+            category=[__("MonikaModDev")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -269,7 +269,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_twitter",
-            category=["/ Twitter"],
+            category=[__("/ Twitter")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -311,7 +311,7 @@ label mas_wrs_twitter:
 #         Event(
 #             persistent._mas_windowreacts_database,
 #             eventlabel="mas_wrs_monikatwitter",
-#             category=['twitter', 'lilmonix3'],
+#             category=[__('twitter'), __('lilmonix3')],
 #             rules={
 #                 "notif-group": "Window Reactions",
 #                 "skip alert": None,
@@ -344,7 +344,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_4chan",
-            category=["- 4chan"],
+            category=[__("- 4chan")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -379,7 +379,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_pixiv",
-            category=["- pixiv"],
+            category=[__("- pixiv")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -428,7 +428,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_reddit",
-            category=[r"(?i)reddit"],
+            category=[__(r"(?i)reddit")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -461,7 +461,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_mal",
-            category=["MyAnimeList"],
+            category=[__("MyAnimeList")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -495,7 +495,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_deviantart",
-            category=["DeviantArt"],
+            category=[__("DeviantArt")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -527,7 +527,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_netflix",
-            category=["Netflix"],
+            category=[__("Netflix")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -560,7 +560,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_twitch",
-            category=["- Twitch"],
+            category=[__("- Twitch")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -593,7 +593,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_word_processor",
-            category=['Google Docs|LibreOffice Writer|Microsoft Word'],
+            category=[__('Google Docs|LibreOffice Writer|Microsoft Word')],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
@@ -626,7 +626,7 @@ init 5 python:
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_crunchyroll",
-            category=[r"(?i)crunchyroll"],
+            category=[__(r"(?i)crunchyroll")],
             rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,

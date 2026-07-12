@@ -367,10 +367,10 @@ label game_hangman:
 
         # instruction text and other sensitive stuff
         instruct_txt = (
-            "Guess a letter: (Type {0}'!' to give up)"
+            __("Guess a letter: (Type {0}'!' to give up)")
         )
 
-        instruct_txt = instruct_txt.format("'?' to repeat the hint, ")
+        instruct_txt = instruct_txt.format(__("'?' to repeat the hint, "))
         store.mas_hangman.game_name = "Hangman"
 
 label mas_hangman_game_select_diff:
@@ -397,7 +397,7 @@ label mas_hangman_game_preloop:
     python:
         # setup constant displayabels
         missed_label = Text(
-            "Missed:",
+            __("Missed:"),
             font=mas_hmg.WORD_FONT,
             color=mas_hmg.WORD_COLOR,
             size=mas_hmg.WORD_SIZE,
@@ -742,9 +742,9 @@ label mas_hangman_dlg_game_end_long:
 # short form of ending dialogue
 label mas_hangman_dlg_game_end_short:
     if give_up:
-        $ dlg_line = "Let's play again soon, okay?"
+        $ dlg_line = __("Let's play again soon, okay?")
     else:
-        $ dlg_line = "Okay. Let's play again soon!"
+        $ dlg_line = __("Okay. Let's play again soon!")
 
     m 1eua "[dlg_line]"
     return

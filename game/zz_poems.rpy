@@ -300,8 +300,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_showpoem",
-            prompt="Can I read one of your poems again?",
-            category=["literature"],
+            prompt=__("Can I read one of your poems again?"),
+            category=[__("literature")],
             pool=True,
             unlocked=True,
             action=EV_ACT_UNLOCK,

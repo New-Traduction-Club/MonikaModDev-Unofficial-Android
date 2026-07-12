@@ -50,8 +50,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip000",
-            category=["grammar tips"],
-            prompt="Can you teach me about grammar?",
+            category=[__("grammar tips")],
+            prompt=__("Can you teach me about grammar?"),
             pool=True,
             rules={"bookmark_rule": store.mas_bookmarks_derand.BLACKLIST}
         )
@@ -85,8 +85,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip001",
-            category=["grammar tips"],
-            prompt="Clauses"
+            category=[__("grammar tips")],
+            prompt=__("Clauses")
         )
     )
 
@@ -106,8 +106,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip002",
-            category=["grammar tips"],
-            prompt="Comma Splices and Run-ons",
+            category=[__("grammar tips")],
+            prompt=__("Comma Splices and Run-ons"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(1)",
             action=EV_ACT_UNLOCK,
@@ -138,8 +138,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip003",
-            category=["grammar tips"],
-            prompt="Conjunctions",
+            category=[__("grammar tips")],
+            prompt=__("Conjunctions"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(2)",
             action=EV_ACT_UNLOCK,
@@ -181,8 +181,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip004",
-            category=["grammar tips"],
-            prompt="Semicolons",
+            category=[__("grammar tips")],
+            prompt=__("Semicolons"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(3)",
             action=EV_ACT_UNLOCK,
@@ -216,8 +216,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip005",
-            category=["grammar tips"],
-            prompt="Subjects and Objects",
+            category=[__("grammar tips")],
+            prompt=__("Subjects and Objects"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(4)",
             action=EV_ACT_UNLOCK,
@@ -247,8 +247,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip006",
-            category=["grammar tips"],
-            prompt="Active and Passive Voices",
+            category=[__("grammar tips")],
+            prompt=__("Active and Passive Voices"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(5)",
             action=EV_ACT_UNLOCK,
@@ -277,8 +277,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip007",
-            category=["grammar tips"],
-            prompt="Who vs. Whom",
+            category=[__("grammar tips")],
+            prompt=__("Who vs. Whom"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(6)",
             action=EV_ACT_UNLOCK,
@@ -308,8 +308,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip008",
-            category=["grammar tips"],
-            prompt="And I vs. And me",
+            category=[__("grammar tips")],
+            prompt=__("And I vs. And me"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(7)",
             action=EV_ACT_UNLOCK,
@@ -342,8 +342,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip009",
-            category=["grammar tips"],
-            prompt="Apostrophes",
+            category=[__("grammar tips")],
+            prompt=__("Apostrophes"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(8)",
             action=EV_ACT_UNLOCK,
@@ -382,8 +382,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_gtod_tip010",
-            category=["grammar tips"],
-            prompt="The Oxford Comma",
+            category=[__("grammar tips")],
+            prompt=__("The Oxford Comma"),
             pool=True,
             conditional="store.mas_gtod.has_day_past_tip(9)",
             action=EV_ACT_UNLOCK,

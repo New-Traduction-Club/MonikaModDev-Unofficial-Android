@@ -1995,8 +1995,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_monika_islands",
-            category=['monika','misc'],
-            prompt="Can you show me the floating islands?",
+            category=[__('monika'),__('misc')],
+            prompt=__("Can you show me the floating islands?"),
             pool=True,
             unlocked=False,
             rules={"no_unlock": None, "bookmark_rule": store.mas_bookmarks_derand.WHITELIST},

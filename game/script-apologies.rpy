@@ -40,8 +40,8 @@ init 5 python:
        Event(
            persistent.event_database,
            eventlabel='monika_playerapologizes',
-           prompt="I want to apologize...",
-           category=['you'],
+           prompt=__("I want to apologize..."),
+           category=[__('you')],
            pool=True,
            unlocked=True
         )
@@ -164,7 +164,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_apology_database,
-            prompt="...for something else.",
+            prompt=__("...for something else."),
             eventlabel="mas_apology_generic",
             unlocked=True,
         ),
@@ -262,7 +262,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_bad_nickname",
-            prompt="...for calling you a bad name.",
+            prompt=__("...for calling you a bad name."),
             unlocked=False
         ),
         code="APL"
