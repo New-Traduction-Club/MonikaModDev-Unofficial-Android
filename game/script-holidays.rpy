@@ -1363,7 +1363,7 @@ init 5 python:
         Event(
             persistent.farewell_database,
             eventlabel="bye_trick_or_treat",
-            prompt="I'm going to take you trick or treating.",
+            prompt=__("I'm going to take you trick or treating."),
             pool=True,
             unlocked=False,
             action=EV_ACT_UNLOCK,
@@ -2865,8 +2865,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_d25_monika_carolling",
-            category=["holidays", "music"],
-            prompt="Carolling",
+            category=[__("holidays"), __("music")],
+            prompt=__("Carolling"),
             conditional="persistent._mas_d25_in_d25_mode",
             start_date=mas_d25c_start,
             end_date=mas_d25p,
@@ -2925,8 +2925,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_d25_monika_mistletoe",
-            category=["holidays"],
-            prompt="Mistletoe",
+            category=[__("holidays")],
+            prompt=__("Mistletoe"),
             conditional="persistent._mas_d25_in_d25_mode",
             start_date=mas_d25c_start,
             end_date=mas_d25p,
@@ -2968,8 +2968,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_d25_monika_christmaslights",
-            category=['holidays'],
-            prompt="Christmas Lights",
+            category=[__('holidays')],
+            prompt=__("Christmas Lights"),
             start_date=mas_d25c_start,
             end_date=mas_nye,
             conditional=(
@@ -4838,8 +4838,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_d25_monika_d25_mode_exit",
-            category=['holidays'],
-            prompt="Can you take down the holiday decorations?",
+            category=[__('holidays')],
+            prompt=__("Can you take down the holiday decorations?"),
             conditional="persistent._mas_d25_deco_active",
             start_date=mas_nyd+datetime.timedelta(days=1),
             end_date=mas_d25c_end,
@@ -5731,7 +5731,7 @@ init 5 python:
             persistent.farewell_database,
             eventlabel="bye_player_bday",
             unlocked=False,
-            prompt="Let's go out for my birthday!",
+            prompt=__("Let's go out for my birthday!"),
             pool=True,
             rules={"no_unlock": None},
             aff_range=(mas_aff.NORMAL,None),
@@ -6426,8 +6426,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='mas_f14_monika_vday_colors',
-            prompt="Valentine's Day colors",
-            category=['holidays','romance'],
+            prompt=__("Valentine's Day colors"),
+            category=[__('holidays'),__('romance')],
             action=EV_ACT_RANDOM,
             conditional="persistent._mas_f14_in_f14_mode",
             start_date=mas_f14,
@@ -6471,8 +6471,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='mas_f14_monika_vday_cliches',
-            prompt="Valentine's story clichés",
-            category=['holidays','literature','romance'],
+            prompt=__("Valentine's story clichés"),
+            category=[__('holidays'),__('literature'),__('romance')],
             action=EV_ACT_RANDOM,
             conditional="persistent._mas_f14_in_f14_mode",
             start_date=mas_f14,
@@ -6509,8 +6509,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='mas_f14_monika_vday_chocolates',
-            prompt="Valentine's Day chocolates",
-            category=['holidays','romance'],
+            prompt=__("Valentine's Day chocolates"),
+            category=[__('holidays'),__('romance')],
             action=EV_ACT_RANDOM,
             conditional="persistent._mas_f14_in_f14_mode",
             start_date=mas_f14,
@@ -6546,8 +6546,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel='mas_f14_monika_vday_origins',
-            prompt="How did Valentine's Day start?",
-            category=['holidays','romance'],
+            prompt=__("How did Valentine's Day start?"),
+            category=[__('holidays'),__('romance')],
             pool=True,
             conditional="persistent._mas_f14_in_f14_mode",
             action=EV_ACT_UNLOCK,
@@ -6597,7 +6597,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_f14_happy_vday",
-            prompt="Happy Valentine's Day!",
+            prompt=__("Happy Valentine's Day!"),
             action=EV_ACT_UNLOCK,
             pool=False,
             start_date=mas_f14,
@@ -6822,7 +6822,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_missed_vday",
-            prompt="...for missing Valentine's Day.",
+            prompt=__("...for missing Valentine's Day."),
             unlocked=False
         ),
         code="APL"
@@ -7458,7 +7458,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_bday_pool_happy_bday",
-            prompt="Happy birthday!",
+            prompt=__("Happy birthday!"),
             action=EV_ACT_UNLOCK,
             rules={"no_unlock": None},
             start_date=mas_monika_birthday,
@@ -7521,7 +7521,7 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_bday_pool_happy_belated_bday",
-            prompt="Happy belated birthday!",
+            prompt=__("Happy belated birthday!"),
             action=EV_ACT_UNLOCK,
             rules={"no_unlock": None},
             years=[]
@@ -7982,7 +7982,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_missed_bday",
-            prompt="...for missing your birthday.",
+            prompt=__("...for missing your birthday."),
             unlocked=False
         ),
         code="APL"
@@ -8008,7 +8008,7 @@ init 5 python:
         Event(
             persistent._mas_apology_database,
             eventlabel="mas_apology_forgot_bday",
-            prompt="...for forgetting your birthday.",
+            prompt=__("...for forgetting your birthday."),
             unlocked=False
         ),
         code="APL"

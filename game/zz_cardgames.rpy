@@ -3972,8 +3972,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_change_nou_house_rules",
-            prompt="Let's change our house rules for NOU",
-            category=["games"],
+            prompt=__("Let's change our house rules for NOU"),
+            category=[__("games")],
             pool=True,
             unlocked=False,
             # The unstable users may have the conditional "persistent._mas_game_nou_wins['Monika'] or persistent._mas_game_nou_wins['Player']"
@@ -4295,8 +4295,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_explain_nou_rules",
-            prompt="Can you explain NOU rules to me?",
-            category=["games"],
+            prompt=__("Can you explain NOU rules to me?"),
+            category=[__("games")],
             pool=True,
             unlocked=False,
             conditional="renpy.seen_label('mas_reaction_gift_noudeck')",

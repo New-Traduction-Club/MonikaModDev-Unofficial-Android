@@ -1222,7 +1222,7 @@ label mas_chess_play_again_ask:
 label mas_chess_draw_lots(begin=True):
     show monika at t11
     $ drew_lots = True
-    $ lets_begin = "{w=0.2} Let's begin." if begin else ""
+    $ lets_begin = __("{w=0.2} Let's begin.") if begin else ""
 
     if random.randint(0, 1) == 0:
         $ is_player_white = chess.WHITE
@@ -1257,7 +1257,7 @@ label mas_chess_savegame(silent=False, allow_return=True):
             save_name = ""
             while len(save_name) == 0:
                 save_name = mas_input(
-                    "Enter a name for this game:",
+                    __("Enter a name for this game:"),
                     allow=mas_chess.CHESS_SAVE_NAME,
                     length=15,
                     screen_kwargs={"use_return_button": allow_return}
@@ -3330,30 +3330,30 @@ init python:
                 casual_rules,
                 player_move_prompts={
                     "generic": [
-                        "It's your turn, [player].",
-                        "Your move, [player]~",
-                        "What will you do, I wonder...",
-                        "Alright, your turn, [player]~",
-                        "You got this, [player]!"
+                        __("It's your turn, [player]."),
+                        __("Your move, [player]~"),
+                        __("What will you do, I wonder..."),
+                        __("Alright, your turn, [player]~"),
+                        __("You got this, [player]!")
                     ],
                     "check": [
-                        "[mas_quipExp('3tfb')]Check!",
-                        "[mas_quipExp('3huu')]I've got you now, [player]!",
-                        "[mas_quipExp('3hub')]Looks like you're in check!"
+                        __("[mas_quipExp('3tfb')]Check!"),
+                        __("[mas_quipExp('3huu')]I've got you now, [player]!"),
+                        __("[mas_quipExp('3hub')]Looks like you're in check!")
                     ]
                 },
                 monika_move_quips={
                     "generic": [
-                        "Alright, let's see...",
-                        "Okay, my turn...",
-                        "Let's see what I can do.",
-                        "I think I'll try this...",
-                        "Okay, I'll move this here then."
+                        __("Alright, let's see..."),
+                        __("Okay, my turn..."),
+                        __("Let's see what I can do."),
+                        __("I think I'll try this..."),
+                        __("Okay, I'll move this here then.")
                     ],
                     "check": [
-                        "[mas_quipExp('1eusdlc')]Uh oh...",
-                        "[mas_quipExp('1rksdlc')]Hmm...{w=0.2}I need to get out of this...",
-                        "[mas_quipExp('1etc')]What's the right move here..."
+                        __("[mas_quipExp('1eusdlc')]Uh oh..."),
+                        __("[mas_quipExp('1rksdlc')]Hmm...{w=0.2}I need to get out of this..."),
+                        __("[mas_quipExp('1etc')]What's the right move here...")
                     ]
                 }
             )

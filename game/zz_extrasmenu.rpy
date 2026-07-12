@@ -125,8 +125,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="mas_extra_menu_firsttime",
-            prompt="Can you explain the Extras menu?",
-            category=["misc"]
+            prompt=__("Can you explain the Extras menu?"),
+            category=[__("misc")]
         )
     )
 

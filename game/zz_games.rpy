@@ -110,7 +110,7 @@ init 5 python:
         Event(
             persistent._mas_game_database,
             eventlabel="mas_pong",
-            prompt="Pong",
+            prompt=__("Pong"),
             unlocked=True
         ),
         code="GME",
@@ -126,7 +126,7 @@ init 5 python:
         Event(
             persistent._mas_game_database,
             eventlabel="mas_chess",
-            prompt="Chess",
+            prompt=__("Chess"),
             conditional=(
                 "persistent._mas_chess_timed_disable is not True "
                 "and mas_games.is_platform_good_for_chess() "
@@ -150,7 +150,7 @@ init 5 python:
         Event(
             persistent._mas_game_database,
             eventlabel="mas_hangman",
-            prompt="Hangman"
+            prompt=__("Hangman")
         ),
         code="GME",
         restartBlacklist=True
@@ -165,7 +165,7 @@ init 5 python:
         Event(
             persistent._mas_game_database,
             eventlabel="mas_piano",
-            prompt="Piano",
+            prompt=__("Piano"),
             rules={
                 "display_name": "piano",
             }
@@ -183,7 +183,7 @@ init 5 python:
         Event(
             persistent._mas_game_database,
             eventlabel="mas_nou",
-            prompt="NOU",
+            prompt=__("NOU"),
             aff_range=(mas_aff.NORMAL, None)
         ),
         code="GME",

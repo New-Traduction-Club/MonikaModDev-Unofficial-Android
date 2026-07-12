@@ -76,8 +76,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_compliments",
-            category=['monika', 'romance'],
-            prompt="I want to tell you something...",
+            category=[__('monika'), __('romance')],
+            prompt=__("I want to tell you something..."),
             pool=True,
             unlocked=True
         )
@@ -128,7 +128,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_beautiful",
-            prompt="You're beautiful!",
+            prompt=__("You're beautiful!"),
             unlocked=True
         ),
         code="CMP"
@@ -181,7 +181,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_eyes",
-            prompt="I love your eyes!",
+            prompt=__("I love your eyes!"),
             unlocked=True
         ),
         code="CMP"
@@ -233,7 +233,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_goodmood",
-            prompt="You always put me in a good mood!",
+            prompt=__("You always put me in a good mood!"),
             unlocked=False,
             conditional="store.mas_anni.pastSixMonths()",
             action=EV_ACT_UNLOCK
@@ -287,7 +287,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_awesome",
-            prompt="You're awesome!",
+            prompt=__("You're awesome!"),
             unlocked=True
         ),
         code="CMP"
@@ -345,7 +345,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_intelligent",
-            prompt="You're really intelligent!",
+            prompt=__("You're really intelligent!"),
             unlocked=True
         ),
         code="CMP"
@@ -398,7 +398,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_hair",
-            prompt="I love your hair!",
+            prompt=__("I love your hair!"),
             unlocked=True
         ),
         code="CMP"
@@ -465,7 +465,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_fit",
-            prompt="I love your dedication to fitness!",
+            prompt=__("I love your dedication to fitness!"),
             unlocked=True
         ),
         code="CMP"
@@ -520,7 +520,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_thanks",
-            prompt="Thanks for being there for me!",
+            prompt=__("Thanks for being there for me!"),
             unlocked=True,
             aff_range=(mas_aff.ENAMORED, None)
         ),
@@ -557,7 +557,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_smile",
-            prompt="I love your smile!",
+            prompt=__("I love your smile!"),
             unlocked=True
         ),
         code="CMP"
@@ -606,7 +606,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_hero",
-            prompt="You're my hero!",
+            prompt=__("You're my hero!"),
             unlocked=True,
             aff_range=(mas_aff.LOVE, None)
         ),
@@ -636,7 +636,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_cute",
-            prompt="You're cute!",
+            prompt=__("You're cute!"),
             unlocked=True
         ),
         code="CMP"
@@ -697,7 +697,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_chess",
-            prompt="You're awesome at chess!",
+            prompt=__("You're awesome at chess!"),
             unlocked=False,
             conditional="persistent._mas_chess_stats.get('losses', 0) > 5",
             action=EV_ACT_UNLOCK
@@ -728,7 +728,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_pong",
-            prompt="You're awesome at pong!",
+            prompt=__("You're awesome at pong!"),
             unlocked=False,
             conditional="renpy.seen_label('game_pong')",
             action=EV_ACT_UNLOCK
@@ -775,7 +775,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_bestgirl",
-            prompt="You're the best girl!",
+            prompt=__("You're the best girl!"),
             unlocked=True
         ),
         code="CMP"
@@ -798,7 +798,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_lookuptoyou",
-            prompt="I look up to you!",
+            prompt=__("I look up to you!"),
             unlocked=True
         ),
         code="CMP"
@@ -848,7 +848,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_thinking_of_you",
-            prompt="I'm always thinking about you!",
+            prompt=__("I'm always thinking about you!"),
             unlocked=True
         ),
         code="CMP"
@@ -925,7 +925,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_humor",
-            prompt="I love your sense of humor!",
+            prompt=__("I love your sense of humor!"),
             unlocked=True
         ),
         code="CMP"
@@ -980,7 +980,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_missed",
-            prompt="I missed you!",
+            prompt=__("I missed you!"),
             unlocked=True,
             conditional=(
                 "store.mas_getSessionLength() <= datetime.timedelta(minutes=30) "
@@ -1127,7 +1127,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_spending_time",
-            prompt="I love spending time with you!",
+            prompt=__("I love spending time with you!"),
             unlocked=False,
             conditional="store.mas_anni.pastThreeMonths()",
             action=EV_ACT_UNLOCK,
@@ -1157,13 +1157,13 @@ label mas_compliment_spending_time_2:
         dlg_line = ""
 
         if renpy.seen_label("monika_holdme_prep"):
-            dlg_line = ", holds me close"
+            dlg_line = __(", holds me close")
 
             if persistent._mas_filereacts_historic:
-                dlg_line += ", and even gives me nice gifts"
+                dlg_line += __(", and even gives me nice gifts")
 
         elif persistent._mas_filereacts_historic:
-            dlg_line = ", gives me nice gifts"
+            dlg_line = __(", gives me nice gifts")
 
     m 1eub "I love spending time with you too, [player]!"
     m 3ekbla "I know I say it a lot, but I really mean it when I say that you're the center of my world."
@@ -1197,7 +1197,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_sweet",
-            prompt="You're really sweet!",
+            prompt=__("You're really sweet!"),
             conditional="store.mas_anni.pastThreeMonths()",
             action=EV_ACT_UNLOCK,
             unlocked=False,
@@ -1261,7 +1261,7 @@ init 5 python:
         Event(
             persistent._mas_compliments_database,
             eventlabel="mas_compliment_outfit",
-            prompt="I love your outfit!",
+            prompt=__("I love your outfit!"),
             unlocked=False
         ),
         code="CMP"

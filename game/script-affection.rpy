@@ -2780,8 +2780,8 @@ init 5 python:
     addEvent(
         Event(persistent.event_database,
             eventlabel='monika_affection_nickname',
-            prompt="Infinite Monikas",
-            category=['monika'],
+            prompt=__("Infinite Monikas"),
+            category=[__('monika')],
             random=False,
             pool=True,
             unlocked=True,
@@ -3031,8 +3031,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_change_player_nicknames",
-            prompt="Can you call me different nicknames?",
-            category=['you'],
+            prompt=__("Can you call me different nicknames?"),
+            category=[__('you')],
             pool=True,
             unlocked=False,
             rules={"no_unlock": None},
@@ -3047,24 +3047,24 @@ label monika_change_player_nicknames:
         #Generate a list of names we're using now so we can set things
         if not persistent._mas_player_nicknames:
             current_nicknames = [
-                ("Darling", "darling", False, True, False),
-                ("My darling", "my darling", False, True, False),
-                ("Dear", "dear", False, True, False),
-                ("My dear", "my dear", False, True, False),
-                ("Honey", "honey", False, True, False),
-                ("Love", "love", False, True, False),
-                ("My love", "my love", False, True, False),
-                ("Sweetheart", "sweetheart", False, True, False),
-                ("Sweetie", "sweetie", False, True, False),
+                (__("Darling"), "darling", False, True, False),
+                (__("My darling"), "my darling", False, True, False),
+                (__("Dear"), "dear", False, True, False),
+                (__("My dear"), "my dear", False, True, False),
+                (__("Honey"), "honey", False, True, False),
+                (__("Love"), "love", False, True, False),
+                (__("My love"), "my love", False, True, False),
+                (__("Sweetheart"), "sweetheart", False, True, False),
+                (__("Sweetie"), "sweetie", False, True, False),
             ]
-            dlg_line = "Pick the names you'd like me to call you."
+            dlg_line = __("Pick the names you'd like me to call you.")
 
         else:
             current_nicknames = [
                 (nickname.capitalize(), nickname, True, True, False)
                 for nickname in persistent._mas_player_nicknames
             ]
-            dlg_line = "Deselect the names you don't want me to call you anymore."
+            dlg_line = __("Deselect the names you don't want me to call you anymore.")
 
     call mas_player_nickname_loop("[dlg_line]", current_nicknames)
     return
@@ -3081,10 +3081,10 @@ label mas_player_nickname_loop(check_scrollable_text, nickname_pool):
         acceptable_nicknames = _return.keys()
 
         if acceptable_nicknames:
-            dlg_line = "Is there anything else you'd like me to call you?"
+            dlg_line = __("Is there anything else you'd like me to call you?")
 
         else:
-            dlg_line = "Is there something else you'd like me to call you instead?"
+            dlg_line = __("Is there something else you'd like me to call you instead?")
 
         lowerplayer = player.lower()
         cute_nickname_pattern = "(?:{0}|{1})\\w?y".format(lowerplayer, lowerplayer[0:-1])
@@ -3152,10 +3152,10 @@ label mas_player_nickname_loop(check_scrollable_text, nickname_pool):
                 $ done = True
 
     if acceptable_nicknames:
-        $ dlg_line = "Just let me know if you ever want me to call you some other names, okay?"
+        $ dlg_line = __("Just let me know if you ever want me to call you some other names, okay?")
 
     else:
-        $ dlg_line = "Just let me know if you ever change your mind, okay?"
+        $ dlg_line = __("Just let me know if you ever change your mind, okay?")
 
     m 1hua "Alright, [player]."
     m 3eub "[dlg_line]"
