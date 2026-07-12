@@ -176,9 +176,11 @@ label mas_piano_setupstart:
 
     # call the display
     $ piano_displayable_obj = PianoDisplayable(play_mode, pnml=pnml)
+    $ show_android_piano()
     $ ui.add(piano_displayable_obj)
     $ full_combo,is_win,is_practice,post_piano = ui.interact()
     $ ui.remove(piano_displayable_obj)
+    $ hide_android_piano()
     $ del piano_displayable_obj
 
     # post call cleanup
