@@ -9,8 +9,8 @@ init python:
 
     if renpy.android:
         from jnius import autoclass
-        PythonActivity = autoclass("org.renpy.android.PythonSDLActivity")
-        NotificationWorker = autoclass("org.renpy.android.NotificationWorker")
+        PythonActivity = autoclass(str("org.renpy.android.PythonSDLActivity"))
+        NotificationWorker = autoclass(str("org.renpy.android.NotificationWorker"))
     else:
         autoclass = None
         PythonActivity = None
@@ -38,7 +38,7 @@ init python:
     def _run_android_piano_action(action_name):
         if renpy.android:
             try:
-                piano_manager = autoclass("org.renpy.android.PianoManager")
+                piano_manager = autoclass(str("org.renpy.android.PianoManager"))
                 getattr(piano_manager, action_name)()
             except Exception:
                 pass

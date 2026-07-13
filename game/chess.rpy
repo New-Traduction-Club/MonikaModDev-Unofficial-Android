@@ -1978,7 +1978,7 @@ init python:
             # Resolve the native library directory path from the system
             from jnius import autoclass
 
-            PythonSDLActivity = autoclass('org.renpy.android.PythonSDLActivity')
+            PythonSDLActivity = autoclass(str('org.renpy.android.PythonSDLActivity'))
             mActivity = PythonSDLActivity.mActivity
 
             app_info = mActivity.getApplicationInfo()
