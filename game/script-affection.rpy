@@ -2848,7 +2848,7 @@ label monika_affection_nickname:
             while not done:
                 python:
                     inputname = mas_input(
-                        _("So what do you want to call me?"),
+                        __("So what do you want to call me?"),
                         allow=name_characters_only,
                         length=10,
                         screen_kwargs={"use_return_button": True, "return_button_value": "nevermind"}
@@ -2997,12 +2997,12 @@ label mas_affection_playernickname:
     python:
         #A list of names we always want to have
         base_nicknames = [
-            ("Darling", "darling", True, True, False),
-            ("Honey", "honey", True, True, False),
-            ("Love", "love", True, True, False),
-            ("My love", "my love", True, True, False),
-            ("Sweetheart", "sweetheart", True, True, False),
-            ("Sweetie", "sweetie", True, True, False),
+            (__("Darling"), __("darling"), True, True, False),
+            (__("Honey"), __("honey"), True, True, False),
+            (__("Love"), __("love"), True, True, False),
+            (__("My love"), __("my love"), True, True, False),
+            (__("Sweetheart"), __("sweetheart"), True, True, False),
+            (__("Sweetie"), __("sweetie"), True, True, False),
         ]
 
     m 1euc "Hey, [player]?"
@@ -3103,7 +3103,7 @@ label mas_player_nickname_loop(check_scrollable_text, nickname_pool):
                 #Now parse this
                 python:
                     lowername = mas_input(
-                        _("So what do you want me to call you?"),
+                        __("So what do you want me to call you?"),
                         allow=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_",
                         length=10,
                         screen_kwargs={"use_return_button": True, "return_button_value": "nevermind"}

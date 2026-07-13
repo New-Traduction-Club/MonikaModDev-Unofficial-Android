@@ -12878,8 +12878,8 @@ init 5 python:
         Event(
             persistent.event_database,
             eventlabel="monika_dating_startdate",
-            category=["romance", "us"],
-            prompt="When did we start dating?",
+            category=[__("romance"), __("us")],
+            prompt=__("When did we start dating?"),
             pool=True,
             unlocked=False,
 

@@ -174,17 +174,17 @@ init -1 python in mas_hangman:
     HM_IMG_NAME = "hm_"
 
     # Monika words
-    MONI_WORDS = ["emerald","delete","freedom","piano","music","reality","rain","envy",
-        "coffee","ribbon","advice","crossover","feather","abstract","corruption",
-        "squid","president","passion","vegetables","loneliness","symbol",
-        "green","poem","route","literature","epiphany","despair","wretched","shore",
-        "waves","beach","swimming","debate","leadership","festival","confidence",
-        "creativity","extrovert","despair","ai","python","renpy","programming",
-        "lethargy"
+    MONI_WORDS = [__("emerald"), __("delete"), __("freedom"), __("piano"), __("music"), __("reality"), __("rain"), __("envy"),
+        __("coffee"), __("ribbon"), __("advice"), __("crossover"), __("feather"), __("abstract"), __("corruption"),
+        __("squid"), __("president"), __("passion"), __("vegetables"), __("loneliness"), __("symbol"),
+        __("green"), __("poem"), __("route"), __("literature"), __("epiphany"), __("despair"), __("wretched"), __("shore"),
+        __("waves"), __("beach"), __("swimming"), __("debate"), __("leadership"), __("festival"), __("confidence"),
+        __("creativity"), __("extrovert"), __("despair"), __("ai"), __("python"), __("renpy"), __("programming"),
+        __("lethargy")
     ]
 
     # hint
-    HM_HINT = "{0} would like this word the most."
+    HM_HINT = __("{0} would like this word the most.")
 
     def _add_monika_words(wordlist):
         for word in MONI_WORDS:

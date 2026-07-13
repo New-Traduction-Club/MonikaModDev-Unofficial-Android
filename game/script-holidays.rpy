@@ -5713,9 +5713,9 @@ default persistent._mas_player_bday_last_sung_hbd = None
 label mas_player_bday_moni_sings:
     $ persistent._mas_player_bday_last_sung_hbd = datetime.date.today()
     if mas_isMonikaBirthday():
-        $ you = "us"
+        $ you = __("us")
     else:
-        $ you = "you"
+        $ you = __("you")
     m 6dsc ".{w=0.2}.{w=0.2}.{w=0.2}"
     m 6hub "{cps=*0.5}{i}~Happy Birthday to [you]~{/i}{/cps}"
     m "{cps=*0.5}{i}~Happy Birthday to [you]~{/i}{/cps}"
