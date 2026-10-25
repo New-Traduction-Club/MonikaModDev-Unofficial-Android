@@ -1433,9 +1433,9 @@ translate spanish strings:
 
     # chess.rpy:1225
     old "{w=0.2} Let's begin."
-    new ""
+    new "{w=0.2} Empecemos."
 
     # chess.rpy:1259
     old "Enter a name for this game:"
-    new ""
+    new "Pongámosle un nombre a esta partida:"
 

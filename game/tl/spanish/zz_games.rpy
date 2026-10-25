@@ -87,5 +87,5 @@ translate spanish strings:
 
     # zz_games.rpy:182
     old "NOU"
-    new ""
+    new "NOU"
 

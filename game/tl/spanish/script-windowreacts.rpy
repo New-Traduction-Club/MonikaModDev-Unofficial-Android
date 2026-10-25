@@ -221,57 +221,57 @@ translate spanish strings:
 
     # script-windowreacts.rpy:2
     old "Pinterest"
-    new ""
+    new "Pinterest"
 
     # script-windowreacts.rpy:35
     old "Duolingo"
-    new ""
+    new "Duolingo"
 
     # script-windowreacts.rpy:68
     old "- Wikipedia"
-    new ""
+    new "- Wikipedia"
 
     # script-windowreacts.rpy:119
     old "^Virtual Piano"
-    new ""
+    new "^Piano Virtual"
 
     # script-windowreacts.rpy:156
     old "- YouTube"
-    new ""
+    new "- YouTube"
 
     # script-windowreacts.rpy:236
     old "MonikaModDev"
-    new ""
+    new "MonikaModDev"
 
     # script-windowreacts.rpy:268
     old "/ Twitter"
-    new ""
+    new "/ X"
 
     # script-windowreacts.rpy:343
     old "- 4chan"
-    new ""
+    new "- 4chan"
 
     # script-windowreacts.rpy:378
     old "- pixiv"
-    new ""
+    new "- pixiv"
 
     # script-windowreacts.rpy:460
     old "MyAnimeList"
-    new ""
+    new "MyAnimeList"
 
     # script-windowreacts.rpy:494
     old "DeviantArt"
-    new ""
+    new "DeviantArt"
 
     # script-windowreacts.rpy:526
     old "Netflix"
-    new ""
+    new "Netflix"
 
     # script-windowreacts.rpy:559
     old "- Twitch"
-    new ""
+    new "- Twitch"
 
     # script-windowreacts.rpy:592
     old "Google Docs|LibreOffice Writer|Microsoft Word"
-    new ""
+    new "Documentos de Google|LibreOffice Writer|Microsoft Word"
 

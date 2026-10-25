@@ -580,5 +580,5 @@ translate spanish strings:
 
     # screens.rpy:3009
     old "Done"
-    new ""
+    new "Listo"
 

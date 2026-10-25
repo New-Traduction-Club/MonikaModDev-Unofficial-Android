@@ -583,17 +583,17 @@ translate spanish strings:
 translate spanish _zzpk_ssll_9cc4d00d:
 
     # m 1eua "Then play for me, [player]~"
-    m 1eua ""
+    m 1eua "Entonces toca para mí, [player]."
 
 # game/zz_pianokeys.rpy:205
 translate spanish _zzpk_ppel_52b51855:
 
     # m 1eua "Would you like to play again?{nw}"
-    m 1eua ""
+    m 1eua "¿Te gustaría tocar otra vez?{nw}"
 
 # game/zz_pianokeys.rpy:207
 translate spanish _zzpk_ppel_32d0248c:
 
     # m "Would you like to play again?{fast}" nointeract
-    m "" nointeract
+    m "¿Te gustaría tocar otra vez?{fast}" nointeract
 

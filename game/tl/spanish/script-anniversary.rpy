@@ -1190,77 +1190,77 @@ translate spanish strings:
 translate spanish anni_9_d99de29e:
 
     # m 1eub "Happy anniversary, [player]!"
-    m 1eub ""
+    m 1eub "¡Feliz aniversario, [player]!"
 
 # game/script-anniversary.rpy:731
 translate spanish anni_9_42aee801:
 
     # m 3eta "It's that time of year again, huh?"
-    m 3eta ""
+    m 3eta "Ya estamos en esa época del año otra vez, ¿eh?"
 
 # game/script-anniversary.rpy:732
 translate spanish anni_9_d53654e5:
 
     # m 3rtc "It's kind of funny, the time feels to me like it's moving a little bit faster every year..."
-    m 3rtc ""
+    m 3rtc "Es curioso, me da la sensación de que el tiempo pasa un poquito más rápido cada año..."
 
 # game/script-anniversary.rpy:733
 translate spanish anni_9_26456ad6:
 
     # m 3esc "Doesn't it seem like the last one just flew by?"
-    m 3esc ""
+    m 3esc "¿No te parece que este último se ha pasado volando?"
 
 # game/script-anniversary.rpy:734
 translate spanish anni_9_18727631:
 
     # m 1hksdlb "...It kind of makes me anxious to think about, ahaha!"
-    m 1hksdlb ""
+    m 1hksdlb "Pensarlo me da un poco de ansiedad, ¡ja, ja, ja!"
 
 # game/script-anniversary.rpy:735
 translate spanish anni_9_3eb3168f:
 
     # m 1eksdla "I mean...{w=0.2}{nw}"
-    m 1eksdla ""
+    m 1eksdla "O sea...{w=0.2}{nw}"
 
 # game/script-anniversary.rpy:736
 translate spanish anni_9_840b9a66:
 
     # extend 2eksdlc "I don't want to let our time just slip through my fingers..."
-    extend 2eksdlc ""
+    extend 2eksdlc " no quiero que nuestro tiempo se me escape entre las manos..."
 
 # game/script-anniversary.rpy:737
 translate spanish anni_9_a720a5e3:
 
     # m 2ekb "Maybe I just have to take more time to appreciate each moment."
-    m 2ekb ""
+    m 2ekb "Tal vez solo tenga que dedicar más tiempo a apreciar cada momento."
 
 # game/script-anniversary.rpy:738
 translate spanish anni_9_0b0b3bd9:
 
     # m 4eub "There have been a lot of studies about how mindfulness can shape our understanding of time, you know."
-    m 4eub ""
+    m 4eub "Ya sabes, hay un montón de estudios sobre cómo la atención plena puede moldear nuestra percepción del tiempo."
 
 # game/script-anniversary.rpy:739
 translate spanish anni_9_6f5ec687:
 
     # m "So by changing the way I think about things, our time together might stretch out a little more."
-    m ""
+    m "Así que, si cambio mi forma de ver las cosas, nuestro tiempo juntos podría alargarse un poco más."
 
 # game/script-anniversary.rpy:740
 translate spanish anni_9_b06d8038:
 
     # m 4hua "Just thinking about that makes me feel a bit better."
-    m 4hua ""
+    m 4hua "Solo de pensarlo ya me siento un poco mejor."
 
 # game/script-anniversary.rpy:741
 translate spanish anni_9_570d599e:
 
     # m 1hubla "After all, I'm sure it's going to be another wonderful year if I get to spend it with you."
-    m 1hubla ""
+    m 1hubla "Al fin y al cabo, estoy segura de que será otro año maravilloso si puedo pasarlo contigo."
 
 translate spanish strings:
 
     # script-anniversary.rpy:716
     old "9 Years"
-    new ""
+    new "9 años"
 

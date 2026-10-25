@@ -4515,5 +4515,5 @@ translate spanish strings:
 
     # script-songs.rpy:460
     old "Merry Christmas Baby"
-    new ""
+    new "Feliz Navidad, cariño"
 
