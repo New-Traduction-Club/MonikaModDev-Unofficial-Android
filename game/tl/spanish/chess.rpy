@@ -1431,3 +1431,11 @@ translate spanish strings:
     old "But on the bright side"
     new "Pero, mirándolo por el lado bueno,"
 
+    # chess.rpy:1225
+    old "{w=0.2} Let's begin."
+    new ""
+
+    # chess.rpy:1259
+    old "Enter a name for this game:"
+    new ""
+

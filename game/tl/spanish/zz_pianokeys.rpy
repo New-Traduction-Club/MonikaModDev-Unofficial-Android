@@ -579,3 +579,21 @@ translate spanish strings:
     old "Press the key you'd like to set this piano key to"
     new "Pulsa la tecla que te gustaría asignar a esta tecla del piano"
 
+# game/zz_pianokeys.rpy:164
+translate spanish _zzpk_ssll_9cc4d00d:
+
+    # m 1eua "Then play for me, [player]~"
+    m 1eua ""
+
+# game/zz_pianokeys.rpy:205
+translate spanish _zzpk_ppel_52b51855:
+
+    # m 1eua "Would you like to play again?{nw}"
+    m 1eua ""
+
+# game/zz_pianokeys.rpy:207
+translate spanish _zzpk_ppel_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "" nointeract
+

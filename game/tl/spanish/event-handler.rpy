@@ -69,3 +69,7 @@ translate spanish strings:
     old "Remove selected"
     new "Eliminar item seleccionado"
 
+    # event-handler.rpy:3297
+    old "I would like to see 'Unseen' ([unseen_num]) again"
+    new ""
+

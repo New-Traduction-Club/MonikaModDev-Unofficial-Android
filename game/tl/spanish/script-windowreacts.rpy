@@ -217,3 +217,61 @@ translate spanish strings:
     old "I can't wait to watch anime with you!~"
     new "¡Qué ganas tengo de ver anime contigo!"
 
+translate spanish strings:
+
+    # script-windowreacts.rpy:2
+    old "Pinterest"
+    new ""
+
+    # script-windowreacts.rpy:35
+    old "Duolingo"
+    new ""
+
+    # script-windowreacts.rpy:68
+    old "- Wikipedia"
+    new ""
+
+    # script-windowreacts.rpy:119
+    old "^Virtual Piano"
+    new ""
+
+    # script-windowreacts.rpy:156
+    old "- YouTube"
+    new ""
+
+    # script-windowreacts.rpy:236
+    old "MonikaModDev"
+    new ""
+
+    # script-windowreacts.rpy:268
+    old "/ Twitter"
+    new ""
+
+    # script-windowreacts.rpy:343
+    old "- 4chan"
+    new ""
+
+    # script-windowreacts.rpy:378
+    old "- pixiv"
+    new ""
+
+    # script-windowreacts.rpy:460
+    old "MyAnimeList"
+    new ""
+
+    # script-windowreacts.rpy:494
+    old "DeviantArt"
+    new ""
+
+    # script-windowreacts.rpy:526
+    old "Netflix"
+    new ""
+
+    # script-windowreacts.rpy:559
+    old "- Twitch"
+    new ""
+
+    # script-windowreacts.rpy:592
+    old "Google Docs|LibreOffice Writer|Microsoft Word"
+    new ""
+

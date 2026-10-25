@@ -1186,3 +1186,81 @@ translate spanish strings:
     old "anniversary"
     new "aniversario"
 
+# game/script-anniversary.rpy:730
+translate spanish anni_9_d99de29e:
+
+    # m 1eub "Happy anniversary, [player]!"
+    m 1eub ""
+
+# game/script-anniversary.rpy:731
+translate spanish anni_9_42aee801:
+
+    # m 3eta "It's that time of year again, huh?"
+    m 3eta ""
+
+# game/script-anniversary.rpy:732
+translate spanish anni_9_d53654e5:
+
+    # m 3rtc "It's kind of funny, the time feels to me like it's moving a little bit faster every year..."
+    m 3rtc ""
+
+# game/script-anniversary.rpy:733
+translate spanish anni_9_26456ad6:
+
+    # m 3esc "Doesn't it seem like the last one just flew by?"
+    m 3esc ""
+
+# game/script-anniversary.rpy:734
+translate spanish anni_9_18727631:
+
+    # m 1hksdlb "...It kind of makes me anxious to think about, ahaha!"
+    m 1hksdlb ""
+
+# game/script-anniversary.rpy:735
+translate spanish anni_9_3eb3168f:
+
+    # m 1eksdla "I mean...{w=0.2}{nw}"
+    m 1eksdla ""
+
+# game/script-anniversary.rpy:736
+translate spanish anni_9_840b9a66:
+
+    # extend 2eksdlc "I don't want to let our time just slip through my fingers..."
+    extend 2eksdlc ""
+
+# game/script-anniversary.rpy:737
+translate spanish anni_9_a720a5e3:
+
+    # m 2ekb "Maybe I just have to take more time to appreciate each moment."
+    m 2ekb ""
+
+# game/script-anniversary.rpy:738
+translate spanish anni_9_0b0b3bd9:
+
+    # m 4eub "There have been a lot of studies about how mindfulness can shape our understanding of time, you know."
+    m 4eub ""
+
+# game/script-anniversary.rpy:739
+translate spanish anni_9_6f5ec687:
+
+    # m "So by changing the way I think about things, our time together might stretch out a little more."
+    m ""
+
+# game/script-anniversary.rpy:740
+translate spanish anni_9_b06d8038:
+
+    # m 4hua "Just thinking about that makes me feel a bit better."
+    m 4hua ""
+
+# game/script-anniversary.rpy:741
+translate spanish anni_9_570d599e:
+
+    # m 1hubla "After all, I'm sure it's going to be another wonderful year if I get to spend it with you."
+    m 1hubla ""
+
+translate spanish strings:
+
+    # script-anniversary.rpy:716
+    old "9 Years"
+    new ""
+

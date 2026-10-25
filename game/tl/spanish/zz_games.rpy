@@ -83,3 +83,9 @@ translate spanish strings:
     old "Challenge accepted!"
     new "¡Reto aceptado!"
 
+translate spanish strings:
+
+    # zz_games.rpy:182
+    old "NOU"
+    new ""
+

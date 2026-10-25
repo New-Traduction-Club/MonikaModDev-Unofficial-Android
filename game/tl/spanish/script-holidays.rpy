@@ -10049,3 +10049,21 @@ translate spanish strings:
     old "the decorations, or "
     new "las decoraciones, o "
 
+translate spanish strings:
+
+    # script-holidays.rpy:1362
+    old "I'm going to take you trick or treating."
+    new ""
+
+    # script-holidays.rpy:2864
+    old "Carolling"
+    new ""
+
+    # script-holidays.rpy:2924
+    old "Mistletoe"
+    new ""
+
+    # script-holidays.rpy:2967
+    old "Christmas Lights"
+    new ""
+

@@ -578,3 +578,7 @@ translate spanish strings:
     old "Search for a conversation..."
     new "Buscar un tema..."
 
+    # screens.rpy:3009
+    old "Done"
+    new ""
+

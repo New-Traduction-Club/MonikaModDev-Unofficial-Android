@@ -4511,3 +4511,9 @@ translate spanish strings:
     old "Can you play 'Our Reality' for me?"
     new "¿Puedes tocar 'Our Reality' para mí?"
 
+translate spanish strings:
+
+    # script-songs.rpy:460
+    old "Merry Christmas Baby"
+    new ""
+
