@@ -691,14 +691,14 @@ init -10 python in mas_selspr:
     # should be as neutral as possible to go with any kind of acs
     # be it singular or plural
     generic_sel_dlg_quips = [
-        "Good choice, [player]!",
-        "I was thinking the same thing, [player]!",
-        "Great choice, [player]!",
-        "What do you think, [player]?",
-        "How do I look, [player]?",
-        "I really like this look, [player]!",
-        "Just what I was thinking!",
-        "Just what I had in mind!"
+        __("Good choice, [player]!"),
+        __("I was thinking the same thing, [player]!"),
+        __("Great choice, [player]!"),
+        __("What do you think, [player]?"),
+        __("How do I look, [player]?"),
+        __("I really like this look, [player]!"),
+        __("Just what I was thinking!"),
+        __("Just what I had in mind!")
     ]
 
     # disable constants
@@ -710,16 +710,16 @@ init -10 python in mas_selspr:
     disable_sel_dlg_quips = {
         DISB_NONE: None,
         DISB_HAIR_BC_CLOTH: [
-            "That hairstyle doesn't really work with my clothes.",
-            "I don't think this hairstyle really works with this outfit.",
-            "That hairstyle doesn't really work with this outfit.",
-            "I think this hairstyle works better with a different outfit."
+            __("That hairstyle doesn't really work with my clothes."),
+            __("I don't think this hairstyle really works with this outfit."),
+            __("That hairstyle doesn't really work with this outfit."),
+            __("I think this hairstyle works better with a different outfit.")
         ],
         DISB_ACS_BC_HAIR: [
-            "That doesn't really work with my hair.",
-            "I don't think this really works with my hairstyle.",
-            "This might work with a different hairstyle.",
-            "I don't really think this goes with my hair."
+            __("That doesn't really work with my hair."),
+            __("I don't think this really works with my hairstyle."),
+            __("This might work with a different hairstyle."),
+            __("I don't really think this goes with my hair.")
         ],
     }
 
@@ -825,7 +825,7 @@ init -10 python in mas_selspr:
         RETURNS: remover ACS selectable
         """
         if remover_name is None:
-            remover_name = "Remove"
+            remover_name = __("Remove")
 
         # get default mux for this acs type
         template = store.mas_sprites.get_ACSTemplate_by_type(acs_type)
@@ -2589,7 +2589,7 @@ init -1 python:
 
             ASSUMES the list is not empty
             """
-            return dlg_list[random.randint(0, len(dlg_list)-1)]
+            return renpy.substitute(__(dlg_list[random.randint(0, len(dlg_list)-1)]))
 
 
         def _render_bottom_frame(self, hover, st, at):
@@ -2887,24 +2887,26 @@ init -1 python:
                 st - st for renpy render
                 at - at for renpy render
             """
+            disp_name = __(self.selectable.display_name)
+
             # lets initially check if the pure text renders nicely
             _render = self._check_display_name(
-                self.selectable.display_name,
+                disp_name,
                 st,
                 at
             )
 
             if _render:
                 self.item_name = [
-                    self._display_name(False, self.selectable.display_name)
+                    self._display_name(False, disp_name)
                 ]
                 self.item_name_hover = [
-                    self._display_name(True, self.selectable.display_name)
+                    self._display_name(True, disp_name)
                 ]
                 return
 
             # if we got a None, the text is too long.
-            _lines = self._split_render(self.selectable.display_name, st, at)
+            _lines = self._split_render(disp_name, st, at)
             # NOTE: rather than rewriting split_render, decided to just
             # use the returned lines and overwrite the render list
             self.item_name = [
@@ -3364,7 +3366,7 @@ screen mas_selector_sidebar(items, mailbox, confirm, cancel, restore, remover=No
 
                             # Only need keys
                             for item_type_name in sorted(filter_map.keys()):
-                                textbutton _(item_type_name):
+                                textbutton __(item_type_name):
                                     style "hkb_button"
                                     xysize (300, 40)
                                     xalign 0.8
@@ -3422,7 +3424,7 @@ screen mas_selector_sidebar(items, mailbox, confirm, cancel, restore, remover=No
                 changed store.mas_selspr.selector_search_callback
 
         if not mailbox.search_text:
-            text "Search for...":
+            text __("Search for..."):
                 text_align 0.0
                 layout "nobreak"
                 color "#EEEEEEB2"
@@ -3948,7 +3950,7 @@ label mas_selector_generic_sidebar_select_acs(acs_type, use_acs=None, set_compat
         if sel_group is None:
             sel_group = acs_type
         if idle_dlg is None:
-            idle_dlg = "Which {0} would you like me to wear?".format(acs_type)
+            idle_dlg = renpy.substitute(__("Which {0} would you like me to wear?").format(__(acs_type)))
 
         # filter for acs
         if use_acs is None:
@@ -4008,7 +4010,7 @@ label monika_clothes_select:
     #Setup
     python:
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which clothes would you like me to wear?"
+            __("Which clothes would you like me to wear?")
         )
         mailbox.send_outfit_checkbox_visible(True)
         mailbox.send_outfit_checkbox_checked(persistent._mas_setting_ocb)
@@ -4088,7 +4090,7 @@ label monika_event_clothes_select:
     # setup
     python:
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Do you want me to change?"
+            __("Do you want me to change?")
         )
         # only def and the outfit in question will be available here, so outfit mode only
         mailbox.send_outfit_checkbox_visible(False)
@@ -4156,7 +4158,7 @@ label monika_hair_select:
     python:
         sorted_hair = store.mas_selspr.HAIR_SEL_SL
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which hairstyle would you like me to wear?"
+            __("Which hairstyle would you like me to wear?")
         )
         sel_map = {}
 
@@ -4228,11 +4230,11 @@ label monika_ribbon_select:
         use_acs.append(store.mas_selspr.create_selectable_remover(
             "ribbon",
             "ribbon",
-            "Basic Hair Band"
+            __("Basic Hair Band")
         ))
 
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which hair tie would you like me to use?"
+            __("Which hair tie would you like me to use?")
         )
         sel_map = {}
 
@@ -4271,7 +4273,7 @@ init 5 python:
     )
 
 label monika_hairclip_select:
-    call mas_selector_generic_sidebar_select_acs("left-hair-clip", idle_dlg="Which hairclip would you like me to wear?")
+    call mas_selector_generic_sidebar_select_acs("left-hair-clip", idle_dlg=__("Which hairclip would you like me to wear?"))
     return
 
 
@@ -4306,7 +4308,7 @@ label monika_hairflower_select:
         ))
 
         mailbox = store.mas_selspr.MASSelectableSpriteMailbox(
-            "Which flower would you like me to put in my hair?"
+            __("Which flower would you like me to put in my hair?")
         )
         sel_map = {}
 

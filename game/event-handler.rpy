@@ -3318,20 +3318,20 @@ label prompt_menu:
         talk_menu = []
         if len(unseen_event_labels)>0 and not persistent._mas_unsee_unseen:
             # show unseen if we have unseen events and the player hasn't chosen to hide it
-            talk_menu.append((_("{b}Unseen{/b}"), "unseen"))
+            talk_menu.append((__("{b}Unseen{/b}"), "unseen"))
         if mas_hasBookmarks():
-            talk_menu.append((_("Bookmarks"),"bookmarks"))
-        talk_menu.append((_("Hey, [m_name]..."), "prompt"))
+            talk_menu.append((__("Bookmarks"),"bookmarks"))
+        talk_menu.append((__("Hey, [m_name]..."), "prompt"))
         if len(repeatable_events)>0:
-            talk_menu.append((_("Repeat conversation"), "repeat"))
+            talk_menu.append((__("Repeat conversation"), "repeat"))
         if _mas_getAffection() > -50:
             if mas_passedILY(pass_time=datetime.timedelta(0,10)):
-                talk_menu.append((_("I love you too!"),"love_too"))
+                talk_menu.append((__("I love you too!"),"love_too"))
             else:
-                talk_menu.append((_("I love you!"), "love"))
-        talk_menu.append((_("I feel..."), "moods"))
-        talk_menu.append((_("Goodbye"), "goodbye"))
-        talk_menu.append((_("Nevermind"),"nevermind"))
+                talk_menu.append((__("I love you!"), "love"))
+        talk_menu.append((__("I feel..."), "moods"))
+        talk_menu.append((__("Goodbye"), "goodbye"))
+        talk_menu.append((__("Nevermind"),"nevermind"))
 
         renpy.say(m, store.mas_affection.talk_quip()[1], interact=False)
         madechoice = renpy.display_menu(talk_menu, screen="talk_choice")
@@ -3390,8 +3390,8 @@ label show_prompt_list(sorted_event_labels):
         hide_unseen_event = mas_getEV("mas_hide_unseen")
 
         final_items = (
-            (_("I don't want to see this menu anymore"), "mas_hide_unseen", False, False, 20),
-            (_("Nevermind"), False, False, False, 0)
+            (__("I don't want to see this menu anymore"), "mas_hide_unseen", False, False, 20),
+            (__("Nevermind"), False, False, False, 0)
         )
 
     call screen mas_gen_scrollable_menu(prompt_menu_items, mas_ui.SCROLLABLE_MENU_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, *final_items)
@@ -3597,8 +3597,8 @@ label mas_bookmarks:
         bookmarks_items.sort()
 
         bk_menu_final_items = (
-            (_("I'd like to remove a bookmark"), "remove_bookmark", False, False, 20),
-            (_("Nevermind"), "nevermind", False, False, 0)
+            (__("I'd like to remove a bookmark"), "remove_bookmark", False, False, 20),
+            (__("Nevermind"), "nevermind", False, False, 0)
         )
 
     # FALL THROUGH
@@ -3689,12 +3689,12 @@ label mas_bookmarks_unbookmark(bookmarks_items):
 
     # decicde which prompt
     if len(bookmarks_items) > 1:
-        $ renpy.say(m, "Which bookmarks do you want to remove?", interact=False)
+        $ renpy.say(m, __("Which bookmarks do you want to remove?"), interact=False)
 
     else:
-        $ renpy.say(m, "Just select the bookmark if you're sure you want to remove it.", interact=False)
+        $ renpy.say(m, __("Just select the bookmark if you're sure you want to remove it."), interact=False)
 
-    call screen mas_check_scrollable_menu(bookmarks_items, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, selected_button_prompt="Remove selected")
+    call screen mas_check_scrollable_menu(bookmarks_items, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, selected_button_prompt=__("Remove selected"))
 
     $ bookmarks_to_remove = _return
     $ bookmarks_items = _convert_items(bookmarks_items, "GEN_ITEMS")

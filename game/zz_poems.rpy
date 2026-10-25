@@ -316,18 +316,18 @@ label monika_showpoem:
     python:
         #We'll store the base DDLC poems here
         poems_list = [
-            ("Hole in Wall (Part 1)", poem_m1, False, False),
-            ("Hole in Wall (Part 2)", poem_m21, False, False),
-            ("Save Me", poem_m2, False, False),
-            ("The Lady Who Knows Everything", poem_m3, False, False),
-            ("Happy End", poem_m4, False, False)
+            (__("Hole in Wall (Part 1)"), poem_m1, False, False),
+            (__("Hole in Wall (Part 2)"), poem_m21, False, False),
+            (__("Save Me"), poem_m2, False, False),
+            (__("The Lady Who Knows Everything"), poem_m3, False, False),
+            (__("Happy End"), poem_m4, False, False)
         ]
 
-        ret_back = ("Nevermind", False, False, False, 20)
+        ret_back = (__("Nevermind"), False, False, False, 20)
         #Extend the new poems
         poems_list.extend(mas_poems.getSeenPoemsMenu())
 
-        renpy.say(m, "Which poem would you like to read?", interact=False)
+        renpy.say(m, __("Which poem would you like to read?"), interact=False)
 
     call screen mas_gen_scrollable_menu(poems_list, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, ret_back)
 

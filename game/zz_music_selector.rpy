@@ -928,7 +928,7 @@ screen music_menu(music_page, page_num=0, more_pages=False):
 
             # wonderful loop so we can dynamically add songs
             for name,song in music_page:
-                textbutton _(name) action Return(song)
+                textbutton __(name) action Return(song)
 
     vbox:
 
@@ -960,7 +960,7 @@ screen music_menu(music_page, page_num=0, more_pages=False):
                     style "music_menu_return_button"
                     action Return(page_num + 1)
 
-        textbutton _(songs.NO_SONG):
+        textbutton __(songs.NO_SONG):
             style "music_menu_return_button"
             action Return(songs.NO_SONG)
 

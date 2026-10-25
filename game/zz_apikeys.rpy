@@ -20,7 +20,7 @@ screen mas_update_cert(screen_data):
         yfill True
 
 
-        text screen_data.main_text:
+        text __(screen_data.main_text):
             xalign 0.5
             yalign 0.5
 
@@ -192,7 +192,7 @@ init -750 python in mas_api_keys:
             Sets text and button flags for when an update is in progress.
             This includes checking for an update.
             """
-            self._main_text = "Updating cert{0} (This can take a while)".format(
+            self._main_text = __("Updating cert{0} (This can take a while)").format(
                 "." * (self._loop_counter % 4)
             )
             self._hide_all_buttons()
@@ -206,27 +206,27 @@ init -750 python in mas_api_keys:
                 import certifi
 
                 if self._rv_value == certifi.RV_ERR_CERT_WRITE:
-                    self._main_text = (
+                    self._main_text = __(
                         "ERROR: failed to write cert to disk. Try again later "
                         "or manually update the cert."
                     )
                     self._set_buttons_retrycancel()
 
                 elif self._rv_value == certifi.RV_ERR_BAD_SSL_LIB:
-                    self._main_text = (
+                    self._main_text = __(
                         "ERROR: SSL is not available. Cannot update cert"
                     )
                     self._set_buttons_ok()
 
                 else:
-                    self._main_text = (
+                    self._main_text = __(
                         "ERROR: failed to update cert. Try again later or "
                         "manually update the cert."
                     )
                     self._set_buttons_retrycancel()
 
             else:
-                self._main_text = (
+                self._main_text = __(
                     "ERROR: certifi not available. Cannot update cert"
                 )
                 self._set_buttons_ok()
@@ -235,7 +235,7 @@ init -750 python in mas_api_keys:
             """
             Sets text and button flags for when no update is found
             """
-            self._main_text = "Cert already up to date!"
+            self._main_text = __("Cert already up to date!")
             self._hide_all_buttons()
             self._show_ok = True
             self._show_retry = False
@@ -244,7 +244,7 @@ init -750 python in mas_api_keys:
             """
             Sets text and button flags for whe cert was updated
             """
-            self._main_text = "Cert updated!"
+            self._main_text = __("Cert updated!")
             self._set_buttons_ok()
 
 

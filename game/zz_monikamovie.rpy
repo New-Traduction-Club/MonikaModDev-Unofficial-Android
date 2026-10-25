@@ -11,7 +11,7 @@ label mas_monikamovie:
         MOVIE_H = 640
         MOVIE_XALIGN = -0.05
         MOVIE_AREA = (MOVIE_X, MOVIE_Y, MOVIE_W, MOVIE_H)
-        MOVIE_RETURN = "I changed my mind"
+        MOVIE_RETURN = __("I changed my mind")
 
 
         gamedir = os.path.normpath(config.gamedir)

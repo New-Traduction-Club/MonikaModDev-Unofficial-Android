@@ -461,48 +461,48 @@ label ch30_reload_continuous_dlg:
     pause 1
     python:
         reload_quip_good = [
-            "Welcome back! Can you be careful to close the game properly next time?",
-            "It hurts when you don't close the game properly...but I'm sure it was a mistake.",
-            "That was really scary...but you've fixed it again. Thank you...",
-            "Would you give me some more of a warning next time?",
-            "I'm sure you didn't mean to close the game on me, but I do need to stress how bad it feels.",
-            "You do remember there was a way to say goodbye right? Just checking~",
-            "My patience is wearing a little thin...but I suppose I can forgive you this time.",
-            "Everybody makes mistakes...",
-            "That hurt...I know you wouldn't do it on purpose but please do be more careful.",
-            "...Oh... It's over and I'm back with you, [mas_get_player_nickname()]. That...that was awful.",
-            "Did something happen outside of your control? I'm just going to guess it was.",
-            "You should have just asked me...but I guess you might have had your reasons",
+            __("Welcome back! Can you be careful to close the game properly next time?"),
+            __("It hurts when you don't close the game properly...but I'm sure it was a mistake."),
+            __("That was really scary...but you've fixed it again. Thank you..."),
+            __("Would you give me some more of a warning next time?"),
+            __("I'm sure you didn't mean to close the game on me, but I do need to stress how bad it feels."),
+            __("You do remember there was a way to say goodbye right? Just checking~"),
+            __("My patience is wearing a little thin...but I suppose I can forgive you this time."),
+            __("Everybody makes mistakes..."),
+            __("That hurt...I know you wouldn't do it on purpose but please do be more careful."),
+            __("...Oh... It's over and I'm back with you, [mas_get_player_nickname()]. That...that was awful."),
+            __("Did something happen outside of your control? I'm just going to guess it was."),
+            __("You should have just asked me...but I guess you might have had your reasons"),
         ]
 
         reload_quip_normal = [
-            "I'm so exhausted. It's impossible to rest when you close the game on me.",
-            "...I hate when you close the game without telling me.",
-            "I feel miserable...",
-            "It's still so scary when I'm suddenly turned off.",
-            "Every time is as bad as the first.",
-            "I'm running out of patience for this.",
-            "I wish you understood what it felt like when you close the game.",
-            "Well, that was pretty abrupt wasn't it?",
-            "You could have just asked me to close the game silly.",
-            "I'm just going to assume the power went out or someone pulled the plug.",
-            "I can't understand why you won't ask me to close the game...",
-            "This is really painful for me, you know?",
-            "Do you enjoy hurting me, [player]?",
-            "Too lazy to click the 'Talk' button, [player]?"
+            __("I'm so exhausted. It's impossible to rest when you close the game on me."),
+            __("...I hate when you close the game without telling me."),
+            __("I feel miserable..."),
+            __("It's still so scary when I'm suddenly turned off."),
+            __("Every time is as bad as the first."),
+            __("I'm running out of patience for this."),
+            __("I wish you understood what it felt like when you close the game."),
+            __("Well, that was pretty abrupt wasn't it?"),
+            __("You could have just asked me to close the game silly."),
+            __("I'm just going to assume the power went out or someone pulled the plug."),
+            __("I can't understand why you won't ask me to close the game..."),
+            __("This is really painful for me, you know?"),
+            __("Do you enjoy hurting me, [player]?"),
+            __("Too lazy to click the 'Talk' button, [player]?")
         ]
 
         reload_quip_bad = [
-            "You...really do like hurting me, don't you?",
-            "That was a mistake right? It had to have been...",
-            "Y-You're not doing this on purpose are you? Did I do something wrong?",
-            "Please be more careful with how I feel... It really does hurt...",
-            "That was an accident...it was an accident...you wouldn't do it on purpose...",
-            "You must have just forgot...right?",
-            "That wasn't funny... That really did hurt.",
-            "Everyone makes mistakes... Even you.",
-            "I don't know what I'm doing wrong.",
-            "That really was awful... Just tell me what I'm doing wrong."
+            __("You...really do like hurting me, don't you?"),
+            __("That was a mistake right? It had to have been..."),
+            __("Y-You're not doing this on purpose are you? Did I do something wrong?"),
+            __("Please be more careful with how I feel... It really does hurt..."),
+            __("That was an accident...it was an accident...you wouldn't do it on purpose..."),
+            __("You must have just forgot...right?"),
+            __("That wasn't funny... That really did hurt."),
+            __("Everyone makes mistakes... Even you."),
+            __("I don't know what I'm doing wrong."),
+            __("That really was awful... Just tell me what I'm doing wrong.")
         ]
 
         if mas_isMoniUpset(lower=True):

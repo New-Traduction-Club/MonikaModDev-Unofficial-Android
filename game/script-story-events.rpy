@@ -385,32 +385,32 @@ init 3 python:
     #Base list for good nicknames. Apply modifiers for specifying the use
     #These trigger a good response
     mas_good_nickname_list_base = [
-        "angel",
-        "beautiful",
-        "beauty",
-        "best",
-        "cuddl",
-        "cute",
-        "cutie",
-        "darling",
-        "gorgeous",
-        "greatheart",
-        "hero",
-        "honey",
-        "kind",
-        "love",
-        "pretty",
-        "princess",
-        "queen",
-        "senpai",
-        "sunshine",
-        "sweet"
+        __("angel"),
+        __("beautiful"),
+        __("beauty"),
+        __("best"),
+        __("cuddl"),
+        __("cute"),
+        __("cutie"),
+        __("darling"),
+        __("gorgeous"),
+        __("greatheart"),
+        __("hero"),
+        __("honey"),
+        __("kind"),
+        __("love"),
+        __("pretty"),
+        __("princess"),
+        __("queen"),
+        __("senpai"),
+        __("sunshine"),
+        __("sweet")
     ]
 
     #Modifier for the player's name choice
     mas_good_nickname_list_player_modifiers = [
-        "king",
-        "prince"
+        __("king"),
+        __("prince")
     ]
 
     #Modifier for Monika's nickname choice
@@ -1066,17 +1066,17 @@ init 5 python:
 
 label mas_random_limit_reached:
     #Notif so people don't get stuck here
-    $ mas_display_notif(m_name, ["Hey [player]..."], "Topic Alerts")
+    $ mas_display_notif(m_name, [__("Hey [player]...")], "Topic Alerts")
 
     python:
         limit_quips = [
-            _("It seems I'm at a loss on what to say."),
-            _("I'm not sure what else to say, but can you just be with me a little longer?"),
-            _("No point in trying to say everything right away..."),
-            _("I hope you've enjoyed listening to everything I was thinking about today..."),
-            _("Do you still enjoy spending this time with me?"),
-            _("I hope I didn't bore you too much."),
-            _("You don't mind if I think about what to say next, do you?")
+            __("It seems I'm at a loss on what to say."),
+            __("I'm not sure what else to say, but can you just be with me a little longer?"),
+            __("No point in trying to say everything right away..."),
+            __("I hope you've enjoyed listening to everything I was thinking about today..."),
+            __("Do you still enjoy spending this time with me?"),
+            __("I hope I didn't bore you too much."),
+            __("You don't mind if I think about what to say next, do you?")
         ]
         limit_quip=renpy.random.choice(limit_quips)
 
@@ -2130,7 +2130,7 @@ label mas_notification_windowreact:
             "Sure!":
                 m 1hua "Okay, [player]!"
                 m 2dsa "Just give me a second to make a notification.{w=0.5}.{w=0.5}.{nw}"
-                $ mas_display_notif(m_name, ["I love you, [player]!"], skip_checks=True)
+                $ mas_display_notif(m_name, [__("I love you, [player]!")], skip_checks=True)
                 m 1hub "There it is!"
 
             "No thanks.":
@@ -2354,7 +2354,7 @@ label mas_birthdate_year_redux_select:
         yearmenu = [(str(y), y, False, False) for y in yearrange]
 
     show monika 2eua at t21
-    $ renpy.say(m, "What year were you born?", interact=False)
+    $ renpy.say(m, __("What year were you born?"), interact=False)
     call screen mas_gen_scrollable_menu(yearmenu, mas_ui.SCROLLABLE_MENU_TXT_TALL_AREA, mas_ui.SCROLLABLE_MENU_XALIGN)
 
     show monika 3eua at t11
@@ -2660,7 +2660,7 @@ label mas_gift_hint_noudeck:
             import time
 
             note_path = os.path.join(renpy.config.basedir, renpy.substitute("characters/Hey, I have something for you, [player]!.txt"))
-            note_text = renpy.substitute("""\
+            note_text = renpy.substitute(__(("""\
 Hi [player]!
 
 I see you're making Monika really happy and I want to help any way I can!
@@ -2671,7 +2671,7 @@ To give it to her, create a new file 'noudeck.gift' in the 'characters' folder.
 Keep up being a good [boy] and good luck with Monika!
 
 P.S: Don't tell her about me!\
-""")
+""")))
 
             mas_utils.trywrite(note_path, note_text, log=True)
             time.sleep(20)

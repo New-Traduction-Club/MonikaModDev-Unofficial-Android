@@ -680,21 +680,21 @@ init python:
     #List of notif quips (used for topic alerts)
     #Windows/Linux
     mas_win_notif_quips = [
-        "[player], I want to talk to you about something.",
-        "Are you there, [player]?",
-        "Can you come here for a second?",
-        "[player], do you have a second?",
-        "I have something to tell you, [player]!",
-        "Do you have a minute, [player]?",
-        "I've got something to talk about, [player]!",
+        __("[player], I want to talk to you about something."),
+        __("Are you there, [player]?"),
+        __("Can you come here for a second?"),
+        __("[player], do you have a second?"),
+        __("I have something to tell you, [player]!"),
+        __("Do you have a minute, [player]?"),
+        __("I've got something to talk about, [player]!"),
     ]
 
     #OSX, since no active window detection
     mas_other_notif_quips = [
-        "I've got something to talk about, [player]!",
-        "I have something to tell you, [player]!",
-        "Hey [player], I want to tell you something.",
-        "Do you have a minute, [player]?",
+        __("I've got something to talk about, [player]!"),
+        __("I have something to tell you, [player]!"),
+        __("Hey [player], I want to tell you something."),
+        __("Do you have a minute, [player]?"),
     ]
 
     #List of hwnd IDs to destroy

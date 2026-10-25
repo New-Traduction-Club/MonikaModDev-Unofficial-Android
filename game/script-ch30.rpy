@@ -21,7 +21,7 @@ init -998 python:
     #We need to flow hijack here if we're running unstable mode files but on a fresh persistent
     if "unstable" in config.version and not persistent.sessions:
         raise Exception(
-            _("Unstable mode files in install on first session. This can cause issues.\n"
+            __("Unstable mode files in install on first session. This can cause issues.\n"
             "Please reinstall the latest stable version of Monika After Story to ensure that there will be no data issues.")
         )
 
@@ -295,17 +295,17 @@ image room_glitch = "images/cg/monika/monika_bg_glitch.png"
 
 # Gender specific word replacement
 define MAS_PRONOUN_GENDER_MAP = {
-    "his": {"M": "his", "F": "her", "X": "their"},
-    "he": {"M": "he", "F": "she", "X": "they"},
-    "hes": {"M": "he's", "F": "she's", "X": "they're"},
-    "heis": {"M": "he is", "F": "she is", "X": "they are"},
-    "bf": {"M": "boyfriend", "F": "girlfriend", "X": "partner"},
-    "man": {"M": "man", "F": "woman", "X": "person"},
-    "boy": {"M": "boy", "F": "girl", "X": "person"},
-    "guy": {"M": "guy", "F": "girl", "X": "person"},
-    "him": {"M": "him", "F": "her", "X": "them"},
-    "himself": {"M": "himself", "F": "herself", "X": "themselves"},
-    "hero": {"M": "hero", "F": "heroine", "X": "hero"}
+    "his": {"M": __("his"), "F": __("her"), "X": __("their")},
+    "he": {"M": __("he"), "F": __("she"), "X": __("they")},
+    "hes": {"M": __("he's"), "F": __("she's"), "X": __("they're")},
+    "heis": {"M": __("he is"), "F": __("she is"), "X": __("they are")},
+    "bf": {"M": __("boyfriend"), "F": __("girlfriend"), "X": __("partner")},
+    "man": {"M": __("man"), "F": __("woman"), "X": __("person")},
+    "boy": {"M": __("boy"), "F": __("girl"), "X": __("person")},
+    "guy": {"M": __("guy"), "F": __("girl"), "X": __("person")},
+    "him": {"M": __("him"), "F": __("her"), "X": __("them")},
+    "himself": {"M": __("himself"), "F": __("herself"), "X": __("themselves")},
+    "hero": {"M": __("hero"), "F": __("heroine"), "X": __("hero")}
 }
 
 init python:

@@ -2655,7 +2655,7 @@ init -10 python:
 init -20 python in mas_background:
     import store
     BACKGROUND_MAP = {}
-    BACKGROUND_RETURN = "Nevermind"
+    BACKGROUND_RETURN = __("Nevermind")
     dbg_log = False
     dbg_log_st = False
     DBG_MSG_C = "\nCurrent: {0} | {1}"

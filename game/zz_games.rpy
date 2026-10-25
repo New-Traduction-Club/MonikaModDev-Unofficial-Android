@@ -209,7 +209,7 @@ label mas_pick_a_game:
             if mas_isGameUnlocked(renpy.substitute(ev.prompt, translate=False))
         ], key=lambda x:renpy.substitute(x[0]))
 
-        ret_back = ("Nevermind", False, False, False, 20)
+        ret_back = (__("Nevermind"), False, False, False, 20)
 
     #Move Moni left
     show monika 1eua at t21
@@ -228,26 +228,26 @@ label mas_pick_a_game:
             python:
                 if mas_isMoniUpset(lower=True):
                     begin_quips = [
-                        _("Okay, let's play."),
-                        _("I guess we can play that."),
-                        _("Let's begin."),
-                        _("Sure."),
-                        _("Fine."),
-                        _("Alright."),
+                        __("Okay, let's play."),
+                        __("I guess we can play that."),
+                        __("Let's begin."),
+                        __("Sure."),
+                        __("Fine."),
+                        __("Alright."),
                     ]
 
                 else:
                     begin_quips = [
-                        _("Let's do this!"),
-                        _("Bring it on, [mas_get_player_nickname()]!"),
-                        _("Ready to lose, [mas_get_player_nickname()]?"),
-                        _("I'm ready when you are, [mas_get_player_nickname()]!"),
-                        _("I hope you're ready, [mas_get_player_nickname()]~"),
-                        _("Let's have some fun, [mas_get_player_nickname()]!"),
-                        _("Don't expect me to go easy on you, [mas_get_player_nickname()]!~"),
-                        _("Throwing down the gauntlet, are we?"),
-                        _("It's time to duel!"),
-                        _("Challenge accepted!"),
+                        __("Let's do this!"),
+                        __("Bring it on, [mas_get_player_nickname()]!"),
+                        __("Ready to lose, [mas_get_player_nickname()]?"),
+                        __("I'm ready when you are, [mas_get_player_nickname()]!"),
+                        __("I hope you're ready, [mas_get_player_nickname()]~"),
+                        __("Let's have some fun, [mas_get_player_nickname()]!"),
+                        __("Don't expect me to go easy on you, [mas_get_player_nickname()]!~"),
+                        __("Throwing down the gauntlet, are we?"),
+                        __("It's time to duel!"),
+                        __("Challenge accepted!"),
                     ]
 
                 game_quip = renpy.substitute(renpy.random.choice(begin_quips))

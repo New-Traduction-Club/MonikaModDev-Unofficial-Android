@@ -16,20 +16,20 @@ init -100 python:
 init python:
     menu_trans_time = 1
     #The default splash message, originally shown in Act 1 and Act 4
-    splash_message_default = _("This game is an unofficial fan work, unaffiliated with Team Salvato.")
+    splash_message_default = __("This game is an unofficial fan work, unaffiliated with Team Salvato.")
     splash_messages = [
-    _("Please support Doki Doki Literature Club & Team Salvato."),
-    _("You are my sunshine,\nMy only sunshine"),
-    _("I missed you."),
-    _("Play with me"),
-    _("It's just a game, mostly."),
-    _("This game is not suitable for children\nor those who are easily disturbed?"),
-    _("sdfasdklfgsdfgsgoinrfoenlvbd"),
-    _("null"),
-    _("I have granted kids to hell"),
-    _("PM died for this."),
-    _("It was only partially your fault."),
-    _("This game is not suitable for children\nor those who are easily dismembered.")
+    __("Please support Doki Doki Literature Club & Team Salvato."),
+    __("You are my sunshine,\nMy only sunshine"),
+    __("I missed you."),
+    __("Play with me"),
+    __("It's just a game, mostly."),
+    __("This game is not suitable for children\nor those who are easily disturbed?"),
+    __("sdfasdklfgsdfgsgoinrfoenlvbd"),
+    __("null"),
+    __("I have granted kids to hell"),
+    __("PM died for this."),
+    __("It was only partially your fault."),
+    __("This game is not suitable for children\nor those who are easily dismembered.")
 #    "Don't forget to backup Monika's character file."
     ]
 

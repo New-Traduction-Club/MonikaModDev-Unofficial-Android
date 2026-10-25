@@ -1126,22 +1126,22 @@ label mas_reaction_gift_generic_sprite_json:
         else:
             python:
                 acs_quips = [
-                    _("I really appreciate it!"),
-                    _("[its] amazing!"),
-                    _("I just love [item_ref]!"),
-                    _("[its] wonderful!")
+                    __("I really appreciate it!"),
+                    __("[its] amazing!"),
+                    __("I just love [item_ref]!"),
+                    __("[its] wonderful!")
                 ]
 
                 # we have a complete description, so use it here
                 if spr_obj.dlg_plur:
-                    sprite_str = "these " + renpy.substitute(spr_obj.dlg_desc)
-                    item_ref = "them"
-                    its = "they're"
+                    sprite_str = __("these ") + renpy.substitute(spr_obj.dlg_desc)
+                    item_ref = __("them")
+                    its = __("they're")
 
                 else:
-                    sprite_str = "this " + renpy.substitute(spr_obj.dlg_desc)
-                    item_ref = "it"
-                    its = "it's"
+                    sprite_str = __("this ") + renpy.substitute(spr_obj.dlg_desc)
+                    item_ref = __("it")
+                    its = __("it's")
 
                 acs_quip = renpy.substitute(renpy.random.choice(acs_quips))
 
@@ -1166,10 +1166,10 @@ label mas_reaction_gift_generic_clothes_json(sprite_object):
         python:
             # expandable
             outfit_quips = [
-                _("I think it's really cute, [player]!"),
-                _("I think it's amazing, [player]!"),
-                _("I just love it, [player]!"),
-                _("I think it's wonderful, [player]!")
+                __("I think it's really cute, [player]!"),
+                __("I think it's amazing, [player]!"),
+                __("I just love it, [player]!"),
+                __("I think it's wonderful, [player]!")
             ]
             outfit_quip = renpy.random.choice(outfit_quips)
 

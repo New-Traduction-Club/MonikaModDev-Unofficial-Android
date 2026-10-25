@@ -158,10 +158,10 @@ init 10 python in mas_brbs:
     )
 
     WB_QUIPS_NORMAL = [
-        _("So, what else did you want to do today?"),
-        _("What else did you want to do today?"),
-        _("Is there anything else you wanted to do today?"),
-        _("What else should we do today?")
+        __("So, what else did you want to do today?"),
+        __("What else did you want to do today?"),
+        __("Is there anything else you wanted to do today?"),
+        __("What else should we do today?")
     ]
 
     def get_wb_quip():
@@ -214,11 +214,11 @@ label mas_brb_generic_low_aff_callback:
     if mas_isMoniDis(higher=True):
         python:
             cb_line = renpy.substitute(renpy.random.choice([
-                _("Oh...{w=0.3}you're back."),
-                _("Oh...{w=0.3}welcome back."),
-                _("All done?"),
-                _("Welcome back."),
-                _("Oh...{w=0.3}there you are."),
+                __("Oh...{w=0.3}you're back."),
+                __("Oh...{w=0.3}welcome back."),
+                __("All done?"),
+                __("Welcome back."),
+                __("Oh...{w=0.3}there you are."),
             ]))
 
         m 2ekc "[cb_line]"
@@ -250,15 +250,15 @@ label monika_idle_brb:
         python:
             #For options that can basically be an extension of generics and don't need much specification
             brb_reason_options = [
-                (_("I'm going to get something."), True, False, False),
-                (_("I'm going to do something."), True, False, False),
-                (_("I'm going to make something."), True, False, False),
-                (_("I have to check something."), True, False, False),
-                (_("Someone's at the door."), True, False, False),
-                (_("Nope."), None, False, False),
+                (__("I'm going to get something."), True, False, False),
+                (__("I'm going to do something."), True, False, False),
+                (__("I'm going to make something."), True, False, False),
+                (__("I have to check something."), True, False, False),
+                (__("Someone's at the door."), True, False, False),
+                (__("Nope."), None, False, False),
             ]
 
-            renpy.say(m, "Doing anything specific?", interact=False)
+            renpy.say(m, __("Doing anything specific?"), interact=False)
         call screen mas_gen_scrollable_menu(brb_reason_options, mas_ui.SCROLLABLE_MENU_TALL_AREA, mas_ui.SCROLLABLE_MENU_XALIGN)
         show monika at t11
 
@@ -503,10 +503,10 @@ label monika_idle_game:
         label .skip_intro:
         python:
             gaming_quips = [
-                _("Good luck, have fun!"),
-                _("Enjoy your game!"),
-                _("I'll be cheering you on!"),
-                _("Do your best!")
+                __("Good luck, have fun!"),
+                __("Enjoy your game!"),
+                __("I'll be cheering you on!"),
+                __("Do your best!")
             ]
             gaming_quip=renpy.random.choice(gaming_quips)
 
