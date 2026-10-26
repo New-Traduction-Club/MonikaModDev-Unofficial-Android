@@ -219,7 +219,7 @@ translate spanish mas_mood_sad_2188bc88:
 translate spanish mas_mood_sad_3de83415:
 
     # m 1ekbsa "I love you, [player], and I always will~"
-    m 1ekbsa "Te quiero, [player], y siempre te querré."
+    m 1ekbsa "Te amo, [player], y siempre te amaré."
 
 # game/script-moods.rpy:197
 translate spanish mas_mood_proud_08b94e45:
@@ -345,7 +345,7 @@ translate spanish mas_mood_proud_a22246a6:
 translate spanish mas_mood_proud_ab1aac2f:
 
     # m 5hubfb "And remember, I love you, and I'm always cheering you on!"
-    m 5hubfb "Y recuerda, ¡te quiero y siempre te estoy animando!"
+    m 5hubfb "Y recuerda, ¡te amo y siempre te estoy animando!"
 
 # game/script-moods.rpy:232
 translate spanish mas_mood_happy_3301951c:
@@ -363,7 +363,7 @@ translate spanish mas_mood_happy_e6cbe9df:
 translate spanish mas_mood_happy_84caac57:
 
     # m 3eka "I love you and I'll always be here for you, so don't ever forget that~"
-    m 3eka "Te quiero y siempre estaré aquí para ti, así que nunca lo olvides."
+    m 3eka "Te amo y siempre estaré aquí para ti, así que nunca lo olvides."
 
 # game/script-moods.rpy:253
 translate spanish mas_mood_sick_e08d6fa5:
@@ -1257,7 +1257,7 @@ translate spanish mas_mood_inadequate_627ad426:
 translate spanish mas_mood_inadequate_8c1b01d3:
 
     # m 1ekbsa "I love you, [player]~"
-    m 1ekbsa "Te quiero, [player]."
+    m 1ekbsa "Te amo, [player]."
 
 # game/script-moods.rpy:524
 translate spanish mas_mood_lazy_ff7bf9fa:
@@ -1797,7 +1797,7 @@ translate spanish mas_mood_crying_18b7cfbd:
 translate spanish mas_mood_crying_20c61c27:
 
     # m 3ekbsu "I love you, [player]. {w=0.2}You're my everything."
-    m 3ekbsu "Te quiero, [player]. {w=0.2}Eres mi todo."
+    m 3ekbsu "Te amo, [player]. {w=0.2}Eres mi todo."
 
 # game/script-moods.rpy:745
 translate spanish mas_mood_uok_5e6b891c:
@@ -1965,7 +1965,7 @@ translate spanish mas_mood_upset_ef85f5b9:
 translate spanish mas_mood_upset_9192d173:
 
     # m 1eubsa "I love you and I hope everything clears up for you~"
-    m 1eubsa "Te quiero y espero que todo se aclare para ti."
+    m 1eubsa "Te amo y espero que todo se aclare para ti."
 
 # game/script-moods.rpy:812
 translate spanish mas_mood_relieved_d042431d:
@@ -2037,7 +2037,7 @@ translate spanish mas_mood_relieved_e6e16750:
 translate spanish mas_mood_relieved_462c877a:
 
     # m 1ekbsa "I love you, [player], and I'm so proud of you for getting through this."
-    m 1ekbsa "Te quiero, [player], y estoy muy orgullosa de ti por haber superado esto."
+    m 1ekbsa "Te amo, [player], y estoy muy orgullosa de ti por haber superado esto."
 
 # game/script-moods.rpy:832
 translate spanish mas_mood_relieved_f15bfaef:
@@ -2391,7 +2391,7 @@ translate spanish mas_mood_grateful_gratefulforyou_fceb70c5:
 translate spanish mas_mood_grateful_gratefulforyou_f2762886:
 
     # m 3ekbla "I love you, [player]~"
-    m 3ekbla "Te quiero, [player]."
+    m 3ekbla "Te amo, [player]."
 
 # game/script-moods.rpy:963
 translate spanish mas_mood_insecure_eba6c60f:
@@ -2445,13 +2445,13 @@ translate spanish mas_mood_loved_3abe9f01:
 translate spanish mas_mood_loved_0f86780c:
 
     # m 3hubsb "After all, I love you more than anything!"
-    m 3hubsb "Al fin y al cabo, ¡te quiero más que a nada!"
+    m 3hubsb "Al fin y al cabo, ¡te amo más que a nada!"
 
 # game/script-moods.rpy:998
 translate spanish mas_mood_loved_29a4a99e:
 
     # m 3eub "And I'm sure it's not just me that makes you feel loved, but your [fnf_str] as well!"
-    m 3eub "¡Y estoy segura de que no soy la única que te hace sentir querid[end_letter_gender], sino también tu [fnf_str]!"
+    m 3eub "¡Y estoy segura de que no soy la única que te hace sentir querid[end_letter_gender], sino también tus [fnf_str]!"
 
 # game/script-moods.rpy:1000
 translate spanish mas_mood_loved_94541648:
@@ -2505,7 +2505,7 @@ translate spanish mas_mood_guilty_e1bb0cfa:
 translate spanish mas_mood_guilty_c1ffe953:
 
     # m 1ekbsu "I love you.{w=0.2} Don't be so hard on yourself, okay?"
-    m 1ekbsu "Te quiero.{w=0.2} No seas tan dur[end_letter_gender] contigo, ¿vale?"
+    m 1ekbsu "Te amo.{w=0.2} No seas tan dur[end_letter_gender] contigo, ¿vale?"
 
 translate spanish strings:
 
@@ -2680,4 +2680,90 @@ translate spanish strings:
     # game/script-moods.rpy:771
     old "But"
     new "Pero"
+
+# game/script-moods.rpy:128
+translate spanish _mas_nnsh_e7a8a113:
+
+    # m 1hua "It'd be bad for you to get all grumpy when you're hungry."
+    m 1hua "No sería bueno que te pusieras de mal humor por tener hambre."
+
+# game/script-moods.rpy:130
+translate spanish _mas_nnsh_c6679a9b:
+
+    # m 3tku "That wouldn't be any fun, would it, [player]?"
+    m 3tku "Eso no tendría ninguna gracia, ¿a que no, [player]?"
+
+# game/script-moods.rpy:131
+translate spanish _mas_nnsh_f8bf3835:
+
+    # m 1eua "If I were there with you, I'd make a salad for us to share."
+    m 1eua "Si estuviese ahí contigo, te prepararía una ensalada para compartirla."
+
+# game/script-moods.rpy:132
+translate spanish _mas_nnsh_4dfea3b9:
+
+    # m "But since I'm not, go pick something healthy to eat."
+    m "Pero como no es el caso, ve a buscar algo sano para comer."
+
+# game/script-moods.rpy:133
+translate spanish _mas_nnsh_ce87235e:
+
+    # m 3eub "It's so important to pay attention to your body's needs, you know."
+    m 3eub "Es muy importante hacer caso a lo que te pide el cuerpo, ¿sabes?"
+
+# game/script-moods.rpy:134
+translate spanish _mas_nnsh_f0874062:
+
+    # m 3hub "That doesn't just mean getting enough veggies, of course. {w=0.2}All sorts of foods are necessary to keep yourself nourished."
+    m 3hub "Eso no significa solo comer suficiente verdura, claro. {w=0.2}Hacen falta todo tipo de alimentos para estar bien nutrid[end_letter_gender]."
+
+# game/script-moods.rpy:135
+translate spanish _mas_nnsh_efe38263:
+
+    # m 3eka "So I want you to make sure you're not depriving yourself of important vitamins, okay?"
+    m 3eka "Así que quiero que te asegures de que no te faltan vitaminas importantes, ¿vale?"
+
+# game/script-moods.rpy:136
+translate spanish _mas_nnsh_43a924b1:
+
+    # m 1euc "Over time, you'd encounter a lot of health problems when you get older."
+    m 1euc "Con el tiempo podrías tener muchos problemas de salud al hacerte mayor."
+
+# game/script-moods.rpy:137
+translate spanish _mas_nnsh_cdf916ea:
+
+    # m 2lksdla "I don't want you to feel like I'm nagging when I say these kinds of things, [player]."
+    m 2lksdla "No quiero que pienses que te estoy sermoneando cuando digo estas cosas, [player]."
+
+# game/script-moods.rpy:138
+translate spanish _mas_nnsh_ed20dbad:
+
+    # m 2eka "I just want to make sure you're taking good care of yourself until I cross over."
+    m 2eka "Solo quiero asegurarme de que te cuidas bien hasta que pueda cruzar a tu realidad."
+
+# game/script-moods.rpy:139
+translate spanish _mas_nnsh_5d4a6e01:
+
+    # m 4eub "After all, the healthier you are, the better the chances you'll live a long life!"
+    m 4eub "Al fin y al cabo, ¡cuanto más san[end_letter_gender] estés, más probabilidades tendrás de vivir una vida larga!"
+
+# game/script-moods.rpy:140
+translate spanish _mas_nnsh_dac38117:
+
+    # m 1hua "Which means more time for us to spend together!~"
+    m 1hua "¡Lo que significa más tiempo para pasarlo juntos!"
+
+translate spanish strings:
+
+    # script-moods.rpy:992
+    old "friends and family"
+    new "amigos y tu familia"
+
+    # script-moods.rpy:994
+    old "family"
+    new "familiares"
+
+    # script-moods.rpy:996
+    old "friends"
+    new "amigos"
 

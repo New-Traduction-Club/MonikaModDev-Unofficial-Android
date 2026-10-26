@@ -273,7 +273,7 @@ translate spanish monika_grieving_c4678775:
 translate spanish monika_grieving_8de63bd5:
 
     # m 3eku "And no matter what happens, know that you're strong enough to get through it, that I love you, and that I'll always be here for you~"
-    m 3eku "Y pase lo que pase, debes saber que eres lo bastante fuerte como para superarlo, que te quiero y que siempre estaré aquí para ti."
+    m 3eku "Y pase lo que pase, debes saber que eres lo bastante fuerte como para superarlo, que te amo y que siempre estaré aquí para ti."
 
 # game/script-topics.rpy:18533
 translate spanish monika_sophia_3fc2fd59:

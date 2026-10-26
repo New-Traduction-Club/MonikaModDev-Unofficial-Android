@@ -123,7 +123,7 @@ translate spanish anni_1month_6d6c1d27:
 translate spanish anni_1month_22c0f53e:
 
     # m 1ekbfa "I really do love you, [player]."
-    m 1ekbfa "De verdad te quiero, [player]."
+    m 1ekbfa "De verdad te amo, [player]."
 
 # game/script-anniversary.rpy:411
 translate spanish anni_1month_587b6754:
@@ -405,7 +405,7 @@ translate spanish anni_1_975c8b6d:
 translate spanish anni_1_dd90964a:
 
     # m 1hubsa "I love you so much, [player]. {w=0.2}Happy anniversary~"
-    m 1hubsa "Te quiero muchísimo, [player]. {w=0.2}¡Feliz aniversario!"
+    m 1hubsa "Te amo muchísimo, [player]. {w=0.2}¡Feliz aniversario!"
 
 # game/script-anniversary.rpy:544
 translate spanish anni_2_88de1589:
@@ -754,7 +754,7 @@ translate spanish anni_6_54fc82c1:
 translate spanish anni_6_56c8ed15:
 
     # m 1hubfa "I love you, [player]. Thank you for another wonderful year."
-    m 1hubfa "Te quiero, [player]. Gracias por otro año maravilloso."
+    m 1hubfa "Te amo, [player]. Gracias por otro año maravilloso."
 
 # game/script-anniversary.rpy:712
 translate spanish anni_7_c639eca6:
@@ -1185,4 +1185,82 @@ translate spanish strings:
     # game/script-anniversary.rpy:348
     old "anniversary"
     new "aniversario"
+
+# game/script-anniversary.rpy:730
+translate spanish anni_9_d99de29e:
+
+    # m 1eub "Happy anniversary, [player]!"
+    m 1eub "¡Feliz aniversario, [player]!"
+
+# game/script-anniversary.rpy:731
+translate spanish anni_9_42aee801:
+
+    # m 3eta "It's that time of year again, huh?"
+    m 3eta "Ya estamos en esa época del año otra vez, ¿eh?"
+
+# game/script-anniversary.rpy:732
+translate spanish anni_9_d53654e5:
+
+    # m 3rtc "It's kind of funny, the time feels to me like it's moving a little bit faster every year..."
+    m 3rtc "Es curioso, me da la sensación de que el tiempo pasa un poquito más rápido cada año..."
+
+# game/script-anniversary.rpy:733
+translate spanish anni_9_26456ad6:
+
+    # m 3esc "Doesn't it seem like the last one just flew by?"
+    m 3esc "¿No te parece que este último se ha pasado volando?"
+
+# game/script-anniversary.rpy:734
+translate spanish anni_9_18727631:
+
+    # m 1hksdlb "...It kind of makes me anxious to think about, ahaha!"
+    m 1hksdlb "Pensarlo me da un poco de ansiedad, ¡ja, ja, ja!"
+
+# game/script-anniversary.rpy:735
+translate spanish anni_9_3eb3168f:
+
+    # m 1eksdla "I mean...{w=0.2}{nw}"
+    m 1eksdla "O sea...{w=0.2}{nw}"
+
+# game/script-anniversary.rpy:736
+translate spanish anni_9_840b9a66:
+
+    # extend 2eksdlc "I don't want to let our time just slip through my fingers..."
+    extend 2eksdlc " no quiero que nuestro tiempo se me escape entre las manos..."
+
+# game/script-anniversary.rpy:737
+translate spanish anni_9_a720a5e3:
+
+    # m 2ekb "Maybe I just have to take more time to appreciate each moment."
+    m 2ekb "Tal vez solo tenga que dedicar más tiempo a apreciar cada momento."
+
+# game/script-anniversary.rpy:738
+translate spanish anni_9_0b0b3bd9:
+
+    # m 4eub "There have been a lot of studies about how mindfulness can shape our understanding of time, you know."
+    m 4eub "Ya sabes, hay un montón de estudios sobre cómo la atención plena puede moldear nuestra percepción del tiempo."
+
+# game/script-anniversary.rpy:739
+translate spanish anni_9_6f5ec687:
+
+    # m "So by changing the way I think about things, our time together might stretch out a little more."
+    m "Así que, si cambio mi forma de ver las cosas, nuestro tiempo juntos podría alargarse un poco más."
+
+# game/script-anniversary.rpy:740
+translate spanish anni_9_b06d8038:
+
+    # m 4hua "Just thinking about that makes me feel a bit better."
+    m 4hua "Solo de pensarlo ya me siento un poco mejor."
+
+# game/script-anniversary.rpy:741
+translate spanish anni_9_570d599e:
+
+    # m 1hubla "After all, I'm sure it's going to be another wonderful year if I get to spend it with you."
+    m 1hubla "Al fin y al cabo, estoy segura de que será otro año maravilloso si puedo pasarlo contigo."
+
+translate spanish strings:
+
+    # script-anniversary.rpy:716
+    old "9 Years"
+    new "9 años"
 

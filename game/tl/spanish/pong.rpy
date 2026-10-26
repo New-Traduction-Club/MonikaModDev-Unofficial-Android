@@ -1013,3 +1013,15 @@ translate spanish strings:
     old "Tap to Begin!"
     new "¡Pulsa para empezar!"
 
+# game/pong.rpy:560
+translate spanish _mas_pong_inst_dialogue_896ad903:
+
+    # m 3eua "Would you like to play again?{nw}"
+    m 3eua "¿Quieres echar otra?{nw}"
+
+# game/pong.rpy:562
+translate spanish _mas_pong_inst_dialogue_32d0248c:
+
+    # m "Would you like to play again?{fast}" nointeract
+    m "¿Quieres echar otra?{nw}" nointeract
+

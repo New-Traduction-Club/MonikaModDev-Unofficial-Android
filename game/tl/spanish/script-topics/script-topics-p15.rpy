@@ -777,7 +777,7 @@ translate spanish monika_yellowwp_d275bcdf:
 translate spanish monika_yellowwp_a2774ddf:
 
     # m 1eka "But I love you so much, [player]. Supporting you is better than anything else."
-    m 1eka "Pero te quiero muchísimo, [player]. Apoyarte es mejor que cualquier otra cosa."
+    m 1eka "Pero te amo muchísimo, [player]. Apoyarte es mejor que cualquier otra cosa."
 
 # game/script-topics.rpy:11249
 translate spanish monika_yellowwp_45d9e180:
@@ -1155,7 +1155,7 @@ translate spanish monika_beingevil_581b5fbc:
 translate spanish monika_beingevil_27228a2f:
 
     # m 1hub "I love you too, [player]! No matter what people say about you!"
-    m 1hub "¡Yo también te quiero, [player]! ¡No importa lo que la gente diga de ti!"
+    m 1hub "¡Yo también te amo, [player]! ¡No importa lo que la gente diga de ti!"
 
 # game/script-topics.rpy:11393
 translate spanish monika_beingevil_da2fbd09:
@@ -1383,7 +1383,7 @@ translate spanish monika_driving_118d7f28:
 translate spanish monika_driving_ed4a8513:
 
     # m 2eka "I love you, [player]. Please stay safe, okay?"
-    m 2eka "Te quiero, [player]. Por favor, cuídate mucho, ¿vale?"
+    m 2eka "Te amo, [player]. Por favor, cuídate mucho, ¿vale?"
 
 # game/script-topics.rpy:11479
 translate spanish monika_driving_80738a13:
@@ -1731,7 +1731,7 @@ translate spanish monika_driving_63c33ce3:
 translate spanish monika_driving_d46dcd41:
 
     # m 1hub "I love you~"
-    m 1hub "Te quiero..."
+    m 1hub "Te amo..."
 
 # game/script-topics.rpy:11581
 translate spanish monika_citizenship_f807ea88:

@@ -159,7 +159,7 @@ translate spanish mas_dockstat_generic_cancelled_still_going_ask_d2bae698:
 translate spanish mas_dockstat_generic_cancelled_still_going_ask_53acdc5c:
 
     # m 2hub "So hurry back! I love you, [player]!"
-    m 2hub "¡Así que vuelve pronto! ¡Te quiero, [player]!"
+    m 2hub "¡Así que vuelve pronto! ¡Te amo, [player]!"
 
 # game/zz_dockingstation.rpy:2561
 translate spanish mas_dockstat_generic_cancelled_still_going_ask_26233271:

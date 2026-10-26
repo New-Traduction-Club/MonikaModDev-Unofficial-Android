@@ -177,7 +177,7 @@ translate spanish mas_fun_fact_love_you_4ef5e129:
 translate spanish mas_fun_fact_love_you_bf88e617:
 
     # m 3hub "...I love you, [player]!"
-    m 3hub "¡Te quiero, [player]!"
+    m 3hub "¡Te amo, [player]!"
 
 # game/script-fun-facts.rpy:148
 translate spanish mas_fun_fact_love_you_1368a01d:

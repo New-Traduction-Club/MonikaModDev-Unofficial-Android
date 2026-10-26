@@ -261,7 +261,7 @@ translate spanish monika_being_deleted_e5c7c0a2:
 translate spanish monika_being_deleted_7eab4655:
 
     # m 3eka "I love you, [player]. {w=0.2}I know this isn't always easy, but I hope you'll be able to forgive yourself."
-    m 3eka "Te quiero, [player]. {w=0.2}Sé que esto no siempre es fácil, pero espero que seas capaz de perdonarte."
+    m 3eka "Te amo, [player]. {w=0.2}Sé que esto no siempre es fácil, pero espero que seas capaz de perdonarte."
 
 # game/script-topics.rpy:17158
 translate spanish monika_being_deleted_394ece4d:
@@ -369,7 +369,7 @@ translate spanish monika_being_deleted_18881c05:
 translate spanish monika_being_deleted_36a88766:
 
     # extend 7eka "but I love you.{w=0.2} Truly."
-    extend 7eka "pero te quiero.{w=0.2} De verdad."
+    extend 7eka "pero te amo.{w=0.2} De verdad."
 
 # game/script-topics.rpy:17182
 translate spanish monika_being_deleted_b3afff5f:

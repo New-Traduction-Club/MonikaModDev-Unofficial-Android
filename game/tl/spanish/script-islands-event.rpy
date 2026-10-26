@@ -297,7 +297,7 @@ translate spanish mas_island_cherry_blossom3_b1190179:
 translate spanish mas_island_cherry_blossom3_88e56367:
 
     # m "I love you, [player]~"
-    m "Te quiero, [player]."
+    m "Te amo, [player]."
 
 # game/script-islands-event.rpy:2400
 translate spanish mas_island_cherry_blossom4_b9761ba0:

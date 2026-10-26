@@ -261,7 +261,7 @@ translate spanish monika_player_appearance_2daf2add:
 translate spanish monika_player_appearance_aaeeffdc:
 
     # m 5ekbfa "I love you more than words could ever say."
-    m 5ekbfa "Te quiero más de lo que las palabras podrían expresar."
+    m 5ekbfa "Te amo más de lo que las palabras podrían expresar."
 
 # game/script-topics.rpy:13311
 translate spanish monika_player_appearance_e2f7a6a9:
@@ -1413,7 +1413,7 @@ translate spanish monika_whydoyouloveme_4127c28f:
 translate spanish monika_whydoyouloveme_11014794:
 
     # m 1ekbla "Why do I love you?"
-    m 1ekbla "¿Que por qué te quiero?"
+    m 1ekbla "¿Que por qué te amo?"
 
 # game/script-topics.rpy:13968
 translate spanish monika_whydoyouloveme_01cd703e:
@@ -1557,7 +1557,7 @@ translate spanish monika_whydoyouloveme_08c16827:
 translate spanish monika_whydoyouloveme_49e26985:
 
     # m 3eka "But whatever the reason might be,{w=0.2} I just want you to know that I love you no matter who you are, [player]."
-    m 3eka "Pero sea cual sea el motivo,{w=0.2} solo quiero que sepas que te quiero sin importar quién seas, [player]."
+    m 3eka "Pero sea cual sea el motivo,{w=0.2} solo quiero que sepas que te amo sin importar quién seas, [player]."
 
 # game/script-topics.rpy:14000
 translate spanish monika_whydoyouloveme_3b869cb4:

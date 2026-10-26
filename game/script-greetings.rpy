@@ -356,7 +356,7 @@ init 5 python:
     )
 
 label greeting_back:
-    $ tod = "day" if mas_globals.time_of_day_4state != "night" else "night"
+    $ tod = __("day") if mas_globals.time_of_day_4state != "night" else __("night")
     m 1eua "[player], you're back!"
     m 1eka "I was starting to miss you."
     m 1hua "Let's have another lovely [tod] together, alright?"
@@ -1220,7 +1220,7 @@ label i_greeting_monikaroom:
 
     # FALL THROUGH
 label monikaroom_greeting_choice:
-    $ _opendoor_text = "...Gently open the door."
+    $ _opendoor_text = __("...Gently open the door.")
 
     if mas_isMoniBroken():
         pause 4.0
@@ -1636,7 +1636,7 @@ label monikaroom_greeting_ear_recursionerror:
 
     python:
         for loop_count in range(random.randint(2, 3)):
-            renpy.say(m, "Great! Alright, let's see...")
+            renpy.say(m, __("Great! Alright, let's see..."))
 
     show noise
     play sound "sfx/s_kill_glitch1.ogg"
@@ -1951,7 +1951,7 @@ label monikaroom_greeting_post:
         m 2eua_static "Now, just let me grab a table and a chair.{w=0.5}.{w=0.5}.{nw}"
         $ is_sitting = True
         show monika 1eua at ls32 zorder MAS_MONIKA_Z
-        $ today = "today" if mas_globals.time_of_day_4state != "night" else "tonight"
+        $ today = __("today") if mas_globals.time_of_day_4state != "night" else __("tonight")
         m 1eua "What shall we do [today], [mas_get_player_nickname()]?"
 
     elif mas_isMoniUpset():
@@ -2897,17 +2897,17 @@ init 5 python:
 label greeting_upset:
     python:
         upset_greeting_quips_first = [
-            "Oh.{w=1} It's you, [player].",
-            "Oh.{w=1} You're back, [player].",
-            "Hello, [player].",
-            "Oh.{w=1} Hello, [player]."
+            __("Oh.{w=1} It's you, [player]."),
+            __("Oh.{w=1} You're back, [player]."),
+            __("Hello, [player]."),
+            __("Oh.{w=1} Hello, [player].")
         ]
 
         upset_greeting_quips_second = [
 #            "What do you want?",
 #            "What now?",
-            "Well...",
-            "Did you want something?",
+            __("Well..."),
+            __("Did you want something?"),
         ]
 
     $ upset_quip1 = renpy.random.choice(upset_greeting_quips_first)
@@ -2935,19 +2935,19 @@ init 5 python:
 label greeting_distressed:
     python:
         distressed_greeting_quips_first = [
-            "Oh...{w=1} Hi, [player].",
-            "Oh...{w=1} Hello, [player].",
-            "Hello, [player]...",
-            "Oh...{w=1} You're back, [player]."
+            __("Oh...{w=1} Hi, [player]."),
+            __("Oh...{w=1} Hello, [player]."),
+            __("Hello, [player]..."),
+            __("Oh...{w=1} You're back, [player].")
         ]
 
         distressed_greeting_quips_second = [
-            "I guess we can spend some time together now.",
-            "I wasn't sure when you'd visit again.",
-            "Hopefully we can enjoy our time together.",
-            "I wasn't expecting you.",
-            "I hope things start going better soon.",
-            "I thought you forgot about me..."
+            __("I guess we can spend some time together now."),
+            __("I wasn't sure when you'd visit again."),
+            __("Hopefully we can enjoy our time together."),
+            __("I wasn't expecting you."),
+            __("I hope things start going better soon."),
+            __("I thought you forgot about me...")
         ]
 
     $ distressed_quip1 = renpy.random.choice(distressed_greeting_quips_first)
@@ -3029,12 +3029,12 @@ label greeting_back_from_school:
 
         #Since this menu is too long, we'll use a gen-scrollable instead
         python:
-            final_item = ("I don't want to talk about it.", False, False, False, 20)
+            final_item = (__("I don't want to talk about it."), False, False, False, 20)
             menu_items = [
-                ("It was class related.", ".class_related", False, False),
-                ("It was caused by people.", ".by_people", False, False),
-                ("It was just a bad day.", ".bad_day", False, False),
-                ("I felt sick today.", ".sick", False, False),
+                (__("It was class related."), ".class_related", False, False),
+                (__("It was caused by people."), ".by_people", False, False),
+                (__("It was just a bad day."), ".bad_day", False, False),
+                (__("I felt sick today."), ".sick", False, False),
             ]
 
         show monika 2ekc at t21
@@ -3242,14 +3242,14 @@ label greeting_back_from_work:
 
         #Since this menu is too long, we'll use a gen-scrollable instead
         python:
-            final_item = ("I don't want to talk about it.", False, False, False, 20)
+            final_item = (__("I don't want to talk about it."), False, False, False, 20)
             menu_items = [
-                ("I got yelled at.", ".yelled_at", False, False),
-                ("I got passed over for someone else.", ".passed_over", False, False),
-                ("I had to work late.", ".work_late", False, False),
-                ("I didn't get much done today.", ".little_done", False, False),
-                ("Just another bad day.", ".bad_day", False, False),
-                ("I felt sick today.", ".sick", False, False),
+                (__("I got yelled at."), ".yelled_at", False, False),
+                (__("I got passed over for someone else."), ".passed_over", False, False),
+                (__("I had to work late."), ".work_late", False, False),
+                (__("I didn't get much done today."), ".little_done", False, False),
+                (__("Just another bad day."), ".bad_day", False, False),
+                (__("I felt sick today."), ".sick", False, False),
             ]
 
         show monika 2ekc at t21
@@ -4288,7 +4288,7 @@ label greeting_back_from_hangout:
             m 1eua "Welcome back, [player]."
             m 3hub "I hope you had a good time!"
 
-            $ anyway_lets = "Let's"
+            $ anyway_lets = __("Let's")
 
         else:
             m 3eub "Welcome back, [player]."
@@ -4322,7 +4322,7 @@ label greeting_back_from_hangout:
                     m 3eua "I hope you're able to spend time with them often."
                     $ persistent._mas_pm_has_friends = True
 
-            $ anyway_lets = "Anyway, let's"
+            $ anyway_lets = __("Anyway, let's")
 
         m 1eua "[anyway_lets] spend some more time together~"
 
@@ -4361,9 +4361,9 @@ init 11 python:
     MASPoem(
         poem_id="gre_1",
         category="generic",
-        prompt=_("Shadows in the Garden"),
+        prompt=__("Shadows in the Garden"),
         title="",
-        text=_("""\
+        text=__(("""\
  Alone I ask a solemn question,
  What could grow in an unlit garden?
 
@@ -4374,7 +4374,7 @@ init 11 python:
  Awaiting the one I hold dearest.
 
  Nearest to my heart...
-"""),
+""")),
     )
 
 label greeting_poem_shadows_in_garden:

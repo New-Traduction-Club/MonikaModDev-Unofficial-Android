@@ -91,3 +91,15 @@ translate spanish strings:
     old "I agree."
     new "Acepto."
 
+# game/splash.rpy:271
+translate spanish after_load_78a4e9dc_1:
+
+    # "The save file could not be loaded."
+    "El archivo de guardado no se puede cargar."
+
+# game/splash.rpy:272
+translate spanish after_load_5c5510ae_1:
+
+    # "Are you trying to cheat?"
+    "¿Estás intentando hacer trampas?"
+

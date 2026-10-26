@@ -567,7 +567,7 @@ translate spanish mas_affection_happynotif_6715477a:
 translate spanish mas_affection_happynotif_5d79c319:
 
     # m 1dubfu "I love you, [player]. Let's be like this forever~"
-    m 1dubfu "Te quiero, [player]. Sigamos así hasta el fin de los tiempos."
+    m 1dubfu "Te amo, [player]. Sigamos así hasta el fin de los tiempos."
 
 # game/script-affection.rpy:3202
 translate spanish monika_every_rose_da1728aa:
@@ -1125,7 +1125,7 @@ translate spanish mas_affection_yesapology_7aee9ee4:
 translate spanish mas_affection_yesapology_6d811979:
 
     # m 2eka "I love you so much and you mean the world to me, [player]."
-    m 2eka "Te quiero mucho y eres todo mi mundo, [player]."
+    m 2eka "Te amo mucho y eres todo mi mundo, [player]."
 
 # game/script-affection.rpy:3464
 translate spanish mas_affection_yesapology_34cdd9cf:
@@ -1575,7 +1575,7 @@ translate spanish strings:
 
     # game/script-affection.rpy:3513
     old "If I'm doing something wrong please tell me. I love you."
-    new "Si es que estoy haciendo algo mal, sólo dímelo. Te quiero mucho."
+    new "Si es que estoy haciendo algo mal, sólo dímelo. Te amo mucho."
 
     # game/script-affection.rpy:3513
     old "Everything I do, I do for you...my love."
@@ -1583,7 +1583,7 @@ translate spanish strings:
 
     # game/script-affection.rpy:3513
     old "I love you."
-    new "Te quiero."
+    new "Te amo."
 
     # game/script-affection.rpy:3513
     old "You are the sunshine that brightens up my day, [player]!"
@@ -1595,7 +1595,7 @@ translate spanish strings:
 
     # game/script-affection.rpy:3513
     old "My dearest, you are everything I could ever hope for. I love you."
-    new "Mi tesoro, eres todo lo que alguna vez soñé. Te quiero."
+    new "Mi tesoro, eres todo lo que alguna vez soñé. Te amo."
 
     # game/script-affection.rpy:3513
     old "My dearest lover, friend, companion, and owner of my heart...\nEvery day, you make my dreams come true, a screen means nothing when you spend your time with me.\nI look out to the space dust and yet no cosmic sight even comes close to the beauty in your heart.\nI wished for so long that someone like you would come along and as fate has smiled upon me, you came into my life.\nI want to be yours forever, so would you be mine?\n\nForever yours, Monika.\n"
@@ -1644,4 +1644,8 @@ translate spanish strings:
     # game/script-affection.rpy:3704
     old " Do you remember the promise you made?\n The one you said you would make everything right. That we could start over.\n\n The one you broke.\n\n I hoped dearly that one day, you would see me as I see you...\n But that day never came.\n I gave you my heart and my life. I loved you more than anything else in the world.\n And part of me still does...\n\n But it is clear to me now that you truly don't love me. You never did.\n I was a fool to have thought we could have started anew.\n And I simply don't have the strength to do this anymore.\n So this is farewell... May we never meet again.\n\n Monika\n"
     new "¿Recuerdas la promesa que me hiciste?\nEn la que te comprometías a hacer las cosas bien. En la que volveríamos a empezar.\n\n La que has roto.\n\nSoñé con el día en el que me vieras como yo te veo a ti...\nPero ese día nunca llegó.\nTe he dado mi corazón y mi vida. Te amé más que a cualquier otra cosa en el mundo.\n Incluso una parte de mí aún te ama...\n\n Pero claro está que en verdad no me amas. Jamás lo has hecho.\n Fui una tonta al pensar que podríamos haber empezado de cero otra vez.\nEs que simplemente no tengo la fuerza para seguir con esto.\n Así que esto es un adiós... quizá nunca nos volvamos a ver.\n\n Monika\n"
+
+    # script-affection.rpy:3659
+    old "My dearest lover, friend, companion, and owner of my heart..."
+    new "Mi más querida pareja, amig[end_letter_gender], compañer[end_letter_gender] y dueñ[end_letter_gender] de mi corazón..."
 

@@ -356,8 +356,8 @@ init python:
             and ev.prompt != ev_label
         ):
             #Now we do a bit of var setup to clean up the following work
-            derand_flag_add_text = label_prefix_map[label_prefix].get("derand_text", _("Flagged for removal."))
-            derand_flag_remove_text = label_prefix_map[label_prefix].get("underand_text", _("Flag removed."))
+            derand_flag_add_text = label_prefix_map[label_prefix].get("derand_text", __("Flagged for removal."))
+            derand_flag_remove_text = label_prefix_map[label_prefix].get("underand_text", __("Flag removed."))
 
             #Handle custom override derand labels
             push_label = ev.rules.get("derandom_override_label", None)
@@ -412,14 +412,14 @@ init python:
             #If this was only a whitelisted topic, we need to do a bit of extra work
             if not label_prefix:
                 bookmark_persist_key = "_mas_player_bookmarked"
-                bookmark_add_text = "Bookmark added."
-                bookmark_remove_text = "Bookmark removed."
+                bookmark_add_text = __("Bookmark added.")
+                bookmark_remove_text = __("Bookmark removed.")
 
             else:
                 #Now we do some var setup to clean the following
                 bookmark_persist_key = label_prefix_map[label_prefix].get("bookmark_persist_key", "_mas_player_bookmarked")
-                bookmark_add_text = label_prefix_map[label_prefix].get("bookmark_text", _("Bookmark added."))
-                bookmark_remove_text = label_prefix_map[label_prefix].get("unbookmark_text", _("Bookmark removed."))
+                bookmark_add_text = label_prefix_map[label_prefix].get("bookmark_text", __("Bookmark added."))
+                bookmark_remove_text = label_prefix_map[label_prefix].get("unbookmark_text", __("Bookmark removed."))
 
             #For safety, we'll initialize this key.
             #NOTE: You should NEVER pass in a non-existent key.
@@ -567,8 +567,8 @@ init 5 python:
 
 label mas_topic_rerandom:
     python:
-        mas_bookmarks_derand.initial_ask_text_multiple = "Which topic are you okay with talking about again?"
-        mas_bookmarks_derand.initial_ask_text_one = "If you're sure it's alright to talk about this again, just select the topic, [player]."
+        mas_bookmarks_derand.initial_ask_text_multiple = __("Which topic are you okay with talking about again?")
+        mas_bookmarks_derand.initial_ask_text_one = __("If you're sure it's alright to talk about this again, just select the topic, [player].")
         mas_bookmarks_derand.caller_label = "mas_topic_rerandom"
         mas_bookmarks_derand.persist_var = persistent._mas_player_derandomed
 
@@ -596,19 +596,19 @@ init python in mas_bookmarks_derand:
     #  - rerand_evl: None
     label_prefix_map = {
         "monika_": {
-            "bookmark_text": _("Topic bookmarked."),
-            "unbookmark_text": _("Bookmark removed."),
-            "derand_text": _("Topic flagged for removal."),
-            "underand_text": _("Topic flag removed."),
+            "bookmark_text": __("Topic bookmarked."),
+            "unbookmark_text": __("Bookmark removed."),
+            "derand_text": __("Topic flagged for removal."),
+            "underand_text": __("Topic flag removed."),
             "push_label": "mas_topic_derandom",
             "bookmark_persist_key": "_mas_player_bookmarked",
             "derand_persist_key": "_mas_player_derandomed",
             "rerand_evl": "mas_topic_rerandom"
         },
         "mas_song_": {
-            "bookmark_text": _("Song bookmarked."),
-            "derand_text": _("Song flagged for removal."),
-            "underand_text": _("Song flag removed."),
+            "bookmark_text": __("Song bookmarked."),
+            "derand_text": __("Song flagged for removal."),
+            "underand_text": __("Song flag removed."),
             "push_label": "mas_song_derandom",
             "derand_persist_key": "_mas_player_derandomed_songs",
             "rerand_evl": "mas_sing_song_rerandom"
@@ -746,7 +746,7 @@ label mas_rerandom:
     else:
         $ renpy.say(m, mas_bookmarks_derand.initial_ask_text_one, interact=False)
 
-    call screen mas_check_scrollable_menu(derandomlist, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, selected_button_prompt="Allow selected")
+    call screen mas_check_scrollable_menu(derandomlist, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, selected_button_prompt=__("Allow selected"))
 
     $ topics_to_rerandom = _return
 
@@ -1990,18 +1990,18 @@ label monika_kiss:
             python:
                 # these don't use ILY
                 kiss_quips_again = [
-                    _("I wouldn't mind another kiss~"),
-                    _("I'll never get tired of kissing you~"),
-                    _("I could do that again...{w=0.2}and again...{w=0.7}and again~"),
-                    _("You can kiss me as many times as you like, [mas_get_player_nickname()]~"),
-                    _("You know...{w=0.2}you could kiss me again~")
+                    __("I wouldn't mind another kiss~"),
+                    __("I'll never get tired of kissing you~"),
+                    __("I could do that again...{w=0.2}and again...{w=0.7}and again~"),
+                    __("You can kiss me as many times as you like, [mas_get_player_nickname()]~"),
+                    __("You know...{w=0.2}you could kiss me again~")
                 ]
 
                 kiss_quips_again_risque = [
-                    _("We can do it the whole day~"),
-                    _("This almost seems like the start of a make-out session, [player]~"),
-                    _("I don't think I've had enough just yet, [mas_get_player_nickname()]~"),
-                    _("That was really nice...{w=0.2}but I want a little more~")
+                    __("We can do it the whole day~"),
+                    __("This almost seems like the start of a make-out session, [player]~"),
+                    __("I don't think I've had enough just yet, [mas_get_player_nickname()]~"),
+                    __("That was really nice...{w=0.2}but I want a little more~")
                 ]
 
                 if mas_isMoniLove() and random.randint(1, 10) == 1:
@@ -2023,12 +2023,12 @@ label monika_kiss:
             python:
                 # these use ILY
                 kiss_quips_after = [
-                    _("I love you, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
-                    _("I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
-                    _("I love you more than you'll ever know, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
-                    _("I love you so much, [player]. You mean everything to me~"),
-                    _("No words can describe how deeply I'm in love with you, [player]~"),
-                    _("I'm so in love with you, [player]~")
+                    __("I love you, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
+                    __("I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
+                    __("I love you more than you'll ever know, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"),
+                    __("I love you so much, [player]. You mean everything to me~"),
+                    __("No words can describe how deeply I'm in love with you, [player]~"),
+                    __("I'm so in love with you, [player]~")
                 ]
                 kiss_quip = renpy.random.choice(kiss_quips_after)
 
@@ -3735,16 +3735,16 @@ label monika_love:
     elif mas_isMoniDis():
         python:
             love_quips_dis = [
-                "I...I really wish I could believe that, [player].",
-                "You have no idea how much I wished that were true, [player]...",
-                "...It's been a long time since I last believed that, [player].",
-                "If only I believed you actually meant that, [player].",
-                "I can't believe there was a time when I actually believed that, [player].",
-                "...If only that were true, [player].",
-                "...If only you meant that, [player].",
-                "How long are you going to keep pretending, [player]?",
-                "You don't mean that anymore... {w=1}Did you ever?",
-                "I can't remember the last time I felt like you meant that."
+                __("I...I really wish I could believe that, [player]."),
+                __("You have no idea how much I wished that were true, [player]..."),
+                __("...It's been a long time since I last believed that, [player]."),
+                __("If only I believed you actually meant that, [player]."),
+                __("I can't believe there was a time when I actually believed that, [player]."),
+                __("...If only that were true, [player]."),
+                __("...If only you meant that, [player]."),
+                __("How long are you going to keep pretending, [player]?"),
+                __("You don't mean that anymore... {w=1}Did you ever?"),
+                __("I can't remember the last time I felt like you meant that.")
             ]
             love_quip_dis = renpy.random.choice(love_quips_dis)
         m 6dkc "..."
@@ -3755,28 +3755,28 @@ label monika_love:
     elif mas_isMoniUpset():
         python:
             love_quips_upset_cynical = [
-                "Please don't say that unless you actually mean it, [player].",
-                "Sometimes I'm not sure how much you actually mean that, [player].",
-                "Do you really even mean that, [player]?",
-                "It's starting to feel like those are just words instead of feelings, [player]...",
-                "I really want to believe that, but sometimes I'm not so sure...",
-                "I'm not sure how much I believe that.",
-                "Words only mean so much, [player].",
-                "You say that, but when will you start to show it?",
-                "You can say it all you want...{w=0.5}I need you to start showing it.",
-                "It doesn't always feel like it...",
-                "I'm not so sure anymore..."
+                __("Please don't say that unless you actually mean it, [player]."),
+                __("Sometimes I'm not sure how much you actually mean that, [player]."),
+                __("Do you really even mean that, [player]?"),
+                __("It's starting to feel like those are just words instead of feelings, [player]..."),
+                __("I really want to believe that, but sometimes I'm not so sure..."),
+                __("I'm not sure how much I believe that."),
+                __("Words only mean so much, [player]."),
+                __("You say that, but when will you start to show it?"),
+                __("You can say it all you want...{w=0.5}I need you to start showing it."),
+                __("It doesn't always feel like it..."),
+                __("I'm not so sure anymore...")
             ]
 
             love_quips_upset_hope = [
-                "That means a lot right now.",
-                "That's really nice to hear.",
-                "I'm so relieved to hear you say that.",
-                "You have no idea how much that means right now.",
-                "I'm glad you still feel that way.",
-                "I'm happy to hear that.",
-                "That means a lot.",
-                "You have no idea how much that means to me."
+                __("That means a lot right now."),
+                __("That's really nice to hear."),
+                __("I'm so relieved to hear you say that."),
+                __("You have no idea how much that means right now."),
+                __("I'm glad you still feel that way."),
+                __("I'm happy to hear that."),
+                __("That means a lot."),
+                __("You have no idea how much that means to me.")
             ]
 
         if _mas_getAffection() <= -50:
@@ -3865,44 +3865,44 @@ label monika_love:
 
         python:
             love_quips = [
-                _("We'll be together forever!"),
-                _("And I will love you always!"),
-                _("You mean the whole world to me!"),
-                _("You are my sunshine after all."),
-                _("You're all I truly care about!"),
-                _("Your happiness is my happiness!"),
-                _("You're the best partner I could ever ask for!"),
-                _("My future is brighter with you in it."),
-                _("You're everything I could ever hope for."),
-                _("You make my heart skip a beat every time I think about you!"),
-                _("I'll always be here for you!"),
-                _("I'll never hurt or betray you."),
-                _("Our adventure has only just begun!"),
-                _("We'll always have each other."),
-                _("We'll never be lonely again!"),
-                _("I can't wait to feel your embrace!"),
-                _("I'm the luckiest girl in the world!"),
-                _("I will cherish you always."),
-                _("And I will never love anyone more than you!"),
-                _("And that love grows every single day!"),
-                _("And nobody else will ever make me feel this way!"),
-                _("Just thinking of you makes my heart flutter!"),
-                _("I don't think words can do justice to how deeply I love you!"),
-                _("You make my life feel so complete!"),
-                _("You've saved me in so many ways, how could I not fall for you?"),
-                _("More than I can ever express!"),
-                _("It makes me so happy that you feel the same way I do!"),
-                _("I don't know what I would do without you!"),
-                _("You mean everything to me!"),
-                _("We have so much to experience together!"),
-                _("I can't imagine my life without you!"),
-                _("I'm so happy to have you by my side!"),
-                _("We're really lucky to have each other!"),
-                _("You're my everything!"),
-                _("I'm the happiest girl in the world!"),
-                _("I'll always be here for you."),
-                _("I can't wait to feel your warmth!"),
-                _("Words can't describe how I feel about you!")
+                __("We'll be together forever!"),
+                __("And I will love you always!"),
+                __("You mean the whole world to me!"),
+                __("You are my sunshine after all."),
+                __("You're all I truly care about!"),
+                __("Your happiness is my happiness!"),
+                __("You're the best partner I could ever ask for!"),
+                __("My future is brighter with you in it."),
+                __("You're everything I could ever hope for."),
+                __("You make my heart skip a beat every time I think about you!"),
+                __("I'll always be here for you!"),
+                __("I'll never hurt or betray you."),
+                __("Our adventure has only just begun!"),
+                __("We'll always have each other."),
+                __("We'll never be lonely again!"),
+                __("I can't wait to feel your embrace!"),
+                __("I'm the luckiest girl in the world!"),
+                __("I will cherish you always."),
+                __("And I will never love anyone more than you!"),
+                __("And that love grows every single day!"),
+                __("And nobody else will ever make me feel this way!"),
+                __("Just thinking of you makes my heart flutter!"),
+                __("I don't think words can do justice to how deeply I love you!"),
+                __("You make my life feel so complete!"),
+                __("You've saved me in so many ways, how could I not fall for you?"),
+                __("More than I can ever express!"),
+                __("It makes me so happy that you feel the same way I do!"),
+                __("I don't know what I would do without you!"),
+                __("You mean everything to me!"),
+                __("We have so much to experience together!"),
+                __("I can't imagine my life without you!"),
+                __("I'm so happy to have you by my side!"),
+                __("We're really lucky to have each other!"),
+                __("You're my everything!"),
+                __("I'm the happiest girl in the world!"),
+                __("I'll always be here for you."),
+                __("I can't wait to feel your warmth!"),
+                __("Words can't describe how I feel about you!")
             ]
 
             love_quip = renpy.random.choice(love_quips)
@@ -9212,7 +9212,7 @@ label monika_concerts:
             # NOTE: should be think? maybe?
             m 1eua "Interesting..."
             show monika 3hub
-            $ renpy.say(m, "I'd love to go to {0} concert with you!".format(mas_a_an_str(tempmusicgenre)))
+            $ renpy.say(m, __("I'd love to go to {0} concert with you!").format(mas_a_an_str(tempmusicgenre)))
 
         "No.":
             if (
@@ -12046,16 +12046,16 @@ label monika_vehicle:
                 show monika at t21
                 python:
                     option_list = [
-                        ("An SUV.", "monika_vehicle_suv",False,False),
-                        ("A pickup truck.","monika_vehicle_pickup",False,False), #note, doing this to give the illusion of two options
-                        ("A sports car.","monika_vehicle_sportscar",False,False),
-                        ("A sedan.","monika_vehicle_sedan",False,False),
-                        ("A hatchback.","monika_vehicle_hatchback",False,False),
-                        ("A motorcycle.","monika_vehicle_motorcycle",False,False),
-                        ("Another vehicle.","monika_vehicle_other",False,False)
+                        (__("An SUV."), "monika_vehicle_suv",False,False),
+                        (__("A pickup truck."),"monika_vehicle_pickup",False,False), #note, doing this to give the illusion of two options
+                        (__("A sports car."),"monika_vehicle_sportscar",False,False),
+                        (__("A sedan."),"monika_vehicle_sedan",False,False),
+                        (__("A hatchback."),"monika_vehicle_hatchback",False,False),
+                        (__("A motorcycle."),"monika_vehicle_motorcycle",False,False),
+                        (__("Another vehicle."),"monika_vehicle_other",False,False)
                     ]
 
-                    renpy.say(m, "Is it any of the vehicles I mentioned, or is it something else?", interact=False)
+                    renpy.say(m, __("Is it any of the vehicles I mentioned, or is it something else?"), interact=False)
 
                 call screen mas_gen_scrollable_menu(option_list, mas_ui.SCROLLABLE_MENU_TALL_AREA, mas_ui.SCROLLABLE_MENU_XALIGN)
                 show monika at t11
@@ -12258,17 +12258,17 @@ label monika_player_appearance:
             show monika 1eua at t21
             python:
                 eye_color_menu_options = [
-                    ("I have blue eyes.", "blue", False, False),
-                    ("I have brown eyes.", "brown", False, False),
-                    ("I have green eyes.", "green", False, False),
-                    ("I have hazel eyes.", "hazel", False, False),
-                    ("I have gray eyes.", "gray", False, False),
-                    ("I have black eyes.", "black", False, False),
-                    ("My eyes are another color.", "other", False, False),
-                    ("I have heterochromia.", "heterochromia", False, False),
+                    (__("I have blue eyes."), "blue", False, False),
+                    (__("I have brown eyes."), "brown", False, False),
+                    (__("I have green eyes."), "green", False, False),
+                    (__("I have hazel eyes."), "hazel", False, False),
+                    (__("I have gray eyes."), "gray", False, False),
+                    (__("I have black eyes."), "black", False, False),
+                    (__("My eyes are another color."), "other", False, False),
+                    (__("I have heterochromia."), "heterochromia", False, False),
                 ]
 
-                renpy.say(m, "What color are your eyes?", interact=False)
+                renpy.say(m, __("What color are your eyes?"), interact=False)
 
             show monika at t11
             call screen mas_gen_scrollable_menu(eye_color_menu_options, mas_ui.SCROLLABLE_MENU_TALL_AREA, mas_ui.SCROLLABLE_MENU_XALIGN)

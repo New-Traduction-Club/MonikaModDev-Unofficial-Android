@@ -243,7 +243,7 @@ translate spanish monika_trick_yuri_47d5e777:
 translate spanish monika_trick_yuri_07874a21:
 
     # m 1eua "You love me and I love you and that's all that matters."
-    m 1eua "Tú me quieres, yo te quiero, y eso es lo único que importa."
+    m 1eua "Tú me amas, yo te amo, y eso es lo único que importa."
 
 # game/script-topics.rpy:14318
 translate spanish monika_trick_yuri_1dd4d45b:
@@ -1785,7 +1785,7 @@ translate spanish monika_robotbody_24109219:
 translate spanish monika_robotbody_4fd03b16:
 
     # m 5eubfb "I love you [player], and I'm willing to make any sacrifice to be with you forever."
-    m 5eubfb "Te quiero, [player], y estoy dispuesta a hacer cualquier sacrificio para estar contigo para siempre."
+    m 5eubfb "Te amo, [player], y estoy dispuesta a hacer cualquier sacrificio para estar contigo para siempre."
 
 # game/script-topics.rpy:15009
 translate spanish monika_robotbody_82e31a00:
@@ -1887,7 +1887,7 @@ translate spanish monika_relationship_comfort_a9c81564:
 translate spanish monika_relationship_comfort_a49cc504:
 
     # m 1hubsb "Know that I love you for more than just the excitement!"
-    m 1hubsb "¡Que sepas que te quiero por mucho más que por la emoción!"
+    m 1hubsb "¡Que sepas que te amo por mucho más que por la emoción!"
 
 # game/script-topics.rpy:15047
 translate spanish monika_relationship_comfort_9ef13c9b:

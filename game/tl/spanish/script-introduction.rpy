@@ -207,7 +207,7 @@ translate spanish introduction_cd55ca00:
 translate spanish introduction_51a95491:
 
     # m 2tkc "I love you, [player], but you can be really mean..."
-    m 2tkc "Te quiero, [player], pero a veces puedes ser muy cruel..."
+    m 2tkc "Te amo, [player], pero a veces puedes ser muy cruel..."
 
 # game/script-introduction.rpy:51
 translate spanish introduction_50020eb6:
@@ -519,7 +519,7 @@ translate spanish introduction_05f8c059:
 translate spanish introduction_4dad65eb:
 
     # m 1hub "God, I love you so much!"
-    m 1hub "Dios, ¡cuánto te quiero!"
+    m 1hub "Dios, ¡cuánto te amo!"
 
 # game/script-introduction.rpy:165
 translate spanish introduction_9943f3bd:
@@ -1077,11 +1077,11 @@ translate spanish strings:
 
     # game/script-introduction.rpy:172
     old "Yes, I love you."
-    new "Sí, te quiero."
+    new "Sí, te amo."
 
     # game/script-introduction.rpy:224
     old "Of course I love you."
-    new "Claro que te quiero."
+    new "Claro que te amo."
 
     # game/script-introduction.rpy:307
     old "bye!"

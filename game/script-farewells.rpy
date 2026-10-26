@@ -206,8 +206,8 @@ label mas_farewell_start:
 
             #Setup the last options
             final_items = [
-                (_("Goodbye."), -1, False, False, 20),
-                (_("Nevermind."), False, False, False, 0)
+                (__("Goodbye."), -1, False, False, 20),
+                (__("Nevermind."), False, False, False, 0)
             ]
 
             #To manage this, we'll go by aff/anni first, as by now, the user should likely have a pref (also it's like an aff thing)
@@ -854,10 +854,10 @@ init 5 python:
 label bye_illseeyou:
     # TODO: update this when TC-O comes out
     if mas_globals.time_of_day_3state == "evening":
-        $ dlg_var = "tomorrow"
+        $ dlg_var = __("tomorrow")
 
     else:
-        $ dlg_var = "later"
+        $ dlg_var = __("later")
 
     m 1eua "I'll see you [dlg_var], [player]."
     m 3kua "Don't forget about me, okay?~"
@@ -1471,6 +1471,7 @@ label bye_prompt_eat:
                 $ persistent._mas_greeting_type_timeout = datetime.timedelta(minutes=30)
 
         if food_type in ["lunch", "dinner"]:
+            $ food_type = __(food_type)
             m 1eua "Alright [player]."
             m 1duu "I'd love to go out for [food_type] with you when I cross over,{w=0.1} {nw}"
             extend 1eub "let's hope we can do that someday soon!"

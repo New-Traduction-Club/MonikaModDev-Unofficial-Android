@@ -578,3 +578,15 @@ translate spanish strings:
     old "Search for a conversation..."
     new "Buscar un tema..."
 
+    # screens.rpy:3009
+    old "Done"
+    new "Listo"
+
+    # screens.rpy:920
+    old "No need to go back there.\nYou'll just end up back here so don't worry."
+    new "No hace falta irte al menú.\nSolo volverás aquí, no te preocupes"
+
+    # screens.rpy:1294
+    old "There's no point in saving anymore.\nDon't worry, I'm not going anywhere."
+    new "¿Guardar partida? ¿Qué somos?\n¿Parguelas?"
+

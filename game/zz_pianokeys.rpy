@@ -1964,7 +1964,7 @@ init 800 python in mas_piano_keys:
             if (pnml.name not in STOCK_SONG_NAMES or pnml.wins > 0)
         ]
 
-        last_item = ("Nevermind", False, False, False, 10)
+        last_item = (__("Nevermind"), False, False, False, 10)
 
         return song_list, last_item
 
@@ -2376,7 +2376,7 @@ init 810 python:
 
             # the 4 config buttons we have
             self._button_done = MASButtonDisplayable.create_stb(
-                _("Done"),
+                __("Done"),
                 True,
                 cbutton_x_start,
                 cbutton_y_start,
@@ -2386,7 +2386,7 @@ init 810 python:
                 activate_sound=gui.activate_sound
             )
             self._button_cancel = MASButtonDisplayable.create_stb(
-                _("Cancel"),
+                __("Cancel"),
                 True,
                 cbutton_x_start + self.BUTTON_WIDTH + self.BUTTON_SPACING,
                 cbutton_y_start,
@@ -2396,7 +2396,7 @@ init 810 python:
                 activate_sound=gui.activate_sound
             )
             self._button_reset = MASButtonDisplayable.create_stb(
-                _("Reset"),
+                __("Reset"),
                 True,
                 cbutton_x_start + ((self.BUTTON_WIDTH + self.BUTTON_SPACING) * 2),
                 cbutton_y_start,
@@ -2406,7 +2406,7 @@ init 810 python:
                 activate_sound=gui.activate_sound
             )
             self._button_resetall = MASButtonDisplayable.create_stb(
-                _("Reset All"),
+                __("Reset All"),
                 True,
                 cbutton_x_start + ((self.BUTTON_WIDTH + self.BUTTON_SPACING) * 2),
                 cbutton_y_start,
@@ -2418,7 +2418,7 @@ init 810 python:
 
             # the config button
             self._button_config = MASButtonDisplayable.create_stb(
-                _("Config"),
+                __("Config"),
                 True,
                 pbutton_x_start,
                 pbutton_y_start,
@@ -2428,7 +2428,7 @@ init 810 python:
                 activate_sound=gui.activate_sound
             )
             self._button_quit = MASButtonDisplayable.create_stb(
-                _("Quit"),
+                __("Quit"),
                 False,
                 pbutton_x_start + self.BUTTON_WIDTH + self.BUTTON_SPACING,
                 pbutton_y_start,
@@ -2450,14 +2450,14 @@ init 810 python:
 
             # config help text
             self._config_wait_help = Text(
-                _("Click on a pink area to change the keymap for that piano key"),
+                __("Click on a pink area to change the keymap for that piano key"),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#fff",
                 outlines=[]
             )
             self._config_change_help = Text(
-                _("Press the key you'd like to set this piano key to"),
+                __("Press the key you'd like to set this piano key to"),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#fff",

@@ -710,7 +710,7 @@ translate spanish monika_family_e6ebddeb:
 translate spanish monika_family_a01d18b9:
 
     # m 1eka "Just don't forget that I really love you, okay?"
-    m 1eka "Solo no olvides que te quiero de verdad, ¿vale?"
+    m 1eka "Solo no olvides que te amo de verdad, ¿vale?"
 
 # game/script-topics.rpy:3411
 translate spanish monika_family_ea8c101d:
@@ -1238,7 +1238,7 @@ translate spanish monika_ks_hanako_72b1c92a:
 translate spanish monika_ks_hanako_a850a1cb:
 
     # m 1tsbsa "That's just one more reason I love you."
-    m 1tsbsa "Esa es solo una razón más por la que te quiero."
+    m 1tsbsa "Esa es solo una razón más por la que te amo."
 
 # game/script-topics.rpy:3658
 translate spanish monika_ks_shizune_f8bc2b39:
@@ -1292,7 +1292,7 @@ translate spanish monika_ks_shizune_e267c7d8:
 translate spanish monika_ks_shizune_1dd33f42:
 
     # m 1hua "That's just how much I love you~"
-    m 1hua "¡Es que te quiero muchísimo!"
+    m 1hua "¡Es que te amo muchísimo!"
 
 # game/script-topics.rpy:3670
 translate spanish monika_ks_emi_fa0d1d09:
@@ -1964,7 +1964,7 @@ translate spanish monika_love_b7a265c5:
 translate spanish monika_love_938c6120:
 
     # m 2eka "I...{w=0.5}I love you too."
-    m 2eka "Yo... {w=0.5}yo también te quiero."
+    m 2eka "Yo... {w=0.5}yo también te amo."
 
 # game/script-topics.rpy:3992
 translate spanish monika_love_6d835534:
@@ -1994,4 +1994,4 @@ translate spanish monika_love_192192dc:
 translate spanish monika_love_f77edf00:
 
     # m 3hubfa "Oh! And I love you too~"
-    m 3hubfa "¡Ah! Y yo también te quiero."
+    m 3hubfa "¡Ah! Y yo también te amo."

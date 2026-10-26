@@ -33,7 +33,7 @@ init -1 python in mas_stories:
     TYPE_SCARY = "scary"
 
     # pane constant
-    STORY_RETURN = "Nevermind"
+    STORY_RETURN = __("Nevermind")
     story_database = dict()
 
     #Time between story unlocks of the same type (in hours). Changes over sessions, but also changes after the next story unlocks
@@ -188,16 +188,16 @@ label monika_short_stories_menu:
         stories_menu_items.sort()
 
         #Add new story
-        stories_menu_items.insert(0, ("A new story", mas_stories.UNLOCK_NEW, True, False))
+        stories_menu_items.insert(0, (__("A new story"), mas_stories.UNLOCK_NEW, True, False))
 
         # build switch button
         #TODO: Build a generalized switch for more than just two items
         if story_type == mas_stories.TYPE_SCARY:
-            switch_str = "short"
+            switch_str = __("short")
         else:
-            switch_str = "scary"
+            switch_str = __("scary")
 
-        switch_item = ("I'd like to hear a " + switch_str + " story", "monika_short_stories_menu", False, False, 20)
+        switch_item = (__("I'd like to hear a ") + switch_str + __(" story"), "monika_short_stories_menu", False, False, 20)
 
         final_item = (mas_stories.STORY_RETURN, False, False, False, 0)
 
@@ -205,11 +205,11 @@ label monika_short_stories_menu:
     show monika 1eua at t21
 
     if story_type == mas_stories.TYPE_SCARY:
-        $ which = "Witch"
+        $ which = __("Witch")
     else:
-        $ which = "Which"
+        $ which = __("Which")
 
-    $ renpy.say(m, which + " story would you like to hear?" + end, interact=False)
+    $ renpy.say(m, which + __(" story would you like to hear?") + end, interact=False)
 
     # call scrollable pane
     call screen mas_gen_scrollable_menu(stories_menu_items, mas_ui.SCROLLABLE_MENU_TXT_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, switch_item, final_item)
@@ -236,7 +236,7 @@ label monika_short_stories_menu:
             if story_to_push == mas_stories.UNLOCK_NEW:
                 if not can_unlock_story:
                     show monika at t11
-                    $ _story_type = story_type if story_type != 'normal' else 'short'
+                    $ _story_type = __(story_type) if story_type != 'normal' else __("short")
                     m 1ekc "Sorry [player]...I can't really think of a new [_story_type] story right now..."
                     m 1eka "If you give me some time I might be able to think of one soon...but in the meantime, I can always tell you an old one again~"
                     show monika 1eua
@@ -261,11 +261,11 @@ label monika_short_stories_menu:
 label mas_story_begin:
     python:
         story_begin_quips = [
-            _("Alright, let's start the story."),
-            _("Ready to hear the story?"),
-            _("Ready for story time?"),
-            _("Let's begin~"),
-            _("Are you ready?")
+            __("Alright, let's start the story."),
+            __("Ready to hear the story?"),
+            __("Ready for story time?"),
+            __("Let's begin~"),
+            __("Are you ready?")
         ]
         story_begin_quip=renpy.random.choice(story_begin_quips)
     $ mas_gainAffection(modifier=0.2)
@@ -305,11 +305,11 @@ label mas_scary_story_setup:
 
     python:
         story_begin_quips = [
-            _("Alright let's start the story."),
-            _("Ready to hear the story?"),
-            _("Ready for story time?"),
-            _("Let's begin."),
-            _("Are you ready?")
+            __("Alright let's start the story."),
+            __("Ready to hear the story?"),
+            __("Ready for story time?"),
+            __("Let's begin."),
+            __("Are you ready?")
         ]
         story_begin_quip=renpy.random.choice(story_begin_quips)
 
@@ -321,11 +321,11 @@ label mas_scary_story_cleanup:
 
     python:
         story_end_quips = [
-            _("Scared, [player]?"),
-            _("Did I scare you, [player]?"),
-            _("How was it?"),
-            _("Well?"),
-            _("So...{w=0.5}did I scare you?")
+            __("Scared, [player]?"),
+            __("Did I scare you, [player]?"),
+            __("How was it?"),
+            __("Well?"),
+            __("So...{w=0.5}did I scare you?")
         ]
         story_end_quip=renpy.substitute(renpy.random.choice(story_end_quips))
 

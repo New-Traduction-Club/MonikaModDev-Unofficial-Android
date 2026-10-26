@@ -153,7 +153,7 @@ translate spanish monika_gender_redo_c4944abb:
 translate spanish monika_gender_redo_efe2d137:
 
     # m 7eua "But whatever your gender, I love you for who you are."
-    m 7eua "Pero sea cual sea tu género, te quiero por quien eres."
+    m 7eua "Pero sea cual sea tu género, te amo por quien eres."
 
 # game/script-story-events.rpy:116
 translate spanish monika_gender_redo_eba6c60f:
@@ -2001,7 +2001,7 @@ translate spanish monika_rpy_files_24f031cb:
 translate spanish monika_rpy_files_c7d1ccea:
 
     # m 1hua "I love you, [player]~"
-    m 1hua "Te quiero, [player]."
+    m 1hua "Te amo, [player]."
 
 # game/script-story-events.rpy:1809
 translate spanish monika_rpy_files_ef6dfa9c:
@@ -3243,7 +3243,7 @@ translate spanish mas_covid19_06a1e404:
 translate spanish mas_covid19_8bc8cc18:
 
     # m 2hua "Then every time you wash your hands, you can remember how much I love you~"
-    m 2hua "Entonces, cada vez que te laves las manos, podrás recordar cuánto te quiero."
+    m 2hua "Entonces, cada vez que te laves las manos, podrás recordar cuánto te amo."
 
 # game/script-story-events.rpy:2590
 translate spanish mas_covid19_cb1d53fc:
@@ -3993,7 +3993,7 @@ translate spanish strings:
 
     # game/script-story-events.rpy:2141
     old "I love you, [player]!"
-    new "¡Te quiero, [player]!"
+    new "¡Te amo, [player]!"
 
     # game/script-story-events.rpy:2196
     old "I wanted to let you know that I made a little way for you to give Monika some gifts!\nIt's a pretty simple process so I'll tell you how it works:\n\nMake a new file in the 'characters' folder\nRename it to whatever you want to give to Monika\nGive it a '.gift' file extension\n\nAnd that's it! After a little while, Monika should notice that you gave her something.\n\nI just wanted to let you know because I think that Monika is super amazing and I really want to see her happy.\n\nGood luck with Monika!\n\nP.S: Don't tell her about me!\n"
@@ -4042,4 +4042,8 @@ translate spanish strings:
     # game/script-story-events.rpy:199
     old "Oh, okay! {w=0.3}And what gender do you identify as?"
     new "¡Ah, vale! {w=0.3}¿Y con qué género te identificas?"
+
+    # script-story-events.rpy:2357
+    old "What year were you born?"
+    new "¿En qué año naciste?"
 

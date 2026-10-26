@@ -917,7 +917,7 @@ screen navigation():
             textbutton _("End Replay") action EndReplay(confirm=True)
 
         elif not main_menu:
-            textbutton _("Main Menu") action NullAction(), Show(screen="dialog", message="No need to go back there.\nYou'll just end up back here so don't worry.", ok_action=Hide("dialog"))
+            textbutton _("Main Menu") action NullAction(), Show(screen="dialog", message=__("No need to go back there.\nYou'll just end up back here so don't worry."), ok_action=Hide("dialog"))
 
         textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
@@ -1291,7 +1291,7 @@ screen load():
 init python:
     def FileActionMod(name, page=None, **kwargs):
         if renpy.current_screen().screen_name[0] == "save":
-            return Show(screen="dialog", message="There's no point in saving anymore.\nDon't worry, I'm not going anywhere.", ok_action=Hide("dialog"))
+            return Show(screen="dialog", message=__("There's no point in saving anymore.\nDon't worry, I'm not going anywhere."), ok_action=Hide("dialog"))
 
 
 screen file_slots(title):
@@ -1868,7 +1868,7 @@ screen notif_settings():
             #Dynamically populate this
             for item in persistent._mas_windowreacts_notif_filters:
                 if item != "Window Reactions" or persistent._mas_windowreacts_windowreacts_enabled:
-                    textbutton _(item):
+                    textbutton __(item):
                         action ToggleDict(persistent._mas_windowreacts_notif_filters, item)
                         selected persistent._mas_windowreacts_notif_filters.get(item)
                         hovered tooltip.Action(layout.MAS_TT_G_NOTIF)
@@ -2196,7 +2196,7 @@ screen name_input(message, ok_action):
             yalign .5
             spacing 30
 
-            label _(message):
+            label __(message):
                 style "confirm_prompt"
                 xalign 0.5
 
@@ -2223,7 +2223,7 @@ screen dialog(message, ok_action):
             yalign .5
             spacing 30
 
-            label _(message):
+            label __(message):
                 style "confirm_prompt"
                 xalign 0.5
 
@@ -2248,7 +2248,7 @@ screen quit_dialog(message, ok_action):
             yalign .5
             spacing 30
 
-            label _(message):
+            label __(message):
                 style "confirm_prompt"
                 xalign 0.5
 
@@ -2284,7 +2284,7 @@ screen confirm(message, yes_action, no_action):
                 add "confirm_glitch" xalign 0.5
 
             else:
-                label _(message):
+                label __(message):
                     style "confirm_prompt"
                     xalign 0.5
 
@@ -2429,7 +2429,7 @@ screen updater:
                 elif u.state == u.FINISHING:
                     text _("Finishing up.")
                 elif u.state == u.DONE:
-                    text _(_TXT_FINISHED_UPDATING)
+                    text __(_TXT_FINISHED_UPDATING)
                 elif u.state == u.DONE_NO_RESTART:
                     text _("The updates have been installed.")
                 elif u.state == u.CANCELLED:
@@ -2902,9 +2902,9 @@ screen scrollable_menu(items, display_area, scroll_align, nvm_text, remove=None)
 
             if remove:
                 # in case we want the option to hide this menu
-                textbutton _(remove[0]) action Return(remove[1])
+                textbutton __(remove[0]) action Return(remove[1])
 
-            textbutton _(nvm_text) action Return(False)
+            textbutton __(nvm_text) action Return(False)
 
         bar:
             style "classroom_vscrollbar"
@@ -2969,7 +2969,7 @@ screen mas_gen_scrollable_menu(items, display_area, scroll_align, *args):
                 if final_items[4] > 0:
                     null height final_items[4]
 
-                textbutton _(final_items[0]):
+                textbutton __(final_items[0]):
                     if final_items[2] and final_items[3]:
                         style "scrollable_menu_crazy_button"
 

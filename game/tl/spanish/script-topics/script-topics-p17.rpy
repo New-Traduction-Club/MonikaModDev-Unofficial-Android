@@ -261,7 +261,7 @@ translate spanish monika_justice_eadfcc52:
 translate spanish monika_justice_d5d20656:
 
     # m 1hubfb "I love you, [player]~"
-    m 1hubfb "Te quiero, [player]."
+    m 1hubfb "Te amo, [player]."
 
 # game/script-topics.rpy:12455
 translate spanish monika_justice_5efef06d:
@@ -1371,7 +1371,7 @@ translate spanish monika_vehicle_motorcycle_d48e5f82:
 translate spanish monika_vehicle_motorcycle_32345d29:
 
     # m 1hkbfa "That's how much I love you~"
-    m 1hkbfa "Así de mucho te quiero."
+    m 1hkbfa "Así de mucho te amo."
 
 # game/script-topics.rpy:12852
 translate spanish monika_vehicle_other_39a1a836:

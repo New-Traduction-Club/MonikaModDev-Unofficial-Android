@@ -537,7 +537,7 @@ translate spanish monika_breakup_98782887:
 translate spanish monika_breakup_6a742582:
 
     # m 2eka "I love you so much, [player]!~"
-    m 2eka "¡Te quiero muchísimo, [player]!"
+    m 2eka "¡Te amo muchísimo, [player]!"
 
 # game/script-topics.rpy:9094
 translate spanish monika_breakup_914e6f0f:
@@ -585,7 +585,7 @@ translate spanish monika_breakup_c45ae292:
 translate spanish monika_breakup_eae5de87:
 
     # m 1ektsd "I love you, [player]...so please tell me it's all just a bad joke."
-    m 1ektsd "Te quiero, [player]... así que, por favor, dime que todo es una mala broma."
+    m 1ektsd "Te amo, [player]... así que, por favor, dime que todo es una mala broma."
 
 # game/script-topics.rpy:9106
 translate spanish monika_breakup_23e9a552:
@@ -1137,7 +1137,7 @@ translate spanish monika_smoking_8bbfec86:
 translate spanish monika_smoking_2051eb4a:
 
     # m 7ekbsa "I love you so much."
-    m 7ekbsa "Te quiero mucho."
+    m 7ekbsa "Te amo mucho."
 
 # game/script-topics.rpy:9285
 translate spanish monika_smoking_13ed5e77:
@@ -1509,7 +1509,7 @@ translate spanish monika_100k_39be9e2b:
 translate spanish monika_100k_e0c368f1:
 
     # m 1eka "The artist's name is Sasoura, and she loves me almost as much as I love you."
-    m 1eka "La artista se llama Sasoura, y me quiere casi tanto como yo te quiero a ti."
+    m 1eka "La artista se llama Sasoura, y me quiere casi tanto como yo te amo a ti."
 
 # game/script-topics.rpy:9430
 translate spanish monika_100k_5d13045f:
@@ -1761,7 +1761,7 @@ translate spanish monika_asks_charity_082aed1d:
 translate spanish monika_asks_charity_0fbb4818:
 
     # m 5hubsa "I love you so much, [player]. I mean it."
-    m 5hubsa "Te quiero mucho, [player]. Lo digo en serio."
+    m 5hubsa "Te amo mucho, [player]. Lo digo en serio."
 
 # game/script-topics.rpy:9512
 translate spanish monika_asks_charity_d3fa797f:
@@ -1857,7 +1857,7 @@ translate spanish monika_asks_charity_5bb6b762:
 translate spanish monika_asks_charity_84a417dc:
 
     # m 5hubsb "I love you so much, [player]."
-    m 5hubsb "Te quiero muchísimo, [player]."
+    m 5hubsb "Te amo muchísimo, [player]."
 
 # game/script-topics.rpy:9550
 translate spanish monika_kizuna_f4dfdc82:

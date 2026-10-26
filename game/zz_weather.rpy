@@ -192,7 +192,7 @@ init -99 python in mas_weather:
 
     # weather constants
     # NOTE: just reference MOOD's numbers
-    WEAT_RETURN = "Nevermind"
+    WEAT_RETURN = __("Nevermind")
 
     #Stores the time at which weather should change
     weather_change_time = None
@@ -930,7 +930,7 @@ init -1 python:
     # default weather (day + night)
     mas_weather_def = MASFilterableWeather(
         "def",
-        "Clear",
+        __("Clear"),
         "def_weather_fb",
         "def_weather",
         precip_type=store.mas_weather.PRECIP_TYPE_DEF,
@@ -940,7 +940,7 @@ init -1 python:
     # rain weather
     mas_weather_rain = MASFilterableWeather(
         "rain",
-        "Rain",
+        __("Rain"),
         "rain_weather_fb",
         "rain_weather",
         precip_type=store.mas_weather.PRECIP_TYPE_RAIN,
@@ -952,7 +952,7 @@ init -1 python:
     # snow weather
     mas_weather_snow = MASFilterableWeather(
         "snow",
-        "Snow",
+        __("Snow"),
         "snow_weather_fb",
         "snow_weather",
         precip_type=store.mas_weather.PRECIP_TYPE_SNOW,
@@ -964,7 +964,7 @@ init -1 python:
     # thunder/lightning
     mas_weather_thunder = MASFilterableWeather(
         "thunder",
-        "Thunder/Lightning",
+        __("Thunder/Lightning"),
         "rain_weather_fb",
         "rain_weather",
         precip_type=store.mas_weather.PRECIP_TYPE_RAIN,
@@ -976,7 +976,7 @@ init -1 python:
     #overcast
     mas_weather_overcast = MASFilterableWeather(
         "overcast",
-        "Overcast",
+        __("Overcast"),
         "overcast_weather_fb",
         "overcast_weather",
         precip_type=store.mas_weather.PRECIP_TYPE_OVERCAST,
@@ -1128,7 +1128,7 @@ init 5 python:
 label monika_change_weather:
     show monika 1eua at t21
 
-    $ renpy.say(m, "What kind of weather would you like?", interact=False)
+    $ renpy.say(m, __("What kind of weather would you like?"), interact=False)
 
     python:
         # build menu list
@@ -1153,7 +1153,7 @@ label monika_change_weather:
         weathers.extend(other_weathers)
 
         #Add the auto option
-        weathers.append(("Progressive", "auto", False, False))
+        weathers.append((__("Progressive"), "auto", False, False))
 
         # now add final quit item
         final_item = (mas_weather.WEAT_RETURN, False, False, False, 20)

@@ -513,3 +513,8 @@ translate spanish strings:
     # game/zz_consumables.rpy:1710
     old "some more"
     new "algo más"
+
+    # zz_consumables.rpy:1519
+    old "Hey, [player]..."
+    new "Oye, [player]..."
+

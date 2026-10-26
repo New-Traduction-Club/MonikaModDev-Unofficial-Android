@@ -11,7 +11,10 @@ python early:
     import datetime
     import random
     import traceback
+    import gc
     from collections import defaultdict # this will be availalable anywhere now
+
+    gc.set_threshold(50000, 10, 10)
 
     # define the zorders
     MAS_MONIKA_Z = 10
@@ -1590,9 +1593,6 @@ python early:
                 True if this event passes the filter, False if not
             """
 
-            # collections allow us to match all
-            from collections import Counter
-
             # NOTE: this is done in an order to minimize branching.
 
             # now lets filter
@@ -1765,40 +1765,20 @@ python early:
             #   OR: [] if the given events is empty or all unlock_date fields
             #   were None and include_none is False
 
-            # sanity check
-            if not events or len(events) == 0:
-                return []
+            with_date = []
+            none_labels = []
 
-            # dict check
-            ev_list = events.values() # python 2
-
-            # none check
-            if include_none:
-                none_labels = list()
-
-            # insertion sort
-            eventlabels = list()
-            for ev in ev_list:
-
+            for ev in events.itervalues():
                 if ev.unlock_date is not None:
-                    index = 0
-
-                    while (index < len(eventlabels)
-                            and ev.unlock_date < events[
-                                eventlabels[index]
-                            ].unlock_date):
-                        index += 1
-                    eventlabels.insert(index, ev.eventlabel)
-
-                elif include_none: # eventlabel was none
+                    with_date.append(ev)
+                elif include_none:
                     none_labels.append(ev.eventlabel)
+
+            with_date.sort(key=lambda x: x.unlock_date, reverse=True)
+            eventlabels = [ev.eventlabel for ev in with_date]
 
             if include_none:
                 eventlabels.extend(none_labels)
-
-            # final sanity check
-            if len(eventlabels) == 0:
-                return []
 
             return eventlabels
 
@@ -8224,17 +8204,17 @@ define startup_check = False
 # define temp zoom to default level in case of crash
 define mas_temp_zoom_level = store.mas_sprites.default_zoom_level
 
-define his = "his"
-define he = "he"
-define hes = "he's"
-define heis = "he is"
-define bf = "boyfriend"
-define man = "man"
-define boy = "boy"
-define guy = "guy"
-define him = "him"
-define himself = "himself"
-define hero = "hero"
+define his = __("his")
+define he = __("he")
+define hes = __("he's")
+define heis = __("he is")
+define bf = __("boyfriend")
+define man = __("man")
+define boy = __("boy")
+define guy = __("guy")
+define him = __("him")
+define himself = __("himself")
+define hero = __("hero")
 
 # Input characters filters
 define numbers_only = "0123456789"

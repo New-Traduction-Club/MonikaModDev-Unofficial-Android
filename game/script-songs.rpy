@@ -228,7 +228,7 @@ label monika_sing_song_pool:
     # do we have both long and short songs
     $ have_both_types = False
     # song type string to use in the switch dlg
-    $ switch_str = "full"
+    $ switch_str = __("full")
     # so we can {fast} the renpy.say line after the first time
     $ end = ""
 
@@ -246,18 +246,18 @@ label monika_sing_song_pool_menu:
         else:
             space = 20
 
-        ret_back = ("Nevermind", False, False, False, space)
-        switch = ("I'd like to hear a [switch_str] song instead", "monika_sing_song_pool_menu", False, False, 20)
+        ret_back = (__("Nevermind"), False, False, False, space)
+        switch = (renpy.substitute(__("I'd like to hear a [switch_str] song instead")), "monika_sing_song_pool_menu", False, False, 20)
 
         unlocked_song_list = mas_songs.getUnlockedSongs(length=song_length)
         unlocked_song_list.sort()
 
         if mas_isO31():
-            which = "Witch"
+            which = __("Witch")
         else:
-            which = "Which"
+            which = __("Which")
 
-        renpy.say(m, "[which] song would you like me to sing?[end]", interact=False)
+        renpy.say(m, renpy.substitute(__("[which] song would you like me to sing?[end]")), interact=False)
 
     if have_both_types:
         call screen mas_gen_scrollable_menu(unlocked_song_list, mas_ui.SCROLLABLE_MENU_TXT_LOW_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, switch, ret_back)
@@ -270,11 +270,11 @@ label monika_sing_song_pool_menu:
         if sel_song == "monika_sing_song_pool_menu":
             if song_length == "short":
                 $ song_length = "long"
-                $ switch_str = "short"
+                $ switch_str = __("short")
 
             else:
                 $ song_length = "short"
-                $ switch_str = "full"
+                $ switch_str = __("full")
 
             $ end = "{fast}"
             $ _history_list.pop()
@@ -307,17 +307,17 @@ init 5 python:
 
 label monika_sing_song_analysis:
     python:
-        ret_back = ("Nevermind.", False, False, False, 20)
+        ret_back = (__("Nevermind."), False, False, False, 20)
 
         unlocked_analyses = mas_songs.getUnlockedSongAnalyses()
 
         if mas_isO31():
-            which = "Witch"
+            which = __("Witch")
         else:
-            which = "Which"
+            which = __("Which")
 
     show monika 1eua at t21
-    $ renpy.say(m, "[which] song would you like to talk about?", interact=False)
+    $ renpy.say(m, renpy.substitute(__("[which] song would you like to talk about?")), interact=False)
 
     call screen mas_gen_scrollable_menu(unlocked_analyses, mas_ui.SCROLLABLE_MENU_TXT_MEDIUM_AREA, mas_ui.SCROLLABLE_MENU_XALIGN, ret_back)
 

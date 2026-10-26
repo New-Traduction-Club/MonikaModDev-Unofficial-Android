@@ -15,7 +15,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:52
     old "Learning new ways to say 'I love you,' [player]?"
-    new "¿Aprendiendo nuevas formas de decir \"te quiero\", [player]?"
+    new "¿Aprendiendo nuevas formas de decir \"te amo\", [player]?"
 
     # game/script-windowreacts.rpy:52
     old "Learning a new language, [player]?"
@@ -67,7 +67,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:286
     old "I love you, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
-    new "Te quiero, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
+    new "Te amo, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
 
     # game/script-windowreacts.rpy:290
     old "See anything you want to share with me, [player]?"
@@ -216,4 +216,66 @@ translate spanish strings:
     # game/script-windowreacts.rpy:651
     old "I can't wait to watch anime with you!~"
     new "¡Qué ganas tengo de ver anime contigo!"
+
+translate spanish strings:
+
+    # script-windowreacts.rpy:2
+    old "Pinterest"
+    new "Pinterest"
+
+    # script-windowreacts.rpy:35
+    old "Duolingo"
+    new "Duolingo"
+
+    # script-windowreacts.rpy:68
+    old "- Wikipedia"
+    new "- Wikipedia"
+
+    # script-windowreacts.rpy:119
+    old "^Virtual Piano"
+    new "^Piano Virtual"
+
+    # script-windowreacts.rpy:156
+    old "- YouTube"
+    new "- YouTube"
+
+    # script-windowreacts.rpy:236
+    old "MonikaModDev"
+    new "MonikaModDev"
+
+    # script-windowreacts.rpy:268
+    old "/ Twitter"
+    new "/ X"
+
+    # script-windowreacts.rpy:343
+    old "- 4chan"
+    new "- 4chan"
+
+    # script-windowreacts.rpy:378
+    old "- pixiv"
+    new "- pixiv"
+
+    # script-windowreacts.rpy:460
+    old "MyAnimeList"
+    new "MyAnimeList"
+
+    # script-windowreacts.rpy:494
+    old "DeviantArt"
+    new "DeviantArt"
+
+    # script-windowreacts.rpy:526
+    old "Netflix"
+    new "Netflix"
+
+    # script-windowreacts.rpy:559
+    old "- Twitch"
+    new "- Twitch"
+
+    # script-windowreacts.rpy:592
+    old "Google Docs|LibreOffice Writer|Microsoft Word"
+    new "Documentos de Google|LibreOffice Writer|Microsoft Word"
+
+    # script-windowreacts.rpy:102
+    old "'[wiki_article]'...\nSeems interesting, [player]."
+    new "'[wiki_article]'...\n[player], se ve interesante."
 

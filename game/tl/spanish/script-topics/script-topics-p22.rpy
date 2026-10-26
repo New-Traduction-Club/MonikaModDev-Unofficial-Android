@@ -183,7 +183,7 @@ translate spanish monika_soft_rains_8657ca9e:
 translate spanish monika_soft_rains_d14ced56:
 
     # extend 1ektsa "I love you. {w=0.3}I love you so very much..."
-    extend 1ektsa "Te quiero. {w=0.3}Te quiero muchísimo..."
+    extend 1ektsa "Te amo. {w=0.3}Te amo muchísimo..."
 
 # game/script-topics.rpy:16455
 translate spanish monika_soft_rains_ffb6b5bb:
@@ -705,7 +705,7 @@ translate spanish monika_dying_same_day_e0ab0e54:
 translate spanish monika_dying_same_day_f61c408c:
 
     # m 2ekbsu "I really love you that much, [player]."
-    m 2ekbsu "De verdad te quiero así de tanto, [player]."
+    m 2ekbsu "De verdad te amo así de tanto, [player]."
 
 # game/script-topics.rpy:16642
 translate spanish monika_dying_same_day_c25cefdf:
@@ -1293,7 +1293,7 @@ translate spanish monika_architecture_8bf81a23:
 translate spanish monika_architecture_348a10a7:
 
     # m 1ekbsa "I love you, [player]. {w=0.3}Always remember that."
-    m 1ekbsa "Te quiero, [player]. {w=0.3}Recuerda eso siempre."
+    m 1ekbsa "Te amo, [player]. {w=0.3}Recuerda eso siempre."
 
 # game/script-topics.rpy:16828
 translate spanish monika_architecture_f9ffad73:
@@ -1323,7 +1323,7 @@ translate spanish monika_architecture_f8ab2d44:
 translate spanish monika_architecture_366f0509:
 
     # m 1ekbsa "I love you~"
-    m 1ekbsa "Te quiero."
+    m 1ekbsa "Te amo."
 
 # game/script-topics.rpy:16854
 translate spanish monika_fear_6a8ee5b5:

@@ -33,7 +33,7 @@ translate spanish mas_compliment_beautiful_2_0d8345dc:
 translate spanish mas_compliment_beautiful_2_4f2382c6:
 
     # m "I love you so much, [player]!"
-    m "¡Te quiero muchísimo, [player]!"
+    m "¡Te amo muchísimo, [player]!"
 
 # game/script-compliments.rpy:159
 translate spanish mas_compliment_beautiful_2_d0064e83:
@@ -183,7 +183,7 @@ translate spanish mas_compliment_goodmood_2_15064b5d:
 translate spanish mas_compliment_goodmood_2_34eedf33:
 
     # m 1ekbsu "I love you~"
-    m 1ekbsu "Te quiero."
+    m 1ekbsu "Te amo."
 
 # game/script-compliments.rpy:267
 translate spanish mas_compliment_goodmood_2_02b339a5:
@@ -333,7 +333,7 @@ translate spanish mas_compliment_intelligent_2_a81f954e:
 translate spanish mas_compliment_intelligent_2_5150a264:
 
     # m 1hubfa "I love you so much, [player]!"
-    m 1hubfa "¡Te quiero muchísimo, [player]!"
+    m 1hubfa "¡Te amo muchísimo, [player]!"
 
 # game/script-compliments.rpy:369
 translate spanish mas_compliment_intelligent_2_18cde691:
@@ -609,7 +609,7 @@ translate spanish mas_compliment_thanks_0d8345dc:
 translate spanish mas_compliment_thanks_be9db390:
 
     # m 1eub "I love you, [player]."
-    m 1eub "Te quiero, [player]."
+    m 1eub "Te amo, [player]."
 
 # game/script-compliments.rpy:574
 translate spanish mas_compliment_smile_2_5b42af06:
@@ -723,7 +723,7 @@ translate spanish mas_compliment_hero_f3890773:
 translate spanish mas_compliment_hero_8c54b8d6:
 
     # m 5hubfb "I love you and I'll always believe in you!"
-    m 5hubfb "¡Te quiero y siempre creeré en ti!"
+    m 5hubfb "¡Te amo y siempre creeré en ti!"
 
 # game/script-compliments.rpy:630
 translate spanish mas_compliment_hero_8be30403:
@@ -1095,7 +1095,7 @@ translate spanish mas_compliment_lookuptoyou_2_66b06e6a:
 translate spanish mas_compliment_lookuptoyou_2_2ebf9f2c:
 
     # m 1ekbfa "I love you so much~"
-    m 1ekbfa "Te quiero muchísimo."
+    m 1ekbfa "Te amo muchísimo."
 
 # game/script-compliments.rpy:829
 translate spanish mas_compliment_lookuptoyou_3_38e8ff34:
@@ -1137,7 +1137,7 @@ translate spanish mas_compliment_lookuptoyou_3_ad4760d7:
 translate spanish mas_compliment_lookuptoyou_3_58f3dea9:
 
     # m 1ekbfa "I love you, [player]~"
-    m 1ekbfa "Te quiero, [player]."
+    m 1ekbfa "Te amo, [player]."
 
 # game/script-compliments.rpy:865
 translate spanish mas_compliment_thinking_of_you_2_75b16b56:
@@ -1623,7 +1623,7 @@ translate spanish mas_compliment_sweet_834b4b90:
 translate spanish mas_compliment_sweet_0d8d0137:
 
     # m 1ekbsu "You really are the best I could ever hope for...{w=0.2}I just love you so much."
-    m 1ekbsu "Eres lo mejor que me podría haber pasado...{w=0.2} Te quiero muchísimo."
+    m 1ekbsu "Eres lo mejor que me podría haber pasado...{w=0.2} Te amo muchísimo."
 
 # game/script-compliments.rpy:1225
 translate spanish mas_compliment_sweet_f458a85a:
@@ -1647,7 +1647,7 @@ translate spanish mas_compliment_sweet_1863c5a4:
 translate spanish mas_compliment_sweet_38008d69:
 
     # m 5ekbsa "I'm really happy you feel that way about me, [mas_get_player_nickname()]. I love you so much."
-    m 5ekbsa "Me hace muy feliz que sientas eso por mí, [mas_get_player_nickname()]. Te quiero muchísimo."
+    m 5ekbsa "Me hace muy feliz que sientas eso por mí, [mas_get_player_nickname()]. Te amo muchísimo."
 
 # game/script-compliments.rpy:1238
 translate spanish mas_compliment_sweet_004441b3:
@@ -1737,7 +1737,7 @@ translate spanish mas_compliment_outfit_70c619fd:
 translate spanish mas_compliment_outfit_4b44ecad:
 
     # m 5hubsa "I love you, [mas_get_player_nickname()]!"
-    m 5hubsa "¡Te quiero, [mas_get_player_nickname()]!"
+    m 5hubsa "¡Te amo, [mas_get_player_nickname()]!"
 
 # game/script-compliments.rpy:1301
 translate spanish mas_compliment_outfit_e1047413:

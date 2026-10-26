@@ -1011,7 +1011,7 @@ translate spanish mas_reaction_promisering_16306628:
 translate spanish mas_reaction_promisering_268c1481:
 
     # m 6ekbfa "I love you, [player]..."
-    m 6ekbfa "Te quiero, [player]..."
+    m 6ekbfa "Te amo, [player]..."
 
 # game/zz_reactions.rpy:1566
 translate spanish mas_reaction_promisering_6f8fc34c:
@@ -1917,7 +1917,7 @@ translate spanish mas_reaction_gift_roses_cd5bd24d:
 translate spanish mas_reaction_gift_roses_bf91a912:
 
     # m 3hkbsa "I love you so much."
-    m 3hkbsa "Te quiero tanto."
+    m 3hkbsa "Te amo tanto."
 
 # game/zz_reactions.rpy:2376
 translate spanish mas_reaction_gift_roses_e4c3a26e:

@@ -39,12 +39,12 @@ init -1 python:
 
         # RENDER MAP
         RENDER_MAP = {
-            "auto": "Automatic",
+            "auto": __("Automatic"),
             "gl": "OpenGL",
             "angle": "Angle/DirectX",
-            "sw": "Software"
+            "sw": __("Software")
         }
-        RENDER_UNK = "Unknown"
+        RENDER_UNK = __("Unknown")
 
         MOUSE_EVENTS = (
             pygame.MOUSEMOTION,
@@ -74,7 +74,7 @@ init -1 python:
 
             # create teh buttons
             self.button_auto = MASButtonDisplayable.create_stb(
-                _("Automatically Choose"),
+                __("Automatically Choose"),
                 True,
                 button_x,
                 button_y,
@@ -85,7 +85,7 @@ init -1 python:
                 return_value="auto"
             )
             self.button_gl = MASButtonDisplayable.create_stb(
-                _("OpenGL"),
+                __("OpenGL"),
                 True,
                 button_x,
                 button_y + self.BUTTON_SPACING + self.BUTTON_HEIGHT,
@@ -96,7 +96,7 @@ init -1 python:
                 return_value="gl"
             )
             self.button_dx = MASButtonDisplayable.create_stb(
-                _("Angle/DirectX"),
+                __("Angle/DirectX"),
                 True,
                 button_x,
                 button_y + (2 * (self.BUTTON_SPACING + self.BUTTON_HEIGHT)),
@@ -107,7 +107,7 @@ init -1 python:
                 return_value="angle"
             )
             self.button_sw = MASButtonDisplayable.create_stb(
-                _("Software"),
+                __("Software"),
                 True,
                 button_x,
                 button_y + (3 * (self.BUTTON_SPACING + self.BUTTON_HEIGHT)),
@@ -118,7 +118,7 @@ init -1 python:
                 return_value="sw"
             )
             self.button_ret = MASButtonDisplayable.create_stb(
-                _("Return"),
+                __("Return"),
                 False,
                 button_x,
                 button_y + (4 * self.BUTTON_HEIGHT) + (5 * self.BUTTON_SPACING),
@@ -133,21 +133,21 @@ init -1 python:
             small_text_size = 18
             small_text_heading = 20
             self.text_instruct = Text(
-                _("Select a renderer to use:"),
+                __("Select a renderer to use:"),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self.text_restart = Text(
-                _("*Changing the renderer requires a restart to take effect"),
+                __("*Changing the renderer requires a restart to take effect"),
                 font=gui.default_font,
                 size=small_text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self.text_current = Text(
-                _("Current Renderer:"),
+                __("Current Renderer:"),
                 font=gui.default_font,
                 size=small_text_heading,
                 color="#ffe6f4",
@@ -336,7 +336,7 @@ screen mas_gmenu_confirm(sel_rend):
             yalign .5
             spacing 30
 
-            label _("Switch renderer to " + sel_rend + "?"):
+            label __("Switch renderer to [sel_rend]?"):
                 style "confirm_prompt"
                 xalign 0.5
 

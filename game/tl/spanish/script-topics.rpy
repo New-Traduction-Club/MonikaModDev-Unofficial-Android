@@ -211,3 +211,205 @@ translate spanish strings:
     old "You don't smoke, do you"
     new "No fumas, ¿verdad"
 
+# game/script-topics.rpy:2092
+translate spanish monika_think_first_kiss_7f2d4c30:
+
+    # m 1eua "Hey [mas_get_player_nickname(exclude_names=['my love'])], I've been wondering..."
+    m 1eua "Oye, [mas_get_player_nickname(exclude_names=[_('my love')])], me estaba preguntando..."
+
+# game/script-topics.rpy:3239
+translate spanish _call_updateconsole_17_d3622263:
+
+    # m 1hksdlb "I'm only kidding."
+    m 1hksdlb "Es broma."
+
+# game/script-topics.rpy:3241
+translate spanish _call_updateconsole_17_157af141:
+
+    # m "It's the man's job to introduce his fiancee to his family, after all."
+    m "Al fin y al cabo, es tradición que sea la pareja quien presente a la prometida a la familia."
+
+# game/script-topics.rpy:3242
+translate spanish _call_updateconsole_17_a8299c35:
+
+    # m "Don't keep me waiting for too long, okay?"
+    m "No me hagas esperar demasiado, ¿vale?"
+
+# game/script-topics.rpy:3566
+translate spanish monika_difficulty_bec1d675:
+
+    # m 1hua "Sometimes, love is all you need, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
+    m 1hua "A veces, el amor es todo lo que necesitas, [mas_get_player_nickname(exclude_names=[_('my love'), _('love')])]."
+
+# game/script-topics.rpy:4351
+translate spanish monika_girlfriend_942957d5:
+
+    # m 1hua "I won't let someone else steal my loving [mas_get_player_nickname(exclude_names=['my love', 'love', player], _default='sweetheart', regex_replace_with_nullstr='my ')]!"
+    m 1hua "¡No dejaré que nadie me robe a mi amad[end_letter_gender] [mas_get_player_nickname(exclude_names=['my love', 'love', player], _default=_('sweetheart'), regex_replace_with_nullstr=_('my '))]!"
+
+# game/script-topics.rpy:6687
+translate spanish _call_monika_sayhappybirthday_takecounter_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud "¡¿Eh?!"
+
+# game/script-topics.rpy:6689
+translate spanish _call_monika_sayhappybirthday_takecounter_064dc51b:
+
+    # m 1lksdla "Sorry again, [player]."
+    m 1lksdla "Lo siento otra vez, [player]."
+
+# game/script-topics.rpy:6691
+translate spanish _call_monika_sayhappybirthday_takecounter_4a2a9160:
+
+    # m 1lksdla "Sorry, [mas_get_player_nickname()]."
+    m 1lksdla "Lo siento, [mas_get_player_nickname()]."
+
+# game/script-topics.rpy:6692
+translate spanish _call_monika_sayhappybirthday_takecounter_1665a694:
+
+    # m 2lksdlb "I told you, I'm self-conscious on camera, ahaha..."
+    m 2lksdlb "Ya te he dicho, me da vergüenza la cámara, ja, ja, ja..."
+
+# game/script-topics.rpy:6694
+translate spanish _call_monika_sayhappybirthday_takecounter_464638fc:
+
+    # m "Should I try again?{nw}"
+    m "¿Pruebo otra vez?{nw}"
+
+# game/script-topics.rpy:6696
+translate spanish _call_monika_sayhappybirthday_takecounter_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "¿Pruebo otra vez?{fast}" nointeract
+
+# game/script-topics.rpy:6700
+translate spanish _call_monika_sayhappybirthday_takecounter_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua "Vale."
+
+# game/script-topics.rpy:6702
+translate spanish _call_monika_sayhappybirthday_takecounter_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka "Está bien, [player]. Siento no haber podido hacer lo que querías."
+
+# game/script-topics.rpy:6703
+translate spanish _call_monika_sayhappybirthday_takecounter_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua "Intentaré hacerlo mejor la próxima vez por ti."
+
+# game/script-topics.rpy:6709
+translate spanish _call_monika_sayhappybirthday_takecounter_28a15692:
+
+    # m 1duu "..."
+    m 1duu "..."
+
+# game/script-topics.rpy:6710
+translate spanish _call_monika_sayhappybirthday_takecounter_e18ad9ee:
+
+    # m 1hub "[bday_msg_capped], [bday_name]!"
+    m 1hub "¡[bday_msg_capped], [bday_name]!"
+
+# game/script-topics.rpy:6711
+translate spanish _call_monika_sayhappybirthday_takecounter_4b7c448b:
+
+    # m 1hksdlb "..."
+    m 1hksdlb "..."
+
+# game/script-topics.rpy:6712
+translate spanish _call_monika_sayhappybirthday_takecounter_5e642ead:
+
+    # m 1lksdlb "Was that good?{nw}"
+    m 1lksdlb "¿Ha estado bien?{nw}"
+
+# game/script-topics.rpy:6714
+translate spanish _call_monika_sayhappybirthday_takecounter_3ca20205:
+
+    # m "Was that good?{fast}" nointeract
+    m "¿Ha estado bien?{fast}" nointeract
+
+# game/script-topics.rpy:6717
+translate spanish _call_monika_sayhappybirthday_takecounter_07b337e0:
+
+    # m 1lksdla "...I'm glad you enjoyed that, [player]..."
+    m 1lksdla "Me alegro de que te haya gustado, [player]..."
+
+# game/script-topics.rpy:6722
+translate spanish _call_monika_sayhappybirthday_takecounter_1_31ebf219:
+
+    # m 1wud "Eh?!"
+    m 1wud "¡¿Eh?!"
+
+# game/script-topics.rpy:6723
+translate spanish _call_monika_sayhappybirthday_takecounter_1_c2daa154:
+
+    # m 1lksdlc "I'm not sure what you want me to do here, [player]..."
+    m 1lksdlc "No estoy segura de qué quieres que haga, [player]..."
+
+# game/script-topics.rpy:6725
+translate spanish _call_monika_sayhappybirthday_takecounter_1_68cd62cd:
+
+    # m 1ekc "Should I try again?{nw}"
+    m 1ekc "¿Pruebo otra vez?{nw}"
+
+# game/script-topics.rpy:6727
+translate spanish _call_monika_sayhappybirthday_takecounter_1_d5371215:
+
+    # m "Should I try again?{fast}" nointeract
+    m "¿Pruebo otra vez?{fast}" nointeract
+
+# game/script-topics.rpy:6731
+translate spanish _call_monika_sayhappybirthday_takecounter_1_a0649447:
+
+    # m 1eua "Okay."
+    m 1eua "Vale."
+
+# game/script-topics.rpy:6733
+translate spanish _call_monika_sayhappybirthday_takecounter_1_2c009b95:
+
+    # m 1eka "Alright, [player]. Sorry I couldn't do what you wanted."
+    m 1eka "Está bien, [player]. Siento no haber podido hacer lo que querías."
+
+# game/script-topics.rpy:6734
+translate spanish _call_monika_sayhappybirthday_takecounter_1_bff0dfd6:
+
+    # m 1hua "I'll try better next time for you."
+    m 1hua "Intentaré hacerlo mejor la próxima vez por ti."
+
+translate spanish strings:
+
+    # script-topics.rpy:1449
+    old "trivia"
+    new "trivia"
+
+    # script-topics.rpy:4579
+    old "Other games"
+    new "Otros juegos"
+
+    # script-topics.rpy:6340
+    old "Zombies"
+    new "Zombies"
+
+    # script-topics.rpy:7140
+    old "Lack of confidence"
+    new "Falta de motivación"
+
+    # script-topics.rpy:7839
+    old "Jazz"
+    new "Jazz"
+
+    # script-topics.rpy:13443
+    old "Mysteries"
+    new "Misterios"
+
+    # script-topics.rpy:749
+    old "Allow selected"
+    new "Escoger seleccionados"
+
+    # script-topics.rpy:9215
+    old "I'd love to go to {0} concert with you!"
+    new "¡Sí que me encantaría ir a un concerto de {0} contigo!"
+

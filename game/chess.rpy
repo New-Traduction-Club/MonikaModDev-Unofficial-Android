@@ -56,7 +56,7 @@ init python in mas_chess:
 
     CHESS_MENU_WAIT_VALUE = "MATTE"
     CHESS_MENU_WAIT_ITEM = (
-        _("I can't make this decision right now..."),
+        __("I can't make this decision right now..."),
         CHESS_MENU_WAIT_VALUE,
         False,
         False,
@@ -1127,12 +1127,12 @@ label mas_chess_start_chess:
     else:
         python:
             player_win_quips = [
-                _("I'm so proud of you, [player]!"),
-                _("I'm proud of you, [player]!~"),
-                _("Well played, [player]!"),
-                _("It makes me really happy to see you win~"),
-                _("I'm happy to see you win!"),
-                _("No matter the outcome, I'll always enjoy playing with you.")
+                __("I'm so proud of you, [player]!"),
+                __("I'm proud of you, [player]!~"),
+                __("Well played, [player]!"),
+                __("It makes me really happy to see you win~"),
+                __("I'm happy to see you win!"),
+                __("No matter the outcome, I'll always enjoy playing with you.")
             ]
             persistent._mas_chess_stats["practice_wins" if practice_mode else "wins"] += 1
 
@@ -1416,7 +1416,7 @@ label mas_chess_save_migration:
         # only show this if we even have multiple pgn games
         if game_count > 1:
             if renpy.seen_label("mas_chess_save_multi_dlg"):
-                $ pick_text = _("You still need to pick a game to keep.")
+                $ pick_text = __("You still need to pick a game to keep.")
 
             else:
                 label mas_chess_save_multi_dlg:
@@ -1425,7 +1425,7 @@ label mas_chess_save_migration:
                     m 3eud "...So it makes no sense for me to keep track of more than one unfinished game between us."
                     m 1rka "And since we have [game_count] games in progress..."
                     m 3euc "I have to ask you to pick only one to keep.{w=0.2} Sorry, [player]."
-                    $ pick_text = _("Pick a game you'd like to keep.")
+                    $ pick_text = __("Pick a game you'd like to keep.")
 
             show monika 1euc at t21
             $ renpy.say(m, pick_text, interact=False)
@@ -3264,7 +3264,7 @@ init python:
 
             #Init the 4 buttons
             self._button_save = MASButtonDisplayable.create_stb(
-                _("Save"),
+                __("Save"),
                 True,
                 MASChessDisplayableBase.BUTTON_INDICATOR_X,
                 MASChessDisplayableBase.DRAWN_BUTTON_Y_TOP,
@@ -3275,7 +3275,7 @@ init python:
             )
 
             self._button_giveup = MASButtonDisplayable.create_stb(
-                _("Surrender"),
+                __("Surrender"),
                 True,
                 MASChessDisplayableBase.BUTTON_INDICATOR_X,
                 MASChessDisplayableBase.DRAWN_BUTTON_Y_MID,
@@ -3286,7 +3286,7 @@ init python:
             )
 
             self._button_draw = MASButtonDisplayable.create_stb(
-                _("Call Draw"),
+                __("Call Draw"),
                 True,
                 MASChessDisplayableBase.BUTTON_INDICATOR_X,
                 MASChessDisplayableBase.DRAWN_BUTTON_Y_MID_LOW,
@@ -3301,7 +3301,7 @@ init python:
             self._button_draw.disable()
 
             self._button_done = MASButtonDisplayable.create_stb(
-                _("Done"),
+                __("Done"),
                 False,
                 MASChessDisplayableBase.BUTTON_INDICATOR_X,
                 MASChessDisplayableBase.DRAWN_BUTTON_Y_TOP,
@@ -3312,7 +3312,7 @@ init python:
             )
 
             self._button_undo = MASButtonDisplayable.create_stb(
-                _("Undo"),
+                __("Undo"),
                 True,
                 MASChessDisplayableBase.BUTTON_INDICATOR_X,
                 MASChessDisplayableBase.DRAWN_BUTTON_Y_BOT,
@@ -3437,9 +3437,9 @@ init python:
                 except OSError as os_err:
                     if not renpy.windows:
                         renpy.show("monika 1etsdlc", at_list=[t11])
-                        renpy.say(m, "Hmm, that's odd. It seems some permissions were changed and I can't get chess running on your system.")
+                        renpy.say(m, __("Hmm, that's odd. It seems some permissions were changed and I can't get chess running on your system."))
                         renpy.show("monika 3eua")
-                        renpy.say(m, "Hold on a second, [player]. I'm going to try something quickly.{w=0.3}.{w=0.3}.{w=0.3}{nw}")
+                        renpy.say(m, __("Hold on a second, [player]. I'm going to try something quickly.{w=0.3}.{w=0.3}.{w=0.3}{nw}"))
 
                         store.mas_ptod.rst_cn()
                         local_ctx = {
@@ -3471,7 +3471,7 @@ init python:
                             )
 
                             renpy.show("monika 3hua", at_list=[t11])
-                            renpy.say(m, "Yay! We should be able to play now~")
+                            renpy.say(m, __("Yay! We should be able to play now~"))
                             renpy.show("monika", at_list=[t21])
                             return stockfish_proc
 
@@ -3553,7 +3553,7 @@ init python:
             # inital check for buttons
             elif self.is_player_turn():
                 if self._button_save.event(ev, x, y, st):
-                    wants_save = renpy.call_in_new_context("mas_chess_confirm_context", prompt=_("You'd like to continue later?"))
+                    wants_save = renpy.call_in_new_context("mas_chess_confirm_context", prompt=__("You'd like to continue later?"))
                     if wants_save:
                         #User wants to save this game
                         self.quit_game = True
@@ -3568,7 +3568,7 @@ init python:
                     return self.undo_move()
 
                 elif self._button_giveup.event(ev, x, y, st):
-                    wants_quit = renpy.call_in_new_context("mas_chess_confirm_context", prompt=_("Are you sure you want to give up?"))
+                    wants_quit = renpy.call_in_new_context("mas_chess_confirm_context", prompt=__("Are you sure you want to give up?"))
                     if wants_quit:
                         #User wishes to surrender
                         self.quit_game = True

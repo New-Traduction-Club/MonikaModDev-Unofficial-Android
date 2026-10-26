@@ -50,7 +50,7 @@ init -1 python in mas_moods:
 
     # pane constants
     # most of these are the same as the unseen area consants
-    MOOD_RETURN = _("...like talking about something else.")
+    MOOD_RETURN = __("...like talking about something else.")
 
 ## FUNCTIONS ==================================================================
 
@@ -525,7 +525,7 @@ label mas_mood_lazy:
         m 1eka "I can totally understand those days where you wake up and just don't want to do anything."
         m 1rksdla "Hopefully you don't actually have anything pressing coming soon."
 
-        $ line = "I know how tempting it can be to just stay in bed and not get up sometimes..."
+        $ line = __("I know how tempting it can be to just stay in bed and not get up sometimes...")
         if mas_isMoniEnamored(higher=True):
             $ line += "{w=0.5} {nw}"
         m 3hksdlb "[line]"
@@ -712,7 +712,7 @@ init 5 python:
     addEvent(Event(persistent._mas_mood_database,eventlabel="mas_mood_crying",prompt=__("...like crying."),category=[store.mas_moods.TYPE_BAD],unlocked=True),code="MOO")
 
 label mas_mood_crying:
-    $ line_start = "And"
+    $ line_start = __("And")
     m 1eksdld "[player]!"
 
     m 3eksdlc "Are you okay?{nw}"
@@ -768,7 +768,7 @@ label mas_mood_uok:
         "Everything's fine.":
             m 1ekc "..."
             m 1ekd "Okay [player], if you say so..."
-            $ line_start = "But"
+            $ line_start = __("But")
     return
 
 init 5 python:
@@ -989,11 +989,11 @@ label mas_mood_loved:
     $ has_family = persistent._mas_pm_have_fam and not persistent._mas_pm_no_talk_fam
     if has_family or persistent._mas_pm_has_friends:
         if has_family and persistent._mas_pm_has_friends:
-            $ fnf_str = "friends and family"
+            $ fnf_str = __("friends and family")
         elif has_family:
-            $ fnf_str = "family"
+            $ fnf_str = __("family")
         else:
-            $ fnf_str = "friends"
+            $ fnf_str = __("friends")
 
         m 3eub "And I'm sure it's not just me that makes you feel loved, but your [fnf_str] as well!"
 

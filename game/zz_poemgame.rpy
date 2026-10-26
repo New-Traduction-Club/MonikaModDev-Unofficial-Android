@@ -410,7 +410,7 @@ screen mas_pg_textbutton_grid(words, row_info, col_info, xywh, bg_image=None, is
             vbox:
                 for row in range(row_info[0]):
                     if word_index < len(words):
-                        textbutton _(words[word_index][0]):
+                        textbutton __(words[word_index][0]):
                             xpos (col * col_spacing)
                             ypos (row * row_spacing)
                             if not _style_prefix:

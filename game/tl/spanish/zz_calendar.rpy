@@ -45,7 +45,7 @@ translate spanish mas_show_calendar_detail_d2dea50f:
 translate spanish mas_show_calendar_detail_46b69767:
 
     # m 1lksdla "Except for when I'm in the middle of talking, of course."
-    m 1lksdla "Excepto cuando te esté hablando, claro."
+    m 1lksdla "Puedes echarle un ojo cada vez que lo necesites."
 
 translate spanish strings:
 
@@ -240,4 +240,52 @@ translate spanish strings:
     # game/zz_calendar.rpy:1947
     old "Autumn"
     new "Otoño"
+
+# game/zz_calendar.rpy:2162
+translate spanish _first_time_calendar_use_9c5ff161:
+
+    # m 1eub "Oh, you want to take another look at that pretty calendar hanging on the wall, [player]?"
+    m 1eub "Ah, ¿quieres volver a mirar ese calendario tan chulo que está en la pared, [player]?"
+
+# game/zz_calendar.rpy:2163
+translate spanish _first_time_calendar_use_6b069f8b:
+
+    # m 3hua "It helps me keep track of important events, like your birthday, ehehe~"
+    m 3hua "Me es muy útil para llevar la cuenta de los eventos importantes, como tu cumpleaños. Je, je, je."
+
+# game/zz_calendar.rpy:2165
+translate spanish _first_time_calendar_use_72782367:
+
+    # m 1eub "Oh, I see you noticed that pretty calendar hanging on the wall, [player]."
+    m 1eub "Ah, veo que te has fijado en ese calendario tan chulo que está en la pared, [player]."
+
+# game/zz_calendar.rpy:2166
+translate spanish _first_time_calendar_use_b262b5f6:
+
+    # m 3hua "It helps me keep track of important events, ehehe~"
+    m 3hua "Me es útil para no olvidar los sucesos importantes. Je, je, je."
+
+# game/zz_calendar.rpy:2168
+translate spanish _first_time_calendar_use_ce9b94b7:
+
+    # m 1eua "Here, let me show you."
+    m 1eua "Mira, déjame enseñártelo."
+
+# game/zz_calendar.rpy:2173
+translate spanish _first_time_calendar_use_f7af61a6:
+
+    # m 1hua "Pretty cool, right?"
+    m 1hua "Vaya chulada, ¿no?"
+
+# game/zz_calendar.rpy:2174
+translate spanish _first_time_calendar_use_d2dea50f:
+
+    # m 3eua "Feel free to check the calendar whenever you want."
+    m 3eua "Puedes echarle un ojo cada vez que lo necesites."
+
+# game/zz_calendar.rpy:2175
+translate spanish _first_time_calendar_use_46b69767:
+
+    # m 1lksdla "Except for when I'm in the middle of talking, of course."
+    m 1lksdla "Puedes echarle un ojo cada vez que lo necesites."
 

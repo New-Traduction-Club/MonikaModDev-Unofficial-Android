@@ -166,7 +166,7 @@ init -1 python:
 
             # create the buttons
             self._button_ok = MASButtonDisplayable.create_stb(
-                _("Ok"),
+                __("Ok"),
                 False,
                 button_center_x,
                 button_center_y,
@@ -177,7 +177,7 @@ init -1 python:
             )
 
             self._button_cancel = MASButtonDisplayable.create_stb(
-                _("Cancel"),
+                __("Cancel"),
                 False,
                 button_left_x + self.BUTTON_WIDTH + self.BUTTON_SPACING,
                 button_left_y,
@@ -188,7 +188,7 @@ init -1 python:
             )
 
             self._button_update = MASButtonDisplayable.create_stb(
-                _("Update"),
+                __("Update"),
                 True,
                 button_left_x,
                 button_left_y,
@@ -199,7 +199,7 @@ init -1 python:
             )
 
             self._button_retry = MASButtonDisplayable.create_stb(
-                _("Retry"),
+                __("Retry"),
                 True,
                 button_left_x,
                 button_left_y,
@@ -211,42 +211,42 @@ init -1 python:
 
             # confirm text
             self._text_checking = Text(
-                _("Checking for updates..."),
+                __("Checking for updates..."),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self._text_update = Text(
-                _("New update available!"),
+                __("New update available!"),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self._text_noupdate = Text(
-                _("No update found."),
+                __("No update found."),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self._text_timeout = Text(
-                _("Connection timed out."),
+                __("Connection timed out."),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self._text_badresponse = Text(
-                _("Server returned bad response."),
+                __("Server returned bad response."),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",
                 outlines=[]
             )
             self._text_badjson = Text(
-                _("Server returned bad JSON."),
+                __("Server returned bad JSON."),
                 font=gui.default_font,
                 size=gui.text_size,
                 color="#ffe6f4",

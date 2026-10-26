@@ -1296,7 +1296,7 @@ label mas_o31_lingerie:
     python:
         curr_song = songs.current_track
         mas_play_song(None)
-        mas_display_notif("M̷̢͘ô̴͎ṇ̵͐i̴͎͂k̸̗̂ả̴̫", ["C̸̳̓ą̵́n̷̳̎ ̸̖̊y̴̦͝õ̷̯ų̷͌ ̴̼͘h̷̭̚e̴̪͝a̴̙̐ŕ̵̖ ̴̠́m̸̰̂ě̵̬?̷̮̐"], "Topic Alerts")
+        mas_display_notif("M̷̢͘ô̴͎ṇ̵͐i̴͎͂k̸̗̂ả̴̫", [__("C̸̳̓ą̵́n̷̳̎ ̸̖̊y̴̦͝õ̷̯ų̷͌ ̴̼͘h̷̭̚e̴̪͝a̴̙̐ŕ̵̖ ̴̠́m̸̰̂ě̵̬?̷̮̐")], "Topic Alerts")
 
     scene black
     pause 2.0
@@ -2421,17 +2421,17 @@ label mas_d25_season_exit:
 #D25 holiday gift starter/connector
 label mas_d25_gift_starter:
     $ amt_gifts = len(persistent._mas_d25_gifts_given)
-    $ presents = "presents"
-    $ the = "the"
-    $ should_open = "should open"
+    $ presents = __("presents")
+    $ the = __("the")
+    $ should_open = __("should open")
 
     if amt_gifts == 1:
-        $ presents = "present"
+        $ presents = __("present")
     elif amt_gifts > 3:
-        $ the = "all of the"
+        $ the = __("all of the")
 
     if persistent._mas_d25_gone_over_d25:
-        $ should_open = "haven't opened"
+        $ should_open = __("haven't opened")
 
     if persistent._mas_d25_spent_d25 or mas_globals.returned_home_this_sesh:
         m 3wud "Oh! I [should_open] [the] [presents] you gave me!"
@@ -2454,10 +2454,10 @@ label mas_d25_gift_starter:
 label mas_d25_gift_connector:
     python:
         d25_gift_quips = [
-            _("Next one!"),
-            _("Oh, there's another one here!"),
-            _("Now let me open this one!"),
-            _("I'll open this one next!")
+            __("Next one!"),
+            __("Oh, there's another one here!"),
+            __("Now let me open this one!"),
+            __("I'll open this one next!")
         ]
 
         picked_quip = random.choice(d25_gift_quips)
@@ -2783,7 +2783,7 @@ label mas_d25_monika_christmas:
 
                 if mas_is_snowing:
                     if mas_isDecoTagVisible("mas_d25_lights"):
-                        $ dlg_var = ", or the decorations"
+                        $ dlg_var = __(", or the decorations")
                     else:
                         $ dlg_var = ""
 
@@ -2791,7 +2791,7 @@ label mas_d25_monika_christmas:
 
                 else:
                     if mas_isDecoTagVisible("mas_d25_lights"):
-                        $ dlg_var = "the decorations, or "
+                        $ dlg_var = __("the decorations, or ")
                     else:
                         $ dlg_var = ""
 
@@ -3037,9 +3037,9 @@ init 20 python:
     mas_poem_d25_1 = MASPoem(
         poem_id="poem_d25_1",
         category="d25",
-        prompt="The Joy to my World",
-        title = "     My dearest [player],",
-        text = """\
+        prompt=__("The Joy to my World"),
+        title = __("     My dearest [player],"),
+        text = __(("""\
      You truly are the joy to my world.
      Neither the light emitted by the tallest Christmas tree,
      Nor that of the brightest star,
@@ -3053,16 +3053,16 @@ init 20 python:
 
      Forever yours,
      Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
     mas_poem_d25_2 = MASPoem(
         poem_id="poem_d25_2",
         category="d25",
-        prompt="Incomparable",
-        title="     My dearest [player],",
-        text="""\
+        prompt=__("Incomparable"),
+        title=__("     My dearest [player],"),
+        text=__(("""\
      Nothing can compare to the warmth you give me.
      Not even the feeling of wrapping my hands around a mug of hot chocolate
      Or fuzzy socks, warming my feet on a freezing day.
@@ -3079,15 +3079,15 @@ init 20 python:
 
      Forever yours,
      Monika
-"""
+"""))
     )
 
     mas_poem_d25_3 = MASPoem(
         poem_id="poem_d25_3",
         category="d25",
-        prompt="Someday",
-        title="     My dearest [player],",
-        text="""\
+        prompt=__("Someday"),
+        title=__("     My dearest [player],"),
+        text=__(("""\
      Warmer than the fire in the hearth,
      Brighter than any star on top of the tree,
      More comforting than any cup of hot chocolate,
@@ -3102,15 +3102,15 @@ init 20 python:
 
      Forever yours,
      Monika
-"""
+"""))
     )
 
     mas_poem_d25_4 = MASPoem(
         poem_id="poem_d25_4",
         category="d25",
-        prompt="This Christmas",
-        title="     My dearest [player],",
-        text="""\
+        prompt=__("This Christmas"),
+        title=__("     My dearest [player],"),
+        text=__(("""\
 
      This Christmas I never needed more gifts other than your love,
      Because having you by my side already brings me happiness,
@@ -3129,7 +3129,7 @@ init 20 python:
 
      Forever yours,
      Monika
-"""
+"""))
     )
 
 #Essentially replaces _whatIwant along with still to come 'All I Want for Christmas is You' song
@@ -5319,14 +5319,14 @@ label mas_player_bday_opendoor:
     call spaceroom(hide_monika=True, scene_change=True, dissolve_all=True, show_emptydesk=False)
     $ mas_disable_quit()
     if mas_isMonikaBirthday():
-        $ your = "our"
+        $ your = __("our")
     else:
-        $ your = "your"
+        $ your = __("your")
 
     if mas_HistVerify("player_bday.opened_door",True)[0]:
-        $ now = "{i}again{/i}"
+        $ now = __("{i}again{/i}")
     else:
-        $ now = "now"
+        $ now = __("now")
 
     m "[player]!"
     m "You didn't knock!"
@@ -5419,14 +5419,14 @@ label mas_player_bday_opendoor_listened:
     call spaceroom(hide_monika=True, scene_change=True, show_emptydesk=False)
     $ mas_disable_quit()
     if mas_isMonikaBirthday():
-        $ your = "our"
+        $ your = __("our")
     else:
-        $ your = "your"
+        $ your = __("your")
 
     if mas_HistVerify("player_bday.opened_door",True)[0]:
-        $ knock = "knock, {w=0.5}{i}again{/i}."
+        $ knock = __("knock, {w=0.5}{i}again{/i}.")
     else:
-        $ knock = "knock!"
+        $ knock = __("knock!")
 
     m "[player]!"
     m "You didn't [knock]"
@@ -5690,11 +5690,11 @@ init 5 python:
 
 label mas_player_bday_other_holiday:
     if mas_isO31():
-        $ holiday_var = "Halloween"
+        $ holiday_var = __("Halloween")
     elif mas_isD25():
-        $ holiday_var = "Christmas"
+        $ holiday_var = __("Christmas")
     elif mas_isF14():
-        $ holiday_var = "Valentine's Day"
+        $ holiday_var = __("Valentine's Day")
     m 3euc "Hey, [player]..."
     m 1tsu "I have a bit of a surprise for you.{w=0.5}.{w=0.5}.{nw}"
     $ store.mas_surpriseBdayShowVisuals()
@@ -5914,9 +5914,9 @@ init 20 python:
     mas_poem_pbday_1 = MASPoem(
         poem_id = "poem_pbday_1",
         category = "pbday",
-        prompt = "The One",
-        title = " My dearest [player],",
-        text = """\
+        prompt = __("The One"),
+        title = __(" My dearest [player],"),
+        text = __(("""\
  To the one I love,
  The one I trust,
  The one I can't live without.
@@ -5927,16 +5927,16 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
     mas_poem_pbday_2 = MASPoem(
         poem_id = "poem_pbday_2",
         category = "pbday",
-        prompt = "Your Day",
-        title = " My dearest [player],",
-        text = """\
+        prompt = __("Your Day"),
+        title = __(" My dearest [player],"),
+        text = __(("""\
  Any day with you is a happy day.
  One where I{i}'{/i}m free,
  One where all my troubles are gone,
@@ -5951,16 +5951,16 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
     mas_poem_pbday_3 = MASPoem(
         poem_id = "poem_pbday_3",
         category = "pbday",
-        prompt = "One Wish",
-        title = " My dearest [player],",
-        text = """\
+        prompt = __("One Wish"),
+        title = __(" My dearest [player],"),
+        text = __(("""\
  Sprinkles and candles for my [player]’s cake,
  There's just one wish for you to make.
  May your greatest dreams come true,
@@ -5975,16 +5975,16 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
     mas_poem_pbday_4 = MASPoem(
         poem_id = "poem_pbday_4",
         category = "pbday",
-        prompt = "My [player]",
-        title = " My [player],",
-        text = """\
+        prompt = __("My [player]"),
+        title = __(" My [player],"),
+        text = __(("""\
  How our love has grown.
  Another year,
  Another thousand moments of pride.
@@ -6009,16 +6009,16 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
     mas_poem_pbday_5 = MASPoem(
         poem_id = "poem_pbday_5",
         category = "pbday",
-        prompt = "Birthdays",
-        title = " My dearest [player],",
-        text = """\
+        prompt = __("Birthdays"),
+        title = __(" My dearest [player],"),
+        text = __(("""\
  Some birthdays are wonderful, chock-full of fun
  with laughter and smiles from everyone.
  Some birthdays, you plan everything to the letter
@@ -6045,7 +6045,7 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     #" # I need this to keep syntax highlighting on vim
     )
 
@@ -6872,9 +6872,9 @@ init 20 python:
     mas_poem_vday_1 = MASPoem(
         poem_id="poem_f14_1",
         category="f14",
-        prompt="Found",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("Found"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  I{i}'{/i}ve always loved Valentine's Day, but this one feels different.
  Has the world changed, or just me?
  I found love, I found purpose,
@@ -6885,15 +6885,15 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     )
 
     mas_poem_vday_2 = MASPoem(
         poem_id="poem_f14_2",
         category="f14",
-        prompt="Everything",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("Everything"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  Can it really be our second Valentine's Day?
  The first seems like just yesterday, yet so much has happened.
  I once wondered if the world had changed, or just me.
@@ -6919,7 +6919,7 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
 
     #" # I need this to keep syntax highlighting on vim
     )
@@ -6927,9 +6927,9 @@ init 20 python:
     mas_poem_vday_3 = MASPoem(
         poem_id="poem_f14_3",
         category="f14",
-        prompt="You",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("You"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  Boxes of chocolates and hearts; cards colored ruby red.
  Roses in my hair, petals soft as silk.
  None of it would feel complete without you.
@@ -6942,15 +6942,15 @@ init 20 python:
 
  Forever your Valentine,
  Monika
-"""
+"""))
     )
 
     mas_poem_vday_4 = MASPoem(
         poem_id="poem_f14_4",
         category="f14",
-        prompt="Roses",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("Roses"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  All the roses in the world,
  They grow and bloom into something beautiful.
  Just as our relationship will.
@@ -6969,15 +6969,15 @@ init 20 python:
 
  Forever your Valentine,
  Monika
-"""
+"""))
     )
 
     mas_poem_vday_5 = MASPoem(
         poem_id="poem_f14_5",
         category="f14",
-        prompt="Sweetest",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("Sweetest"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  Chocolate covered cherries and a goodnight kiss;
  Being with you, darling, is the sweetest bliss.
  Popsicles in summer, dancing in the rain;
@@ -6989,15 +6989,15 @@ init 20 python:
 
  Forever yours,
  Monika
-"""
+"""))
     )
 
     mas_poem_vday_6 = MASPoem(
         poem_id="poem_f14_6",
         category="f14",
-        prompt="Forget-me-not",
-        title=" My dearest [player],",
-        text="""\
+        prompt=__("Forget-me-not"),
+        title=__(" My dearest [player],"),
+        text=__(("""\
  All the flowers know are their vase.
  A few cups of soil, and a pretty case of porcelain.
  They will never leave without help, even if they someday outgrow it.
@@ -7011,7 +7011,7 @@ init 20 python:
  Even trapped in this vase, maybe it isn't a curse to know more.
 
  Forget-me-not.
-"""
+"""))
     )
 
 #######################[HOL050] dockstat farwell###############################
@@ -7390,7 +7390,7 @@ label mas_bday_surprise_party_hint:
     python:
         persistent._mas_bday_hint_filename = mas_utils.sanitize_filename("For {0}.txt".format(player))
         if mas_isMoniNormal(higher=True):
-            message = """\
+            message = renpy.substitute(__(("""\
 [player],
 As I'm sure you know, Monika's birthday is coming up soon and I want to help you make it as special as possible!
 Since I'm always here, I can easily set up the surprise party...but I need a little help from you.
@@ -7403,10 +7403,10 @@ Please leave a file named 'oki doki' in the same folder you found this note so I
 Good luck with Monika!
 
 P.S: Don't tell her about me!
-"""
+""")))
 
         else:
-            message = """\
+            message = renpy.substitute(__(("""\
 [player],
 As I hope you know, Monika's birthday is coming up soon and I want to make it special.
 She's been through a lot lately, and I know it'd mean the world to her if you treated her to a nice day.
@@ -7419,7 +7419,7 @@ Just leave a file named 'oki doki' in the same folder you found this note so I k
 Please, don't mess this up.
 
 P.S: Don't tell her about me.
-"""
+""")))
         #Now write it to the chars folder
         _write_txt("/characters/" + persistent._mas_bday_hint_filename, message)
 

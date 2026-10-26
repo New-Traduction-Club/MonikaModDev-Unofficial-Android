@@ -259,3 +259,7 @@ translate spanish strings:
     old "Basic Hair Band"
     new "Coletero básico"
 
+    # zz_selector.rpy:3953
+    old "Which {0} would you like me to wear?"
+    new "¿Qué te gustaría que use?"
+
