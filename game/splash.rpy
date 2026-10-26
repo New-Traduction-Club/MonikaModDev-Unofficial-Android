@@ -264,6 +264,8 @@ label after_load:
     $ _dismiss_pause = config.developer
     $ persistent.ghost_menu = False #Handling for easter egg from DDLC
     $ style.say_dialogue = style.normal
+    $ store.mas_sprites._clear_caches()
+    $ import gc; gc.collect()
     #Check if the save has been tampered with
     if anticheat != persistent.anticheat:
         stop music

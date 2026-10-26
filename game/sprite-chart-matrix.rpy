@@ -966,6 +966,59 @@ init -98 python:
 init -4 python in mas_sprites:
     # NOTE: render_key
 
+    EXPERIMENTAL_LIVE_COMPOSITE = True
+    EXPERIMENTAL_USE_FLATTEN = True
+
+    def set_experimental_live_composite(enable=True, use_flatten=True):
+        """
+        Toggles (experimental) LiveComposite rendering and clears caches.
+
+        IN:
+            enable - True to enable LiveComposite rendering, False for im.Composite
+                (Default: True)
+            use_flatten - True to wrap composites in Flatten()
+                (Default: True)
+        """
+        global EXPERIMENTAL_LIVE_COMPOSITE, EXPERIMENTAL_USE_FLATTEN
+        EXPERIMENTAL_LIVE_COMPOSITE = enable
+        EXPERIMENTAL_USE_FLATTEN = use_flatten
+        _clear_caches()
+
+    def _make_live_composite(size, comp_args, flt, use_flatten=True):
+        """
+        Builds a LiveComposite for the given components and filter.
+        If flt is not FLT_DAY, applies im.MatrixColor to each component.
+        Optionally wraps in Flatten().
+
+        IN:
+            size - (width, height) tuple
+            comp_args - list/tuple of alternating (pos, image_path/displayable)
+            flt - filter string
+            use_flatten - boolean, whether to wrap in Flatten()
+                (Default: True)
+
+        RETURNS: Displayable (Flatten(LiveComposite) or LiveComposite)
+        """
+        if flt == FLT_DAY:
+            comp = store.LiveComposite(size, *comp_args)
+        else:
+            flt_matrix = FILTERS.get(flt, None)
+            if flt_matrix is not None:
+                filtered_args = []
+                for pos, item in zip(comp_args[0::2], comp_args[1::2]):
+                    filtered_args.append(pos)
+                    if isinstance(item, (basestring, renpy.display.im.ImageBase)):
+                        filtered_args.append(store.im.MatrixColor(item, flt_matrix))
+                    else:
+                        filtered_args.append(item)
+                comp = store.LiveComposite(size, *filtered_args)
+            else:
+                comp = store.LiveComposite(size, *comp_args)
+
+        if use_flatten:
+            comp = renpy.display.layout.Flatten(comp)
+        return comp
+
     # Y_OFFSET = -130
 
     # cache ids
@@ -1341,11 +1394,28 @@ init -4 python in mas_sprites:
                 ))
 
         # now generate composites
-        img_comp = store.im.Composite(*arm_comp_args)
-        if len(hl_comp_args) > 1:
-            hl_comp = store.im.Composite(*hl_comp_args)
+        if EXPERIMENTAL_LIVE_COMPOSITE:
+            img_comp = _make_live_composite(
+                arm_comp_args[0],
+                arm_comp_args[1:],
+                flt,
+                EXPERIMENTAL_USE_FLATTEN
+            )
+            if len(hl_comp_args) > 1:
+                hl_comp = _make_live_composite(
+                    hl_comp_args[0],
+                    hl_comp_args[1:],
+                    FLT_DAY,
+                    EXPERIMENTAL_USE_FLATTEN
+                )
+            else:
+                hl_comp = None
         else:
-            hl_comp = None
+            img_comp = store.im.Composite(*arm_comp_args)
+            if len(hl_comp_args) > 1:
+                hl_comp = store.im.Composite(*hl_comp_args)
+            else:
+                hl_comp = None
 
         # and add results
         rk_list.append((img_key, CID_ARMS, img_comp, hl_comp))
@@ -1420,6 +1490,10 @@ init -4 python in mas_sprites:
         if key in img_cache:
             return img_cache[key]
 
+        if not isinstance(img_base, renpy.display.im.ImageBase):
+            img_cache[key] = img_base
+            return img_base
+
         # generate the im and cache it
         new_im = _gen_im(flt, img_base)
         img_cache[key] = new_im
@@ -1461,7 +1535,10 @@ init -4 python in mas_sprites:
         img_cache = _gc(cid)
         hl_key = _hlify(img_key, cid)
         if img_key in img_cache:
-            render_list.append(img_base)
+            if img_base is not None:
+                render_list.append(img_base)
+            elif img_cache[img_key] is not None:
+                render_list.append(img_cache[img_key])
 
             # check for highlight
             # NOTE: if the img key exists in the cache, then we know for sure
@@ -1469,6 +1546,11 @@ init -4 python in mas_sprites:
             hl_base = _gc(CID_HL).get(hl_key, None)
             if hl_base is not None:
                 render_list.append(hl_base)
+            return
+
+        if not isinstance(img_base, renpy.display.im.ImageBase):
+            img_cache[img_key] = img_base
+            render_list.append(img_base)
             return
 
         # otherwise, we need to generate the im (and maybe hl) and cache it
@@ -1542,8 +1624,9 @@ init -4 python in mas_sprites:
 
         RETURNS: generated render key
         """
-        # TODO: consider wrapping img_base in renpy.displayable
-        # NOTE: no render
+        if EXPERIMENTAL_LIVE_COMPOSITE and flt == FLT_DAY:
+            return img_base
+
         return store.im.MatrixColor(img_base, FILTERS[flt])
 
 
@@ -2240,11 +2323,21 @@ init -4 python in mas_sprites:
                 ))
             ))
 
-        # generate imComposite
+        # generate composite
+        if EXPERIMENTAL_LIVE_COMPOSITE:
+            face_comp = _make_live_composite(
+                (1280, 850),
+                img_str_list,
+                flt,
+                EXPERIMENTAL_USE_FLATTEN
+            )
+        else:
+            face_comp = store.im.Composite((1280, 850), *img_str_list)
+
         rk_list.append((
             img_key,
             CID_FACE,
-            store.im.Composite((1280, 850), *img_str_list),
+            face_comp,
             None
         ))
 
@@ -2477,11 +2570,19 @@ init -4 python in mas_sprites:
 
             else:
                 # need to composite
-                hl_img = store.im.Composite(
-                    (1280, 850),
-                    (0, 0), shdw_str,
-                    (0, 0), hl_img
-                )
+                if EXPERIMENTAL_LIVE_COMPOSITE:
+                    hl_img = _make_live_composite(
+                        (1280, 850),
+                        [(0, 0), shdw_str, (0, 0), hl_img],
+                        FLT_DAY,
+                        EXPERIMENTAL_USE_FLATTEN
+                    )
+                else:
+                    hl_img = store.im.Composite(
+                        (1280, 850),
+                        (0, 0), shdw_str,
+                        (0, 0), hl_img
+                    )
 
         else:
             # determine highlight
