@@ -183,3 +183,21 @@ translate spanish strings:
     old "heroine"
     new "heroína"
 
+# game/script-ch30.rpy:1701
+translate spanish ch30_noskip_30447edd_1:
+
+    # m "Oh gosh..."
+    m "Ay, madre..."
+
+# game/script-ch30.rpy:1703
+translate spanish ch30_noskip_70aba2cf_1:
+
+    # m "It's just the two of us, after all..."
+    m "Después de todo, estamos solos tú y yo."
+
+# game/script-ch30.rpy:1711
+translate spanish ch30_noskip_76776199_1:
+
+    # m "Thanks~"
+    m "Gracias."
+

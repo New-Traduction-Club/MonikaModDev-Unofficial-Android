@@ -8140,3 +8140,35 @@ translate spanish strings:
     old "Just another bad day."
     new "Otro mal día sin más."
 
+    # script-greetings.rpy:1639
+    old "Great! Alright, let's see..."
+    new "¡Vale! Ahora veamos que tal si..."
+
+    # script-greetings.rpy:2899
+    old "Oh.{w=1} It's you, [player]."
+    new "Ah.{w=1} Eres tu."
+
+    # script-greetings.rpy:2899
+    old "Oh.{w=1} You're back, [player]."
+    new "Ah.{w=1} Estás de vuelta."
+
+    # script-greetings.rpy:2899
+    old "Hello, [player]."
+    new "Hola, [player]."
+
+    # script-greetings.rpy:2899
+    old "Oh.{w=1} Hello, [player]."
+    new "Ah.{w=1} Hola, [player]."
+
+    # script-greetings.rpy:2906
+    old "Did you want something?"
+    new "¿Qué... se te ofrece?"
+
+    # script-greetings.rpy:4291
+    old "Let's"
+    new "Bueno, vamos a"
+
+    # script-greetings.rpy:4325
+    old "Anyway, let's"
+    new "Venga, vamos a"
+

@@ -82,3 +82,23 @@ translate spanish strings:
     old "Can you change the weather?"
     new "¿Puedes cambiar el tiempo?"
 
+    # zz_weather.rpy:941
+    old "Rain"
+    new "Lluvia"
+
+    # zz_weather.rpy:965
+    old "Thunder/Lightning"
+    new "Tormenta electrica"
+
+    # zz_weather.rpy:977
+    old "Overcast"
+    new "Nublado"
+
+    # zz_weather.rpy:1131
+    old "What kind of weather would you like?"
+    new "¿Qué tipo de tiempo te gustaría?"
+
+    # zz_weather.rpy:1156
+    old "Progressive"
+    new "Tiempo progresivo"
+

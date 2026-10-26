@@ -29,3 +29,11 @@ translate spanish strings:
     old "Current Renderer:"
     new "Renderizador actual:"
 
+    # zz_graphicsmenu.rpy:41
+    old "Automatic"
+    new "Automático"
+
+    # zz_graphicsmenu.rpy:339
+    old "Switch renderer to [sel_rend]?"
+    new "¿Cambiar renderizador a [sel_rend]?"
+

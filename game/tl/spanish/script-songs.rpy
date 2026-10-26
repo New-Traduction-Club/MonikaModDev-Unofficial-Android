@@ -4517,3 +4517,11 @@ translate spanish strings:
     old "Merry Christmas Baby"
     new "Feliz Navidad, cariño"
 
+    # script-songs.rpy:231
+    old "full"
+    new "completa" #not used
+
+    # script-songs.rpy:250
+    old "I'd like to hear a [switch_str] song instead"
+    new "Me gustaría mejor escuchar una canción completa."
+

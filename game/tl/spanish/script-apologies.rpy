@@ -421,3 +421,7 @@ translate spanish strings:
     old "...for calling you a bad name."
     new "por intentar ponerte un apodo feo."
 
+    # script-apologies.rpy:84
+    old "something."
+    new "por algo."
+

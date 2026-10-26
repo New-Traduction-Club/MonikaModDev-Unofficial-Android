@@ -1439,3 +1439,15 @@ translate spanish strings:
     old "Enter a name for this game:"
     new "Pongámosle un nombre a esta partida:"
 
+    # chess.rpy:3440
+    old "Hmm, that's odd. It seems some permissions were changed and I can't get chess running on your system."
+    new "Mmm, hay algo extraño con los permisos... y no he podido hacer funcionar el Ajedrez en tu [cur_plat_es]."
+
+    # chess.rpy:3442
+    old "Hold on a second, [player]. I'm going to try something quickly.{w=0.3}.{w=0.3}.{w=0.3}{nw}"
+    new "[player], déjame intentar algo. Solo dame un segundito.{w=0.3}.{w=0.3}.{w=0.3}{nw}"
+
+    # chess.rpy:3474
+    old "Yay! We should be able to play now~"
+    new "¡Bien! Ahora deberíamos poder jugar."
+

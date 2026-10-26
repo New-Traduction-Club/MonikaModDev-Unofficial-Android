@@ -5033,3 +5033,7 @@ translate spanish strings:
     old "Prison Escape"
     new "Fuga de la prisión"
 
+    # script-stories.rpy:191
+    old "A new story"
+    new "Una nueva historia"
+

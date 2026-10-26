@@ -405,3 +405,11 @@ translate spanish strings:
     old "Mysteries"
     new "Misterios"
 
+    # script-topics.rpy:749
+    old "Allow selected"
+    new "Escoger seleccionados"
+
+    # script-topics.rpy:9215
+    old "I'd love to go to {0} concert with you!"
+    new "¡Sí que me encantaría ir a un concerto de {0} contigo!"
+

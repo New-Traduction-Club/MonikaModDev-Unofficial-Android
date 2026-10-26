@@ -2451,7 +2451,7 @@ translate spanish mas_mood_loved_0f86780c:
 translate spanish mas_mood_loved_29a4a99e:
 
     # m 3eub "And I'm sure it's not just me that makes you feel loved, but your [fnf_str] as well!"
-    m 3eub "¡Y estoy segura de que no soy la única que te hace sentir querid[end_letter_gender], sino también tu [fnf_str]!"
+    m 3eub "¡Y estoy segura de que no soy la única que te hace sentir querid[end_letter_gender], sino también tus [fnf_str]!"
 
 # game/script-moods.rpy:1000
 translate spanish mas_mood_loved_94541648:
@@ -2752,4 +2752,18 @@ translate spanish _mas_nnsh_dac38117:
 
     # m 1hua "Which means more time for us to spend together!~"
     m 1hua "¡Lo que significa más tiempo para pasarlo juntos!"
+
+translate spanish strings:
+
+    # script-moods.rpy:992
+    old "friends and family"
+    new "amigos y tu familia"
+
+    # script-moods.rpy:994
+    old "family"
+    new "familiares"
+
+    # script-moods.rpy:996
+    old "friends"
+    new "amigos"
 

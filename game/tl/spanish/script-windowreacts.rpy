@@ -275,3 +275,7 @@ translate spanish strings:
     old "Google Docs|LibreOffice Writer|Microsoft Word"
     new "Documentos de Google|LibreOffice Writer|Microsoft Word"
 
+    # script-windowreacts.rpy:102
+    old "'[wiki_article]'...\nSeems interesting, [player]."
+    new "'[wiki_article]'...\n[player], se ve interesante."
+

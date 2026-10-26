@@ -4043,3 +4043,7 @@ translate spanish strings:
     old "Oh, okay! {w=0.3}And what gender do you identify as?"
     new "¡Ah, vale! {w=0.3}¿Y con qué género te identificas?"
 
+    # script-story-events.rpy:2357
+    old "What year were you born?"
+    new "¿En qué año naciste?"
+
