@@ -16,7 +16,7 @@ init python:
         PythonActivity = None
         NotificationWorker = None
 
-    def show_notification(title, message, image_path=None):
+    def masl_show_notification(title, message, image_path=None):
         if renpy.android and PythonActivity.mActivity:
             NotificationWorker.showNotification(
                 PythonActivity.mActivity,
@@ -25,7 +25,7 @@ init python:
                 image_path
             )
 
-    def schedule_notification(delay_sec, title, message, image_path=None):
+    def masl_schedule_notification(delay_sec, title, message, image_path=None):
         if renpy.android and PythonActivity.mActivity:
             NotificationWorker.scheduleNotification(
                 PythonActivity.mActivity,
