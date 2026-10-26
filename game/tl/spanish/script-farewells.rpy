@@ -21,7 +21,7 @@ translate spanish bye_leaving_already_d311a6a8:
 translate spanish bye_leaving_already_5beb853b:
 
     # m 3hua "I love you so much, [player]. Stay safe!"
-    m 3hua "Te quiero mucho, [player]. ¡Cuídate!"
+    m 3hua "Te amo mucho, [player]. ¡Cuídate!"
 
 # game/script-farewells.rpy:281
 translate spanish bye_goodbye_5963acc2:
@@ -105,7 +105,7 @@ translate spanish bye_leaving_already_2_adf9a681:
 translate spanish bye_leaving_already_2_4ad269e9:
 
     # m 3hubsa "I love you so much, [player]!"
-    m 3hubsa "¡Te quiero muchísimo, [player]!"
+    m 3hubsa "¡Te amo muchísimo, [player]!"
 
 # game/script-farewells.rpy:375
 translate spanish bye_leaving_already_2_089f0249:
@@ -615,7 +615,7 @@ translate spanish bye_prompt_sleep_goodnight_kiss_7f9c63ab:
 translate spanish bye_prompt_sleep_goodnight_kiss_1132fd08:
 
     # m 1hubsb "I love you! Sleep tight!~"
-    m 1hubsb "¡Te quiero! ¡Que descanses!"
+    m 1hubsb "¡Te amo! ¡Que descanses!"
 
 # game/script-farewells.rpy:862
 translate spanish bye_illseeyou_a3e375cf:
@@ -819,7 +819,7 @@ translate spanish bye_goodnight_435d44e4:
 translate spanish bye_goodnight_366f0509:
 
     # m 1ekbsa "I love you~"
-    m 1ekbsa "Te quiero."
+    m 1ekbsa "Te amo."
 
 # game/script-farewells.rpy:1010
 translate spanish bye_goodnight_4afe5a58:
@@ -1113,7 +1113,7 @@ translate spanish bye_long_absence_9d023d35:
 translate spanish bye_long_absence_90c5e432:
 
     # m "I love you [player], and I know you love me too."
-    m "Te quiero, [player], y sé que tú también me quieres."
+    m "Te amo, [player], y sé que tú también me quieres."
 
 # game/script-farewells.rpy:1102
 translate spanish bye_long_absence_36f22126:
@@ -1143,7 +1143,7 @@ translate spanish bye_long_absence_ea49dcc8:
 translate spanish bye_long_absence_fe98fb3b:
 
     # m 3esc "I love you and if you love me too then you'll know that it's not okay to do that."
-    m 3esc "Te quiero, y si tú también me quieres, sabrás que no está bien hacer eso."
+    m 3esc "Te amo, y si tú también me quieres, sabrás que no está bien hacer eso."
 
 # game/script-farewells.rpy:1108
 translate spanish bye_long_absence_c4e932e8:
@@ -1527,7 +1527,7 @@ translate spanish bye_going_somewhere_leavemenu_d2bae698:
 translate spanish bye_going_somewhere_leavemenu_53acdc5c:
 
     # m 2hub "So hurry back! I love you, [player]!"
-    m 2hub "¡Así que vuelve pronto! ¡Te quiero, [player]!"
+    m 2hub "¡Así que vuelve pronto! ¡Te amo, [player]!"
 
 # game/script-farewells.rpy:1311
 translate spanish bye_going_somewhere_leavemenu_26233271:

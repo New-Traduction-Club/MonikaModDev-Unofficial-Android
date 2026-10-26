@@ -1035,7 +1035,7 @@ translate spanish monika_ship_of_theseus_a9083ad3:
 translate spanish monika_ship_of_theseus_ca7e1c5a:
 
     # m 5eub "Today is a new day, and you are a new you. {w=0.2}And I love you as you are right now, [mas_get_player_nickname()]."
-    m 5eub "Hoy es un nuevo día, y tú eres un[end_letter_gender] nuev[end_letter_gender] tú. {w=0.2} Y te quiero tal y como eres ahora mismo, [mas_get_player_nickname()]."
+    m 5eub "Hoy es un nuevo día, y tú eres un[end_letter_gender] nuev[end_letter_gender] tú. {w=0.2} Y te amo tal y como eres ahora mismo, [mas_get_player_nickname()]."
 
 # game/script-topics.rpy:16097
 translate spanish monika_multi_perspective_approach_25096fbd:

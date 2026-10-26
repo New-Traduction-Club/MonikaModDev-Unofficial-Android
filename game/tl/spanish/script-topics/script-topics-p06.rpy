@@ -1047,7 +1047,7 @@ translate spanish monika_nsfw_d85a74e1:
 translate spanish monika_nsfw_0cae6609:
 
     # m 1hubfa "That's how much I love you~"
-    m 1hubfa "¡Así de mucho te quiero!"
+    m 1hubfa "¡Así de mucho te amo!"
 
 # game/script-topics.rpy:5273
 translate spanish monika_impression_8c4dd6b0:
@@ -1743,7 +1743,7 @@ translate spanish monika_eternity_59e4ddf3:
 translate spanish monika_eternity_77c23816:
 
     # m 1ekbsa "I love you, [player]...{w=0.5}thanks for always being there for me."
-    m 1ekbsa "Te quiero, [player]... {w=0.5} Gracias por estar siempre ahí para mí."
+    m 1ekbsa "Te amo, [player]... {w=0.5} Gracias por estar siempre ahí para mí."
 
 # game/script-topics.rpy:5481
 translate spanish monika_eternity_46978725:

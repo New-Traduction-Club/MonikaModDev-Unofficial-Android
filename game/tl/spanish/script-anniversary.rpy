@@ -123,7 +123,7 @@ translate spanish anni_1month_6d6c1d27:
 translate spanish anni_1month_22c0f53e:
 
     # m 1ekbfa "I really do love you, [player]."
-    m 1ekbfa "De verdad te quiero, [player]."
+    m 1ekbfa "De verdad te amo, [player]."
 
 # game/script-anniversary.rpy:411
 translate spanish anni_1month_587b6754:
@@ -405,7 +405,7 @@ translate spanish anni_1_975c8b6d:
 translate spanish anni_1_dd90964a:
 
     # m 1hubsa "I love you so much, [player]. {w=0.2}Happy anniversary~"
-    m 1hubsa "Te quiero muchísimo, [player]. {w=0.2}¡Feliz aniversario!"
+    m 1hubsa "Te amo muchísimo, [player]. {w=0.2}¡Feliz aniversario!"
 
 # game/script-anniversary.rpy:544
 translate spanish anni_2_88de1589:
@@ -754,7 +754,7 @@ translate spanish anni_6_54fc82c1:
 translate spanish anni_6_56c8ed15:
 
     # m 1hubfa "I love you, [player]. Thank you for another wonderful year."
-    m 1hubfa "Te quiero, [player]. Gracias por otro año maravilloso."
+    m 1hubfa "Te amo, [player]. Gracias por otro año maravilloso."
 
 # game/script-anniversary.rpy:712
 translate spanish anni_7_c639eca6:

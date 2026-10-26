@@ -267,7 +267,7 @@ translate spanish mas_story_grasshoper_28d07914:
 translate spanish mas_story_grasshoper_b8f550b5:
 
     # m 1hub "Ehehe, I love you so much, [player]!"
-    m 1hub "Je, je, je, ¡te quiero muchísimo, [player]!"
+    m 1hub "Je, je, je, ¡te amo muchísimo, [player]!"
 
 # game/script-stories.rpy:471
 translate spanish mas_story_wind_sun_aa586b7e:
@@ -1503,7 +1503,7 @@ translate spanish mas_story_self_hate_96625ba1:
 translate spanish mas_story_self_hate_f8070fc7:
 
     # m 3eka "I just want to make sure you remember that I love you."
-    m 3eka "Solo quiero asegurarme de que recuerdas que te quiero."
+    m 3eka "Solo quiero asegurarme de que recuerdas que te amo."
 
 # game/script-stories.rpy:845
 translate spanish mas_story_self_hate_ca55eff6:

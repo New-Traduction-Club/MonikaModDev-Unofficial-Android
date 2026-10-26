@@ -219,7 +219,7 @@ translate spanish mas_mood_sad_2188bc88:
 translate spanish mas_mood_sad_3de83415:
 
     # m 1ekbsa "I love you, [player], and I always will~"
-    m 1ekbsa "Te quiero, [player], y siempre te querré."
+    m 1ekbsa "Te amo, [player], y siempre te amaré."
 
 # game/script-moods.rpy:197
 translate spanish mas_mood_proud_08b94e45:
@@ -345,7 +345,7 @@ translate spanish mas_mood_proud_a22246a6:
 translate spanish mas_mood_proud_ab1aac2f:
 
     # m 5hubfb "And remember, I love you, and I'm always cheering you on!"
-    m 5hubfb "Y recuerda, ¡te quiero y siempre te estoy animando!"
+    m 5hubfb "Y recuerda, ¡te amo y siempre te estoy animando!"
 
 # game/script-moods.rpy:232
 translate spanish mas_mood_happy_3301951c:
@@ -363,7 +363,7 @@ translate spanish mas_mood_happy_e6cbe9df:
 translate spanish mas_mood_happy_84caac57:
 
     # m 3eka "I love you and I'll always be here for you, so don't ever forget that~"
-    m 3eka "Te quiero y siempre estaré aquí para ti, así que nunca lo olvides."
+    m 3eka "Te amo y siempre estaré aquí para ti, así que nunca lo olvides."
 
 # game/script-moods.rpy:253
 translate spanish mas_mood_sick_e08d6fa5:
@@ -1257,7 +1257,7 @@ translate spanish mas_mood_inadequate_627ad426:
 translate spanish mas_mood_inadequate_8c1b01d3:
 
     # m 1ekbsa "I love you, [player]~"
-    m 1ekbsa "Te quiero, [player]."
+    m 1ekbsa "Te amo, [player]."
 
 # game/script-moods.rpy:524
 translate spanish mas_mood_lazy_ff7bf9fa:
@@ -1797,7 +1797,7 @@ translate spanish mas_mood_crying_18b7cfbd:
 translate spanish mas_mood_crying_20c61c27:
 
     # m 3ekbsu "I love you, [player]. {w=0.2}You're my everything."
-    m 3ekbsu "Te quiero, [player]. {w=0.2}Eres mi todo."
+    m 3ekbsu "Te amo, [player]. {w=0.2}Eres mi todo."
 
 # game/script-moods.rpy:745
 translate spanish mas_mood_uok_5e6b891c:
@@ -1965,7 +1965,7 @@ translate spanish mas_mood_upset_ef85f5b9:
 translate spanish mas_mood_upset_9192d173:
 
     # m 1eubsa "I love you and I hope everything clears up for you~"
-    m 1eubsa "Te quiero y espero que todo se aclare para ti."
+    m 1eubsa "Te amo y espero que todo se aclare para ti."
 
 # game/script-moods.rpy:812
 translate spanish mas_mood_relieved_d042431d:
@@ -2037,7 +2037,7 @@ translate spanish mas_mood_relieved_e6e16750:
 translate spanish mas_mood_relieved_462c877a:
 
     # m 1ekbsa "I love you, [player], and I'm so proud of you for getting through this."
-    m 1ekbsa "Te quiero, [player], y estoy muy orgullosa de ti por haber superado esto."
+    m 1ekbsa "Te amo, [player], y estoy muy orgullosa de ti por haber superado esto."
 
 # game/script-moods.rpy:832
 translate spanish mas_mood_relieved_f15bfaef:
@@ -2391,7 +2391,7 @@ translate spanish mas_mood_grateful_gratefulforyou_fceb70c5:
 translate spanish mas_mood_grateful_gratefulforyou_f2762886:
 
     # m 3ekbla "I love you, [player]~"
-    m 3ekbla "Te quiero, [player]."
+    m 3ekbla "Te amo, [player]."
 
 # game/script-moods.rpy:963
 translate spanish mas_mood_insecure_eba6c60f:
@@ -2445,7 +2445,7 @@ translate spanish mas_mood_loved_3abe9f01:
 translate spanish mas_mood_loved_0f86780c:
 
     # m 3hubsb "After all, I love you more than anything!"
-    m 3hubsb "Al fin y al cabo, ¡te quiero más que a nada!"
+    m 3hubsb "Al fin y al cabo, ¡te amo más que a nada!"
 
 # game/script-moods.rpy:998
 translate spanish mas_mood_loved_29a4a99e:
@@ -2505,7 +2505,7 @@ translate spanish mas_mood_guilty_e1bb0cfa:
 translate spanish mas_mood_guilty_c1ffe953:
 
     # m 1ekbsu "I love you.{w=0.2} Don't be so hard on yourself, okay?"
-    m 1ekbsu "Te quiero.{w=0.2} No seas tan dur[end_letter_gender] contigo, ¿vale?"
+    m 1ekbsu "Te amo.{w=0.2} No seas tan dur[end_letter_gender] contigo, ¿vale?"
 
 translate spanish strings:
 

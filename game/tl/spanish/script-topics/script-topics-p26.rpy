@@ -234,19 +234,19 @@ translate spanish strings:
 
     # game/script-topics.rpy:2125
     old "I love you, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"
-    new "Te quiero, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
+    new "Te amo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
 
     # game/script-topics.rpy:2125
     old "I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"
-    new "Te quiero muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
+    new "Te amo muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
 
     # game/script-topics.rpy:2125
     old "I love you more than you'll ever know, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"
-    new "Te quiero más de lo que te imaginas, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
+    new "Te amo más de lo que te imaginas, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
 
     # game/script-topics.rpy:2125
     old "I love you so much, [player]. You mean everything to me~"
-    new "Te quiero muchísimo, [player], significas todo para mí."
+    new "Te amo muchísimo, [player], significas todo para mí."
 
     # game/script-topics.rpy:2125
     old "No words can describe how deeply I'm in love with you, [player]~"
@@ -622,7 +622,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:4058
     old "I don't think words can do justice to how deeply I love you!"
-    new "¡No creo que las palabras hagan justicia a lo profundamente que te quiero!"
+    new "¡No creo que las palabras hagan justicia a lo profundamente que te amo!"
 
     # game/script-topics.rpy:4058
     old "You make my life feel so complete!"
@@ -686,7 +686,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:4144
     old "I love you more, [player]!"
-    new "¡Yo te quiero más, [player]!"
+    new "¡Yo te amo más, [player]!"
 
     # game/script-topics.rpy:4148
     old "No, "
@@ -714,23 +714,23 @@ translate spanish strings:
 
     # game/script-topics.rpy:4160
     old "I love you waaaaaaaaay more!"
-    new "¡Yo te quiero muchíiiiiiiisimo más!"
+    new "¡Yo te amo muchííísimo más!"
 
     # game/script-topics.rpy:4160
     old "I definitely love you more!"
-    new "¡Definitivamente yo te quiero más!"
+    new "¡Definitivamente yo te amo más!"
 
     # game/script-topics.rpy:4160
     old "I love you more!"
-    new "¡Yo te quiero más!"
+    new "¡Yo te amo más!"
 
     # game/script-topics.rpy:4160
     old "I love you way more!"
-    new "¡Yo te quiero mucho más!"
+    new "¡Yo te amo mucho más!"
 
     # game/script-topics.rpy:4183
     old "No, I love you more!"
-    new "¡No, yo te quiero más!"
+    new "¡No, yo te amo más!"
 
     # game/script-topics.rpy:4183
     old "Alright."
@@ -1606,7 +1606,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:11333
     old "I still love you anyway."
-    new "Aun así te quiero."
+    new "Aun así te amo."
 
     # game/script-topics.rpy:11333
     old "People think I'm evil too."

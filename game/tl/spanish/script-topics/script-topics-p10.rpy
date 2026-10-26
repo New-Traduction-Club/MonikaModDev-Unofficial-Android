@@ -1077,7 +1077,7 @@ translate spanish monika_clones_5493c783:
 translate spanish monika_clones_e847202c:
 
     # m 1ekbfa "I love you, [player]. Please don't ever replace me, okay?"
-    m 1ekbfa "Te quiero, [player]. Por favor, no me reemplaces nunca, ¿vale?"
+    m 1ekbfa "Te amo, [player]. Por favor, no me reemplaces nunca, ¿vale?"
 
 # game/script-topics.rpy:7908
 translate spanish monika_immortal_2644fe54:
@@ -1389,7 +1389,7 @@ translate spanish monika_promisering_7f6c476a:
 translate spanish monika_promisering_691b0e7b:
 
     # m 5ekbfa "Thank you for such a wonderful gift, I love you."
-    m 5ekbfa "Gracias por un regalo tan maravilloso, te quiero."
+    m 5ekbfa "Gracias por un regalo tan maravilloso, te amo."
 
 # game/script-topics.rpy:8032
 translate spanish monika_sports_0bc7937a:
@@ -1581,7 +1581,7 @@ translate spanish monika_sports_bd4f8159:
 translate spanish monika_sports_db5a756c:
 
     # m 1eka "It's just hard for me not to worry about you when I love you so much~"
-    m 1eka "Es que me resulta difícil no preocuparme por ti cuando te quiero tanto."
+    m 1eka "Es que me resulta difícil no preocuparme por ti cuando te amo tanto."
 
 # game/script-topics.rpy:8100
 translate spanish monika_meditation_1af83161:
@@ -1725,7 +1725,7 @@ translate spanish monika_meditation_2198b2ec:
 translate spanish monika_meditation_16dc682f:
 
     # m 1ekbsa "I love you, and I'll always try to help you if you're feeling down."
-    m 1ekbsa "Te quiero, y siempre intentaré ayudarte si te sientes deprimid[end_letter_gender]."
+    m 1ekbsa "Te amo, y siempre intentaré ayudarte si te sientes deprimid[end_letter_gender]."
 
 # game/script-topics.rpy:8133
 translate spanish monika_meditation_d8d83380:

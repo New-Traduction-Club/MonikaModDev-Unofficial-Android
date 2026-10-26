@@ -27,7 +27,7 @@ translate spanish monika_think_first_kiss_ee2ae044:
 translate spanish monika_think_first_kiss_8dc35252:
 
     # m 5hua "I love you so much, [player]~"
-    m 5hua "Te quiero muchísimo, [player]."
+    m 5hua "Te amo muchísimo, [player]."
 
 # game/script-topics.rpy:2224
 translate spanish monika_think_first_kiss_0290594e:

@@ -171,7 +171,7 @@ translate spanish monika_asks_family_6a2416bb:
 translate spanish monika_asks_family_db9e406d:
 
     # m 1hub "I love you so much, [player]. Please never forget that!"
-    m 1hub "Te quiero muchísimo, [player]. ¡Por favor, nunca lo olvides!"
+    m 1hub "Te amo muchísimo, [player]. ¡Por favor, nunca lo olvides!"
 
 # game/script-topics.rpy:9668
 translate spanish monika_asks_family_bc96da2a:
@@ -369,7 +369,7 @@ translate spanish monika_asks_family_1c3ca322:
 translate spanish monika_asks_family_8f95d153:
 
     # m 1hubsa "I love you very much!"
-    m 1hubsa "¡Te quiero muchísimo!"
+    m 1hubsa "¡Te amo muchísimo!"
 
 # game/script-topics.rpy:9750
 translate spanish monika_concerts_4cd69e3d:

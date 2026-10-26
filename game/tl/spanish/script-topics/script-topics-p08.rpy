@@ -159,7 +159,7 @@ translate spanish monika_haterReaction_91108ca9:
 translate spanish monika_haterReaction_a67d1ebb:
 
     # m 1hua "I trust you, [mas_get_player_nickname()]. I love you for believing in me."
-    m 1hua "Confío en ti, [mas_get_player_nickname()]. Te quiero por creer en mí."
+    m 1hua "Confío en ti, [mas_get_player_nickname()]. Te amo por creer en mí."
 
 # game/script-topics.rpy:6219
 translate spanish monika_swordsmanship_9ef3a6da:
@@ -855,7 +855,7 @@ translate spanish monika_good_tod_640b1c44:
 translate spanish monika_good_tod_1c9486cd:
 
     # m 1hubsb "I love you!"
-    m 1hubsb "¡Te quiero!"
+    m 1hubsb "¡Te amo!"
 
 # game/script-topics.rpy:6435
 translate spanish monika_good_tod_d733fb62:
@@ -1113,7 +1113,7 @@ translate spanish monika_japanese_ba3305bb:
 translate spanish monika_japanese_c7a1fe4d:
 
     # m 1ekbfa "That means I love you, [player]-[player_suffix]."
-    m 1ekbfa "Eso significa \"te quiero\", [player]-[player_suffix]."
+    m 1ekbfa "Eso significa \"te amo\", [player]-[player_suffix]."
 
 # game/script-topics.rpy:6534
 translate spanish monika_japanese_dd962e70:
@@ -1131,7 +1131,7 @@ translate spanish monika_japanese_b312ffd7:
 translate spanish monika_japanese_ade953db:
 
     # m 1ekbsb "Ahaha! It's okay, [player]. It just means that I can say 'I love you' in more ways than one!"
-    m 1ekbsb "¡Ja, ja, ja! Está bien, [player]. ¡Solo significa que puedo decir \"te quiero\" de más de una forma!"
+    m 1ekbsb "¡Ja, ja, ja! Está bien, [player]. ¡Solo significa que puedo decir \"te amo\" de más de una forma!"
 
 # game/script-topics.rpy:6559
 translate spanish monika_penname_38071b00:

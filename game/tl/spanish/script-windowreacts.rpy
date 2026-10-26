@@ -15,7 +15,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:52
     old "Learning new ways to say 'I love you,' [player]?"
-    new "¿Aprendiendo nuevas formas de decir \"te quiero\", [player]?"
+    new "¿Aprendiendo nuevas formas de decir \"te amo\", [player]?"
 
     # game/script-windowreacts.rpy:52
     old "Learning a new language, [player]?"
@@ -67,7 +67,7 @@ translate spanish strings:
 
     # game/script-windowreacts.rpy:286
     old "I love you, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
-    new "Te quiero, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
+    new "Te amo, [mas_get_player_nickname(exclude_names=['love', 'my love'])]."
 
     # game/script-windowreacts.rpy:290
     old "See anything you want to share with me, [player]?"

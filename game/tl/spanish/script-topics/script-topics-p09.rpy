@@ -3,7 +3,7 @@
 translate spanish monika_surprise_c0d10813:
 
     # m 1ekbsa "I really do truly love you, [mas_get_player_nickname(exclude_names=['my love', 'love'])]~"
-    m 1ekbsa "Te quiero con todo mi corazón, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
+    m 1ekbsa "Te amo con todo mi corazón, [mas_get_player_nickname(exclude_names=['my love', 'love'])]."
 
 # game/script-topics.rpy:6859
 translate spanish monika_surprise_ff7177e0:
@@ -33,7 +33,7 @@ translate spanish monika_surprise_676433fa:
 translate spanish monika_surprise_ee0c510d:
 
     # m 1hubsb "I love you so much, [player]~"
-    m 1hubsb "Te quiero muchísimo, [player]."
+    m 1hubsb "Te amo muchísimo, [player]."
 
 # game/script-topics.rpy:6874
 translate spanish monika_completionist_b2fb83a6:
@@ -1119,7 +1119,7 @@ translate spanish monika_panties_8fc6bf40:
 translate spanish monika_panties_338d28f9:
 
     # m 1hubfb "I love you so much, [player]~"
-    m 1hubfb "Te quiero muchísimo, [player]."
+    m 1hubfb "Te amo muchísimo, [player]."
 
 # game/script-topics.rpy:7288
 translate spanish monika_panties_1fe2ddbc:

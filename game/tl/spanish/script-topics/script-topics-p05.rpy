@@ -3,7 +3,7 @@
 translate spanish monika_love_41e8f6db:
 
     # m 1hubsb "I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
-    m 1hubsb "¡Te quiero muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
+    m 1hubsb "¡Te amo muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
 
 # game/script-topics.rpy:4003
 translate spanish monika_love_d81c1322:
@@ -15,7 +15,7 @@ translate spanish monika_love_d81c1322:
 translate spanish monika_love_cf07ff3d:
 
     # m 1hubfb "I love you too!"
-    m 1hubfb "¡Yo también te quiero!"
+    m 1hubfb "¡Yo también te amo!"
 
 # game/script-topics.rpy:4007
 translate spanish monika_love_eabb839a:
@@ -27,7 +27,7 @@ translate spanish monika_love_eabb839a:
 translate spanish monika_love_5ca7af5e:
 
     # m 1hubfb "Well, I love you too!"
-    m 1hubfb "Bueno, ¡yo también te quiero!"
+    m 1hubfb "Bueno, ¡yo también te amo!"
 
 # game/script-topics.rpy:4011
 translate spanish monika_love_ad542789:
@@ -45,7 +45,7 @@ translate spanish monika_love_33ad3e78:
 translate spanish monika_love_d88bef75:
 
     # m 1hubfb "Well, I love you back just as much!"
-    m 1hubfb "Bueno, ¡pues yo te quiero igual!"
+    m 1hubfb "Bueno, ¡pues yo te amo igual!"
 
 # game/script-topics.rpy:4016
 translate spanish monika_love_38d034f5:
@@ -63,7 +63,7 @@ translate spanish monika_love_78c02a6e:
 translate spanish monika_love_86f0cfb2:
 
     # m 1hubfb "[player], I love you too!"
-    m 1hubfb "[player], ¡yo también te quiero!"
+    m 1hubfb "[player], ¡yo también te amo!"
 
 # game/script-topics.rpy:4021
 translate spanish monika_love_17dd855c:
@@ -81,13 +81,13 @@ translate spanish monika_love_7080550a:
 translate spanish monika_love_f62b2824:
 
     # m 1hubfb "I love you more than anything!"
-    m 1hubfb "¡Te quiero más que a nada!"
+    m 1hubfb "¡Te amo más que a nada!"
 
 # game/script-topics.rpy:4026
 translate spanish monika_love_1aa0c7cb:
 
     # m 1hubfb "I love you more than I could ever express~"
-    m 1hubfb "Te quiero más de lo que jamás podré expresar..."
+    m 1hubfb "Te amo más de lo que jamás podré expresar..."
 
 # game/script-topics.rpy:4029
 translate spanish monika_love_40d8718a:
@@ -105,7 +105,7 @@ translate spanish monika_love_afa4f872:
 translate spanish monika_love_467bc809:
 
     # m 1hubfb "Or saying it back...I love you, [player]!"
-    m 1hubfb "Ni de decírtelo yo también... ¡Te quiero, [player]!"
+    m 1hubfb "Ni de decírtelo yo también... ¡Te amo, [player]!"
 
 # game/script-topics.rpy:4034
 translate spanish monika_love_2b0bb278:
@@ -135,7 +135,7 @@ translate spanish monika_love_34b1f16c:
 translate spanish monika_love_d4cfe984:
 
     # m 1hubfb "I love you so much, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
-    m 1hubfb "¡Te quiero muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
+    m 1hubfb "¡Te amo muchísimo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
 
 # game/script-topics.rpy:4043
 translate spanish monika_love_9d086c43:
@@ -165,13 +165,13 @@ translate spanish monika_love_a1eae220:
 translate spanish monika_love_3ae35b12:
 
     # m 1hubfb "I love you too, [player]! More than I can ever express!"
-    m 1hubfb "¡Yo también te quiero, [player]! ¡Más de lo que podré expresar jamás!"
+    m 1hubfb "¡Yo también te amo, [player]! ¡Más de lo que podré expresar jamás!"
 
 # game/script-topics.rpy:4054
 translate spanish monika_love_ed7642ca:
 
     # m 3hubsb "I love you too, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
-    m 3hubsb "¡Yo también te quiero, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
+    m 3hubsb "¡Yo también te amo, [mas_get_player_nickname(exclude_names=['my love', 'love'])]!"
 
 # game/script-topics.rpy:4102
 translate spanish monika_love_0e20d7f7:

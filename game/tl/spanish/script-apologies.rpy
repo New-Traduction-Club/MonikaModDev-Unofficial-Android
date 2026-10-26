@@ -183,7 +183,7 @@ translate spanish mas_apology_generic_f21b8158:
 translate spanish mas_apology_generic_14408444:
 
     # m 1hub "That's why I love you, [player]!"
-    m 1hub "¡Por eso te quiero, [player]!"
+    m 1hub "¡Por eso te amo, [player]!"
 
 # game/script-apologies.rpy:230
 translate spanish mas_apology_generic_1ed68252:

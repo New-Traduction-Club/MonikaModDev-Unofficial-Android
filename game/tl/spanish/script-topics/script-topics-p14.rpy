@@ -897,7 +897,7 @@ translate spanish monika_timeconcern_night_3_69f533d8:
 translate spanish monika_timeconcern_night_3_8c1b01d3:
 
     # m 1ekbsa "I love you, [player]~"
-    m 1ekbsa "Te quiero, [player]."
+    m 1ekbsa "Te amo, [player]."
 
 # game/script-topics.rpy:10629
 translate spanish monika_timeconcern_night_4_db5eccb4:
@@ -951,7 +951,7 @@ translate spanish monika_timeconcern_night_5_f93fce12:
 translate spanish monika_timeconcern_night_5_78e875dd:
 
     # m 2eka "It's because I love you, that's why I'm doing this."
-    m 2eka "Si hago esto es porque te quiero."
+    m 2eka "Si hago esto es porque te amo."
 
 # game/script-topics.rpy:10646
 translate spanish monika_timeconcern_night_5_a3df2d87:
@@ -1011,7 +1011,7 @@ translate spanish monika_timeconcern_night_6_62f3635d:
 translate spanish monika_timeconcern_night_6_15c3db2d:
 
     # m 1ekbsa "...I love you."
-    m 1ekbsa "Te quiero."
+    m 1ekbsa "Te amo."
 
 # game/script-topics.rpy:10663
 translate spanish monika_timeconcern_night_6_712a2f34:
@@ -1119,7 +1119,7 @@ translate spanish monika_timeconcern_night_final_ed18a64d:
 translate spanish monika_timeconcern_night_final_15c3db2d:
 
     # m 1ekbsa "...I love you."
-    m 1ekbsa "Te quiero."
+    m 1ekbsa "Te amo."
 
 # game/script-topics.rpy:10703
 translate spanish monika_timeconcern_night_finalfollowup_21ece3da:
@@ -1299,7 +1299,7 @@ translate spanish monika_timeconcern_day_allow_6_b126bb1b:
 translate spanish monika_timeconcern_day_allow_6_1ba703ae:
 
     # m 1ekd "I only did it because I love you. You understand that right?"
-    m 1ekd "Solo lo hice porque te quiero. Lo entiendes, ¿verdad?"
+    m 1ekd "Solo lo hice porque te amo. Lo entiendes, ¿verdad?"
 
 # game/script-topics.rpy:10749
 translate spanish monika_timeconcern_day_allow_6_de869525:
@@ -1341,7 +1341,7 @@ translate spanish monika_timeconcern_day_allow_7_49e487ee:
 translate spanish monika_timeconcern_day_allow_7_edaa331b:
 
     # m 1eka "I love you, and I would do anything to make you happy..."
-    m 1eka "Te quiero y haría cualquier cosa para hacerte feliz..."
+    m 1eka "Te amo y haría cualquier cosa para hacerte feliz..."
 
 # game/script-topics.rpy:10760
 translate spanish monika_timeconcern_day_allow_7_aebffafa:

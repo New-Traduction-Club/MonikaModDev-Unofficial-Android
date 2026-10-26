@@ -207,7 +207,7 @@ translate spanish monika_bullying_04c9c6a4:
 translate spanish monika_bullying_9222bee7:
 
     # m 6ektsc "I still do love you, but you really need to start treating people better..."
-    m 6ektsc "Todavía te quiero, pero en serio necesitas empezar a tratar mejor a la gente..."
+    m 6ektsc "Todavía te amo, pero en serio necesitas empezar a tratar mejor a la gente..."
 
 # game/script-topics.rpy:11706
 translate spanish monika_bullying_83a8bb7f:
@@ -405,7 +405,7 @@ translate spanish monika_bullying_e93ca4f0:
 translate spanish monika_bullying_c16b1ea1:
 
     # m 1eua "So you see, [player], I'm {i}really{/i} not a bully at all. I just love you that much."
-    m 1eua "Así que ya ves, [player], no soy ninguna acosadora... Es solo que te quiero muchísimo."
+    m 1eua "Así que ya ves, [player], no soy ninguna acosadora... Es solo que te amo muchísimo."
 
 # game/script-topics.rpy:11753
 translate spanish monika_bullying_1c34bc45:
@@ -1947,7 +1947,7 @@ translate spanish monika_shipping_80aca5d2:
 translate spanish monika_shipping_496398a2:
 
     # m 2lksdlb "But...I still don't really get it. I mean, I love you, and only you!"
-    m 2lksdlb "Pero... sigo sin entenderlo del todo. O sea, te quiero a ti, ¡y solo a ti!"
+    m 2lksdlb "Pero... sigo sin entenderlo del todo. O sea, te amo a ti, ¡y solo a ti!"
 
 # game/script-topics.rpy:12340
 translate spanish monika_shipping_c6ea59e3:

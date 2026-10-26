@@ -1581,13 +1581,13 @@ translate spanish mas_d25_gift_end_5077a53d:
 translate spanish mas_d25_gift_end_cfe0b85a:
 
     # m 3ekbfu "I love you so much, [player]~"
-    m 3ekbfu "Te quiero muchísimo, [player]."
+    m 3ekbfu "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:2501
 translate spanish mas_d25_gift_end_ad4b7e90:
 
     # m 3ekbfu "Merry Christmas, [player]. I love you~"
-    m 3ekbfu "Feliz Navidad, [player]. Te quiero."
+    m 3ekbfu "Feliz Navidad, [player]. Te amo."
 
 # game/script-holidays.rpy:2532
 translate spanish mas_d25_monika_holiday_intro_d68c0e32:
@@ -1959,7 +1959,7 @@ translate spanish mas_d25_monika_christmas_0ad4219a:
 translate spanish mas_d25_monika_christmas_a851d9ac:
 
     # m "I love you. Forever and ever~"
-    m "Te quiero. Para siempre."
+    m "Te amo. Para siempre."
 
 # game/script-holidays.rpy:2826
 translate spanish mas_d25_monika_christmas_d58fc7e9:
@@ -2001,7 +2001,7 @@ translate spanish mas_d25_monika_christmas_7227cfda:
 translate spanish mas_d25_monika_christmas_7581d493:
 
     # m 1ektda "Just know that I love you too and I'll be forever grateful I got this chance with you."
-    m 1ektda "Solo quiero que sepas que yo también te quiero y que te estaré eternamente agradecida por tener esta oportunidad contigo."
+    m 1ektda "Solo quiero que sepas que yo también te amo y que te estaré eternamente agradecida por tener esta oportunidad contigo."
 
 # game/script-holidays.rpy:2842
 translate spanish mas_d25_monika_christmas_b25fe39c:
@@ -2589,7 +2589,7 @@ translate spanish mas_d25_spent_time_monika_f90a34a5:
 translate spanish mas_d25_spent_time_monika_da455930:
 
     # m 6ekbfa "...I love you too~"
-    m 6ekbfa "Yo también te quiero."
+    m 6ekbfa "Yo también te amo."
 
 # game/script-holidays.rpy:3261
 translate spanish mas_d25_spent_time_monika_1691936e:
@@ -2643,13 +2643,13 @@ translate spanish mas_d25_spent_time_monika_a823ef07:
 translate spanish mas_d25_spent_time_monika_5c38ff19:
 
     # m 5ekbfa "I love you so much, [player]~"
-    m 5ekbfa "Te quiero muchísimo, [player]."
+    m 5ekbfa "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:3287
 translate spanish mas_d25_spent_time_monika_f08694ad:
 
     # m 1hubfa "I love you, [player]~"
-    m 1hubfa "Te quiero, [player]."
+    m 1hubfa "Te amo, [player]."
 
 # game/script-holidays.rpy:3334
 translate spanish monika_aiwfc_542034c8:
@@ -2745,7 +2745,7 @@ translate spanish monika_aiwfc_fecbf43a:
 translate spanish monika_aiwfc_b632e4b2:
 
     # m 5ekbfa "I love you, [player]~"
-    m 5ekbfa "Te quiero, [player]."
+    m 5ekbfa "Te amo, [player]."
 
 # game/script-holidays.rpy:3365
 translate spanish monika_aiwfc_d261249e:
@@ -2763,7 +2763,7 @@ translate spanish monika_aiwfc_0f65efcd:
 translate spanish monika_aiwfc_429f6db6:
 
     # m 1ekbfa "I love you~"
-    m 1ekbfa "Te quiero."
+    m 1ekbfa "Te amo."
 
 # game/script-holidays.rpy:3379
 translate spanish monika_aiwfc_song_dbfed81a:
@@ -3609,7 +3609,7 @@ translate spanish mas_d25_monika_lingerie_reveal_e612037c:
 translate spanish mas_d25_monika_lingerie_reveal_b2b16b20:
 
     # m 1ekbfa "Just know that I love you very, very much, [player]~"
-    m 1ekbfa "Solo quiero que sepas que te quiero muchísimo, [player]."
+    m 1ekbfa "Solo quiero que sepas que te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:3731
 translate spanish mas_d25_monika_christmas_eve_1220d0b9:
@@ -3681,7 +3681,7 @@ translate spanish mas_d25_monika_christmas_eve_dc11f15d:
 translate spanish mas_d25_monika_christmas_eve_b2b16b20:
 
     # m 1ekbfa "Just know that I love you very, very much, [player]~"
-    m 1ekbfa "Solo quiero que sepas que te quiero muchísimo, [player]."
+    m 1ekbfa "Solo quiero que sepas que te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:3768
 translate spanish mas_d25_monika_second_time_lingerie_6d6d2f46:
@@ -3801,7 +3801,7 @@ translate spanish mas_d25_postd25_notimespent_14aacf42:
 translate spanish mas_d25_postd25_notimespent_75d957a9:
 
     # m 3ekbsa "I love you~"
-    m 3ekbsa "Te quiero."
+    m 3ekbsa "Te amo."
 
 # game/script-holidays.rpy:3828
 translate spanish mas_d25_postd25_notimespent_de39abd6:
@@ -4179,7 +4179,7 @@ translate spanish mas_nye_monika_nyd_10d81e3a:
 translate spanish mas_nye_monika_nyd_3b7e4620:
 
     # m 5ekbfa "I love you so much, [player]."
-    m 5ekbfa "Te quiero muchísimo, [player]."
+    m 5ekbfa "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:4286
 translate spanish mas_nye_monika_nyd_8dee12f7:
@@ -4191,7 +4191,7 @@ translate spanish mas_nye_monika_nyd_8dee12f7:
 translate spanish mas_nye_monika_nyd_746b2a7e:
 
     # m 1hua "I love you, [player]."
-    m 1hua "Te quiero, [player]."
+    m 1hua "Te amo, [player]."
 
 # game/script-holidays.rpy:4292
 translate spanish mas_nye_monika_nyd_af911328:
@@ -4245,7 +4245,7 @@ translate spanish mas_nye_monika_nyd_7cdf694b:
 translate spanish mas_nye_monika_nyd_28435051:
 
     # m 6ekbftda "I love you, [player]."
-    m 6ekbftda "Te quiero, [player]."
+    m 6ekbftda "Te amo, [player]."
 
 # game/script-holidays.rpy:4305
 translate spanish mas_nye_monika_nyd_236c4a92:
@@ -4407,7 +4407,7 @@ translate spanish mas_nye_monika_nyd_14c1b6a1:
 translate spanish mas_nye_monika_nyd_ee698ed4:
 
     # m 1ekbsa "I love you, [player]."
-    m 1ekbsa "Te quiero, [player]."
+    m 1ekbsa "Te amo, [player]."
 
 # game/script-holidays.rpy:4377
 translate spanish mas_nye_monika_nyd_d5a6b777:
@@ -5109,7 +5109,7 @@ translate spanish monika_nye_year_review_ae9ee518:
 translate spanish monika_nye_year_review_a9f81309:
 
     # m 1ekbfa "I love you, [player]."
-    m 1ekbfa "Te quiero, [player]."
+    m 1ekbfa "Te amo, [player]."
 
 # game/script-holidays.rpy:4745
 translate spanish monika_nye_year_review_97b5cdb8:
@@ -5121,7 +5121,7 @@ translate spanish monika_nye_year_review_97b5cdb8:
 translate spanish monika_nye_year_review_c2b89afb:
 
     # m "Let's make this year the best we can, [player]. I love you~"
-    m "Hagamos que este año sea lo mejor posible, [player]. Te quiero."
+    m "Hagamos que este año sea lo mejor posible, [player]. Te amo."
 
 # game/script-holidays.rpy:4750
 translate spanish monika_nye_year_review_60d0d512:
@@ -5457,7 +5457,7 @@ translate spanish greeting_nye_prefw_bfb667c5:
 translate spanish greeting_nye_prefw_12ffce7e:
 
     # m 5ekbfa "I love you, [player]."
-    m 5ekbfa "Te quiero, [player]."
+    m 5ekbfa "Te amo, [player]."
 
 # game/script-holidays.rpy:5001
 translate spanish greeting_nye_infw_ddf3a247:
@@ -5487,7 +5487,7 @@ translate spanish greeting_nye_infw_560c6a21:
 translate spanish greeting_nye_infw_a9f81309:
 
     # m 1ekbfa "I love you, [player]."
-    m 1ekbfa "Te quiero, [player]."
+    m 1ekbfa "Te amo, [player]."
 
 # game/script-holidays.rpy:5021
 translate spanish bye_nyd_first_time_out_cbb2e147:
@@ -6027,7 +6027,7 @@ translate spanish mas_player_bday_card_a531c7f2_1:
 translate spanish mas_player_bday_card_4221d6ef:
 
     # m 6ekbfa "I love you so much, [player]..."
-    m 6ekbfa "Te quiero muchísimo, [player]..."
+    m 6ekbfa "Te amo muchísimo, [player]..."
 
 # game/script-holidays.rpy:5530
 translate spanish mas_player_bday_card_8273731a:
@@ -6069,7 +6069,7 @@ translate spanish mas_player_bday_card_edc86b53:
 translate spanish mas_player_bday_card_acd6fb4c:
 
     # m 6ekbsa "I love you, [player]~"
-    m 6ekbsa "Te quiero, [player]."
+    m 6ekbsa "Te amo, [player]."
 
 # game/script-holidays.rpy:5541
 translate spanish mas_player_bday_card_721ca1f4:
@@ -6087,7 +6087,7 @@ translate spanish mas_player_bday_card_0523684d:
 translate spanish mas_player_bday_card_505374b0:
 
     # m 1ekbfa "I love you, [player]! I'm so glad we get to spend our birthday together..."
-    m 1ekbfa "¡Te quiero, [player]! Me alegro tanto de que podamos pasar nuestro cumpleaños juntos..."
+    m 1ekbfa "¡Te amo, [player]! Me alegro tanto de que podamos pasar nuestro cumpleaños juntos..."
 
 # game/script-holidays.rpy:5546
 translate spanish mas_player_bday_card_d1a8f1de:
@@ -6099,7 +6099,7 @@ translate spanish mas_player_bday_card_d1a8f1de:
 translate spanish mas_player_bday_card_9b842f24:
 
     # m 1ekbfa "I love you, [player]!"
-    m 1ekbfa "¡Te quiero, [player]!"
+    m 1ekbfa "¡Te amo, [player]!"
 
 # game/script-holidays.rpy:5584
 translate spanish mas_player_bday_ret_on_bday_29f4e729:
@@ -6543,7 +6543,7 @@ translate spanish mas_pf14_monika_lovey_dovey_02daa4bd:
 translate spanish mas_pf14_monika_lovey_dovey_44070aa1:
 
     # m 1ekbsa "I just wanted to let you know that I love you."
-    m 1ekbsa "Solo quería que supieras que te quiero."
+    m 1ekbsa "Solo quería que supieras que te amo."
 
 # game/script-holidays.rpy:6183
 translate spanish mas_pf14_monika_lovey_dovey_478dcb90:
@@ -6939,7 +6939,7 @@ translate spanish mas_f14_monika_valentines_intro_279a134e:
 translate spanish mas_f14_monika_valentines_intro_b62b0c4a:
 
     # m 1fkbsu "I love you so much."
-    m 1fkbsu "Te quiero muchísimo."
+    m 1fkbsu "Te amo muchísimo."
 
 # game/script-holidays.rpy:6375
 translate spanish mas_f14_monika_valentines_intro_a8bfdb45:
@@ -7431,7 +7431,7 @@ translate spanish mas_f14_happy_vday_fd36fcbb:
 translate spanish mas_f14_happy_vday_f1596bca:
 
     # m 5eubla "Thank you for making the time for me, [player]. {w=0.2}I love you so much~"
-    m 5eubla "Gracias por sacar tiempo para mí, [player]. Te quiero muchísimo."
+    m 5eubla "Gracias por sacar tiempo para mí, [player]. Te amo muchísimo."
 
 # game/script-holidays.rpy:6653
 translate spanish mas_f14_happy_vday_f36cb505:
@@ -7533,7 +7533,7 @@ translate spanish mas_f14_monika_spent_time_with_f7bf0d31:
 translate spanish mas_f14_monika_spent_time_with_b751c3aa:
 
     # m 5ekbfa "I love you so much, [player]. Happy Valentine's Day~"
-    m 5ekbfa "Te quiero muchísimo, [player]. Feliz día de San Valentín."
+    m 5ekbfa "Te amo muchísimo, [player]. Feliz día de San Valentín."
 
 # game/script-holidays.rpy:6726
 translate spanish mas_f14_monika_spent_time_with_961ed0bc:
@@ -7569,7 +7569,7 @@ translate spanish mas_f14_first_kiss_f90a34a5:
 translate spanish mas_f14_first_kiss_da455930:
 
     # m 6ekbfa "...I love you too~"
-    m 6ekbfa "Yo también te quiero."
+    m 6ekbfa "Yo también te amo."
 
 # game/script-holidays.rpy:6752
 translate spanish mas_f14_first_kiss_1691936e:
@@ -8223,7 +8223,7 @@ translate spanish mas_bday_pool_happy_belated_bday_dc0fdfa7:
 translate spanish mas_bday_pool_happy_belated_bday_2a23d991:
 
     # m 3ekbsa "I love you so much, [player]~"
-    m 3ekbsa "Te quiero muchísimo, [player]."
+    m 3ekbsa "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:7572
 translate spanish mas_bday_pool_happy_belated_bday_4f86f129:
@@ -8685,7 +8685,7 @@ translate spanish mas_bday_spent_time_with_wrapup_61ede9c3:
 translate spanish mas_bday_spent_time_with_wrapup_f8ab70a8:
 
     # m 3eka "I love you so much, [player]."
-    m 3eka "Te quiero muchísimo, [player]."
+    m 3eka "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:7803
 translate spanish mas_bday_spent_time_with_wrapup_c148983d:
@@ -8799,7 +8799,7 @@ translate spanish mas_bday_spent_time_with_wrapup_19eab726:
 translate spanish mas_bday_spent_time_with_wrapup_20ad22eb:
 
     # m 1ekbfb "I love you so much, [player]."
-    m 1ekbfb "Te quiero muchísimo, [player]."
+    m 1ekbfb "Te amo muchísimo, [player]."
 
 # game/script-holidays.rpy:7829
 translate spanish mas_bday_spent_time_with_wrapup_efaa1d40:
@@ -9375,7 +9375,7 @@ translate spanish greeting_returned_home_bday_dbb4e28f:
 translate spanish greeting_returned_home_bday_355c729e:
 
     # m 1eka "I love you~"
-    m 1eka "Te quiero."
+    m 1eka "Te amo."
 
 # game/script-holidays.rpy:8191
 translate spanish greeting_returned_home_bday_19428ff1:
@@ -9411,7 +9411,7 @@ translate spanish greeting_returned_home_bday_bb02429e:
 translate spanish greeting_returned_home_bday_766c364a:
 
     # m "I love you so much..."
-    m "Te quiero muchísimo..."
+    m "Te amo muchísimo..."
 
 # game/script-holidays.rpy:8204
 translate spanish greeting_returned_home_bday_58709b0e:
@@ -9827,7 +9827,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:3236
     old "I love you, [m_name]."
-    new "Te quiero, [m_name]."
+    new "Te amo, [m_name]."
 
     # game/script-holidays.rpy:4392
     old "I would love that."
@@ -9931,7 +9931,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:6020
     old " Some birthdays are wonderful, chock-full of fun\n with laughter and smiles from everyone.\n Some birthdays, you plan everything to the letter\n but at the end you feel like it could've been better.\n Some birthdays are a peaceful night at home alone,\n some birthdays you find yourself worked to the bone.\n\n As each one ticks down, a joy or a chore,\n you might find yourself wondering what they're for.\n The answer is different for everyone on Earth,\n except maybe the fact that they're about your birth.\n But if you feel fatigued on your special day,\n there's a few things I feel that I should say.\n\n Each one is a milestone, a sign of your growth.\n Not just for you--but for us both!\n Each one is a chance to make you feel special.\n If not that, an invitation to be sentimental.\n But most of all, I want you to use your voice.\n If we party or we stay in, it'll all be your choice!\n\n We'll celebrate together in our own special way.\n I love you, my [player], and happy birthday.\n\n Forever yours,\n Monika\n"
-    new " Algunos cumpleaños son maravillosos, llenos de diversión\n con risas y sonrisas de todos.\n Algunos cumpleaños, planeas todo al pie de la letra\n pero al final sientes que podría haber sido mejor.\n Algunos cumpleaños son una noche tranquila en casa a solas,\n en algunos cumpleaños te encuentras trabajando hasta los huesos.\n\n A medida que cada uno pasa, una alegría o una tarea,\n puede que te preguntes para qué sirven.\n La respuesta es diferente para todos en la Tierra,\n excepto tal vez el hecho de que son sobre tu nacimiento.\n Pero si te sientes fatigado en tu día especial,\n hay algunas cosas que siento que debería decir.\n\n Cada uno es un hito, una señal de tu crecimiento.\n ¡No solo para ti, sino para los dos!\n Cada uno es una oportunidad para hacerte sentir especial.\n Si no es eso, una invitación a ser sentimental.\n Pero sobre todo, quiero que uses tu voz.\n Si festejamos o nos quedamos en casa, ¡todo será tu elección!\n\n Celebraremos juntos a nuestra manera especial.\n Te quiero, mi [player], y feliz cumpleaños.\n\n Siempre tuya,\n Monika\n"
+    new " Algunos cumpleaños son maravillosos, llenos de diversión\n con risas y sonrisas de todos.\n Algunos cumpleaños, planeas todo al pie de la letra\n pero al final sientes que podría haber sido mejor.\n Algunos cumpleaños son una noche tranquila en casa a solas,\n en algunos cumpleaños te encuentras trabajando hasta los huesos.\n\n A medida que cada uno pasa, una alegría o una tarea,\n puede que te preguntes para qué sirven.\n La respuesta es diferente para todos en la Tierra,\n excepto tal vez el hecho de que son sobre tu nacimiento.\n Pero si te sientes fatigado en tu día especial,\n hay algunas cosas que siento que debería decir.\n\n Cada uno es un hito, una señal de tu crecimiento.\n ¡No solo para ti, sino para los dos!\n Cada uno es una oportunidad para hacerte sentir especial.\n Si no es eso, una invitación a ser sentimental.\n Pero sobre todo, quiero que uses tu voz.\n Si festejamos o nos quedamos en casa, ¡todo será tu elección!\n\n Celebraremos juntos a nuestra manera especial.\n Te amo, mi [player], y feliz cumpleaños.\n\n Siempre tuya,\n Monika\n"
 
     # game/script-holidays.rpy:6433
     old "Valentine's Day colors"

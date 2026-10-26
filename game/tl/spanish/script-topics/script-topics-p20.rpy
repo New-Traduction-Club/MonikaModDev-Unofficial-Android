@@ -771,7 +771,7 @@ translate spanish monika_unknown_fb6d4e93:
 translate spanish monika_unknown_c9b3967e:
 
     # m 1hubsa "I love you, [player]. I'll always be rooting for you~"
-    m 1hubsa "Te quiero, [player]. Siempre estaré animándote."
+    m 1hubsa "Te amo, [player]. Siempre estaré animándote."
 
 # game/script-topics.rpy:15342
 translate spanish monika_brave_new_world_fca2d948:

@@ -153,7 +153,7 @@ translate spanish mas_song_merry_christmas_baby_44b617b2:
 translate spanish mas_song_merry_christmas_baby_fdab25ad:
 
     # m 3ekbfb "{i}~I love you, baby~{/i}"
-    m 3ekbfb "{i}Te quiero, cariño{/i}"
+    m 3ekbfb "{i}Te amo, cariño{/i}"
 
 # game/script-songs.rpy:503
 translate spanish mas_song_merry_christmas_baby_ad89d52e:
@@ -165,7 +165,7 @@ translate spanish mas_song_merry_christmas_baby_ad89d52e:
 translate spanish mas_song_merry_christmas_baby_089d03e8:
 
     # m 3ekbfb "{i}~I love you, honey~{/i}"
-    m 3ekbfb "{i}Te quiero, cielo{/i}"
+    m 3ekbfb "{i}Te amo, cielo{/i}"
 
 # game/script-songs.rpy:505
 translate spanish mas_song_merry_christmas_baby_a869ea3e:
@@ -675,7 +675,7 @@ translate spanish mas_song_dream_367eb83c:
 translate spanish mas_song_dream_719dcb3d:
 
     # m 2hub "{i}~Whenever I want you, all I have to do is dream~{/i}"
-    m 2hub "{i}Siempre que te quiero, todo lo que tengo que hacer es soñar{/i}"
+    m 2hub "{i}Siempre que te quiero, todo lo que tengo que hacer es soñar...{/i}"
 
 # game/script-songs.rpy:766
 translate spanish mas_song_dream_c87526b3:
@@ -1215,7 +1215,7 @@ translate spanish mas_song_rewrite_the_stars_2ef91774:
 translate spanish mas_song_rewrite_the_stars_1c398da7:
 
     # m 5ekbfu "I love you so much."
-    m 5ekbfu "Te quiero muchísimo."
+    m 5ekbfu "Te amo muchísimo."
 
 # game/script-songs.rpy:996
 translate spanish mas_song_hero_38900e68:
@@ -2073,7 +2073,7 @@ translate spanish mas_song_amaranthine_c350334d:
 translate spanish mas_song_amaranthine_3701ffb8:
 
     # m 5hubfu "I love you so much~"
-    m 5hubfu "Te quiero muchísimo."
+    m 5hubfu "Te amo muchísimo."
 
 # game/script-songs.rpy:1273
 translate spanish mas_song_shelter_a3fe70f9:
@@ -2493,7 +2493,7 @@ translate spanish mas_song_cant_help_falling_in_love_5557d9dc:
 translate spanish mas_song_cant_help_falling_in_love_8c1b01d3:
 
     # m 1ekbsa "I love you, [player]~"
-    m 1ekbsa "Te quiero, [player]."
+    m 1ekbsa "Te amo, [player]."
 
 # game/script-songs.rpy:1434
 translate spanish mas_song_cant_help_falling_in_love_long_58839c98:
@@ -3729,7 +3729,7 @@ translate spanish mas_song_save_the_last_dance_for_me_a27397cb:
 translate spanish mas_song_save_the_last_dance_for_me_8d2d7f31:
 
     # m 6eubsa "I love you, [player]~"
-    m 6eubsa "Te quiero, [player]."
+    m 6eubsa "Te amo, [player]."
 
 # game/script-songs.rpy:1941
 translate spanish mas_song_save_the_last_dance_for_me_lyrics_c7a753c1:

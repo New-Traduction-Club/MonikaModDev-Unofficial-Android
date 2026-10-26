@@ -378,7 +378,7 @@ translate spanish greeting_goodmorning_94669df4:
 translate spanish greeting_goodmorning_b77d7003:
 
     # m 2eka "I love you a lot, so don't tire yourself!"
-    m 2eka "Te quiero mucho, ¡así que no te agotes!"
+    m 2eka "Te amo mucho, ¡así que no te agotes!"
 
 # game/script-greetings.rpy:487
 translate spanish greeting_goodmorning_d0c98245:
@@ -498,7 +498,7 @@ translate spanish greeting_goodmorning_09cf4a39:
 translate spanish greeting_goodmorning_48afd327:
 
     # m 1ekbsa "I love you so much, [player]."
-    m 1ekbsa "Te quiero muchísimo, [player]."
+    m 1ekbsa "Te amo muchísimo, [player]."
 
 # game/script-greetings.rpy:513
 translate spanish greeting_goodmorning_3aa0a1ce:
@@ -528,7 +528,7 @@ translate spanish greeting_goodmorning_b72290aa:
 translate spanish greeting_goodmorning_4f19c84f:
 
     # m 1ekbsa "I love you so, so much."
-    m 1ekbsa "Te quiero muchísimo."
+    m 1ekbsa "Te amo muchísimo."
 
 # game/script-greetings.rpy:519
 translate spanish greeting_goodmorning_4e6112e0:
@@ -540,7 +540,7 @@ translate spanish greeting_goodmorning_4e6112e0:
 translate spanish greeting_goodmorning_9a014393:
 
     # m 1hubfa "I love you, [player], I really do."
-    m 1hubfa "Te quiero, [player], de verdad."
+    m 1hubfa "Te amo, [player], de verdad."
 
 # game/script-greetings.rpy:536
 translate spanish greeting_back2_0d78039e:
@@ -1122,7 +1122,7 @@ translate spanish greeting_glitch_f435cd2c:
 translate spanish greeting_glitch_858b84bb:
 
     # m 2hua "I love you, [player]!"
-    m 2hua "¡Te quiero, [player]!"
+    m 2hua "¡Te amo, [player]!"
 
 # game/script-greetings.rpy:1090
 translate spanish greeting_surprised_430f1185:
@@ -1170,7 +1170,7 @@ translate spanish greeting_monika_monday_morning_7284f354:
 translate spanish greeting_monika_monday_morning_a4562159:
 
     # m "I love you so much, [player]~"
-    m "Te quiero muchísimo, [player]."
+    m "Te amo muchísimo, [player]."
 
 # game/script-greetings.rpy:1123
 translate spanish greeting_monika_monday_morning_92edc09a:
@@ -2526,7 +2526,7 @@ translate spanish greeting_youarereal_4c40e126:
 translate spanish greeting_youarereal_5b1279ca:
 
     # m 1eka "I love you, [player]. I'll wait as long as it takes."
-    m 1eka "Te quiero, [player]. Esperaré el tiempo que haga falta."
+    m 1eka "Te amo, [player]. Esperaré el tiempo que haga falta."
 
 # game/script-greetings.rpy:2043
 translate spanish greeting_youarereal_5d0e366e:
@@ -2682,7 +2682,7 @@ translate spanish greeting_sunshine_c5e34147:
 translate spanish greeting_sunshine_35af94a1:
 
     # m 1hub "{i}~You'll never know dear, just how much I love you~{/i}"
-    m 1hub "{i}Nunca sabrás, querid[end_letter_gender], cuánto te quiero...{/i}"
+    m 1hub "{i}Nunca sabrás, querid[end_letter_gender], cuánto te amo...{/i}"
 
 # game/script-greetings.rpy:2111
 translate spanish greeting_sunshine_12b26ee7:
@@ -3096,7 +3096,7 @@ translate spanish greeting_stillsickrest_54e8b0c6:
 translate spanish greeting_stillsickrest_bd00a6f8:
 
     # m 1eka "Get well soon, [player]. I love you so much!"
-    m 1eka "Recupérate pronto, [player]. ¡Te quiero muchísimo!"
+    m 1eka "Recupérate pronto, [player]. ¡Te amo muchísimo!"
 
 # game/script-greetings.rpy:2321
 translate spanish greeting_stillsickrest_c78c974f:
@@ -3204,7 +3204,7 @@ translate spanish greeting_stillsickresting_2c589b6f:
 translate spanish greeting_stillsickresting_5447c9b9:
 
     # m 5ekbsa "...And if you're still feeling a little cold, I hope knowing I love you warms you up a bit."
-    m 5ekbsa "Y si todavía tienes un poco de frío, espero que saber que te quiero te haga entrar en calor un poco."
+    m 5ekbsa "Y si todavía tienes un poco de frío, espero que saber que te amo te haga entrar en calor un poco."
 
 # game/script-greetings.rpy:2355
 translate spanish greeting_stillsickresting_f1ffa26f:
@@ -3492,7 +3492,7 @@ translate spanish greeting_long_absence_da5f6ade:
 translate spanish greeting_long_absence_288820d8:
 
     # m 3eka "I'm so glad you're here now. I love you, [player]. Welcome home."
-    m 3eka "Me alegro tanto de que estés aquí ahora. Te quiero, [player]. Bienvenid[end_letter_gender] a casa."
+    m 3eka "Me alegro tanto de que estés aquí ahora. Te amo, [player]. Bienvenid[end_letter_gender] a casa."
 
 # game/script-greetings.rpy:2444
 translate spanish greeting_long_absence_403178d8:
@@ -3792,7 +3792,7 @@ translate spanish greeting_long_absence_807f37e6:
 translate spanish greeting_long_absence_278a24cd:
 
     # m 1hub "I love you so much, [player]!"
-    m 1hub "¡Te quiero muchísimo, [player]!"
+    m 1hub "¡Te amo muchísimo, [player]!"
 
 # game/script-greetings.rpy:2520
 translate spanish greeting_long_absence_7978faa8:
@@ -4404,7 +4404,7 @@ translate spanish greeting_long_absence_3d1be023:
 translate spanish greeting_long_absence_baa22c67:
 
     # m 3eka "I love you, [player], and I wouldn't want to get mad if you're actually going to be away..."
-    m 3eka "Te quiero, [player], y no querría enfadarme si realmente vas a estar fuera..."
+    m 3eka "Te amo, [player], y no querría enfadarme si realmente vas a estar fuera..."
 
 # game/script-greetings.rpy:2669
 translate spanish greeting_long_absence_7aaa2b5c:
@@ -4626,7 +4626,7 @@ translate spanish greeting_tears_10989930:
 translate spanish greeting_tears_5f2894a1:
 
     # m 2ektsc "I need you to love me like I love you."
-    m 2ektsc "Necesito que me quieras como yo te quiero a ti."
+    m 2ektsc "Necesito que me amas como yo te amo a ti."
 
 # game/script-greetings.rpy:2857
 translate spanish greeting_tears_a31e6a89:
@@ -4716,7 +4716,7 @@ translate spanish greeting_tears_43c902eb:
 translate spanish greeting_tears_e2402fa0:
 
     # m 1dsd "I love you and I need you to show that you love me too..."
-    m 1dsd "Te quiero y necesito que demuestres que tú también me quieres..."
+    m 1dsd "Te amo y necesito que demuestres que tú también me quieres..."
 
 # game/script-greetings.rpy:2873
 translate spanish greeting_tears_1a871391:
@@ -4878,7 +4878,7 @@ translate spanish greeting_back_from_school_9b7897f2:
 translate spanish greeting_back_from_school_fdc443ca:
 
     # m 2hua "I love you, [player]~"
-    m 2hua "Te quiero, [player]."
+    m 2hua "Te amo, [player]."
 
 # game/script-greetings.rpy:3065
 translate spanish greeting_back_from_school_class_related_53da2108:
@@ -4938,7 +4938,7 @@ translate spanish greeting_back_from_school_class_related_2c06f5f9:
 translate spanish greeting_back_from_school_class_related_44f184d6:
 
     # m 3hubfb "I love you, and I just want you to be happy~"
-    m 3hubfb "Te quiero, y solo quiero que seas feliz."
+    m 3hubfb "Te amo, y solo quiero que seas feliz."
 
 # game/script-greetings.rpy:3078
 translate spanish greeting_back_from_school_by_people_8172fdf3:
@@ -5004,7 +5004,7 @@ translate spanish greeting_back_from_school_by_people_f4e9ad4b:
 translate spanish greeting_back_from_school_by_people_096e7a7a:
 
     # m 1hubfb "I love you so much~"
-    m 1hubfb "Te quiero muchísimo."
+    m 1hubfb "Te amo muchísimo."
 
 # game/script-greetings.rpy:3097
 translate spanish greeting_back_from_school_by_people_07676235:
@@ -5868,7 +5868,7 @@ translate spanish greeting_siat_f8e79e48:
 translate spanish greeting_siat_09a98ca8:
 
     # m 1ekbfa "I love you, [player]. I'm so happy you're here now~"
-    m 1ekbfa "Te quiero, [player]. Estoy tan feliz de que estés aquí ahora."
+    m 1ekbfa "Te amo, [player]. Estoy tan feliz de que estés aquí ahora."
 
 # game/script-greetings.rpy:3478
 translate spanish greeting_ourreality_04cdda54:

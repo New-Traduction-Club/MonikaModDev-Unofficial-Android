@@ -729,7 +729,7 @@ translate spanish monika_writingtip2_9df393bd:
 translate spanish monika_writingtip2_adf8fb3d:
 
     # m "I love you, and I will always support you in whatever you do."
-    m "Te quiero y siempre te apoyaré en todo lo que hagas."
+    m "Te amo y siempre te apoyaré en todo lo que hagas."
 
 # game/script-topics.rpy:8507
 translate spanish monika_writingtip2_ab92c637:
@@ -1287,7 +1287,7 @@ translate spanish monika_selfharm_357dd7bf:
 translate spanish monika_selfharm_232d3398:
 
     # m 1ekbsa "I really love you so much, [player]."
-    m 1ekbsa "No sabes lo muchísimo que te quiero, [player]."
+    m 1ekbsa "No sabes lo muchísimo que te amo, [player]."
 
 # game/script-topics.rpy:8695
 translate spanish monika_urgent_5582b0cf:
@@ -1323,7 +1323,7 @@ translate spanish monika_urgent_e612037c:
 translate spanish monika_urgent_08512617:
 
     # m 1hub "Love you!"
-    m 1hub "¡Te quiero!"
+    m 1hub "¡Te amo!"
 
 # game/script-topics.rpy:8701
 translate spanish monika_urgent_610e134b:
@@ -1473,7 +1473,7 @@ translate spanish monika_other_girls_b7d6ad94:
 translate spanish monika_other_girls_fd7d6397:
 
     # m 1ekbsa "I love you, [player]..."
-    m 1ekbsa "Te quiero, [player]..."
+    m 1ekbsa "Te amo, [player]..."
 
 # game/script-topics.rpy:8741
 translate spanish monika_other_girls_3c4bff43:
@@ -1869,7 +1869,7 @@ translate spanish monika_marriage_e03e8bc6:
 translate spanish monika_marriage_674e11b3:
 
     # m 1eka "I really do love you, [mas_get_player_nickname(exclude_names=['my love', 'love'])] and I honestly really do want to get married to you."
-    m 1eka "Te quiero de todo corazón, [mas_get_player_nickname(exclude_names=['my love', 'love'])], y no sabes las ganas que tengo de casarme contigo."
+    m 1eka "Te amo de todo corazón, [mas_get_player_nickname(exclude_names=['my love', 'love'])], y no sabes las ganas que tengo de casarme contigo."
 
 # game/script-topics.rpy:8862
 translate spanish monika_marriage_4ce72af6:

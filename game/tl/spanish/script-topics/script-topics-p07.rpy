@@ -333,7 +333,7 @@ translate spanish monika_metaparents_25c5ec8b:
 translate spanish monika_metaparents_56528c18:
 
     # m 1ekbsa "I love you very much, [player]."
-    m 1ekbsa "Te quiero mucho, [player]."
+    m 1ekbsa "Te amo mucho, [player]."
 
 # game/script-topics.rpy:5685
 translate spanish monika_metaparents_ea9d23ee:
@@ -543,7 +543,7 @@ translate spanish monika_hygiene_e0b9d709:
 translate spanish monika_hygiene_dbfaafb7:
 
     # m "I love you so much and it'd tear me apart to find out that you're torturing yourself by neglecting your self-care routine."
-    m "Te quiero muchísimo y me destrozaría saber que te estás torturando al descuidar tu rutina de cuidado personal."
+    m "Te amo muchísimo y me destrozaría saber que te estás torturando al descuidar tu rutina de cuidado personal."
 
 # game/script-topics.rpy:5730
 translate spanish monika_hygiene_3b81424f:
