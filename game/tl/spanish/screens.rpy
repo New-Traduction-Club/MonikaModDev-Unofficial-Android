@@ -277,7 +277,7 @@ translate spanish strings:
 
     # game/screens.rpy:1519
     old "Window Detect"
-    new "Detectar ventana"
+    new "Detectar\nventana"
 
     # game/screens.rpy:1597
     old "Sunrise"

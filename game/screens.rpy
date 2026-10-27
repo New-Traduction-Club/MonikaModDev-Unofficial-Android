@@ -1483,12 +1483,14 @@ screen preferences():
                         # this is a normal button
                         textbutton _("Change Renderer"):
                             style "check_button"
+                            ysize (1.5*gui.button_height if persistent.language == "spanish" else gui.button_height)
                             action Function(renpy.call_in_new_context, "mas_gmenu_start")
 
-                    textbutton _("Disable Animation") action ToggleField(persistent, "_mas_disable_animations")
+                    textbutton _("Disable Animation") action ToggleField(persistent, "_mas_disable_animations") ysize (1.5*gui.button_height if persistent.language == "spanish" else gui.button_height)
 
                     #Handle buttons
                     textbutton _("UI: Night Mode"):
+                        ysize (1.5*gui.button_height if persistent.language == "spanish" else gui.button_height)
                         action [Function(mas_settings._ui_change_wrapper, persistent._mas_dark_mode_enabled), Function(mas_settings._dark_mode_toggle)]
                         selected persistent._mas_dark_mode_enabled
                     textbutton _("UI: D/N Cycle"):
@@ -1534,6 +1536,7 @@ screen preferences():
 
                     if store.mas_windowreacts.can_do_windowreacts:
                         textbutton _("Window Detect"):
+                            ysize (1.5*gui.button_height if persistent.language == "spanish" else gui.button_height)
                             action ToggleField(persistent, "_mas_windowreacts_windowreacts_enabled", True, False)
                             hovered tooltip.Action(layout.MAS_TT_ACTV_WND)
 
