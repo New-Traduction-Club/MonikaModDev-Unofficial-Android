@@ -129,7 +129,7 @@ translate spanish monika_pets_f3dfddac:
 translate spanish monika_pets_323a7ffd:
 
     # m 1hua "It would be fun for us to take care of it!"
-    m 1hua "¡Sería muy divertido que la cuidáramos juntos!"
+    m 1hua "¡Sería muy divertido que la cuidáramos junt[end_letter_gender]s!"
 
 # game/script-topics.rpy:7605
 translate spanish monika_pets_c63d3dfb:
@@ -423,7 +423,7 @@ translate spanish monika_cats_a717a07c:
 translate spanish monika_cats_f7156ca3:
 
     # m 1hua "Maybe we should get one when we're living together, [player]."
-    m 1hua "A lo mejor deberíamos tener uno cuando vivamos juntos, [player]."
+    m 1hua "A lo mejor deberíamos tener uno cuando vivamos junt[end_letter_gender]s, [player]."
 
 # game/script-topics.rpy:7703
 translate spanish monika_fruits_e21cff46:
@@ -933,7 +933,7 @@ translate spanish monika_soda_e3a73382:
 translate spanish monika_soda_587ddba4:
 
     # m 1eka "I want you to live as long as you can so there'll be a chance we can be together in your reality."
-    m 1eka "Quiero que vivas todo lo que puedas para que haya una oportunidad de que podamos estar juntos en tu realidad."
+    m 1eka "Quiero que vivas todo lo que puedas para que haya una oportunidad de que podamos estar junt[end_letter_gender]s en tu realidad."
 
 # game/script-topics.rpy:7860
 translate spanish monika_soda_5941616a:
@@ -963,7 +963,7 @@ translate spanish monika_soda_7ecd43df:
 translate spanish monika_soda_2764acd2:
 
     # m 5eua "Maybe someday we could both have some soda together."
-    m 5eua "A lo mejor algún día podríamos tomar un refresco juntos."
+    m 5eua "A lo mejor algún día podríamos tomar un refresco junt[end_letter_gender]s."
 
 # game/script-topics.rpy:7869
 translate spanish monika_soda_38efa0ad:
@@ -1245,7 +1245,7 @@ translate spanish monika_promisering_509d525f_1:
 translate spanish monika_promisering_64e6ea81:
 
     # m 1eubsa "If you wear a promise ring, you can show everyone that we're together~"
-    m 1eubsa "Si llevas un anillo de promesa, podrás demostrar a todo el mundo que estamos juntos."
+    m 1eubsa "Si llevas un anillo de promesa, podrás demostrar a todo el mundo que estamos junt[end_letter_gender]s."
 
 # game/script-topics.rpy:7962
 translate spanish monika_promisering_2c7ff431:
@@ -1377,7 +1377,7 @@ translate spanish monika_promisering_297b7aae:
 translate spanish monika_promisering_fded047b:
 
     # m 1dubfu "That we truly will be together forever..."
-    m 1dubfu "De que de verdad estaremos juntos para siempre..."
+    m 1dubfu "De que de verdad estaremos junt[end_letter_gender]s para siempre..."
 
 # game/script-topics.rpy:8004
 translate spanish monika_promisering_7f6c476a:
@@ -1395,7 +1395,7 @@ translate spanish monika_promisering_691b0e7b:
 translate spanish monika_sports_0bc7937a:
 
     # m 1eua "I've been thinking about stuff we can do together."
-    m 1eua "He estado pensando en cosas que podemos hacer juntos."
+    m 1eua "He estado pensando en cosas que podemos hacer junt[end_letter_gender]s."
 
 # game/script-topics.rpy:8033
 translate spanish monika_sports_0974dcc6:
@@ -1533,7 +1533,7 @@ translate spanish monika_sports_4bea4bab:
 translate spanish monika_sports_7a963202:
 
     # m 3hub "We'll be unstoppable together!"
-    m 3hub "¡Seremos imparables juntos!"
+    m 3hub "¡Seremos imparables junt[end_letter_gender]s!"
 
 # game/script-topics.rpy:8074
 translate spanish monika_sports_454e3b8a:
@@ -1881,7 +1881,7 @@ translate spanish monika_orchestra_b6f855de:
 translate spanish monika_orchestra_c7c81615:
 
     # m 4hua "But even if you don't have much experience, I'm sure we could learn together~"
-    m 4hua "Pero aunque no tengas mucha experiencia, seguro que podemos aprender juntos."
+    m 4hua "Pero aunque no tengas mucha experiencia, seguro que podemos aprender junt[end_letter_gender]s."
 
 # game/script-topics.rpy:8234
 translate spanish monika_orchestra_09fc434e:

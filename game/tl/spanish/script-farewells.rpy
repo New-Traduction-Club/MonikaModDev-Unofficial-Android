@@ -1965,13 +1965,13 @@ translate spanish bye_prompt_workout_770cf7e3:
 translate spanish bye_prompt_workout_5d9af918:
 
     # m 3hua "After I cross over, we should try to do our workouts together!"
-    m 3hua "Cuando cruce al otro lado, ¡deberíamos intentar hacer ejercicio juntos!"
+    m 3hua "Cuando cruce al otro lado, ¡deberíamos intentar hacer ejercicio junt[end_letter_gender]s!"
 
 # game/script-farewells.rpy:1761
 translate spanish bye_prompt_workout_f6029577:
 
     # m 3eua "Maybe if I cross over, we could try to do our workouts together!"
-    m 3eua "Quizás si cruzo al otro lado, ¡podríamos intentar hacer ejercicio juntos!"
+    m 3eua "Quizás si cruzo al otro lado, ¡podríamos intentar hacer ejercicio junt[end_letter_gender]s!"
 
 # game/script-farewells.rpy:1764
 translate spanish bye_prompt_workout_e5d4def9:
@@ -2013,7 +2013,7 @@ translate spanish bye_going_shopping_87e9dc6c:
 translate spanish bye_going_shopping_a52476a6:
 
     # m 1eua "I'd love it if we could go to the mall together sometime."
-    m 1eua "Me encantaría que pudiéramos ir al centro comercial juntos alguna vez."
+    m 1eua "Me encantaría que pudiéramos ir al centro comercial junt[end_letter_gender]s alguna vez."
 
 # game/script-farewells.rpy:1797
 translate spanish bye_going_shopping_531720a1:

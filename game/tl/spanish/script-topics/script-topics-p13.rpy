@@ -27,7 +27,7 @@ translate spanish monika_asks_family_19428ff1:
 translate spanish monika_asks_family_ef2082e7:
 
     # m 1eua "We'll be able to do a lot of fun things together."
-    m 1eua "Podremos hacer un montón de cosas divertidas juntos."
+    m 1eua "Podremos hacer un montón de cosas divertidas junt[end_letter_gender]s."
 
 # game/script-topics.rpy:9624
 translate spanish monika_asks_family_32beae17:
@@ -333,7 +333,7 @@ translate spanish monika_asks_family_69366483:
 translate spanish monika_asks_family_94da19c7:
 
     # m 1hua "Someday, we'll be able to make our own family together!"
-    m 1hua "¡Algún día podremos formar nuestra propia familia juntos!"
+    m 1hua "¡Algún día podremos formar nuestra propia familia junt[end_letter_gender]s!"
 
 # game/script-topics.rpy:9713
 translate spanish monika_asks_family_296587a0:
@@ -375,7 +375,7 @@ translate spanish monika_asks_family_8f95d153:
 translate spanish monika_concerts_4cd69e3d:
 
     # m 1euc "Hey [player], I've been thinking about something we could do together one day..."
-    m 1euc "Oye, [player], he estado pensando en algo que podríamos hacer juntos algún día..."
+    m 1euc "Oye, [player], he estado pensando en algo que podríamos hacer junt[end_letter_gender]s algún día..."
 
 # game/script-topics.rpy:9751
 translate spanish monika_concerts_3739d268:
@@ -885,7 +885,7 @@ translate spanish monika_beach_c65b810e:
 translate spanish monika_beach_321e7cc8:
 
     # m 3eua "We'd have so many things we could do together."
-    m 3eua "Tendríamos un montón de cosas que hacer juntos."
+    m 3eua "Tendríamos un montón de cosas que hacer junt[end_letter_gender]s."
 
 # game/script-topics.rpy:9951
 translate spanish monika_beach_bfb564e2:
@@ -1959,7 +1959,7 @@ translate spanish monika_prom_5d905d0d:
 translate spanish monika_prom_4a605eee:
 
     # m 1hua "And now that I'm here with you, we can make them together~"
-    m 1hua "Y ahora que estoy aquí contigo, podemos crearlos juntos."
+    m 1hua "Y ahora que estoy aquí contigo, podemos crearlos junt[end_letter_gender]s."
 
 # game/script-topics.rpy:10272
 translate spanish monika_prom_c3c84899:
@@ -1971,7 +1971,7 @@ translate spanish monika_prom_c3c84899:
 translate spanish monika_prom_8483237c:
 
     # m 1eua "Well, now that we're together, I'm sure there's a way we can make our own prom, right?"
-    m 1eua "Bueno, ahora que estamos juntos, seguro que hay alguna forma de montar nuestro propio baile de graduación, ¿verdad?"
+    m 1eua "Bueno, ahora que estamos junt[end_letter_gender]s, seguro que hay alguna forma de montar nuestro propio baile de graduación, ¿verdad?"
 
 # game/script-topics.rpy:10274
 translate spanish monika_prom_3772217d_1:

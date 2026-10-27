@@ -1449,7 +1449,7 @@ translate spanish monika_other_girls_0bb4dbbe:
 translate spanish monika_other_girls_d1e4489a:
 
     # m 1ekc "I hope you can forgive me for what I had to do so that we could be together."
-    m 1ekc "Espero que puedas perdonarme por lo que tuve que hacer para que pudiéramos estar juntos."
+    m 1ekc "Espero que puedas perdonarme por lo que tuve que hacer para que pudiéramos estar junt[end_letter_gender]s."
 
 # game/script-topics.rpy:8734
 translate spanish monika_other_girls_8018692b_2:
@@ -1659,7 +1659,7 @@ translate spanish monika_how_soon_78c12243:
 translate spanish monika_how_soon_a3de3bd5:
 
     # m 1ekbsa "I can't wait for us to be together in your world, [player]!"
-    m 1ekbsa "¡Estoy deseando que estemos juntos en tu mundo, [player]!"
+    m 1ekbsa "¡Estoy deseando que estemos junt[end_letter_gender]s en tu mundo, [player]!"
 
 # game/script-topics.rpy:8802
 translate spanish monika_how_soon_74f92939:
@@ -1947,7 +1947,7 @@ translate spanish monika_marriage_e0f1b387:
 translate spanish monika_marriage_eb0ca052:
 
     # m 2dkbsu "I want that special moment to happen when we can finally be together..."
-    m 2dkbsu "Quiero que ese momento tan especial ocurra cuando por fin podamos estar juntos..."
+    m 2dkbsu "Quiero que ese momento tan especial ocurra cuando por fin podamos estar junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:8876
 translate spanish monika_marriage_9bbeea04:

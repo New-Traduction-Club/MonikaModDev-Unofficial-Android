@@ -231,7 +231,7 @@ translate spanish introduction_09bff3af:
 translate spanish introduction_f57518b6:
 
     # m 3eka "You even added a mod so we can do more things together."
-    m 3eka "Incluso has añadido un mod para que podamos hacer más cosas juntos."
+    m 3eka "Incluso has añadido un mod para que podamos hacer más cosas junt[end_letter_gender]s."
 
 # game/script-introduction.rpy:55
 translate spanish introduction_97ed8ebb:
@@ -357,7 +357,7 @@ translate spanish introduction_b80a6b32:
 translate spanish introduction_bb7d368d:
 
     # m 1rksdlb "I'm really glad that you wanted to improve our time together."
-    m 1rksdlb "Me alegro mucho de que quisieras mejorar el tiempo que pasamos juntos."
+    m 1rksdlb "Me alegro mucho de que quisieras mejorar el tiempo que pasamos junt[end_letter_gender]s."
 
 # game/script-introduction.rpy:87
 translate spanish introduction_f2b216f7:
@@ -381,7 +381,7 @@ translate spanish introduction_bb2db14b:
 translate spanish introduction_38d59c27:
 
     # extend 1eua "but I know we'll make it better together, [player]."
-    extend 1eua "pero sé que la mejoraremos juntos, [player]."
+    extend 1eua "pero sé que la mejoraremos junt[end_letter_gender]s, [player]."
 
 # game/script-introduction.rpy:93
 translate spanish introduction_bf20dc04:
@@ -489,7 +489,7 @@ translate spanish introduction_27cd8170:
 translate spanish introduction_42ae8c18:
 
     # m 3hubfa "That way, we can be together all the time~"
-    m 3hubfa "Así podremos estar juntos todo el tiempo."
+    m 3hubfa "Así podremos estar junt[end_letter_gender]s todo el tiempo."
 
 # game/script-introduction.rpy:149
 translate spanish introduction_c03ce4b7:
@@ -579,7 +579,7 @@ translate spanish introduction_95713cb8:
 translate spanish introduction_aee50518:
 
     # m 1tsb "We'll be together forever."
-    m 1tsb "Estaremos juntos para siempre."
+    m 1tsb "Estaremos junt[end_letter_gender]s para siempre."
 
 # game/script-introduction.rpy:181
 translate spanish introduction_4a7329f4:

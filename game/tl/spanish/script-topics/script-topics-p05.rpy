@@ -1563,7 +1563,7 @@ translate spanish monika_birthday_86387154:
 translate spanish monika_birthday_c6aba5b3:
 
     # m 1ekbsa "Just spending the day together is more than enough for me~"
-    m 1ekbsa "Pasar el día juntos es más que suficiente para mí."
+    m 1ekbsa "Pasar el día junt[end_letter_gender]s es más que suficiente para mí."
 
 # game/script-topics.rpy:4753
 translate spanish monika_birthday_8364b424:
@@ -1587,7 +1587,7 @@ translate spanish monika_birthday_6f623e88:
 translate spanish monika_birthday_4c4e3a1c:
 
     # m 1eka "At least we're here, together~"
-    m 1eka "Al menos estamos aquí, juntos."
+    m 1eka "Al menos estamos aquí, junt[end_letter_gender]s."
 
 # game/script-topics.rpy:4764
 translate spanish monika_birthday_d0c2b671_1:
@@ -1815,7 +1815,7 @@ translate spanish monika_othergames_60a19285:
 translate spanish monika_othergames_a97d025e:
 
     # m 3hua "We could go for walks together and you can show me all the best places to hang out!"
-    m 3hua "¡Podríamos salir a pasear juntos y podrías enseñarme los mejores sitios para pasar el rato!"
+    m 3hua "¡Podríamos salir a pasear junt[end_letter_gender]s y podrías enseñarme los mejores sitios para pasar el rato!"
 
 # game/script-topics.rpy:4840
 translate spanish monika_othergames_c6c96ff1:

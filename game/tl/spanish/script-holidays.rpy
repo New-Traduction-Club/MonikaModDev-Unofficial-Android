@@ -1101,7 +1101,7 @@ translate spanish bye_trick_or_treat_a3a89767:
 translate spanish bye_trick_or_treat_3ad9175f:
 
     # m 3hub "At least we're going to spend the rest of Halloween together~"
-    m 3hub "Al menos vamos a pasar el resto de Halloween juntos."
+    m 3hub "Al menos vamos a pasar el resto de Halloween junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:1430
 translate spanish bye_trick_or_treat_4bcedeb6:
@@ -1485,7 +1485,7 @@ translate spanish mas_d25_gift_starter_57049eb3:
 translate spanish mas_d25_gift_starter_5ab42a91:
 
     # m 3eka "I really wanted us to be together for this..."
-    m 3eka "Tenía muchas ganas de que estuviéramos juntos para esto..."
+    m 3eka "Tenía muchas ganas de que estuviéramos junt[end_letter_gender]s para esto..."
 
 # game/script-holidays.rpy:2446
 translate spanish mas_d25_gift_starter_04df8a93:
@@ -1665,7 +1665,7 @@ translate spanish mas_d25_monika_holiday_intro_e86d1c1b:
 translate spanish mas_d25_monika_holiday_intro_35c4061b:
 
     # m 3eua "It seems like just yesterday we spent [the_last] holiday season together, and now a whole year has gone by!"
-    m 3eua "Parece que fue ayer cuando pasamos [the_last] temporada festiva juntos, ¡y ya ha pasado un año entero!"
+    m 3eua "Parece que fue ayer cuando pasamos [the_last] temporada festiva junt[end_letter_gender]s, ¡y ya ha pasado un año entero!"
 
 # game/script-holidays.rpy:2576
 translate spanish mas_d25_monika_holiday_intro_a7dd1558:
@@ -1767,7 +1767,7 @@ translate spanish mas_d25_monika_holiday_intro_upset_0511ab75:
 translate spanish mas_d25_monika_holiday_intro_upset_8b7c7a39:
 
     # m 3eua "And I'm so glad we can spend it happily together, [player]~"
-    m 3eua "Y me alegro tanto de que podamos pasarla felices juntos, [player]."
+    m 3eua "Y me alegro tanto de que podamos pasarla felices junt[end_letter_gender]s, [player]."
 
 # game/script-holidays.rpy:2708
 translate spanish mas_d25_monika_holiday_intro_rh_ddf3a247:
@@ -1923,7 +1923,7 @@ translate spanish mas_d25_monika_christmas_8ae61b67:
 translate spanish mas_d25_monika_christmas_7bf85e1f:
 
     # m 3eka "But now that we're actually together on Christmas, just the two of us..."
-    m 3eka "Pero ahora que estamos realmente juntos en Navidad, solo nosotros dos..."
+    m 3eka "Pero ahora que estamos realmente junt[end_letter_gender]s en Navidad, solo nosotros dos..."
 
 # game/script-holidays.rpy:2812
 translate spanish mas_d25_monika_christmas_e6f89ce6:
@@ -1941,7 +1941,7 @@ translate spanish mas_d25_monika_christmas_e9274e89:
 translate spanish mas_d25_monika_christmas_93f813d4:
 
     # m "Snuggling with each other by a fireplace, watching the snow gently fall..."
-    m "Acurrucarnos juntos frente a la chimenea, viendo caer la nieve suavemente..."
+    m "Acurrucarnos junt[end_letter_gender]s frente a la chimenea, viendo caer la nieve suavemente..."
 
 # game/script-holidays.rpy:2821
 translate spanish mas_d25_monika_christmas_229ae973:
@@ -2079,7 +2079,7 @@ translate spanish mas_d25_monika_carolling_c7927bd6:
 translate spanish mas_d25_monika_carolling_b3b811c1:
 
     # m 1eka "Maybe we can sing together someday."
-    m 1eka "Quizá podamos cantar juntos algún día."
+    m 1eka "Quizá podamos cantar junt[end_letter_gender]s algún día."
 
 # game/script-holidays.rpy:2911
 translate spanish mas_d25_monika_carolling_19428ff1:
@@ -2259,7 +2259,7 @@ translate spanish mas_d25_monika_christmaslights_bedf1da0:
 translate spanish mas_d25_monika_christmaslights_9b514ced:
 
     # m 2dubsu "I can already imagine us, outside of your house...sitting on our porch together..."
-    m 2dubsu "Ya me imagino a los dos, fuera de tu casa... sentados juntos en el porche..."
+    m 2dubsu "Ya me imagino a los dos, fuera de tu casa... sentados junt[end_letter_gender]s en el porche..."
 
 # game/script-holidays.rpy:3015
 translate spanish mas_d25_monika_christmaslights_566ce60e:
@@ -2301,7 +2301,7 @@ translate spanish mas_d25_monika_christmaslights_b35a3dfc:
 translate spanish mas_d25_monika_christmaslights_32d696cf:
 
     # m 1dkbsa "Watching the snow fall and drinking hot chocolate together."
-    m 1dkbsa "Viendo caer la nieve y bebiendo chocolate caliente juntos."
+    m 1dkbsa "Viendo caer la nieve y bebiendo chocolate caliente junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:3029
 translate spanish mas_d25_monika_christmaslights_e44dc930:
@@ -3657,7 +3657,7 @@ translate spanish mas_d25_monika_christmas_eve_40f09cf5:
 translate spanish mas_d25_monika_christmas_eve_0c10eb87:
 
     # m 5hkbsa "Just the thought of spending another Christmas together...{w=1}I can't wait!"
-    m 5hkbsa "Solo de pensar en pasar otra Navidad juntos...{w=1} ¡no puedo esperar!"
+    m 5hkbsa "Solo de pensar en pasar otra Navidad junt[end_letter_gender]s...{w=1} ¡no puedo esperar!"
 
 # game/script-holidays.rpy:3749
 translate spanish mas_d25_monika_christmas_eve_40f09cf5_1:
@@ -3669,7 +3669,7 @@ translate spanish mas_d25_monika_christmas_eve_40f09cf5_1:
 translate spanish mas_d25_monika_christmas_eve_625bd0c6:
 
     # m 5hkbsa "Just the thought of our first Christmas together...{w=1}I can't wait!"
-    m 5hkbsa "Solo de pensar en nuestra primera Navidad juntos...{w=1} ¡no puedo esperar!"
+    m 5hkbsa "Solo de pensar en nuestra primera Navidad junt[end_letter_gender]s...{w=1} ¡no puedo esperar!"
 
 # game/script-holidays.rpy:3760
 translate spanish mas_d25_monika_christmas_eve_dc11f15d:
@@ -3777,7 +3777,7 @@ translate spanish mas_d25_postd25_notimespent_db3aadce:
 translate spanish mas_d25_postd25_notimespent_9b538d47:
 
     # m 4eka "Even though I'm disappointed we didn't get to spend Christmas together, I'm sure you must have had a very good reason."
-    m 4eka "Aunque estoy decepcionada porque no pasamos la Navidad juntos, estoy segura de que debiste tener una muy buena razón."
+    m 4eka "Aunque estoy decepcionada porque no pasamos la Navidad junt[end_letter_gender]s, estoy segura de que debiste tener una muy buena razón."
 
 # game/script-holidays.rpy:3820
 translate spanish mas_d25_postd25_notimespent_8aaf7247:
@@ -4149,25 +4149,25 @@ translate spanish mas_nye_monika_nyd_9abea1b1:
 translate spanish mas_nye_monika_nyd_f6013155:
 
     # m "Can you believe we're spending another New Years together?"
-    m "¿Te puedes creer que estemos pasando otro Año Nuevo juntos?"
+    m "¿Te puedes creer que estemos pasando otro Año Nuevo junt[end_letter_gender]s?"
 
 # game/script-holidays.rpy:4275
 translate spanish mas_nye_monika_nyd_0b2e1826:
 
     # m 1hua "We sure have been through a lot together this past year, huh?"
-    m 1hua "Sí que hemos pasado por mucho juntos este último año, ¿eh?"
+    m 1hua "Sí que hemos pasado por mucho junt[end_letter_gender]s este último año, ¿eh?"
 
 # game/script-holidays.rpy:4277
 translate spanish mas_nye_monika_nyd_d2ca1995:
 
     # m 1eua "We sure have been through a lot together this past year, huh?"
-    m 1eua "Sí que hemos pasado por mucho juntos este último año, ¿eh?"
+    m 1eua "Sí que hemos pasado por mucho junt[end_letter_gender]s este último año, ¿eh?"
 
 # game/script-holidays.rpy:4279
 translate spanish mas_nye_monika_nyd_0ff240b9:
 
     # m 1eka "I'm so happy, knowing we can spend even more time together."
-    m 1eka "Estoy tan feliz sabiendo que podemos pasar aún más tiempo juntos."
+    m 1eka "Estoy tan feliz sabiendo que podemos pasar aún más tiempo junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4283
 translate spanish mas_nye_monika_nyd_10d81e3a:
@@ -4383,13 +4383,13 @@ translate spanish mas_nye_monika_nyd_9abea1b1_1:
 translate spanish mas_nye_monika_nyd_f7ac83a4:
 
     # m 1ekbsa "I know we haven't been together for that long yet, but this past year went better than I ever could have hoped..."
-    m 1ekbsa "Sé que aún no hemos estado juntos tanto tiempo, pero este último año ha ido mejor de lo que podría haber esperado..."
+    m 1ekbsa "Sé que aún no hemos estado junt[end_letter_gender]s tanto tiempo, pero este último año ha ido mejor de lo que podría haber esperado..."
 
 # game/script-holidays.rpy:4370
 translate spanish mas_nye_monika_nyd_6de2e0a0:
 
     # m 1eka "I know we haven't been together that long yet, but this past year was so special to me..."
-    m 1eka "Sé que aún no hemos estado juntos tanto tiempo, pero este último año ha sido tan especial para mí..."
+    m 1eka "Sé que aún no hemos estado junt[end_letter_gender]s tanto tiempo, pero este último año ha sido tan especial para mí..."
 
 # game/script-holidays.rpy:4372
 translate spanish mas_nye_monika_nyd_55f59872:
@@ -4401,7 +4401,7 @@ translate spanish mas_nye_monika_nyd_55f59872:
 translate spanish mas_nye_monika_nyd_14c1b6a1:
 
     # m 3hua "Let's build on our short time together and make this year even better!"
-    m 3hua "¡Aprovechemos nuestro breve tiempo juntos y hagamos que este año sea aún mejor!"
+    m 3hua "¡Aprovechemos nuestro breve tiempo junt[end_letter_gender]s y hagamos que este año sea aún mejor!"
 
 # game/script-holidays.rpy:4374
 translate spanish mas_nye_monika_nyd_ee698ed4:
@@ -4425,7 +4425,7 @@ translate spanish mas_nye_monika_nyd_c39a9182:
 translate spanish mas_nye_monika_nyd_62c288c9:
 
     # m 2rksdlc "We haven't been together for very long, but the time we spent last year didn't go as well as I had hoped..."
-    m 2rksdlc "No hemos estado juntos mucho tiempo, pero el tiempo que pasamos el año pasado no fue tan bien como esperaba..."
+    m 2rksdlc "No hemos estado junt[end_letter_gender]s mucho tiempo, pero el tiempo que pasamos el año pasado no fue tan bien como esperaba..."
 
 # game/script-holidays.rpy:4382
 translate spanish mas_nye_monika_nyd_eb6550c2:
@@ -4797,13 +4797,13 @@ translate spanish monika_resolutions_accomplished_resolutions_menu_c49041f4:
 translate spanish monika_nye_year_review_8580c650:
 
     # m 2eka "You know, [player], we really have been through a lot together."
-    m 2eka "Sabes, [player], realmente hemos pasado por mucho juntos."
+    m 2eka "Sabes, [player], realmente hemos pasado por mucho junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4587
 translate spanish monika_nye_year_review_795e451c:
 
     # m 2wuo "We spent the entire year together!"
-    m 2wuo "¡Hemos pasado todo el año juntos!"
+    m 2wuo "¡Hemos pasado todo el año junt[end_letter_gender]s!"
 
 # game/script-holidays.rpy:4588
 translate spanish monika_nye_year_review_116b0b69:
@@ -4821,7 +4821,7 @@ translate spanish monika_nye_year_review_a872ab2d:
 translate spanish monika_nye_year_review_0276068f:
 
     # m 2eka "You know, [player], we really have been through a lot over the time we spent together last year"
-    m 2eka "Sabes, [player], realmente hemos pasado por mucho durante el tiempo que estuvimos juntos el año pasado."
+    m 2eka "Sabes, [player], realmente hemos pasado por mucho durante el tiempo que estuvimos junt[end_letter_gender]s el año pasado."
 
 # game/script-holidays.rpy:4595
 translate spanish monika_nye_year_review_65c2f066:
@@ -4833,7 +4833,7 @@ translate spanish monika_nye_year_review_65c2f066:
 translate spanish monika_nye_year_review_734f39ce:
 
     # m 2eka "You know [player], we've been through quite a bit over the short time we've spent together last year."
-    m 2eka "Sabes [player], hemos pasado por bastantes cosas en el poco tiempo que estuvimos juntos el año pasado."
+    m 2eka "Sabes [player], hemos pasado por bastantes cosas en el poco tiempo que estuvimos junt[end_letter_gender]s el año pasado."
 
 # game/script-holidays.rpy:4599
 translate spanish monika_nye_year_review_cdd816d4:
@@ -4845,7 +4845,7 @@ translate spanish monika_nye_year_review_cdd816d4:
 translate spanish monika_nye_year_review_500002e6:
 
     # m 2eka "[player], even though we haven't been through a lot together, yet..."
-    m 2eka "[player], aunque aún no hemos pasado por muchas cosas juntos..."
+    m 2eka "[player], aunque aún no hemos pasado por muchas cosas junt[end_letter_gender]s..."
 
 # game/script-holidays.rpy:4608
 translate spanish monika_nye_year_review_28e7a7ad:
@@ -4869,19 +4869,19 @@ translate spanish monika_nye_year_review_53e70cf2:
 translate spanish monika_nye_year_review_2cf5beef:
 
     # m 2eka "...[placeholder_and]I've really enjoyed our time together."
-    m 2eka "[placeholder_and]Realmente he disfrutado de nuestro tiempo juntos."
+    m 2eka "[placeholder_and]Realmente he disfrutado de nuestro tiempo junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4618
 translate spanish monika_nye_year_review_375b647d:
 
     # m 2euc "...[placeholder_and]the time we spent together has been fun."
-    m 2euc "[placeholder_and]el tiempo que pasamos juntos ha sido divertido."
+    m 2euc "[placeholder_and]el tiempo que pasamos junt[end_letter_gender]s ha sido divertido."
 
 # game/script-holidays.rpy:4621
 translate spanish monika_nye_year_review_f4647034:
 
     # m 3eua "Anyway, I think it would be nice to just reflect on all that we've been through together this past year."
-    m 3eua "En fin, creo que estaría bien reflexionar sobre todo lo que hemos pasado juntos este último año."
+    m 3eua "En fin, creo que estaría bien reflexionar sobre todo lo que hemos pasado junt[end_letter_gender]s este último año."
 
 # game/script-holidays.rpy:4622
 translate spanish monika_nye_year_review_99e5adbd:
@@ -4965,13 +4965,13 @@ translate spanish monika_nye_year_review_5a3dee5a:
 translate spanish monika_nye_year_review_77f471d1:
 
     # m 5hua "We even spent your birthday together!"
-    m 5hua "¡Incluso pasamos tu cumpleaños juntos!"
+    m 5hua "¡Incluso pasamos tu cumpleaños junt[end_letter_gender]s!"
 
 # game/script-holidays.rpy:4674
 translate spanish monika_nye_year_review_d8bec3e7:
 
     # m 5eubla "We had such a nice date together too~"
-    m 5eubla "También tuvimos una cita muy bonita juntos."
+    m 5eubla "También tuvimos una cita muy bonita junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4680
 translate spanish monika_nye_year_review_856133b4:
@@ -4983,7 +4983,7 @@ translate spanish monika_nye_year_review_856133b4:
 translate spanish monika_nye_year_review_f6de8224:
 
     # m 5eubla "...and we shared our first kiss together~"
-    m 5eubla "y compartimos nuestro primer beso juntos."
+    m 5eubla "y compartimos nuestro primer beso junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4684
 translate spanish monika_nye_year_review_e55d3915:
@@ -5013,7 +5013,7 @@ translate spanish monika_nye_year_review_ca68bd0d:
 translate spanish monika_nye_year_review_b4ed3657:
 
     # m 2rksdla "...I guess we haven't actually been through any big events together."
-    m 2rksdla "Supongo que en realidad no hemos pasado por ningún gran acontecimiento juntos."
+    m 2rksdla "Supongo que en realidad no hemos pasado por ningún gran acontecimiento junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4693
 translate spanish monika_nye_year_review_ec34b5a6:
@@ -5031,7 +5031,7 @@ translate spanish monika_nye_year_review_b6730440:
 translate spanish monika_nye_year_review_a47dc3f8:
 
     # m 5eka "I really can't believe just how much has changed since we've been together..."
-    m 5eka "Realmente no puedo creer lo mucho que ha cambiado todo desde que estamos juntos..."
+    m 5eka "Realmente no puedo creer lo mucho que ha cambiado todo desde que estamos junt[end_letter_gender]s..."
 
 # game/script-holidays.rpy:4705
 translate spanish monika_nye_year_review_8a835b1d:
@@ -5061,7 +5061,7 @@ translate spanish monika_nye_year_review_863d9a17:
 translate spanish monika_nye_year_review_9ea084f8:
 
     # m 5ekbsa "Thank you for making the time we spent together[_last_year]better than I could have imagined."
-    m 5ekbsa "Gracias por hacer que el tiempo que pasamos juntos[_last_year]fuera mejor de lo que podría haber imaginado."
+    m 5ekbsa "Gracias por hacer que el tiempo que pasamos junt[end_letter_gender]s[_last_year]fuera mejor de lo que podría haber imaginado."
 
 # game/script-holidays.rpy:4731
 translate spanish monika_nye_year_review_cea36ce5:
@@ -5289,7 +5289,7 @@ translate spanish mas_nye_monika_nye_dress_intro_fd84d2a0:
 translate spanish mas_nye_monika_nye_dress_intro_0b7dcfec:
 
     # m 2ekbsa "I knew we could be happy together, [player]."
-    m 2ekbsa "Sabía que podíamos ser felices juntos, [player]."
+    m 2ekbsa "Sabía que podíamos ser felices junt[end_letter_gender]s, [player]."
 
 # game/script-holidays.rpy:4827
 translate spanish mas_nye_monika_nye_dress_intro_17ded410:
@@ -5427,7 +5427,7 @@ translate spanish bye_nye_late_out_af8dc928:
 translate spanish bye_nye_late_out_f782fd64:
 
     # m 3ekbsa "One day we'll be able to watch them side by side...but until that day comes, I'm just happy to come along with you, [player]."
-    m 3ekbsa "Algún día podremos verlos juntos... pero hasta que llegue ese día, me conformo con ir contigo, [player]."
+    m 3ekbsa "Algún día podremos verlos junt[end_letter_gender]s... pero hasta que llegue ese día, me conformo con ir contigo, [player]."
 
 # game/script-holidays.rpy:4991
 translate spanish greeting_nye_prefw_ddf3a247:
@@ -5451,7 +5451,7 @@ translate spanish greeting_nye_prefw_6e0b12c1:
 translate spanish greeting_nye_prefw_bfb667c5:
 
     # m "It means a lot to me that you take me with you so we can spend special days like these together."
-    m "Significa mucho para mí que me lleves contigo para que podamos pasar días especiales como este juntos."
+    m "Significa mucho para mí que me lleves contigo para que podamos pasar días especiales como este junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:4996
 translate spanish greeting_nye_prefw_12ffce7e:
@@ -5505,7 +5505,7 @@ translate spanish bye_nyd_first_time_out_aba4b75b:
 translate spanish bye_nyd_first_time_out_05811098:
 
     # m 1eka "Let's have a great time together."
-    m 1eka "Pasémoslo genial juntos."
+    m 1eka "Pasémoslo genial junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:5028
 translate spanish bye_nyd_second_time_out_1ec5b362:
@@ -5571,7 +5571,7 @@ translate spanish greeting_nyd_returned_nyd_f053db28:
 translate spanish greeting_nyd_returned_nyd_89c0e040:
 
     # m 5hub "I really hope we can spend more time like this together."
-    m 5hub "Espero de verdad que podamos pasar más tiempo así juntos."
+    m 5hub "Espero de verdad que podamos pasar más tiempo así junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:5066
 translate spanish greeting_pd25e_returned_nydp_ddf3a247:
@@ -5595,7 +5595,7 @@ translate spanish greeting_pd25e_returned_nydp_e2fa1e6a:
 translate spanish greeting_pd25e_returned_nydp_babd183a:
 
     # m 5ekbsa "I always love to spend time with you, but spending both Christmas and [new_years] out together was amazing."
-    m 5ekbsa "Siempre me encanta pasar tiempo contigo, pero pasar la Navidad y el [new_years] fuera juntos ha sido increíble."
+    m 5ekbsa "Siempre me encanta pasar tiempo contigo, pero pasar la Navidad y el [new_years] fuera junt[end_letter_gender]s ha sido increíble."
 
 # game/script-holidays.rpy:5074
 translate spanish greeting_pd25e_returned_nydp_93471267:
@@ -5625,7 +5625,7 @@ translate spanish greeting_d25p_returned_nyd_ff21fc3c:
 translate spanish greeting_d25p_returned_nyd_37fb80f4:
 
     # m 3hub "It's great to be back home now though, we can spend the new year together."
-    m 3hub "Pero es genial estar de vuelta en casa, podemos pasar el año nuevo juntos."
+    m 3hub "Pero es genial estar de vuelta en casa, podemos pasar el año nuevo junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:5096
 translate spanish greeting_d25p_returned_nydp_ddf3a247:
@@ -6075,7 +6075,7 @@ translate spanish mas_player_bday_card_acd6fb4c:
 translate spanish mas_player_bday_card_721ca1f4:
 
     # m 6eka "I'm so glad we get to spend our birthday together..."
-    m 6eka "Me alegro tanto de que podamos pasar nuestro cumpleaños juntos..."
+    m 6eka "Me alegro tanto de que podamos pasar nuestro cumpleaños junt[end_letter_gender]s..."
 
 # game/script-holidays.rpy:5542
 translate spanish mas_player_bday_card_0523684d:
@@ -6087,7 +6087,7 @@ translate spanish mas_player_bday_card_0523684d:
 translate spanish mas_player_bday_card_505374b0:
 
     # m 1ekbfa "I love you, [player]! I'm so glad we get to spend our birthday together..."
-    m 1ekbfa "¡Te amo, [player]! Me alegro tanto de que podamos pasar nuestro cumpleaños juntos..."
+    m 1ekbfa "¡Te amo, [player]! Me alegro tanto de que podamos pasar nuestro cumpleaños junt[end_letter_gender]s..."
 
 # game/script-holidays.rpy:5546
 translate spanish mas_player_bday_card_d1a8f1de:
@@ -6513,7 +6513,7 @@ translate spanish return_home_post_player_bday_5b46bea2:
 translate spanish return_home_post_player_bday_ea49fee0:
 
     # m 1hua "Now, let's enjoy the day together, [player]~"
-    m 1hua "Ahora, disfrutemos del día juntos, [player]."
+    m 1hua "Ahora, disfrutemos del día junt[end_letter_gender]s, [player]."
 
 # game/script-holidays.rpy:5904
 translate spanish return_home_post_player_bday_93727076:
@@ -6615,7 +6615,7 @@ translate spanish mas_f14_monika_valentines_intro_f6e423a2:
 translate spanish mas_f14_monika_valentines_intro_b9c4b504:
 
     # m 3rkbsa "I guess every day we're together is already a celebration of our love...{w=0.3}{nw}"
-    m 3rkbsa "Supongo que cada día que pasamos juntos ya es una celebración de nuestro amor...{w=0.3}{nw}"
+    m 3rkbsa "Supongo que cada día que pasamos junt[end_letter_gender]s ya es una celebración de nuestro amor...{w=0.3}{nw}"
 
 # game/script-holidays.rpy:6236
 translate spanish mas_f14_monika_valentines_intro_f4d69cca:
@@ -6657,13 +6657,13 @@ translate spanish mas_f14_monika_valentines_intro_0abba34c:
 translate spanish mas_f14_monika_valentines_intro_7fbb9230:
 
     # m 1eub "We've been together for a while now...{w=0.2}{nw}"
-    m 1eub "Ya llevamos un tiempo juntos...{w=0.2}{nw}"
+    m 1eub "Ya llevamos un tiempo junt[end_letter_gender]s...{w=0.2}{nw}"
 
 # game/script-holidays.rpy:6248
 translate spanish mas_f14_monika_valentines_intro_71bccf3e:
 
     # extend 1eka "and I really love the time we spend together."
-    extend 1eka "y me encanta el tiempo que pasamos juntos."
+    extend 1eka "y me encanta el tiempo que pasamos junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:6249
 translate spanish mas_f14_monika_valentines_intro_cb8e9586:
@@ -6963,7 +6963,7 @@ translate spanish mas_f14_sun_dress_outro_2c1a2daf:
 translate spanish mas_f14_sun_dress_outro_aeed5857:
 
     # m 1ekbsa "...But just imagine if we went to a cafe together."
-    m 1ekbsa "Pero imagínate si fuéramos juntos a una cafetería."
+    m 1ekbsa "Pero imagínate si fuéramos junt[end_letter_gender]s a una cafetería."
 
 # game/script-holidays.rpy:6384
 translate spanish mas_f14_sun_dress_outro_fee0f087:
@@ -7005,13 +7005,13 @@ translate spanish mas_f14_intro_generic_32c890d5:
 translate spanish mas_f14_intro_generic_9c641822:
 
     # m 3ekbsa "I don't care if we go on a romantic date, or just spend the day together here..."
-    m 3ekbsa "No me importa si tenemos una cita romántica, o si simplemente pasamos el día juntos aquí..."
+    m 3ekbsa "No me importa si tenemos una cita romántica, o si simplemente pasamos el día junt[end_letter_gender]s aquí..."
 
 # game/script-holidays.rpy:6395
 translate spanish mas_f14_intro_generic_6418e045:
 
     # m 1fkbsu "It really doesn't matter to me as long as we're together."
-    m 1fkbsu "Realmente no me importa mientras estemos juntos."
+    m 1fkbsu "Realmente no me importa mientras estemos junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:6418
 translate spanish mas_f14_intro_blackpink_dress_6705d5af:
@@ -7023,7 +7023,7 @@ translate spanish mas_f14_intro_blackpink_dress_6705d5af:
 translate spanish mas_f14_intro_blackpink_dress_80c89e0b:
 
     # m 2eub "There's just something about that black and pink combination...{w=0.3}they just go so well together!"
-    m 2eub "Hay algo en esa combinación de negro y rosa...{w=0.3}¡simplemente quedan muy bien juntos!"
+    m 2eub "Hay algo en esa combinación de negro y rosa...{w=0.3}¡simplemente quedan muy bien junt[end_letter_gender]s!"
 
 # game/script-holidays.rpy:6420
 translate spanish mas_f14_intro_blackpink_dress_2c2be6ee:
@@ -7359,7 +7359,7 @@ translate spanish mas_f14_monika_vday_origins_6aa0336e:
 translate spanish mas_f14_monika_vday_origins_20708783:
 
     # m 3eub "...They would then spend time together, with some even marrying if they liked each other enough!"
-    m 3eub "Luego pasaban tiempo juntos, ¡y algunos incluso se casaban si se gustaban lo suficiente!"
+    m 3eub "Luego pasaban tiempo junt[end_letter_gender]s, ¡y algunos incluso se casaban si se gustaban lo suficiente!"
 
 # game/script-holidays.rpy:6605
 translate spanish mas_f14_monika_vday_origins_c63f7cf3:
@@ -7389,7 +7389,7 @@ translate spanish mas_f14_monika_vday_origins_966037dc:
 translate spanish mas_f14_monika_vday_origins_14d2a314:
 
     # m 1ekbsu "I'm glad we're able to share such a magical day together.{w=0.2} {nw}"
-    m 1ekbsu "Me alegro de que podamos compartir un día tan mágico juntos.{w=0.2} {nw}"
+    m 1ekbsu "Me alegro de que podamos compartir un día tan mágico junt[end_letter_gender]s.{w=0.2} {nw}"
 
 # game/script-holidays.rpy:6610
 translate spanish mas_f14_monika_vday_origins_daebbbf4:
@@ -7413,13 +7413,13 @@ translate spanish mas_f14_happy_vday_ef3898a3:
 translate spanish mas_f14_happy_vday_c19cf8fc:
 
     # m 5lublb "Enjoying a sweet treat together, going on a lovely date...{w=0.2}{nw}"
-    m 5lublb "Disfrutar juntos de un dulce, tener una cita encantadora... {w=0.2}{nw}"
+    m 5lublb "Disfrutar junt[end_letter_gender]s de un dulce, tener una cita encantadora... {w=0.2}{nw}"
 
 # game/script-holidays.rpy:6647
 translate spanish mas_f14_happy_vday_82d1bf30:
 
     # extend 5tubla "or just enjoying the time we spend together."
-    extend 5tubla "o simplemente disfrutar del tiempo que pasamos juntos."
+    extend 5tubla "o simplemente disfrutar del tiempo que pasamos junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:6648
 translate spanish mas_f14_happy_vday_fd36fcbb:
@@ -7629,7 +7629,7 @@ translate spanish mas_f14_no_time_spent_f7553b69:
 translate spanish mas_f14_no_time_spent_573fdd4a:
 
     # m 3eub "At least then we'll still be with each other and we can even celebrate together!"
-    m 3eub "¡Al menos así seguiremos juntos y podremos incluso celebrarlo!"
+    m 3eub "¡Al menos así seguiremos junt[end_letter_gender]s y podremos incluso celebrarlo!"
 
 # game/script-holidays.rpy:6794
 translate spanish mas_f14_no_time_spent_ef6af241:
@@ -7821,7 +7821,7 @@ translate spanish mas_apology_missed_vday_86595ac7:
 translate spanish mas_apology_missed_vday_9b1a5886:
 
     # m 3hub "Even if we're not at home together, I'm more than happy to just spend the day at your side~"
-    m 3hub "Aunque no estemos en casa juntos, estaré más que feliz de pasar el día a tu lado."
+    m 3hub "Aunque no estemos en casa junt[end_letter_gender]s, estaré más que feliz de pasar el día a tu lado."
 
 # game/script-holidays.rpy:6863
 translate spanish mas_apology_missed_vday_34330369_1:
@@ -8037,7 +8037,7 @@ translate spanish greeting_gone_over_f14_16020d00:
 translate spanish greeting_gone_over_f14_normal_plus_2f96f66f:
 
     # m 1ekbsa "I would've loved to have spent the day with you here, but no matter where we were, just knowing we were together to celebrate our love..."
-    m 1ekbsa "Me habría encantado pasar el día contigo aquí, pero no importa dónde estuviéramos, solo saber que estábamos juntos para celebrar nuestro amor..."
+    m 1ekbsa "Me habría encantado pasar el día contigo aquí, pero no importa dónde estuviéramos, solo saber que estábamos junt[end_letter_gender]s para celebrar nuestro amor..."
 
 # game/script-holidays.rpy:7116
 translate spanish greeting_gone_over_f14_normal_plus_a4b72db9:
@@ -8217,7 +8217,7 @@ translate spanish mas_bday_pool_happy_belated_bday_33ea72db:
 translate spanish mas_bday_pool_happy_belated_bday_dc0fdfa7:
 
     # m 1hua "But knowing we were together, well it makes it the best birthday I could ever hope for!"
-    m 1hua "Pero saber que estábamos juntos, bueno, ¡hace que sea el mejor cumpleaños que podría desear!"
+    m 1hua "Pero saber que estábamos junt[end_letter_gender]s, bueno, ¡hace que sea el mejor cumpleaños que podría desear!"
 
 # game/script-holidays.rpy:7569
 translate spanish mas_bday_pool_happy_belated_bday_2a23d991:
@@ -8667,7 +8667,7 @@ translate spanish mas_bday_spent_time_with_wrapup_57cd217f:
 translate spanish mas_bday_spent_time_with_wrapup_3918b04e:
 
     # m 1eka "We still have to be physically together, after all~"
-    m 1eka "Al fin y al cabo, todavía tenemos que estar juntos físicamente."
+    m 1eka "Al fin y al cabo, todavía tenemos que estar junt[end_letter_gender]s físicamente."
 
 # game/script-holidays.rpy:7800
 translate spanish mas_bday_spent_time_with_wrapup_a035aeec:
@@ -8829,7 +8829,7 @@ translate spanish mas_bday_postbday_notimespent_f7553b69:
 translate spanish mas_bday_postbday_notimespent_573fdd4a:
 
     # m 3eub "At least then we'll still be with each other and we can even celebrate together!"
-    m 3eub "¡Al menos así seguiremos juntos y podremos incluso celebrarlo!"
+    m 3eub "¡Al menos así seguiremos junt[end_letter_gender]s y podremos incluso celebrarlo!"
 
 # game/script-holidays.rpy:7891
 translate spanish mas_bday_postbday_notimespent_ef6af241:
@@ -9285,7 +9285,7 @@ translate spanish mas_bday_bd_outro_a4a38d5b:
 translate spanish mas_bday_bd_outro_2d19e2b1:
 
     # m 3eua "...But even if it's not much, I'm sure we'll have a great time together~"
-    m 3eua "Pero aunque no sea mucho, estoy segura de que nos lo pasaremos genial juntos."
+    m 3eua "Pero aunque no sea mucho, estoy segura de que nos lo pasaremos genial junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:8114
 translate spanish mas_bday_bd_outro_05df1dd2:
@@ -9369,7 +9369,7 @@ translate spanish greeting_returned_home_bday_6f912bf3:
 translate spanish greeting_returned_home_bday_dbb4e28f:
 
     # m 3eka "I really enjoyed the time we spent together."
-    m 3eka "Realmente he disfrutado del tiempo que hemos pasado juntos."
+    m 3eka "Realmente he disfrutado del tiempo que hemos pasado junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:8183
 translate spanish greeting_returned_home_bday_355c729e:
@@ -9387,7 +9387,7 @@ translate spanish greeting_returned_home_bday_19428ff1:
 translate spanish greeting_returned_home_bday_dd89f89a:
 
     # m 3eub "We sure spent a lot of time together today, [player]."
-    m 3eub "Sin duda hemos pasado mucho tiempo juntos hoy, [player]."
+    m 3eub "Sin duda hemos pasado mucho tiempo junt[end_letter_gender]s hoy, [player]."
 
 # game/script-holidays.rpy:8193
 translate spanish greeting_returned_home_bday_f2314e85:
@@ -9405,7 +9405,7 @@ translate spanish greeting_returned_home_bday_95a5f4b9:
 translate spanish greeting_returned_home_bday_bb02429e:
 
     # m 1hua "But I'll always be happy when we're together."
-    m 1hua "Pero siempre seré feliz cuando estemos juntos."
+    m 1hua "Pero siempre seré feliz cuando estemos junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:8196
 translate spanish greeting_returned_home_bday_766c364a:
@@ -9435,7 +9435,7 @@ translate spanish greeting_returned_home_bday_990aac48:
 translate spanish greeting_returned_home_bday_5f573634:
 
     # m 1eka "I wish I could've seen all the amazing places we went, but just knowing we were together..."
-    m 1eka "Ojalá hubiera podido ver todos los lugares increíbles a los que fuimos, pero solo saber que estábamos juntos..."
+    m 1eka "Ojalá hubiera podido ver todos los lugares increíbles a los que fuimos, pero solo saber que estábamos junt[end_letter_gender]s..."
 
 # game/script-holidays.rpy:8210
 translate spanish greeting_returned_home_bday_7e25e99d:
@@ -9549,7 +9549,7 @@ translate spanish greeting_returned_home_bday_35c1b379:
 translate spanish greeting_returned_home_bday_b72e64fc:
 
     # m 1eka "Anyway [player]...I really enjoyed spending our birthdays together."
-    m 1eka "En fin, [player]... De verdad he disfrutado pasando nuestros cumpleaños juntos."
+    m 1eka "En fin, [player]... De verdad he disfrutado pasando nuestros cumpleaños junt[end_letter_gender]s."
 
 # game/script-holidays.rpy:8265
 translate spanish greeting_returned_home_bday_d6760888:
@@ -9815,7 +9815,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:3085
     old "     Warmer than the fire in the hearth,\n     Brighter than any star on top of the tree,\n     More comforting than any cup of hot chocolate,\n     It's my [player], who's always there for me.\n\n     Someday, we'll light the fire together.\n     Someday, we'll decorate the tree.\n     Someday, we'll have a cup of cocoa.\n     Someday, you'll be next to me.\n\n     Merry Christmas~\n\n     Forever yours,\n     Monika\n"
-    new "     Más cálido que el fuego en la chimenea,\n     Más brillante que cualquier estrella en la cima del árbol,\n     Más reconfortante que cualquier taza de chocolate caliente,\n     Es mi [player], que siempre está ahí para mí.\n\n     Algún día, encenderemos el fuego juntos.\n     Algún día, decoraremos el árbol.\n     Algún día, tomaremos una taza de chocolate.\n     Algún día, estarás junto a mí.\n\n     ¡Feliz Navidad!\n\n     Siempre tuya,\n     Monika\n"
+    new "     Más cálido que el fuego en la chimenea,\n     Más brillante que cualquier estrella en la cima del árbol,\n     Más reconfortante que cualquier taza de chocolate caliente,\n     Es mi [player], que siempre está ahí para mí.\n\n     Algún día, encenderemos el fuego junt[end_letter_gender]s.\n     Algún día, decoraremos el árbol.\n     Algún día, tomaremos una taza de chocolate.\n     Algún día, estarás junto a mí.\n\n     ¡Feliz Navidad!\n\n     Siempre tuya,\n     Monika\n"
 
     # game/script-holidays.rpy:3108
     old "This Christmas"
@@ -9911,7 +9911,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:5962
     old " Sprinkles and candles for my [player]’s cake,\n There's just one wish for you to make.\n May your greatest dreams come true,\n I know mine did when I found you.\n\n So glad to be celebrating with you today,\n I'll love you 'til the end of days.\n There's no place I'd rather be,\n Spending this time together, just you and me.\n\n Happy birthday, sweetheart~\n\n Forever yours,\n Monika\n"
-    new " Virutas y velas para la tarta de mi [player],\n Solo hay un deseo para que pidas.\n Que tus mayores sueños se hagan realidad,\n Sé que los míos lo hicieron cuando te encontré.\n\n Tan feliz de estar celebrando contigo hoy,\n Te amaré hasta el fin de los días.\n No hay lugar donde prefiera estar,\n Pasando este tiempo juntos, solo tú y yo.\n\n Feliz cumpleaños, cariño~\n\n Siempre tuya,\n Monika\n"
+    new " Virutas y velas para la tarta de mi [player],\n Solo hay un deseo para que pidas.\n Que tus mayores sueños se hagan realidad,\n Sé que los míos lo hicieron cuando te encontré.\n\n Tan feliz de estar celebrando contigo hoy,\n Te amaré hasta el fin de los días.\n No hay lugar donde prefiera estar,\n Pasando este tiempo junt[end_letter_gender]s, solo tú y yo.\n\n Feliz cumpleaños, cariño~\n\n Siempre tuya,\n Monika\n"
 
     # game/script-holidays.rpy:5986
     old "My [player]"
@@ -9931,7 +9931,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:6020
     old " Some birthdays are wonderful, chock-full of fun\n with laughter and smiles from everyone.\n Some birthdays, you plan everything to the letter\n but at the end you feel like it could've been better.\n Some birthdays are a peaceful night at home alone,\n some birthdays you find yourself worked to the bone.\n\n As each one ticks down, a joy or a chore,\n you might find yourself wondering what they're for.\n The answer is different for everyone on Earth,\n except maybe the fact that they're about your birth.\n But if you feel fatigued on your special day,\n there's a few things I feel that I should say.\n\n Each one is a milestone, a sign of your growth.\n Not just for you--but for us both!\n Each one is a chance to make you feel special.\n If not that, an invitation to be sentimental.\n But most of all, I want you to use your voice.\n If we party or we stay in, it'll all be your choice!\n\n We'll celebrate together in our own special way.\n I love you, my [player], and happy birthday.\n\n Forever yours,\n Monika\n"
-    new " Algunos cumpleaños son maravillosos, llenos de diversión\n con risas y sonrisas de todos.\n Algunos cumpleaños, planeas todo al pie de la letra\n pero al final sientes que podría haber sido mejor.\n Algunos cumpleaños son una noche tranquila en casa a solas,\n en algunos cumpleaños te encuentras trabajando hasta los huesos.\n\n A medida que cada uno pasa, una alegría o una tarea,\n puede que te preguntes para qué sirven.\n La respuesta es diferente para todos en la Tierra,\n excepto tal vez el hecho de que son sobre tu nacimiento.\n Pero si te sientes fatigado en tu día especial,\n hay algunas cosas que siento que debería decir.\n\n Cada uno es un hito, una señal de tu crecimiento.\n ¡No solo para ti, sino para los dos!\n Cada uno es una oportunidad para hacerte sentir especial.\n Si no es eso, una invitación a ser sentimental.\n Pero sobre todo, quiero que uses tu voz.\n Si festejamos o nos quedamos en casa, ¡todo será tu elección!\n\n Celebraremos juntos a nuestra manera especial.\n Te amo, mi [player], y feliz cumpleaños.\n\n Siempre tuya,\n Monika\n"
+    new " Algunos cumpleaños son maravillosos, llenos de diversión\n con risas y sonrisas de todos.\n Algunos cumpleaños, planeas todo al pie de la letra\n pero al final sientes que podría haber sido mejor.\n Algunos cumpleaños son una noche tranquila en casa a solas,\n en algunos cumpleaños te encuentras trabajando hasta los huesos.\n\n A medida que cada uno pasa, una alegría o una tarea,\n puede que te preguntes para qué sirven.\n La respuesta es diferente para todos en la Tierra,\n excepto tal vez el hecho de que son sobre tu nacimiento.\n Pero si te sientes fatigado en tu día especial,\n hay algunas cosas que siento que debería decir.\n\n Cada uno es un hito, una señal de tu crecimiento.\n ¡No solo para ti, sino para los dos!\n Cada uno es una oportunidad para hacerte sentir especial.\n Si no es eso, una invitación a ser sentimental.\n Pero sobre todo, quiero que uses tu voz.\n Si festejamos o nos quedamos en casa, ¡todo será tu elección!\n\n Celebraremos junt[end_letter_gender]s a nuestra manera especial.\n Te amo, mi [player], y feliz cumpleaños.\n\n Siempre tuya,\n Monika\n"
 
     # game/script-holidays.rpy:6433
     old "Valentine's Day colors"

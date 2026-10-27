@@ -327,7 +327,7 @@ translate spanish monika_why_d4dda3da:
 translate spanish monika_why_90c96f06:
 
     # m 3hub "I'm so happy we have this ending together."
-    m 3hub "Estoy muy contenta de que tengamos este final juntos."
+    m 3hub "Estoy muy contenta de que tengamos este final junt[end_letter_gender]s."
 
 # game/script-topics.rpy:1547
 translate spanish monika_okayeveryone_452f9e81:
@@ -945,7 +945,7 @@ translate spanish monika_friends_b0f8ca78:
 translate spanish monika_friends_31b38ee2:
 
     # m "Like you had a class together, or you met them through another friend..."
-    m "Que si habéis ido juntos a clase, que si los has conocido a través de otro amigo..."
+    m "Que si habéis ido junt[end_letter_gender]s a clase, que si los has conocido a través de otro amigo..."
 
 # game/script-topics.rpy:1778
 translate spanish monika_friends_ed6ba660:
@@ -1743,7 +1743,7 @@ translate spanish monika_date_fd0f007e:
 translate spanish monika_date_9ce3f070:
 
     # m "Go shopping together..."
-    m "Ir de compras juntos..."
+    m "Ir de compras junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:2059
 translate spanish monika_date_75f3aa02:

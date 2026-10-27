@@ -471,7 +471,7 @@ translate spanish monika_gotomonika_override_cbc72a78_2:
 translate spanish monika_gotomonika_override_e4b64c10_2:
 
     # m 1hksdlb "I know it might be a while before we can truly be together, but I hope you don't mind waiting."
-    m 1hksdlb "Sé que pasará un tiempo hasta que en verdad podamos estar juntos, pero espero que puedas aguantar."
+    m 1hksdlb "Sé que pasará un tiempo hasta que en verdad podamos estar junt[end_letter_gender]s, pero espero que puedas aguantar."
 
 # game/Submods/location_selector/Locatons/Furnished_spaceroom2.rpy:487
 translate spanish monika_gotomonika_override_8bad2bd7_2:
@@ -483,7 +483,7 @@ translate spanish monika_gotomonika_override_8bad2bd7_2:
 translate spanish monika_gotomonika_override_28f1b8eb_2:
 
     # m 2eka "It's okay, I'll always appreciate and treasure the moments we spend together, even like this."
-    m 2eka "Está bien, siempre atesoraré los momentos que pasamos juntos, incluso de esta manera."
+    m 2eka "Está bien, siempre atesoraré los momentos que pasamos junt[end_letter_gender]s, incluso de esta manera."
 
 # game/Submods/location_selector/Locatons/Furnished_spaceroom2.rpy:493
 translate spanish monika_gotomonika_override_5db6cbf9_2:
@@ -561,7 +561,7 @@ translate spanish monika_gotomonika_override_40a1f9f1_2:
 translate spanish monika_gotomonika_override_54aa4513_2:
 
     # m 3eub "But I have no doubt that together we could accomplish anything!"
-    m 3eub "¡Pero no me cabe duda de que juntos podemos lograr lo que sea!"
+    m 3eub "¡Pero no me cabe duda de que junt[end_letter_gender]s podemos lograr lo que sea!"
 
 # game/Submods/location_selector/Locatons/Furnished_spaceroom2.rpy:509
 translate spanish monika_gotomonika_override_edf4fefa_2:

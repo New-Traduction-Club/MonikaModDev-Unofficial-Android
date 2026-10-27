@@ -66,6 +66,22 @@ init python:
             store.end_letter_gender = "a"
         else:
             store.end_letter_gender = "o"
+    
+    def masl_state_day_tl():
+        if mas_globals.time_of_day_3state == "morning":
+            return "mañana"
+        elif mas_globals.time_of_day_3state == "afternoon":
+            return "tarde"
+        elif mas_globals.time_of_day_3state == "evening":
+            return "noche"
+        else:
+            return "noche"
+    
+    def masl_state_day_another_dlg_tl():
+        if mas_globals.time_of_day_3state == "evening":
+            return "esta noche"
+        else:
+            return "mañana"
 
 init 10 python:
     import store

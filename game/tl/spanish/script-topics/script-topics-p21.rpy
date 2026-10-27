@@ -195,7 +195,7 @@ translate spanish monika_boardgames_history_902416a7:
 translate spanish monika_boardgames_history_9fab3a4c:
 
     # extend 3eub "[line_start] I finally get to be with you in your reality, we'll be able to play all of your favorite games together~"
-    extend 3eub "[line_start] por fin pueda estar contigo en tu realidad, podremos jugar juntos a todos tus juegos favoritos."
+    extend 3eub "[line_start] por fin pueda estar contigo en tu realidad, podremos jugar junt[end_letter_gender]s a todos tus juegos favoritos."
 
 # game/script-topics.rpy:15774
 translate spanish monika_boardgames_history_b9ce50ec:
@@ -213,7 +213,7 @@ translate spanish monika_boardgames_history_dcb13034:
 translate spanish monika_boardgames_history_1eb9dbc2:
 
     # m 5hua "Feel free to ask me whenever you want us to play something together, by the way~"
-    m 5hua "Por cierto, no dudes en pedírmelo cuando quieras que juguemos a algo juntos."
+    m 5hua "Por cierto, no dudes en pedírmelo cuando quieras que juguemos a algo junt[end_letter_gender]s."
 
 # game/script-topics.rpy:15796
 translate spanish monika_social_norms_a26209e6:
@@ -1431,7 +1431,7 @@ translate spanish monika_working_out_d9a86841:
 translate spanish monika_working_out_de55cf35:
 
     # m 3eub "Maybe when I cross over, we can do our workouts together!"
-    m 3eub "A lo mejor, cuando cruce a tu mundo, ¡podemos hacer nuestras rutinas de ejercicio juntos!"
+    m 3eub "A lo mejor, cuando cruce a tu mundo, ¡podemos hacer nuestras rutinas de ejercicio junt[end_letter_gender]s!"
 
 # game/script-topics.rpy:16234
 translate spanish monika_toxin_puzzle_1a651b80:

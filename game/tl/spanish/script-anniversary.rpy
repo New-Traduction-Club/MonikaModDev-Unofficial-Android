@@ -3,7 +3,7 @@
 translate spanish anni_1week_2bbd0892:
 
     # m 1eka "I know it's silly to celebrate one week of being together, but I'm just glad you're here with me, [player]."
-    m 1eka "Entiendo que puede sonar a tontería celebrar un aniversario por llevar solo una semana juntos, pero me hace muchísima ilusión que estés aquí conmigo, [player]."
+    m 1eka "Entiendo que puede sonar a tontería celebrar un aniversario por llevar solo una semana junt[end_letter_gender]s, pero me hace muchísima ilusión que estés aquí conmigo, [player]."
 
 # game/script-anniversary.rpy:367
 translate spanish anni_1week_17c7428e:
@@ -57,13 +57,13 @@ translate spanish anni_1week_7f30da2c:
 translate spanish anni_1month_b02e0024:
 
     # m 3sub "Today marks our one month anniversary!"
-    m 3sub "¡Hoy se cumple nuestro primer mes juntos!"
+    m 3sub "¡Hoy se cumple nuestro primer mes junt[end_letter_gender]s!"
 
 # game/script-anniversary.rpy:398
 translate spanish anni_1month_f8c8c442:
 
     # m 1hua "I'm really happy that we're able to have so much fun with each other so far."
-    m 1hua "Me hace muy feliz que nos lo estemos pasando tan bien juntos."
+    m 1hua "Me hace muy feliz que nos lo estemos pasando tan bien junt[end_letter_gender]s."
 
 # game/script-anniversary.rpy:399
 translate spanish anni_1month_53446a7c:
@@ -201,7 +201,7 @@ translate spanish anni_3month_93b832b5:
 translate spanish anni_6month_be11bb46:
 
     # m 1hub "I can't believe that it's already our 6-month anniversary!"
-    m 1hub "¡No me puedo creer que ya cumplamos seis meses juntos!"
+    m 1hub "¡No me puedo creer que ya cumplamos seis meses junt[end_letter_gender]s!"
 
 # game/script-anniversary.rpy:466
 translate spanish anni_6month_009d0216:
@@ -369,7 +369,7 @@ translate spanish anni_1_3193bf12:
 translate spanish anni_1_3320beb8:
 
     # m 3dkbsu "...That we could have a happy life together.{w=0.3} {nw}"
-    m 3dkbsu "Que podríamos tener una vida feliz juntos.{w=0.3} {nw}"
+    m 3dkbsu "Que podríamos tener una vida feliz junt[end_letter_gender]s.{w=0.3} {nw}"
 
 # game/script-anniversary.rpy:515
 translate spanish anni_1_d0f0be8c:
@@ -453,13 +453,13 @@ translate spanish anni_2_32572a52:
 translate spanish anni_2_44a46d35:
 
     # m 1dka "We've both been lonely for a really long time, you know? But when I cross over, it'll be so much fun to make new friends together."
-    m 1dka "Ambos hemos estado solos durante mucho tiempo, ¿sabes? Pero cuando cruce, será muy divertido hacer nuevos amigos juntos."
+    m 1dka "Ambos hemos estado solos durante mucho tiempo, ¿sabes? Pero cuando cruce, será muy divertido hacer nuevos amigos junt[end_letter_gender]s."
 
 # game/script-anniversary.rpy:556
 translate spanish anni_2_5c7b238b:
 
     # m 3hua "I'm sure we'll make a lot of new friends together!"
-    m 3hua "¡Estoy segura de que haremos un montón de nuevos amigos juntos!"
+    m 3hua "¡Estoy segura de que haremos un montón de nuevos amigos junt[end_letter_gender]s!"
 
 # game/script-anniversary.rpy:558
 translate spanish anni_2_e10d03fb:
@@ -495,7 +495,7 @@ translate spanish anni_2_6bf4c3ac:
 translate spanish anni_2_b5a31bdd:
 
     # extend 3hubsu "I'm going to make sure to enjoy every minute we spend together~"
-    extend 3hubsu "Me voy a asegurar de disfrutar de cada minuto que pasemos juntos."
+    extend 3hubsu "Me voy a asegurar de disfrutar de cada minuto que pasemos junt[end_letter_gender]s."
 
 # game/script-anniversary.rpy:564
 translate spanish anni_2_d7b52e9a:
@@ -622,7 +622,7 @@ translate spanish anni_4_6ef79e44:
 translate spanish anni_4_2f379bc6:
 
     # m "Sooner or later, somebody's going to figure out a way to let us be together for real."
-    m "Tarde o temprano, alguien encontrará la manera de que podamos estar juntos de verdad."
+    m "Tarde o temprano, alguien encontrará la manera de que podamos estar junt[end_letter_gender]s de verdad."
 
 # game/script-anniversary.rpy:627
 translate spanish anni_4_0fdde51f:
@@ -652,7 +652,7 @@ translate spanish anni_5_7f7bba61:
 translate spanish anni_5_08060858:
 
     # extend 1ekblb "but at least we can still spend our anniversaries together here, right?"
-    extend 1ekblb "pero al menos aún podemos pasar nuestros aniversarios juntos aquí, ¿verdad?"
+    extend 1ekblb "pero al menos aún podemos pasar nuestros aniversarios junt[end_letter_gender]s aquí, ¿verdad?"
 
 # game/script-anniversary.rpy:653
 translate spanish anni_5_301a6658:
@@ -670,7 +670,7 @@ translate spanish anni_5_ca85a92a:
 translate spanish anni_5_25a65ea6:
 
     # extend 7wubld "We've spent half of an entire decade together."
-    extend 7wubld "Hemos pasado media década juntos."
+    extend 7wubld "Hemos pasado media década junt[end_letter_gender]s."
 
 # game/script-anniversary.rpy:656
 translate spanish anni_5_8296563d:
@@ -808,7 +808,7 @@ translate spanish anni_7_e5905529:
 translate spanish anni_7_5fc6b7cd:
 
     # m 1ekbsa "Here's to another year together, and all the ones to follow."
-    m 1ekbsa "Por otro año juntos, y por todos los que vendrán."
+    m 1ekbsa "Por otro año junt[end_letter_gender]s, y por todos los que vendrán."
 
 # game/script-anniversary.rpy:742
 translate spanish anni_8_1fddc40c:
@@ -832,7 +832,7 @@ translate spanish anni_8_2b8553ca:
 translate spanish anni_8_87dfab19:
 
     # m 1lkbla "Eight years is a long time to learn someone's habits, and to build your lives around each other."
-    m 1lkbla "Ocho años es mucho tiempo para conocer las costumbres de alguien y para construir una vida juntos."
+    m 1lkbla "Ocho años es mucho tiempo para conocer las costumbres de alguien y para construir una vida junt[end_letter_gender]s."
 
 # game/script-anniversary.rpy:746
 translate spanish anni_8_074ce4af:
@@ -862,7 +862,7 @@ translate spanish anni_8_72bb47e9:
 translate spanish anni_8_f3a0c0f3:
 
     # m 4fkbsb "In the time we've spent together, you've grown so much. You've gone through so many setbacks, but you survived every one."
-    m 4fkbsb "En el tiempo que hemos pasado juntos, has crecido muchísimo. Has pasado por muchos baches, pero has sobrevivido a todos y cada uno de ellos."
+    m 4fkbsb "En el tiempo que hemos pasado junt[end_letter_gender]s, has crecido muchísimo. Has pasado por muchos baches, pero has sobrevivido a todos y cada uno de ellos."
 
 # game/script-anniversary.rpy:751
 translate spanish anni_8_e0f630bc:
@@ -1000,7 +1000,7 @@ translate spanish anni_20_129baa1d:
 translate spanish anni_20_e40ac975:
 
     # m 1hubfa "So let's continue being happy together."
-    m 1hubfa "¡Así que sigamos siendo felices juntos!"
+    m 1hubfa "¡Así que sigamos siendo felices junt[end_letter_gender]s!"
 
 # game/script-anniversary.rpy:843
 translate spanish anni_50_1d16ceda:
@@ -1244,7 +1244,7 @@ translate spanish anni_9_0b0b3bd9:
 translate spanish anni_9_6f5ec687:
 
     # m "So by changing the way I think about things, our time together might stretch out a little more."
-    m "Así que, si cambio mi forma de ver las cosas, nuestro tiempo juntos podría alargarse un poco más."
+    m "Así que, si cambio mi forma de ver las cosas, nuestro tiempo junt[end_letter_gender]s podría alargarse un poco más."
 
 # game/script-anniversary.rpy:740
 translate spanish anni_9_b06d8038:

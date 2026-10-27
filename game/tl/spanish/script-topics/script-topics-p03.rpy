@@ -1695,7 +1695,7 @@ translate spanish monika_confidence_a39f87b2:
 translate spanish monika_confidence_339c7c24:
 
     # m 2eua "I feel like I'm a little bit less scared and alone, when you're here with me."
-    m 2eua "Cuando estamos juntos, me siento menos asustada y sola."
+    m 2eua "Cuando estamos junt[end_letter_gender]s, me siento menos asustada y sola."
 
 # game/script-topics.rpy:2979
 translate spanish monika_confidence_44c97262:

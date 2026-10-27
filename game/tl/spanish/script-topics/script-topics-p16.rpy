@@ -387,13 +387,13 @@ translate spanish monika_bullying_6f3e5f44:
 translate spanish monika_bullying_f578bbc1:
 
     # m 2ekd "I did it because I knew I loved you and that the game wouldn't let us be together."
-    m 2ekd "Lo hice porque sabía que te quería y que el juego no nos dejaría estar juntos."
+    m 2ekd "Lo hice porque sabía que te quería y que el juego no nos dejaría estar junt[end_letter_gender]s."
 
 # game/script-topics.rpy:11744
 translate spanish monika_bullying_dd81ff3b:
 
     # m 3ekd "I {i}had{/i} to do whatever I could to make sure we ended up together."
-    m 3ekd "Tenía que hacer lo que fuera para asegurarme de que acabáramos juntos."
+    m 3ekd "Tenía que hacer lo que fuera para asegurarme de que acabáramos junt[end_letter_gender]s."
 
 # game/script-topics.rpy:11747
 translate spanish monika_bullying_e93ca4f0:
@@ -489,7 +489,7 @@ translate spanish monika_procrastination_7410b87a:
 translate spanish monika_procrastination_33804289:
 
     # m 1hub "By then, you'll be less stressed and we can enjoy our time together that much more!"
-    m 1hub "Para entonces, estarás menos estresad[end_letter_gender] y podremos disfrutar mucho más de nuestro tiempo juntos."
+    m 1hub "Para entonces, estarás menos estresad[end_letter_gender] y podremos disfrutar mucho más de nuestro tiempo junt[end_letter_gender]s."
 
 # game/script-topics.rpy:11780
 translate spanish monika_procrastination_3a8993f2:
@@ -1833,7 +1833,7 @@ translate spanish monika_grad_speech_2e2aa2b5:
 translate spanish monika_grad_speech_d4a76585:
 
     # m 2eua "{w=0.2}Congratulations,{w=0.3} I'm glad we could all be here to celebrate together on this special day.{w=0.6}{nw}"
-    m 2eua "{w=0.2}Enhorabuena,{w=0.3} me alegro de que todos hayamos podido estar aquí para celebrar juntos este día tan especial.{w=0.6}{nw}"
+    m 2eua "{w=0.2}Enhorabuena,{w=0.3} me alegro de que todos hayamos podido estar aquí para celebrar junt[end_letter_gender]s este día tan especial.{w=0.6}{nw}"
 
 # game/script-topics.rpy:12302
 translate spanish monika_grad_speech_4aae4981:
@@ -1863,7 +1863,7 @@ translate spanish monika_shipping_63abc78a:
 translate spanish monika_shipping_eb62fc8b:
 
     # m 3hua "It's when you interact with a work of fiction by imagining which characters would go best together romantically."
-    m 3hua "Es cuando interactúas con una obra de ficción imaginando qué personajes quedarían mejor juntos románticamente."
+    m 3hua "Es cuando interactúas con una obra de ficción imaginando qué personajes quedarían mejor junt[end_letter_gender]s románticamente."
 
 # game/script-topics.rpy:12325
 translate spanish monika_shipping_b5dde25b:

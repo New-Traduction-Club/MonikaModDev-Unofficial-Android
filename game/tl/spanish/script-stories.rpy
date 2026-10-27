@@ -735,7 +735,7 @@ translate spanish mas_story_genie_simple_24914739:
 translate spanish mas_story_genie_simple_5742cd15:
 
     # m 1eka "I mean, we're just sitting here together enjoying each other's company after all."
-    m 1eka "Quiero decir, al fin y al cabo solo estamos aquí sentados juntos disfrutando de nuestra compañía."
+    m 1eka "Quiero decir, al fin y al cabo solo estamos aquí sentados junt[end_letter_gender]s disfrutando de nuestra compañía."
 
 # game/script-stories.rpy:631
 translate spanish mas_story_genie_simple_0f86c604:
@@ -921,7 +921,7 @@ translate spanish mas_story_genie_regret_909d32ba:
 translate spanish mas_story_genie_regret_0dd0d8b6:
 
     # m 3eua "Ever since we've been together, I can definitely say that I've grown and learned from my mistakes."
-    m 3eua "Desde que estamos juntos, puedo decir definitivamente que he crecido y aprendido de mis errores."
+    m 3eua "Desde que estamos junt[end_letter_gender]s, puedo decir definitivamente que he crecido y aprendido de mis errores."
 
 # game/script-stories.rpy:699
 translate spanish mas_story_genie_end_a42b5d3e:
@@ -1269,7 +1269,7 @@ translate spanish mas_story_mother_and_trees_617f4484:
 translate spanish mas_story_mother_and_trees_005bac99:
 
     # m 3hksdlb "Sometimes, she would even ask him to dress up and pose by the trees so she could take pictures of them together."
-    m 3hksdlb "A veces, incluso le pedía que se arreglara y posara junto a los árboles para poder hacerles fotos juntos."
+    m 3hksdlb "A veces, incluso le pedía que se arreglara y posara junto a los árboles para poder hacerles fotos junt[end_letter_gender]s."
 
 # game/script-stories.rpy:789
 translate spanish mas_story_mother_and_trees_446ba8d3:
@@ -2187,7 +2187,7 @@ translate spanish mas_story_mindthegap_303955c0:
 translate spanish mas_story_mindthegap_b86889c2:
 
     # m 1ekbla "This story reminds me to treasure every moment, and not to take any piece of our time together for granted."
-    m 1ekbla "Esta historia me recuerda que debo atesorar cada momento, y no dar por sentado ni un instante de nuestro tiempo juntos."
+    m 1ekbla "Esta historia me recuerda que debo atesorar cada momento, y no dar por sentado ni un instante de nuestro tiempo junt[end_letter_gender]s."
 
 # game/script-stories.rpy:1042
 translate spanish mas_story_mindthegap_0f9f9023:
@@ -2439,7 +2439,7 @@ translate spanish mas_story_knock_20c2a61b:
 translate spanish mas_story_knock_0427f3c2:
 
     # m 1dua "The last man and woman on Earth were together at last.{w=0.2}{nw}"
-    m 1dua "El último hombre y la última mujer de la Tierra estaban juntos por fin.{w=0.2}{nw}"
+    m 1dua "El último hombre y la última mujer de la Tierra estaban junt[end_letter_gender]s por fin.{w=0.2}{nw}"
 
 # game/script-stories.rpy:1100
 translate spanish mas_story_knock_3a83bc13:
@@ -3093,7 +3093,7 @@ translate spanish mas_scary_story_womaninblack_894cb191:
 translate spanish mas_scary_story_womaninblack_370ec312:
 
     # m "According to the official, a woman and her husband were traveling on a train together."
-    m "Según el funcionario, una mujer y su marido viajaban juntos en un tren."
+    m "Según el funcionario, una mujer y su marido viajaban junt[end_letter_gender]s en un tren."
 
 # game/script-stories.rpy:1336
 translate spanish mas_scary_story_womaninblack_fb979770:
@@ -3165,7 +3165,7 @@ translate spanish mas_scary_story_resurrection_mary_ea420abf:
 translate spanish mas_scary_story_resurrection_mary_cf319c55:
 
     # m 1esb "The two spent much of the night together dancing. When the time came to leave, Lewis offered Mary a ride home and she again accepted the invitation."
-    m 1esb "Los dos pasaron gran parte de la noche bailando juntos. Cuando llegó la hora de irse, Lewis se ofreció a llevar a Mary a casa y ella aceptó de nuevo la invitación."
+    m 1esb "Los dos pasaron gran parte de la noche bailando junt[end_letter_gender]s. Cuando llegó la hora de irse, Lewis se ofreció a llevar a Mary a casa y ella aceptó de nuevo la invitación."
 
 # game/script-stories.rpy:1358
 translate spanish mas_scary_story_resurrection_mary_6d6cc97c:
@@ -3807,7 +3807,7 @@ translate spanish mas_scary_story_yuki_onna_2921a22f:
 translate spanish mas_scary_story_yuki_onna_74be4502:
 
     # m 2eua "They were able to build a modest fire and huddled together for warmth before falling asleep."
-    m 2eua "Pudieron hacer un fuego modesto y se acurrucaron juntos para entrar en calor antes de quedarse dormidos."
+    m 2eua "Pudieron hacer un fuego modesto y se acurrucaron junt[end_letter_gender]s para entrar en calor antes de quedarse dormidos."
 
 # game/script-stories.rpy:1589
 translate spanish mas_scary_story_yuki_onna_0d6a7d3f:
@@ -3945,7 +3945,7 @@ translate spanish mas_scary_story_many_loves_fe761223:
 translate spanish mas_scary_story_many_loves_80a057af:
 
     # m 4dsd "The two lived happily together for a time, but he too withered away and died."
-    m 4dsd "Los dos vivieron felices juntos durante un tiempo, pero él también se marchitó y murió."
+    m 4dsd "Los dos vivieron felices junt[end_letter_gender]s durante un tiempo, pero él también se marchitó y murió."
 
 # game/script-stories.rpy:1637
 translate spanish mas_scary_story_many_loves_3a71777e:
@@ -4053,7 +4053,7 @@ translate spanish mas_scary_story_gray_lady_89897949:
 translate spanish mas_scary_story_gray_lady_801d60c7:
 
     # m 2hub "The two lived a happy life there together, but were especially joyous when their baby daughter Kate was born."
-    m 2hub "Los dos vivieron felices allí juntos, pero se alegraron especialmente cuando nació su hija Kate."
+    m 2hub "Los dos vivieron felices allí junt[end_letter_gender]s, pero se alegraron especialmente cuando nació su hija Kate."
 
 # game/script-stories.rpy:1685
 translate spanish mas_scary_story_gray_lady_08ecf118:
@@ -4317,7 +4317,7 @@ translate spanish mas_scary_story_flowered_lantern_2_db47c22a:
 translate spanish mas_scary_story_flowered_lantern_2_6fe2ce34:
 
     # m 4eua "The two spent the night together and right before dawn, Tsuyu left to return to her dwelling."
-    m 4eua "Los dos pasaron la noche juntos y, justo antes del amanecer, Tsuyu se marchó para volver a su morada."
+    m 4eua "Los dos pasaron la noche junt[end_letter_gender]s y, justo antes del amanecer, Tsuyu se marchó para volver a su morada."
 
 # game/script-stories.rpy:1777
 translate spanish mas_scary_story_flowered_lantern_2_c043e00c:

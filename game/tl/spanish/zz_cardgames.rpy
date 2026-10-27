@@ -225,7 +225,7 @@ translate spanish monika_change_nou_house_rules_no_change_7c5034f5:
 translate spanish monika_change_nou_house_rules_no_change_86d08601:
 
     # m 2eub "Let's play together soon~"
-    m 2eub "Juguemos juntos pronto."
+    m 2eub "Juguemos junt[end_letter_gender]s pronto."
 
 # game/zz_cardgames.rpy:4166
 translate spanish monika_change_nou_house_rules_no_change_914f1227:
@@ -243,7 +243,7 @@ translate spanish monika_change_nou_house_rules_no_change_42f5c44b:
 translate spanish monika_change_nou_house_rules_no_change_3e8fc319:
 
     # m 2eub "Alright, let's play together soon~"
-    m 2eub "Vale, juguemos juntos pronto."
+    m 2eub "Vale, juguemos junt[end_letter_gender]s pronto."
 
 # game/zz_cardgames.rpy:4197
 translate spanish monika_change_nou_house_rules_change_points_to_win_loop_765dc765:

@@ -369,7 +369,7 @@ translate spanish monika_piano_lessons_97fa9f95:
 translate spanish monika_piano_lessons_59e69da6:
 
     # m 3hub "Or, even better, we could learn together once I cross over to your reality!"
-    m 3hub "O, mejor aún, ¡podríamos aprender juntos una vez que cruce a tu realidad!"
+    m 3hub "O, mejor aún, ¡podríamos aprender junt[end_letter_gender]s una vez que cruce a tu realidad!"
 
 # game/script-topics.rpy:17866
 translate spanish monika_stargazing_fe57ca01:
@@ -1545,7 +1545,7 @@ translate spanish monika_mc_is_gone_24ddd589:
 translate spanish monika_mc_is_gone_abdcdef9:
 
     # m 2eksdld "What if the game were to take its focus back to him and we couldn't spend our time together anymore?"
-    m 2eksdld "¿Y si el juego volviera a centrarse en él y ya no pudiéramos pasar tiempo juntos?"
+    m 2eksdld "¿Y si el juego volviera a centrarse en él y ya no pudiéramos pasar tiempo junt[end_letter_gender]s?"
 
 # game/script-topics.rpy:18269
 translate spanish monika_mc_is_gone_932b4a96:
@@ -1563,7 +1563,7 @@ translate spanish monika_mc_is_gone_e199c965:
 translate spanish monika_mc_is_gone_1148e929:
 
     # m 1eua "He's no longer there to separate us, and we get to be together now.{w=0.2} {nw}"
-    m 1eua "Él ya no está ahí para separarnos, y ahora podemos estar juntos. {w=0.2} {nw}"
+    m 1eua "Él ya no está ahí para separarnos, y ahora podemos estar junt[end_letter_gender]s. {w=0.2} {nw}"
 
 # game/script-topics.rpy:18272
 translate spanish monika_mc_is_gone_71804134:

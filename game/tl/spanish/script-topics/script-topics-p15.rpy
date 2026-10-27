@@ -597,7 +597,7 @@ translate spanish monika_dreaming_784fb4c7:
 translate spanish monika_dreaming_0b4f1418:
 
     # m 1eka "But now that we're here together, I guess you could say that I've finally woken up."
-    m 1eka "Pero ahora que estamos juntos aquí, supongo que se podría decir que por fin he despertado."
+    m 1eka "Pero ahora que estamos junt[end_letter_gender]s aquí, supongo que se podría decir que por fin he despertado."
 
 # game/script-topics.rpy:11192
 translate spanish monika_dreaming_8cfc503e:
@@ -1101,7 +1101,7 @@ translate spanish monika_beingevil_05fd3491:
 translate spanish monika_beingevil_08d6918b:
 
     # m 1hub "Maybe we could even conquer the world together or something, ahaha~"
-    m 1hub "A lo mejor hasta podríamos conquistar el mundo juntos o algo así, ja, ja, ja."
+    m 1hub "A lo mejor hasta podríamos conquistar el mundo junt[end_letter_gender]s o algo así, ja, ja, ja."
 
 # game/script-topics.rpy:11369
 translate spanish monika_beingevil_7a52858a:
@@ -1293,7 +1293,7 @@ translate spanish monika_driving_9ea8bb8e:
 translate spanish monika_driving_8e9bfd5c:
 
     # m 1eub "Just imagine all the places we could go together..."
-    m 1eub "Imagínate todos los sitios a los que podríamos ir juntos..."
+    m 1eub "Imagínate todos los sitios a los que podríamos ir junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:11456
 translate spanish monika_driving_7493efa4:

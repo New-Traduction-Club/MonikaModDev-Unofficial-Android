@@ -303,7 +303,7 @@ translate spanish monika_pleasure_760f4e21:
 translate spanish monika_pleasure_45622fbf:
 
     # m 1lksdla "But I feel like we've been together long enough where we should be comfortable with one another."
-    m 1lksdla "Pero siento que llevamos juntos el tiempo suficiente como para tenernos más confianza."
+    m 1lksdla "Pero siento que llevamos junt[end_letter_gender]s el tiempo suficiente como para tenernos más confianza."
 
 # game/script-topics.rpy:6264
 translate spanish monika_pleasure_aa4cb747:
@@ -417,7 +417,7 @@ translate spanish monika_vocaloid_2645002f:
 translate spanish monika_vocaloid_94a969d3:
 
     # m 1eua "Maybe we could listen and try to figure them out together..."
-    m 1eua "Quizá podríamos escucharlas e intentar descifrarlos juntos..."
+    m 1eua "Quizá podríamos escucharlas e intentar descifrarlos junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:6311
 translate spanish monika_vocaloid_25871a7b:
@@ -759,7 +759,7 @@ translate spanish monika_good_tod_ebaff96e:
 translate spanish monika_good_tod_90f57ade:
 
     # m 1tsu "Even though we've been awake together for a bit now,{w=0.2} {nw}"
-    m 1tsu "Aunque ya llevamos un rato despiertos juntos...{w=0.2} {nw}"
+    m 1tsu "Aunque ya llevamos un rato despiertos junt[end_letter_gender]s...{w=0.2} {nw}"
 
 # game/script-topics.rpy:6412
 translate spanish monika_good_tod_3a89450a:
@@ -1899,7 +1899,7 @@ translate spanish monika_science_59e8a420:
 translate spanish monika_science_2f1b11eb:
 
     # m 1hua "I'm grateful that it gave us a chance to be together, [mas_get_player_nickname()]."
-    m 1hua "Agradezco que nos diera la oportunidad de estar juntos, [mas_get_player_nickname()]."
+    m 1hua "Agradezco que nos diera la oportunidad de estar junt[end_letter_gender]s, [mas_get_player_nickname()]."
 
 # game/script-topics.rpy:6833
 translate spanish monika_surprise_d3a284b9:

@@ -534,7 +534,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:4058
     old "We'll be together forever!"
-    new "¡Estaremos juntos para siempre!"
+    new "¡Estaremos junt[end_letter_gender]s para siempre!"
 
     # game/script-topics.rpy:4058
     old "And I will love you always!"
@@ -650,7 +650,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:4058
     old "We have so much to experience together!"
-    new "¡Tenemos tantas cosas que vivir juntos!"
+    new "¡Tenemos tantas cosas que vivir junt[end_letter_gender]s!"
 
     # game/script-topics.rpy:4058
     old "I can't imagine my life without you!"
@@ -994,7 +994,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:6368
     old "Good [mas_globals.time_of_day_3state]"
-    new "Feliz [mas_globals.time_of_day_3state]"
+    new "Feliz [masl_state_day_tl()]"
 
     # game/script-topics.rpy:6492
     old "Speaking Japanese"
@@ -1154,7 +1154,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:7400
     old "the two of us reading a book together on a cold winter day, snuggled up under a warm blanket..."
-    new "nosotros dos leyendo juntos un libro en un frío día de invierno, acurrucados bajo una manta calentita..."
+    new "nosotros dos leyendo junt[end_letter_gender]s un libro en un frío día de invierno, acurrucados bajo una manta calentita..."
 
     # game/script-topics.rpy:7400
     old "us having a duet together, with you singing my song while I play the piano..."
@@ -1162,11 +1162,11 @@ translate spanish strings:
 
     # game/script-topics.rpy:7400
     old "us having a romantic dinner together, just you and me~"
-    new "nosotros teniendo una cena romántica juntos, solo tú y yo."
+    new "nosotros teniendo una cena romántica junt[end_letter_gender]s, solo tú y yo."
 
     # game/script-topics.rpy:7400
     old "us having a late night on the couch together..."
-    new "nosotros pasando la noche juntos en el sofá..."
+    new "nosotros pasando la noche junt[end_letter_gender]s en el sofá..."
 
     # game/script-topics.rpy:7400
     old "you holding my hand while we take a stroll outside on a sunny day..."
@@ -1318,7 +1318,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:8784
     old "Waiting to be together"
-    new "Esperar para estar juntos"
+    new "Esperar para estar junt[end_letter_gender]s"
 
     # game/script-topics.rpy:8790
     old "Soon."
@@ -2414,7 +2414,7 @@ translate spanish strings:
 
     # game/script-topics.rpy:18634
     old "Do you mind when we spend time together quietly?"
-    new "¿Te importa que pasemos tiempo juntos en silencio?"
+    new "¿Te importa que pasemos tiempo junt[end_letter_gender]s en silencio?"
 
     # game/script-topics.rpy:18686
     old "Do you like to cosplay?"

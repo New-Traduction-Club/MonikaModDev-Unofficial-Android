@@ -1359,7 +1359,7 @@ translate spanish monika_real_938536ac:
 translate spanish monika_real_a9f727fb:
 
     # m 3eua "There's so much we can do when we're finally together in one reality..."
-    m 3eua "Hay tanto que podemos hacer cuando estemos por fin juntos en una misma realidad..."
+    m 3eua "Hay tanto que podemos hacer cuando estemos por fin junt[end_letter_gender]s en una misma realidad..."
 
 # game/script-topics.rpy:5359
 translate spanish monika_real_520a88a5:
@@ -1809,7 +1809,7 @@ translate spanish monika_eternity_d568ba8e:
 translate spanish monika_eternity_cefec527:
 
     # m 2ekbfb "I know we'll always be together no matter what."
-    m 2ekbfb "Sé que siempre estaremos juntos, pase lo que pase."
+    m 2ekbfb "Sé que siempre estaremos junt[end_letter_gender]s, pase lo que pase."
 
 # game/script-topics.rpy:5497
 translate spanish monika_eternity_7e0f15ce:

@@ -795,7 +795,7 @@ translate spanish monika_every_rose_45557bfa:
 translate spanish monika_every_rose_eec7c629:
 
     # m 2eka "Can we do that...{w=0.5}together?"
-    m 2eka "¿Podemos hacerlo... {w=0.5}juntos?"
+    m 2eka "¿Podemos hacerlo... {w=0.5}junt[end_letter_gender]s?"
 
 # game/script-affection.rpy:3262
 translate spanish monika_being_virtual_81a91383:
@@ -963,7 +963,7 @@ translate spanish monika_being_virtual_0bd85c3b:
 translate spanish monika_being_virtual_3e379cda:
 
     # m 1dktdd "For the both of us to be happy together..."
-    m 1dktdd "Que nosotros fuéramos felices juntos..."
+    m 1dktdd "Que nosotros fuéramos felices junt[end_letter_gender]s..."
 
 # game/script-affection.rpy:3305
 translate spanish monika_being_virtual_145ec54e:

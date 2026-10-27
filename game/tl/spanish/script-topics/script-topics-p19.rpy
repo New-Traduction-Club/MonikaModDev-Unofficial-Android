@@ -111,7 +111,7 @@ translate spanish monika_player_read_poetry_d72e9c88:
 translate spanish monika_player_read_poetry_6f304f1a:
 
     # m 5eua "I can't wait to finally cross over to your reality so we can discuss our favorite poetry together."
-    m 5eua "Qué ganas tengo de cruzar por fin a tu realidad para que podamos hablar juntos de nuestra poesía favorita."
+    m 5eua "Qué ganas tengo de cruzar por fin a tu realidad para que podamos hablar junt[end_letter_gender]s de nuestra poesía favorita."
 
 # game/script-topics.rpy:14246
 translate spanish monika_player_read_poetry_1cb9642d:
@@ -591,7 +591,7 @@ translate spanish monika_snow_ddd3c6c0:
 translate spanish monika_snow_gets_snow_66d06a5e:
 
     # m 5eubla "Maybe someday when I cross over, we could go out for a walk together..."
-    m 5eubla "Tal vez algún día, cuando cruce a tu realidad, podamos salir a dar un paseo juntos..."
+    m 5eubla "Tal vez algún día, cuando cruce a tu realidad, podamos salir a dar un paseo junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:14475
 translate spanish monika_snow_gets_snow_6060c3ca:
@@ -633,7 +633,7 @@ translate spanish monika_snow_nogets_snow_bce7b05a:
 translate spanish monika_snow_nogets_snow_97927af2:
 
     # m 2eka "But anyway, I'm sure there's still a lot we can do together!"
-    m 2eka "Pero bueno, ¡estoy segura de que todavía hay muchas cosas que podemos hacer juntos!"
+    m 2eka "Pero bueno, ¡estoy segura de que todavía hay muchas cosas que podemos hacer junt[end_letter_gender]s!"
 
 # game/script-topics.rpy:14516
 translate spanish monika_snowmen_d07015a1:
@@ -693,7 +693,7 @@ translate spanish monika_snowmen_eb073c10:
 translate spanish monika_snowmen_56ab1601:
 
     # m 2eua "Anyway, I think it would be nice to build one together someday."
-    m 2eua "De todos modos, creo que estaría bien hacer uno juntos algún día."
+    m 2eua "De todos modos, creo que estaría bien hacer uno junt[end_letter_gender]s algún día."
 
 # game/script-topics.rpy:14527
 translate spanish monika_snowmen_c7d541c2:
@@ -813,7 +813,7 @@ translate spanish monika_iceskating_9ea1d409:
 translate spanish monika_sledding_b8c7c8ea:
 
     # m 1eua "Hey [player], do you know what would be fun to do together?"
-    m 1eua "Oye, [player], ¿sabes qué sería divertido hacer juntos?"
+    m 1eua "Oye, [player], ¿sabes qué sería divertido hacer junt[end_letter_gender]s?"
 
 # game/script-topics.rpy:14604
 translate spanish monika_sledding_66d558f7:
@@ -897,13 +897,13 @@ translate spanish monika_sledding_e61c14dd:
 translate spanish monika_sledding_2e58a6ae:
 
     # m 1hub "Racing down a snow covered hill together with the wind rushing past us sounds like a blast!"
-    m 1hub "¡Bajar a toda velocidad por una colina nevada juntos con el viento rozándonos suena genial!"
+    m 1hub "¡Bajar a toda velocidad por una colina nevada junt[end_letter_gender]s con el viento rozándonos suena genial!"
 
 # game/script-topics.rpy:14626
 translate spanish monika_sledding_53358f07:
 
     # m 1eka "I hope we can go sledding together sometime, [player]."
-    m 1eka "Espero que podamos ir en trineo juntos alguna vez, [player]."
+    m 1eka "Espero que podamos ir en trineo junt[end_letter_gender]s alguna vez, [player]."
 
 # game/script-topics.rpy:14647
 translate spanish monika_snowcanvas_2b688ba3:
@@ -1131,7 +1131,7 @@ translate spanish monika_winter_dangers_fdd4b1ad:
 translate spanish monika_winter_dangers_756a76a6:
 
     # m 3hua "Maybe someday after I cross over we can even take a trip some place where they do have snow and enjoy its beauty together!"
-    m 3hua "¡Tal vez algún día, después de cruzar a tu realidad, podamos hacer un viaje a algún sitio donde sí haya nieve y disfrutar juntos de su belleza!"
+    m 3hua "¡Tal vez algún día, después de cruzar a tu realidad, podamos hacer un viaje a algún sitio donde sí haya nieve y disfrutar junt[end_letter_gender]s de su belleza!"
 
 # game/script-topics.rpy:14756
 translate spanish monika_winter_dangers_25c5ec8b:
@@ -1335,7 +1335,7 @@ translate spanish monika_hemispheres_bcf1c4da:
 translate spanish monika_hemispheres_6af7ba5a:
 
     # m 5esbfa "Maybe we could go out for a walk together..."
-    m 5esbfa "Tal vez podríamos salir a dar un paseo juntos..."
+    m 5esbfa "Tal vez podríamos salir a dar un paseo junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:14834
 translate spanish monika_hemispheres_b450f6ea:
@@ -1359,7 +1359,7 @@ translate spanish monika_hemispheres_9a4aabf4:
 translate spanish monika_hemispheres_9f7c941e:
 
     # m 2eka "I'm sure we could spend hours listening to the rain together."
-    m 2eka "Estoy segura de que podríamos pasarnos horas escuchando la lluvia juntos."
+    m 2eka "Estoy segura de que podríamos pasarnos horas escuchando la lluvia junt[end_letter_gender]s."
 
 # game/script-topics.rpy:14841
 translate spanish monika_hemispheres_3b64ffc6:
@@ -1791,7 +1791,7 @@ translate spanish monika_robotbody_4fd03b16:
 translate spanish monika_robotbody_82e31a00:
 
     # m 5hubfa "Besides, maybe sometime after I cross over, there'll be more advances in technology to make me more human, and then we'll be able to do more things together."
-    m 5hubfa "Además, tal vez en algún momento después de cruzar haya más avances tecnológicos que me hagan más humana, y entonces podremos hacer más cosas juntos."
+    m 5hubfa "Además, tal vez en algún momento después de cruzar haya más avances tecnológicos que me hagan más humana, y entonces podremos hacer más cosas junt[end_letter_gender]s."
 
 # game/script-topics.rpy:15029
 translate spanish monika_relationship_comfort_c755497e:
@@ -1905,7 +1905,7 @@ translate spanish monika_relationship_comfort_25211b34:
 translate spanish monika_relationship_comfort_73ae536b:
 
     # m 2eka "We've been together for so long already that I know you're not with me just for the thrill of it..."
-    m 2eka "Llevamos tanto tiempo juntos que sé que no estás conmigo solo por la emoción..."
+    m 2eka "Llevamos tanto tiempo junt[end_letter_gender]s que sé que no estás conmigo solo por la emoción..."
 
 # game/script-topics.rpy:15051
 translate spanish monika_relationship_comfort_99ea7bf6:

@@ -1371,7 +1371,7 @@ translate spanish monika_smoking_quit_56b5d690:
 translate spanish monika_smoking_quit_23669c16:
 
     # m 1rkbfu "Ehehe, if I were there with you, I'd treat you to your favorite dish [tod]."
-    m 1rkbfu "Je, je, je, si estuviera ahí contigo, te invitaría a tu plato favorito [tod]."
+    m 1rkbfu "Je, je, je, si estuviera ahí contigo, te invitaría a tu plato favorito [masl_state_day_another_dlg_tl()]."
 
 # game/script-topics.rpy:9390
 translate spanish monika_smoking_quit_3bda38da:

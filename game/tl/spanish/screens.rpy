@@ -77,7 +77,7 @@ translate spanish strings:
 
     # game/screens.rpy:52
     old "Thank you, [player]!\nLet's spend more time together~"
-    new "¡Gracias, [player]!\nVenga, vayamos a pasar más tiempo juntos."
+    new "¡Gracias, [player]!\nVenga, vayamos a pasar más tiempo junt[end_letter_gender]s."
 
     # game/screens.rpy:53
     old "Leaving without saying goodbye, [player]?"

@@ -843,7 +843,7 @@ translate spanish monika_sayori_84733f5c:
 translate spanish monika_sayori_923d35d7:
 
     # m 1rksdla "The two of us, happily together..."
-    m 1rksdla "Nosotros dos, felizmente juntos..."
+    m 1rksdla "Nosotros dos, felizmente junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:1075
 translate spanish monika_sayori_d60b649b:
@@ -861,7 +861,7 @@ translate spanish monika_sayori_8e910654:
 translate spanish monika_sayori_e8e64233:
 
     # m 1eua "The two of us, happily together..."
-    m 1eua "Nosotros dos, felizmente juntos..."
+    m 1eua "Nosotros dos, felizmente junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:1079
 translate spanish monika_sayori_db4bd939:
@@ -1683,7 +1683,7 @@ translate spanish monika_veggies_2c91b114:
 translate spanish monika_veggies_4cda167b:
 
     # m 1ekbsa "Even if we ever have dinner together, and you just did it for me...that would be really romantic."
-    m 1ekbsa "Sería muy romántico que lo hicieses por mí si vamos a cenar juntos algún día."
+    m 1ekbsa "Sería muy romántico que lo hicieses por mí si vamos a cenar junt[end_letter_gender]s algún día."
 
 # game/script-topics.rpy:1340
 translate spanish monika_saved_f889166d:

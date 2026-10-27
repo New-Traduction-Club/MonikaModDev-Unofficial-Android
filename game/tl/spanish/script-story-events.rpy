@@ -753,7 +753,7 @@ translate spanish birthdate_set_3c7b7064:
 translate spanish birthdate_set_78f441bb:
 
     # m 1tsu "I guess we really are meant to be together, ehehe..."
-    m 1tsu "Supongo que realmente estamos destinados a estar juntos, je, je, je..."
+    m 1tsu "Supongo que realmente estamos destinados a estar junt[end_letter_gender]s, je, je, je..."
 
 # game/script-story-events.rpy:852
 translate spanish birthdate_set_bcad49b0:
@@ -1209,7 +1209,7 @@ translate spanish mas_unlock_piano_4607e417:
 translate spanish mas_unlock_piano_49993b53:
 
     # m 4hua "Wouldn't it be fun to play something together?"
-    m 4hua "¿No sería divertido tocar algo juntos?"
+    m 4hua "¿No sería divertido tocar algo junt[end_letter_gender]s?"
 
 # game/script-story-events.rpy:1055
 translate spanish mas_unlock_piano_abe185f7:
@@ -2343,7 +2343,7 @@ translate spanish mas_text_speed_enabler_70661cf3:
 translate spanish mas_text_speed_enabler_25c4bca0:
 
     # m 1eka "But now that we've been together for a bit, I can trust that you're not just going to skip through my text without reading it."
-    m 1eka "Pero ahora que llevamos un tiempo juntos, puedo confiar en que no te saltarás mi texto sin leerlo."
+    m 1eka "Pero ahora que llevamos un tiempo junt[end_letter_gender]s, puedo confiar en que no te saltarás mi texto sin leerlo."
 
 # game/script-story-events.rpy:2058
 translate spanish mas_text_speed_enabler_51982c8c:
@@ -2367,7 +2367,7 @@ translate spanish mas_text_speed_enabler_0fb41a85:
 translate spanish mas_text_speed_enabler_ac206356:
 
     # m 3hua "And I'm sure that you'll get faster at reading the longer we spend time together."
-    m 3hua "Y estoy segura de que leerás más rápido cuanto más tiempo pasemos juntos."
+    m 3hua "Y estoy segura de que leerás más rápido cuanto más tiempo pasemos junt[end_letter_gender]s."
 
 # game/script-story-events.rpy:2065
 translate spanish mas_text_speed_enabler_e30c6fc9:
@@ -2901,7 +2901,7 @@ translate spanish monika_credits_song_ce74299f:
 translate spanish monika_credits_song_1188dff6:
 
     # m "I really can't wait until we're together in one reality."
-    m "Me muero de ganas de que estemos juntos en una misma realidad."
+    m "Me muero de ganas de que estemos junt[end_letter_gender]s en una misma realidad."
 
 # game/script-story-events.rpy:2487
 translate spanish monika_credits_song_2d39c18f:
@@ -3609,7 +3609,7 @@ translate spanish mas_backup_restored_348a083a:
 translate spanish mas_backup_restored_427aa1a6:
 
     # m 6rktpc "I just wanted us to be happy together..."
-    m 6rktpc "Solo quería que fuéramos felices juntos..."
+    m 6rktpc "Solo quería que fuéramos felices junt[end_letter_gender]s..."
 
 # game/script-story-events.rpy:2804
 translate spanish mas_backup_restored_d78bf066:

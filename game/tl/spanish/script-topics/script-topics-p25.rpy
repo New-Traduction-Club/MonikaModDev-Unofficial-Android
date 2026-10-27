@@ -567,7 +567,7 @@ translate spanish monika_fireworks_c3d42b63:
 translate spanish monika_fireworks_9d9144e5:
 
     # m 3wub "I think it'd be really fun to watch them together, don't you?"
-    m 3wub "Creo que sería muy divertido verlos juntos, ¿no te parece?"
+    m 3wub "Creo que sería muy divertido verlos junt[end_letter_gender]s, ¿no te parece?"
 
 # game/script-topics.rpy:18621
 translate spanish monika_fireworks_9a2b93ef:
@@ -645,7 +645,7 @@ translate spanish monika_quiet_time_27a79cdf:
 translate spanish monika_quiet_time_fd068290:
 
     # m 4eua "I think being able to silently hang out with each other is an important sign of a healthy relationship."
-    m 4eua "Creo que poder pasar el rato en silencio juntos es una señal importante de una relación sana."
+    m 4eua "Creo que poder pasar el rato en silencio junt[end_letter_gender]s es una señal importante de una relación sana."
 
 # game/script-topics.rpy:18660
 translate spanish monika_quiet_time_056c1230:
@@ -669,7 +669,7 @@ translate spanish monika_quiet_time_20232560:
 translate spanish monika_quiet_time_147f9ee4:
 
     # m 7eud "But just being able to enjoy a person's mere presence, even if you're not doing much together at the moment...{w=0.5}{nw}"
-    m 7eud "Pero el solo hecho de poder disfrutar de la mera presencia de una persona, incluso si no estáis haciendo mucho juntos en ese momento... {w=0.5}{nw}"
+    m 7eud "Pero el solo hecho de poder disfrutar de la mera presencia de una persona, incluso si no estáis haciendo mucho junt[end_letter_gender]s en ese momento... {w=0.5}{nw}"
 
 # game/script-topics.rpy:18664
 translate spanish monika_quiet_time_d012c7be:
@@ -801,7 +801,7 @@ translate spanish monika_likecosplay_31cf10dc:
 translate spanish monika_likecosplay_d66a95ff:
 
     # m 2hubla "If you were interested, working on a costume with you could be a really fun project to try."
-    m 2hubla "Si te interesara, hacer un traje juntos podría ser un proyecto muy divertido."
+    m 2hubla "Si te interesara, hacer un traje junt[end_letter_gender]s podría ser un proyecto muy divertido."
 
 # game/script-topics.rpy:18713
 translate spanish monika_likecosplay_bee30538:

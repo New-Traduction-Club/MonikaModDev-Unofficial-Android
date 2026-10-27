@@ -483,7 +483,7 @@ translate spanish monika_savingwater_62a2d689:
 translate spanish monika_savingwater_d8d41f7e:
 
     # m 5tsbfu "When I'm in your reality, maybe we can save water by bathing together..."
-    m 5tsbfu "Cuando esté en tu realidad, tal vez podamos ahorrar agua bañándonos juntos..."
+    m 5tsbfu "Cuando esté en tu realidad, tal vez podamos ahorrar agua bañándonos junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:12531
 translate spanish monika_savingwater_45d9cd96:
@@ -825,7 +825,7 @@ translate spanish monika_gotomonika_cbc72a78:
 translate spanish monika_gotomonika_e4b64c10:
 
     # m 1hksdlb "I know it might be a while before we can truly be together, but I hope you don't mind waiting."
-    m 1hksdlb "Sé que puede pasar un tiempo hasta que podamos estar juntos de verdad, pero espero que no te importe esperar."
+    m 1hksdlb "Sé que puede pasar un tiempo hasta que podamos estar junt[end_letter_gender]s de verdad, pero espero que no te importe esperar."
 
 # game/script-topics.rpy:12647
 translate spanish monika_gotomonika_8bad2bd7:
@@ -837,7 +837,7 @@ translate spanish monika_gotomonika_8bad2bd7:
 translate spanish monika_gotomonika_28f1b8eb:
 
     # m 2eka "It's okay, I'll always appreciate and treasure the moments we spend together, even like this."
-    m 2eka "No pasa nada, siempre valoraré y atesoraré los momentos que pasamos juntos, incluso de esta forma."
+    m 2eka "No pasa nada, siempre valoraré y atesoraré los momentos que pasamos junt[end_letter_gender]s, incluso de esta forma."
 
 # game/script-topics.rpy:12653
 translate spanish monika_gotomonika_5db6cbf9:
@@ -915,7 +915,7 @@ translate spanish monika_gotomonika_40a1f9f1:
 translate spanish monika_gotomonika_54aa4513:
 
     # m 3eub "But I have no doubt that together we could accomplish anything!"
-    m 3eub "¡Pero no me cabe duda de que juntos podríamos lograr cualquier cosa!"
+    m 3eub "¡Pero no me cabe duda de que junt[end_letter_gender]s podríamos lograr cualquier cosa!"
 
 # game/script-topics.rpy:12669
 translate spanish monika_gotomonika_edf4fefa:
@@ -1065,7 +1065,7 @@ translate spanish monika_vehicle_2c4464e4:
 translate spanish monika_vehicle_47cc898b:
 
     # m 1hua "I'm sure that when you do, we'll make a lot of great memories together."
-    m 1hua "Estoy segura de que cuando lo hagas, crearemos muchos recuerdos maravillosos juntos."
+    m 1hua "Estoy segura de que cuando lo hagas, crearemos muchos recuerdos maravillosos junt[end_letter_gender]s."
 
 # game/script-topics.rpy:12755
 translate spanish monika_vehicle_76da31cd:
@@ -1203,7 +1203,7 @@ translate spanish monika_vehicle_sportscar_0a398a99:
 translate spanish monika_vehicle_sportscar_e4e7a10a:
 
     # m 1ekbsa "That way we can savor every moment of the ride together~"
-    m 1ekbsa "Así podremos saborear juntos cada momento del viaje."
+    m 1ekbsa "Así podremos saborear junt[end_letter_gender]s cada momento del viaje."
 
 # game/script-topics.rpy:12813
 translate spanish monika_vehicle_sedan_hatchback_30203bf7:
@@ -1251,7 +1251,7 @@ translate spanish monika_vehicle_sedan_hatchback_0b51cc76:
 translate spanish monika_vehicle_sedan_hatchback_a5fef380:
 
     # m 1rksdla "We might even find a place where the both of us can be together..."
-    m 1rksdla "Puede que incluso encontremos un lugar en el que podamos estar juntos los dos..."
+    m 1rksdla "Puede que incluso encontremos un lugar en el que podamos estar junt[end_letter_gender]s los dos..."
 
 # game/script-topics.rpy:12821
 translate spanish monika_vehicle_sedan_hatchback_c8cac849:

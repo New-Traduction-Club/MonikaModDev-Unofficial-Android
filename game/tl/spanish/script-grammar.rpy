@@ -483,7 +483,7 @@ translate spanish monika_gtod_tip005_37eef0be:
 translate spanish monika_gtod_tip005_1c3ad591:
 
     # m 1eua "So, in the sentence '{b}We watched the fireworks together{/b},' the object would be...{w=0.5}the '{b}fireworks{/b}.'"
-    m 1eua "Así que, en la frase '{b}Vimos los fuegos artificiales juntos{/b}', el objeto serían... {w=0.5}los '{b}fuegos artificiales{/b}'."
+    m 1eua "Así que, en la frase '{b}Vimos los fuegos artificiales junt[end_letter_gender]s{/b}', el objeto serían... {w=0.5}los '{b}fuegos artificiales{/b}'."
 
 # game/script-grammar.rpy:257
 translate spanish monika_gtod_tip005_e8437802:

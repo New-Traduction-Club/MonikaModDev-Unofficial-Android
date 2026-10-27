@@ -1131,7 +1131,7 @@ translate spanish mas_fun_fact_getting_older_83cf717f:
 translate spanish mas_fun_fact_getting_older_4dac0c21:
 
     # m 1eka "So I'll always cherish our moments together, no matter how long or short they are."
-    m 1eka "Así que siempre atesoraré nuestros momentos juntos, sin importar lo largos o cortos que sean."
+    m 1eka "Así que siempre atesoraré nuestros momentos junt[end_letter_gender]s, sin importar lo largos o cortos que sean."
 
 # game/script-fun-facts.rpy:603
 translate spanish mas_fun_fact_getting_older_ec01fa2b:
@@ -1875,7 +1875,7 @@ translate spanish mas_fun_fact_maplesyrup_e0762ad7:
 translate spanish mas_fun_fact_maplesyrup_9c83407d:
 
     # m 3euu "Sounds like a fun thing we could try together, huh [player]?"
-    m 3euu "Suena a algo divertido que podríamos probar juntos, ¿eh, [player]?"
+    m 3euu "Suena a algo divertido que podríamos probar junt[end_letter_gender]s, ¿eh, [player]?"
 
 # game/script-fun-facts.rpy:934
 translate spanish mas_fun_fact_maplesyrup_defb5d0b:

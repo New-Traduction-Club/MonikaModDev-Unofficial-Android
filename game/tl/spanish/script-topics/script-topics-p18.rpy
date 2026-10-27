@@ -1263,7 +1263,7 @@ translate spanish monika_first_sight_love_e7782c82:
 translate spanish monika_first_sight_love_3a8272d7:
 
     # m 2tkd "It's not like you've ever talked to them, had lunch, or hung out together."
-    m 2tkd "Tampoco es que hayas hablado alguna vez con esa persona, o hayáis comido o pasado el rato juntos."
+    m 2tkd "Tampoco es que hayas hablado alguna vez con esa persona, o hayáis comido o pasado el rato junt[end_letter_gender]s."
 
 # game/script-topics.rpy:13896
 translate spanish monika_first_sight_love_d5892211:

@@ -729,7 +729,7 @@ translate spanish mas_thermos_mug_handler_eedbed8d:
 translate spanish mas_thermos_mug_handler_834a7778:
 
     # m 1hua "Now I can bring something to drink when we go out together~"
-    m 1hua "Ahora puedo llevar algo de beber cuando salgamos juntos."
+    m 1hua "Ahora puedo llevar algo de beber cuando salgamos junt[end_letter_gender]s."
 
 # game/zz_reactions.rpy:1452
 translate spanish mas_thermos_mug_handler_c842a3e2:
@@ -1983,7 +1983,7 @@ translate spanish mas_reaction_gift_chocolates_0b8ac3d6:
 translate spanish mas_reaction_gift_chocolates_86c43bb2:
 
     # m 1lkbfa "I know I mentioned visiting a chocolate store together someday..."
-    m 1lkbfa "Sé que mencioné visitar una chocolatería juntos algún día..."
+    m 1lkbfa "Sé que mencioné visitar una chocolatería junt[end_letter_gender]s algún día..."
 
 # game/zz_reactions.rpy:2439
 translate spanish mas_reaction_gift_chocolates_cf3bd76b:
@@ -2001,7 +2001,7 @@ translate spanish mas_reaction_gift_chocolates_9e6e3b18:
 translate spanish mas_reaction_gift_chocolates_cde64ba7:
 
     # m 3rka "I know I mentioned visiting a chocolate store together someday..."
-    m 3rka "Sé que mencioné visitar una chocolatería juntos algún día..."
+    m 3rka "Sé que mencioné visitar una chocolatería junt[end_letter_gender]s algún día..."
 
 # game/zz_reactions.rpy:2444
 translate spanish mas_reaction_gift_chocolates_6322c21d:

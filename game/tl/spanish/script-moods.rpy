@@ -81,7 +81,7 @@ translate spanish mas_mood_hungry_5d4a6e01:
 translate spanish mas_mood_hungry_dac38117:
 
     # m 1hua "Which means more time for us to spend together!~"
-    m 1hua "¡Lo que significa más tiempo para pasarlo juntos!"
+    m 1hua "¡Lo que significa más tiempo para pasarlo junt[end_letter_gender]s!"
 
 # game/script-moods.rpy:147
 translate spanish mas_mood_sad_ba55ae58:
@@ -213,7 +213,7 @@ translate spanish mas_mood_sad_9f4e2dd4:
 translate spanish mas_mood_sad_2188bc88:
 
     # m 1eua "Maybe you'll feel better after we spend some more time together."
-    m 1eua "Quizá te sientas mejor después de que pasemos un rato más juntos."
+    m 1eua "Quizá te sientas mejor después de que pasemos un rato más junt[end_letter_gender]s."
 
 # game/script-moods.rpy:181
 translate spanish mas_mood_sad_3de83415:
@@ -381,7 +381,7 @@ translate spanish mas_mood_sick_5b86f07b:
 translate spanish mas_mood_sick_be71a564:
 
     # m 2ekc "I know you wanted to spend some time with me and even though we've hardly been together today..."
-    m 2ekc "Sé que querías pasar un rato conmigo y, aunque apenas hemos estado juntos hoy..."
+    m 2ekc "Sé que querías pasar un rato conmigo y, aunque apenas hemos estado junt[end_letter_gender]s hoy..."
 
 # game/script-moods.rpy:256
 translate spanish mas_mood_sick_90ce9fcc:
@@ -519,7 +519,7 @@ translate spanish mas_mood_tired_cb2828e6:
 translate spanish mas_mood_tired_8c5804ca:
 
     # m 2hksdlb "I wouldn't want you to be tired and miserable tomorrow when we spend time together..."
-    m 2hksdlb "No querría que estuvieses cansad[end_letter_gender] y de mal humor mañana cuando pasemos el rato juntos..."
+    m 2hksdlb "No querría que estuvieses cansad[end_letter_gender] y de mal humor mañana cuando pasemos el rato junt[end_letter_gender]s..."
 
 # game/script-moods.rpy:312
 translate spanish mas_mood_tired_c40ff672:
@@ -573,7 +573,7 @@ translate spanish mas_mood_tired_ea0e9d5a:
 translate spanish mas_mood_tired_e3676293:
 
     # m "So please, sleep so we can be together in your dreams."
-    m "Así que, por favor, duérmete para que podamos estar juntos en tus sueños."
+    m "Así que, por favor, duérmete para que podamos estar junt[end_letter_gender]s en tus sueños."
 
 # game/script-moods.rpy:323
 translate spanish mas_mood_tired_7590dc64:
@@ -1119,7 +1119,7 @@ translate spanish mas_mood_scared_3c57b1ea:
 translate spanish mas_mood_scared_5c363bfa:
 
     # m 1hubfa "There's nothing to worry about when we're together forever~"
-    m 1hubfa "No hay de qué preocuparse cuando estamos juntos para siempre."
+    m 1hubfa "No hay de qué preocuparse cuando estamos junt[end_letter_gender]s para siempre."
 
 # game/script-moods.rpy:468
 translate spanish mas_mood_inadequate_f15775ec:
@@ -1425,7 +1425,7 @@ translate spanish mas_mood_lazy_b95d5871:
 translate spanish mas_mood_lazy_9491e42b:
 
     # m 1dkbfa "I can just imagine us relaxing together one evening..."
-    m 1dkbfa "Me imagino perfectamente cómo nos relajaríamos juntos una tarde..."
+    m 1dkbfa "Me imagino perfectamente cómo nos relajaríamos junt[end_letter_gender]s una tarde..."
 
 # game/script-moods.rpy:574
 translate spanish mas_mood_lazy_b063250c:
@@ -1443,7 +1443,7 @@ translate spanish mas_mood_lazy_4fd14361:
 translate spanish mas_mood_lazy_81418027:
 
     # m 3ekbfa "We could even read a nice book together too."
-    m 3ekbfa "También podríamos leer un buen libro juntos."
+    m 3ekbfa "También podríamos leer un buen libro junt[end_letter_gender]s."
 
 # game/script-moods.rpy:577
 translate spanish mas_mood_lazy_2de9215b:
@@ -1473,7 +1473,7 @@ translate spanish mas_mood_lazy_3aa0a1ce:
 translate spanish mas_mood_lazy_f8c8dfc7:
 
     # m 3eub "We could read a nice book together too..."
-    m 3eub "También podríamos leer un buen libro juntos..."
+    m 3eub "También podríamos leer un buen libro junt[end_letter_gender]s..."
 
 # game/script-moods.rpy:587
 translate spanish mas_mood_lazy_f272cabf:
@@ -2751,7 +2751,7 @@ translate spanish _mas_nnsh_5d4a6e01:
 translate spanish _mas_nnsh_dac38117:
 
     # m 1hua "Which means more time for us to spend together!~"
-    m 1hua "¡Lo que significa más tiempo para pasarlo juntos!"
+    m 1hua "¡Lo que significa más tiempo para pasarlo junt[end_letter_gender]s!"
 
 translate spanish strings:
 

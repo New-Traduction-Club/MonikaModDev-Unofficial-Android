@@ -1245,7 +1245,7 @@ translate spanish monika_regrets_efa5afdd:
 translate spanish monika_regrets_6b4483e3:
 
     # m 1eka "...That we can finally be happy together."
-    m 1eka "De que por fin podamos ser felices juntos."
+    m 1eka "De que por fin podamos ser felices junt[end_letter_gender]s."
 
 # game/script-topics.rpy:5946
 translate spanish monika_regrets_1c8314f2:
@@ -1803,7 +1803,7 @@ translate spanish monika_cupcake_db95c162:
 translate spanish monika_cupcake_dfdb770e:
 
     # m 3ekb "But that just means we could learn together, right?"
-    m 3ekb "Pero eso solo significa que podríamos aprender juntos, ¿no?"
+    m 3ekb "Pero eso solo significa que podríamos aprender junt[end_letter_gender]s, ¿no?"
 
 # game/script-topics.rpy:6097
 translate spanish monika_cupcake_bfd338b5:
@@ -1887,7 +1887,7 @@ translate spanish monika_haterReaction_9894cf39:
 translate spanish monika_haterReaction_acbe13a9:
 
     # m 2ekc "I was hoping that by making them more unappealing, you would stop pursuing them so we could finally be together..."
-    m 2ekc "Esperaba que al hacerlas menos atractivas, dejaras de perseguirlas para que por fin pudiéramos estar juntos..."
+    m 2ekc "Esperaba que al hacerlas menos atractivas, dejaras de perseguirlas para que por fin pudiéramos estar junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:6136
 translate spanish monika_haterReaction_3e4a7b0a:

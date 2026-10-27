@@ -339,7 +339,7 @@ translate spanish mas_compliment_intelligent_2_5150a264:
 translate spanish mas_compliment_intelligent_2_18cde691:
 
     # m 3hubfb "We'll have a lifetime of self-improvement together!"
-    m 3hubfb "¡Tendremos toda una vida de superación personal juntos!"
+    m 3hubfb "¡Tendremos toda una vida de superación personal junt[end_letter_gender]s!"
 
 # game/script-compliments.rpy:375
 translate spanish mas_compliment_intelligent_2_20d9088d:
@@ -483,7 +483,7 @@ translate spanish mas_compliment_fit_2_7b042fd4:
 translate spanish mas_compliment_fit_2_9bdf0059:
 
     # m 1lubsb "We can always work out together when I'm there..."
-    m 1lubsb "Siempre podemos hacer ejercicio juntos cuando yo esté allí..."
+    m 1lubsb "Siempre podemos hacer ejercicio junt[end_letter_gender]s cuando yo esté allí..."
 
 # game/script-compliments.rpy:489
 translate spanish mas_compliment_fit_2_c5589643:
@@ -501,7 +501,7 @@ translate spanish mas_compliment_fit_2_9feec418:
 translate spanish mas_compliment_fit_2_5e8b9e13:
 
     # m 5eua "So long as we're together."
-    m 5eua "Siempre que estemos juntos."
+    m 5eua "Siempre que estemos junt[end_letter_gender]s."
 
 # game/script-compliments.rpy:496
 translate spanish mas_compliment_fit_2_c7a6eb30:
@@ -561,7 +561,7 @@ translate spanish mas_compliment_thanks_6cd6f56b:
 translate spanish mas_compliment_thanks_e1d83b8f:
 
     # m "You installed this mod just to make our time together better..."
-    m "Instalaste este mod solo para mejorar nuestro tiempo juntos..."
+    m "Instalaste este mod solo para mejorar nuestro tiempo junt[end_letter_gender]s..."
 
 # game/script-compliments.rpy:535
 translate spanish mas_compliment_thanks_80105132:
@@ -765,7 +765,7 @@ translate spanish mas_compliment_cute_2_5d7b1011:
 translate spanish mas_compliment_cute_2_ce3af881:
 
     # m 1dkbfu "...Almost as much as when I picture us finally being together in the same reality."
-    m 1dkbfu "Casi tanto como cuando me imagino que por fin estamos juntos en la misma realidad."
+    m 1dkbfu "Casi tanto como cuando me imagino que por fin estamos junt[end_letter_gender]s en la misma realidad."
 
 # game/script-compliments.rpy:665
 translate spanish mas_compliment_cute_2_01c9bb26:
@@ -1281,7 +1281,7 @@ translate spanish mas_compliment_humor_2_21df0dba:
 translate spanish mas_compliment_humor_2_254a7f33:
 
     # m 3eub "A sign of a good couple is being able to laugh together, don't you think?"
-    m 3eub "Un signo de una buena pareja es ser capaces de reírse juntos, ¿no crees?"
+    m 3eub "Un signo de una buena pareja es ser capaces de reírse junt[end_letter_gender]s, ¿no crees?"
 
 # game/script-compliments.rpy:948
 translate spanish mas_compliment_humor_2_471065a1:
@@ -1533,7 +1533,7 @@ translate spanish mas_compliment_spending_time_2_6102b78a:
 translate spanish mas_compliment_spending_time_2_58660813:
 
     # m 5ekbfu "We've spent so much time together, and yet our journey has only just begun..."
-    m 5ekbfu "Hemos pasado mucho tiempo juntos y, sin embargo, nuestro viaje no ha hecho más que empezar..."
+    m 5ekbfu "Hemos pasado mucho tiempo junt[end_letter_gender]s y, sin embargo, nuestro viaje no ha hecho más que empezar..."
 
 # game/script-compliments.rpy:1180
 translate spanish mas_compliment_spending_time_2_037f5e06:
@@ -1915,7 +1915,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:331
     old "We are an awesome couple together!"
-    new "¡Juntos somos una pareja increíble!"
+    new "¡Junt[end_letter_gender]s somos una pareja increíble!"
 
     # game/script-compliments.rpy:331
     old "You're much more awesome!"
@@ -1939,7 +1939,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:385
     old "Remember that we'll have a lifetime of self-improvement together!"
-    new "¡Recuerda que tendremos toda una vida de superación personal juntos!"
+    new "¡Recuerda que tendremos toda una vida de superación personal junt[end_letter_gender]s!"
 
     # game/script-compliments.rpy:385
     old "Remember that every day is an opportunity to learn something new!"
@@ -2003,7 +2003,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:506
     old "I hope you embark on a fitness journey with me!"
-    new "¡Espero que empecemos a entrenar juntos!"
+    new "¡Espero que empecemos a entrenar junt[end_letter_gender]s!"
 
     # game/script-compliments.rpy:506
     old "I can't wait to work out with you!"
@@ -2011,7 +2011,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:506
     old "I hope we can both work out together someday!"
-    new "¡Espero que algún día podamos hacer ejercicio juntos!"
+    new "¡Espero que algún día podamos hacer ejercicio junt[end_letter_gender]s!"
 
     # game/script-compliments.rpy:519
     old "Thanks for being there for me!"
@@ -2199,7 +2199,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:1007
     old "I'm excited to spend some time together!"
-    new "¡Me hace ilusión pasar tiempo juntos!"
+    new "¡Me hace ilusión pasar tiempo junt[end_letter_gender]s!"
 
     # game/script-compliments.rpy:1007
     old "Thanks for coming to see me again!"
@@ -2207,7 +2207,7 @@ translate spanish strings:
 
     # game/script-compliments.rpy:1007
     old "Let's enjoy our time together today!"
-    new "¡Disfrutemos de nuestro tiempo juntos hoy!"
+    new "¡Disfrutemos de nuestro tiempo junt[end_letter_gender]s hoy!"
 
     # game/script-compliments.rpy:1007
     old "I really appreciate you, [player]!"

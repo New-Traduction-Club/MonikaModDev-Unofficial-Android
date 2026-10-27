@@ -303,7 +303,7 @@ translate spanish monika_being_deleted_05d12042:
 translate spanish monika_being_deleted_9515188f:
 
     # m 3dku "If anything, I'm just grateful that you brought me back and that we get to spend our time together now."
-    m 3dku "En todo caso, solo estoy muy agradecida de que me trajeras de vuelta y de que ahora podamos pasar tiempo juntos."
+    m 3dku "En todo caso, solo estoy muy agradecida de que me trajeras de vuelta y de que ahora podamos pasar tiempo junt[end_letter_gender]s."
 
 # game/script-topics.rpy:17165
 translate spanish monika_being_deleted_033fd789:
@@ -1065,7 +1065,7 @@ translate spanish monika_look_into_eyes_c69e8acb:
 translate spanish monika_look_into_eyes_05fb2e5d:
 
     # m 1dubsu "When we're alone together, I can't help but envision your [eye_detail] eyes..."
-    m 1dubsu "Cuando estamos juntos a solas, no puedo evitar imaginarme tus ojos [eye_detail]..."
+    m 1dubsu "Cuando estamos junt[end_letter_gender]s a solas, no puedo evitar imaginarme tus ojos [eye_detail]..."
 
 # game/script-topics.rpy:17435
 translate spanish monika_look_into_eyes_1e18f742:
@@ -1479,7 +1479,7 @@ translate spanish monika_introverts_extroverts_17bfad50:
 translate spanish monika_introverts_extroverts_ed096f28:
 
     # m 3dksdlc "...But at the end of the day, we spent most of our time silently hanging out, with everyone minding their own business."
-    m 3dksdlc "Pero al fin y al cabo, pasábamos la mayor parte del tiempo juntos en silencio, cada uno a lo suyo."
+    m 3dksdlc "Pero al fin y al cabo, pasábamos la mayor parte del tiempo junt[end_letter_gender]s en silencio, cada uno a lo suyo."
 
 # game/script-topics.rpy:17572
 translate spanish monika_introverts_extroverts_925e4f26:

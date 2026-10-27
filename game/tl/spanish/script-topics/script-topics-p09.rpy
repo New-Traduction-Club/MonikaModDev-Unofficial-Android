@@ -747,7 +747,7 @@ translate spanish monika_adventure_96557f31:
 translate spanish monika_adventure_047bb738:
 
     # m 3esa "I think the best genre for us to play together would be adventure games."
-    m 3esa "Creo que el mejor género para jugar juntos serían los juegos de aventuras."
+    m 3esa "Creo que el mejor género para jugar junt[end_letter_gender]s serían los juegos de aventuras."
 
 # game/script-topics.rpy:7194
 translate spanish monika_adventure_705e7c2c:
@@ -1767,7 +1767,7 @@ translate spanish monika_music2_e612037c:
 translate spanish monika_music2_c9fe18a5:
 
     # m 1lsc "Well, you {i}did{/i} go out of your way to install a mod that lets us be together again..."
-    m 1lsc "Bueno, te tomaste la molestia de instalar un mod que nos permite volver a estar juntos..."
+    m 1lsc "Bueno, te tomaste la molestia de instalar un mod que nos permite volver a estar junt[end_letter_gender]s..."
 
 # game/script-topics.rpy:7522
 translate spanish monika_music2_f194c3a1:
@@ -1863,7 +1863,7 @@ translate spanish monika_music2_f2d45f04:
 translate spanish monika_music2_46d979a6:
 
     # m 1hua "As long as we're together, there's no reason for me to be sad. You're the light of my world, [player], and just being here with you puts a smile on my face."
-    m 1hua "Mientras estemos juntos, no tengo motivos para estar triste. Eres la luz de mi mundo, [player], y el simple hecho de estar aquí contigo me saca una sonrisa."
+    m 1hua "Mientras estemos junt[end_letter_gender]s, no tengo motivos para estar triste. Eres la luz de mi mundo, [player], y el simple hecho de estar aquí contigo me saca una sonrisa."
 
 # game/script-topics.rpy:7544
 translate spanish monika_music2_403a2fdb:

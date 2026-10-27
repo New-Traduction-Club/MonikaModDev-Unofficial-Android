@@ -369,7 +369,7 @@ translate spanish monika_idle_shower_callback_f786f3b6:
 translate spanish monika_idle_shower_callback_96c8d207:
 
     # m 3eub "Now we can get back to having some good, {i}clean{/i} fun together..."
-    m 3eub "Ahora podemos volver a divertirnos juntos de forma sana y bien limpia..."
+    m 3eub "Ahora podemos volver a divertirnos junt[end_letter_gender]s de forma sana y bien limpia..."
 
 # game/script-brbs.rpy:468
 translate spanish monika_idle_shower_callback_3772217d_1:
@@ -405,7 +405,7 @@ translate spanish monika_idle_shower_callback_cf2229f4:
 translate spanish monika_idle_shower_callback_3f963eb3:
 
     # m 1euu "I certainly can't complain, it just means more time together~"
-    m 1euu "Desde luego no puedo quejarme, solo significa más tiempo juntos."
+    m 1euu "Desde luego no puedo quejarme, solo significa más tiempo junt[end_letter_gender]s."
 
 # game/script-brbs.rpy:479
 translate spanish monika_idle_shower_callback_eef8db49:
@@ -489,7 +489,7 @@ translate spanish monika_idle_game_callback_da04dd6f:
 translate spanish monika_idle_game_callback_0939811d:
 
     # m 1hua "Ready to spend some more time together? Ehehe~"
-    m 1hua "¿List[end_letter_gender] para pasar un poco más de tiempo juntos? Je, je, je."
+    m 1hua "¿List[end_letter_gender] para pasar un poco más de tiempo junt[end_letter_gender]s? Je, je, je."
 
 # game/script-brbs.rpy:553
 translate spanish monika_idle_game_callback_462a7961:
@@ -993,7 +993,7 @@ translate spanish monika_idle_homework_callback_e6d0b159:
 translate spanish monika_idle_homework_callback_97bac244:
 
     # extend 3hua "now that you're done, let's enjoy some more time together."
-    extend 3hua "ahora que has terminado, disfrutemos de algo más de tiempo juntos."
+    extend 3hua "ahora que has terminado, disfrutemos de algo más de tiempo junt[end_letter_gender]s."
 
 # game/script-brbs.rpy:842
 translate spanish monika_idle_homework_callback_0bd97190:
@@ -1053,7 +1053,7 @@ translate spanish monika_idle_working_callback_0792a1a4:
 translate spanish monika_idle_working_callback_f1324778:
 
     # m 5hua "Then let's relax together, you've earned it~"
-    m 5hua "Entonces relajémonos juntos, te lo has ganado."
+    m 5hua "Entonces relajémonos junt[end_letter_gender]s, te lo has ganado."
 
 # game/script-brbs.rpy:892
 translate spanish monika_idle_working_callback_4a3ac37f:
@@ -1251,7 +1251,7 @@ translate spanish monika_idle_reading_callback_8ea18751:
 translate spanish monika_idle_reading_callback_37cd9400:
 
     # m 5ekbsa "If I had my way, we'd be reading together all night long~"
-    m 5ekbsa "Si por mí fuera, estaríamos leyendo juntos toda la noche."
+    m 5ekbsa "Si por mí fuera, estaríamos leyendo junt[end_letter_gender]s toda la noche."
 
 # game/script-brbs.rpy:1019
 translate spanish monika_idle_reading_callback_98ac7c50:
