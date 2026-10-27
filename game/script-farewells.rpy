@@ -264,6 +264,7 @@ label bye_leaving_already:
     m 1eka "It's really sad whenever you have to go..."
     m 3eua "Just be sure to come back as soon as you can, okay?"
     m 3hua "I love you so much, [player]. Stay safe!"
+    $ masl_schedule_farewell_notification("bye_leaving_already")
     return 'quit'
 
 init 5 python:
@@ -290,6 +291,7 @@ label bye_goodbye:
     else:
         m 6ckc "..."
 
+    $ masl_schedule_farewell_notification("bye_goodbye")
     return 'quit'
 
 init 5 python:
@@ -305,6 +307,7 @@ init 5 python:
 
 label bye_sayanora:
     m 1hua "Sayonara, [mas_get_player_nickname()]~"
+    $ masl_schedule_farewell_notification("bye_sayanora")
     return 'quit'
 
 init 5 python:
@@ -320,6 +323,7 @@ init 5 python:
 
 label bye_farewellfornow:
     m 1eka "Farewell for now, [mas_get_player_nickname()]~"
+    $ masl_schedule_farewell_notification("bye_farewellfornow")
     return 'quit'
 
 init 5 python:
@@ -336,6 +340,7 @@ init 5 python:
 label bye_untilwemeetagain:
     m 2eka "'{i}Goodbyes are not forever, Goodbyes are not the end. They simply mean I'll miss you, Until we meet again.{/i}'"
     m "Ehehe, 'till then, [mas_get_player_nickname()]!"
+    $ masl_schedule_farewell_notification("bye_untilwemeetagain")
     return 'quit'
 
 init 5 python:
@@ -353,6 +358,7 @@ init 5 python:
 label bye_take_care:
     m 1eua "Don't forget that I always love you, [mas_get_player_nickname()]~"
     m 1hub "Take care!"
+    $ masl_schedule_farewell_notification("bye_take_care")
     return 'quit'
 
 init 5 python:
@@ -373,6 +379,7 @@ label bye_leaving_already_2:
     m 3hubsa "I love you so much, [player]!"
     show monika 5hubsb at t11 zorder MAS_MONIKA_Z with dissolve_monika
     m 5hubsb "Never forget that!"
+    $ masl_schedule_farewell_notification("bye_leaving_already_2")
     return 'quit'
 
 init 5 python:
@@ -430,6 +437,7 @@ label bye_going_to_sleep:
     # can monika sleep with you?
     # via flashdrive or something
 
+    $ masl_schedule_farewell_notification("bye_going_to_sleep")
     return 'quit'
 
 init 5 python:
@@ -487,6 +495,7 @@ label bye_prompt_to_class:
     # can monika join u at schools?
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_SCHOOL
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=20)
+    $ masl_schedule_farewell_notification("bye_prompt_to_class")
     return 'quit'
 
 init 5 python:
@@ -544,6 +553,7 @@ label bye_prompt_to_work:
     # can monika join u at work
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_WORK
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=20)
+    $ masl_schedule_farewell_notification("bye_prompt_to_work")
     return 'quit'
 
 init 5 python:
@@ -773,6 +783,7 @@ label bye_prompt_sleep:
     #   join monika sleeping?
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=13)
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_SLEEP
+    $ masl_schedule_farewell_notification("bye_prompt_sleep")
     return 'quit'
 
 #TODO: Maybe generalize this?
@@ -836,6 +847,7 @@ label bye_prompt_sleep_goodnight_kiss(chance=3):
         $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=13)
         $ persistent._mas_greeting_type = store.mas_greetings.TYPE_SLEEP
 
+        $ masl_schedule_farewell_notification("bye_prompt_sleep_goodnight_kiss")
         return got_goodnight_kiss
 
     return None
@@ -861,6 +873,7 @@ label bye_illseeyou:
 
     m 1eua "I'll see you [dlg_var], [player]."
     m 3kua "Don't forget about me, okay?~"
+    $ masl_schedule_farewell_notification("bye_illseeyou")
     return 'quit'
 
 init 5 python: ## Implementing Date/Time for added responses based on the time of day
@@ -894,6 +907,7 @@ label bye_haveagoodday:
 
     else:
         m 6ckc "..."
+    $ masl_schedule_farewell_notification("bye_haveagoodday")
     return 'quit'
 
 init 5 python:
@@ -930,6 +944,7 @@ label bye_enjoyyourafternoon:
     else:
         m 6ckc "..."
 
+    $ masl_schedule_farewell_notification("bye_enjoyyourafternoon")
     return 'quit'
 
 init 5 python:
@@ -966,6 +981,7 @@ label bye_goodevening:
     else:
         m 6ckc "..."
 
+    $ masl_schedule_farewell_notification("bye_goodevening")
     return 'quit'
 
 init 5 python:
@@ -1019,6 +1035,7 @@ label bye_goodnight:
 
     else:
         m 6ckc "..."
+    $ masl_schedule_farewell_notification("bye_goodnight")
     return 'quit'
 
 
@@ -1141,6 +1158,7 @@ label bye_long_absence:
             m "Just remember that I'll be waiting here for you."
             m 2hua "Make me proud, [player]!"
             $ persistent._mas_greeting_type = store.mas_greetings.TYPE_LONG_ABSENCE
+            $ masl_schedule_farewell_notification("bye_long_absence")
             return 'quit'
         "No.":
             $ mas_absence_counter = True
@@ -1159,6 +1177,7 @@ label bye_long_absence_2:
     m 1eka "But remember that I will always be here waiting and ready to support you, my dearest [player]."
     m "Come back to me as soon as you can...okay?"
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_LONG_ABSENCE
+    $ masl_schedule_farewell_notification("bye_long_absence_2")
     return 'quit'
 
 init 5 python:
@@ -1310,6 +1329,7 @@ label bye_going_somewhere_leavemenu:
                 # otherwise, upset and below
                 m 2tfd "...Fine."
 
+            $ masl_schedule_farewell_notification("bye_going_somewhere")
             return "quit"
 
         "No.":
@@ -1414,6 +1434,7 @@ label bye_prompt_game:
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_GAME
     #24 hour time cap because greeting handles up to 18 hours
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(days=1)
+    $ masl_schedule_farewell_notification("bye_prompt_game")
     return 'quit'
 
 init 5 python:
@@ -1666,6 +1687,7 @@ label bye_prompt_eat:
 
                 # #Snack gets a shorter time than full meal
                 # $ persistent._mas_greeting_type_timeout = datetime.timedelta(minutes=30)
+    $ masl_schedule_farewell_notification("bye_prompt_eat")
     return 'quit'
 
 label bye_dinner_noon_to_mn:
@@ -1712,6 +1734,7 @@ label bye_prompt_housework:
         m 6ckc "..."
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_CHORES
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=5)
+    $ masl_schedule_farewell_notification("bye_prompt_housework")
     return 'quit'
 
 init 5 python:
@@ -1737,6 +1760,7 @@ label bye_prompt_restart:
 
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(minutes=20)
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_RESTART
+    $ masl_schedule_farewell_notification("bye_prompt_restart")
     return 'quit'
 
 init 5 python:
@@ -1775,6 +1799,7 @@ label bye_prompt_workout:
 
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=4)
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_WORKOUT
+    $ masl_schedule_farewell_notification("bye_prompt_workout")
     return 'quit'
 
 init 5 python:
@@ -1811,6 +1836,7 @@ label bye_going_shopping:
     #TODO: Moni comes shopping with you(?)
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=8)
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_SHOPPING
+    $ masl_schedule_farewell_notification("bye_going_shopping")
     return 'quit'
 
 init 5 python:
@@ -1868,4 +1894,5 @@ label bye_prompt_hangout:
 
     $ persistent._mas_greeting_type_timeout = datetime.timedelta(hours=8)
     $ persistent._mas_greeting_type = store.mas_greetings.TYPE_HANGOUT
+    $ masl_schedule_farewell_notification("bye_prompt_hangout")
     return "quit"

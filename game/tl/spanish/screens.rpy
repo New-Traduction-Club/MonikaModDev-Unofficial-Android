@@ -590,3 +590,7 @@ translate spanish strings:
     old "There's no point in saving anymore.\nDon't worry, I'm not going anywhere."
     new "¿Guardar partida? ¿Qué somos?\n¿Parguelas?"
 
+    # screens.rpy:924
+    old "Accessibility"
+    new "Accesibilidad"
+

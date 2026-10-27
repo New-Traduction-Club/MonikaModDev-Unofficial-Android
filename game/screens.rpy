@@ -921,6 +921,8 @@ screen navigation():
 
         textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
+        textbutton _("Accessibility") action [ShowMenu("accessibility"), SensitiveIf(renpy.get_screen("accessibility") == None)]
+
         if store.mas_submod_utils.submod_map:
             textbutton _("Submods") action [ShowMenu("submods"), SensitiveIf(renpy.get_screen("submods") == None)]
 
@@ -1123,6 +1125,19 @@ screen game_menu(title, scroll=None):
                         mousewheel True
                         draggable True
                         yinitial 1.0
+
+                        side_yfill True
+
+                        vbox:
+                            transclude
+                
+                elif scroll == "viewporty0":
+
+                    viewport:
+                        scrollbars "vertical"
+                        mousewheel True
+                        draggable True
+                        yinitial 0.0
 
                         side_yfill True
 
@@ -1436,7 +1451,7 @@ screen preferences():
 
     default tooltip = Tooltip("")
 
-    use game_menu(_("Settings"), scroll="viewport"):
+    use game_menu(_("Settings"), scroll="viewporty0"):
 
         vbox:
             xoffset 50
