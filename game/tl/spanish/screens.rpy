@@ -594,3 +594,5 @@ translate spanish strings:
     old "Accessibility"
     new "Accesibilidad"
 
+    old "Please enter your name"
+    new "¿Cómo te llamas?"
