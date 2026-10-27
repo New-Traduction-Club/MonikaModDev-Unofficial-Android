@@ -3322,6 +3322,11 @@ label prompt_menu:
         if mas_hasBookmarks():
             talk_menu.append((__("Bookmarks"),"bookmarks"))
         talk_menu.append((__("Hey, [m_name]..."), "prompt"))
+        if renpy.android and getattr(persistent, "_masl_android_menu_enabled", True):
+            if persistent.language == "spanish":
+                talk_menu.append((__("Menú de Android"), "android_menu_es"))
+            else:
+                talk_menu.append((__("Android Menu"), "android_menu_en"))
         if len(repeatable_events)>0:
             talk_menu.append((__("Repeat conversation"), "repeat"))
         if _mas_getAffection() > -50:
@@ -3344,6 +3349,9 @@ label prompt_menu:
 
     elif madechoice == "prompt":
         call prompts_categories(True)
+
+    elif madechoice in ("android_menu_en", "android_menu_es"):
+        call expression madechoice
 
     elif madechoice == "repeat":
         call prompts_categories(False)

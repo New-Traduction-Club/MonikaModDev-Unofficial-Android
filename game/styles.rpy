@@ -222,6 +222,12 @@ init python:
         # Reset the global flag
         mas_globals.change_textbox = True
 
+        if "masl_apply_font_sizes" in renpy.python.store_dicts["store"]:
+            masl_apply_font_sizes(rebuild=False)
+
+        if "masl_apply_scrollbar_size" in renpy.python.store_dicts["store"]:
+            masl_apply_scrollbar_size(rebuild=False)
+
         style.rebuild()
 
     if not hasattr(renpy, "_masl_original_change_language"):
