@@ -109,11 +109,11 @@ translate spanish strings:
 
     # game/screens.rpy:72
     old "Good [boy]."
-    new "Ay, que lind[end_letter_gender]."
+    new "Ay, pero que lind[end_letter_gender]..."
 
     # game/screens.rpy:73
     old "Good. :)"
-    new "Bueno. :)"
+    new "Vale :)"
 
     # game/screens.rpy:74
     old "<3 u"

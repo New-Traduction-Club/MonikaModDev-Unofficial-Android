@@ -936,7 +936,8 @@ translate spanish greeting_yay_1c0a4acb:
 translate spanish greeting_youtuber_2655f752:
 
     # m 2eub "Hey everybody, welcome back to another episode of...{w=1}Just Monika!"
-    m 2eub "¡Muy buenas a todos! Bienvenidos de nuevo a otro episodio de...{w=1} ¡Solo Monika!"
+    # m 2eub "¡Muy buenas a todos! Bienvenidos de nuevo a otro episodio de...{w=1} ¡Solo Monika!"
+    m 2eub "¡Ey muy buenas a todos guapísimos, aquí Monika777 en un nuevo gameplay de Planeta Monika!"
 
 # game/script-greetings.rpy:888
 translate spanish greeting_youtuber_eb073c10:
@@ -948,7 +949,7 @@ translate spanish greeting_youtuber_eb073c10:
 translate spanish greeting_youtuber_a5150f5d:
 
     # m 1eua "I was impersonating a youtuber. I hope I gave you a good laugh, ehehe~"
-    m 1eua "Estaba imitando a un youtuber. Espero haberte hecho reír, je, je."
+    m 1eua "Estaba imitando a cierto youtuber. Espero haberte hecho reír, je, je."
 
 # game/script-greetings.rpy:912
 translate spanish greeting_hamlet_d5ad78ee:
@@ -2988,7 +2989,7 @@ translate spanish greeting_sick_8f3b03a7:
 translate spanish greeting_sick_7e12eaba:
 
     # m 2ekc "Welcome back, [player]..."
-    m 2ekc "Bienvenido, [player]..."
+    m 2ekc "Bienvenid[end_letter_gender], [player]..."
 
 # game/script-greetings.rpy:2274
 translate spanish greeting_sick_b1bf511a:

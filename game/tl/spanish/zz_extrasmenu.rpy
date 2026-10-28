@@ -3,7 +3,7 @@
 translate spanish mas_extra_menu_firsttime_9e6aa5dc:
 
     # m 1hua "Welcome to the Extras menu, [player]!"
-    m 1hua "¡Bienvenido al menú de Extras, [player]!"
+    m 1hua "¡Bienvenid[end_letter_gender] al menú de Extras, [player]!"
 
 # game/zz_extrasmenu.rpy:141
 translate spanish mas_extra_menu_firsttime_e050d088:
