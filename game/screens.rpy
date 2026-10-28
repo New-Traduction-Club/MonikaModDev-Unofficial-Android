@@ -902,7 +902,7 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Just Monika") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+            textbutton _("Just Monika") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message=__("Please enter your name"), ok_action=Function(FinishEnterName)))
 
         else:
 

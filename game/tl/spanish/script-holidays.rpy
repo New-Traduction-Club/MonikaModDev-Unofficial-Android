@@ -10071,3 +10071,45 @@ translate spanish strings:
     old "C̸̳̓ą̵́n̷̳̎ ̸̖̊y̴̦͝õ̷̯ų̷͌ ̴̼͘h̷̭̚e̴̪͝a̴̙̐ŕ̵̖ ̴̠́m̸̰̂ě̵̬?̷̮̐"
     new "C̸̳̓ą̵́n̷̳̎ ̸̖̊y̴̦͝õ̷̯ų̷͌ ̴̼͘h̷̭̚e̴̪͝a̴̙̐ŕ̵̖ ̴̠́m̸̰̂ě̵̬?̷̮̐"
 
+# game/script-holidays.rpy:1191
+translate spanish greeting_o31_hatana_tracen_uniform_5b3f63cc:
+
+    # m "Okay, I think everything's in place."
+    m "Vale, creo que ya está todo en su sitio."
+
+# game/script-holidays.rpy:1192
+translate spanish greeting_o31_hatana_tracen_uniform_2b6e299f:
+
+    # m "All lined up at the starting gate...{w=0.3}and ready to run!"
+    m "Todo listo en la línea de salida... {w=0.3}¡y a punto para echar a correr!"
+
+# game/script-holidays.rpy:1204
+translate spanish greeting_o31_hatana_tracen_uniform_83c5446e:
+
+    # m 2hubla "Ahaha~ What do you think, [player]?"
+    m 2hubla "¡Ja, ja, ja! ¿Qué te parece, [player]?"
+
+# game/script-holidays.rpy:1205
+translate spanish greeting_o31_hatana_tracen_uniform_72a22c52:
+
+    # m "I think the ears are the perfect addition, don't you?"
+    m "Creo que las orejas quedan super bien, ¿no te parece?"
+
+# game/script-holidays.rpy:1206
+translate spanish greeting_o31_hatana_tracen_uniform_ff3df661:
+
+    # m 1hua "Now that I have it on, it actually does sort of make me want to go for a jog. Ehehe~"
+    m 1hua "Ahora que lo llevo puesto, la verdad es que me entran ganas de salir a correr. Je, je, je."
+
+# game/script-holidays.rpy:1207
+translate spanish greeting_o31_hatana_tracen_uniform_18094123:
+
+    # m 1kua "Can you imagine me zooming around the course, [mas_get_player_nickname()]?"
+    m 1kua "¿Me imaginas corriendo por toda la pista, [mas_get_player_nickname()]?"
+
+# game/script-holidays.rpy:1208
+translate spanish greeting_o31_hatana_tracen_uniform_f569be13:
+
+    # m 1hksdlb "Ahaha! I'm definitely letting myself get carried away now."
+    m 1hksdlb "¡Ja, ja, ja! Creo que me estoy dejando llevar un poco."
+
