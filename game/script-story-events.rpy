@@ -476,18 +476,18 @@ init 3 python:
     ]
 
     mas_awkward_quips = [
-        "I don't really feel...{w=0.5}comfortable calling you that all the time.",
-        "That's...{w=0.5}not something I would like to call you, [player].",
-        "That is...{w=0.5}not something I would like to call you, [player].",
-        "Not that it's bad but...",
-        "Are you trying to embarrass me, [player]?"
+        __("I don't really feel...{w=0.5}comfortable calling you that all the time."),
+        __("That's...{w=0.5}not something I would like to call you, [player]."),
+        __("That is...{w=0.5}not something I would like to call you, [player]."),
+        __("Not that it's bad but..."),
+        __("Are you trying to embarrass me, [player]?")
     ]
 
     mas_bad_quips = [
-        "[player]...{w=0.5}why would you even consider calling yourself that?",
-        "[player]...{w=0.5}why would I ever call you that?",
-        "I couldn't ever call you anything like that, [player].",
-        "What? Please [player],{w=0.5} don't call yourself bad names."
+        __("[player]...{w=0.5}why would you even consider calling yourself that?"),
+        __("[player]...{w=0.5}why would I ever call you that?"),
+        __("I couldn't ever call you anything like that, [player]."),
+        __("What? Please [player],{w=0.5} don't call yourself bad names.")
     ]
 
     mas_good_player_name_comp = re.compile('|'.join(mas_good_player_nickname_list), re.IGNORECASE)
@@ -497,10 +497,10 @@ init 3 python:
 label mas_player_name_enter_name_loop(input_prompt):
     python:
         good_quips = [
-            "That's a wonderful name!",
-            "I like that a lot, [player].",
-            "I like that name, [player].",
-            "That's a great name!"
+            __("That's a wonderful name!"),
+            __("I like that a lot, [player]."),
+            __("I like that name, [player]."),
+            __("That's a great name!")
         ]
 
     #Now we prompt user
@@ -651,7 +651,7 @@ init 5 python:
     #NOTE: This needs to be unlocked by the random name change event
 
 label monika_changename:
-    call mas_player_name_enter_name_loop("What do you want me to call you?")
+    call mas_player_name_enter_name_loop(__("What do you want me to call you?"))
     return
 
 default persistent._mas_player_bday = None

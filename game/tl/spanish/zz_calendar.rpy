@@ -187,7 +187,7 @@ translate spanish strings:
 
     # game/zz_calendar.rpy:1243
     old "today"
-    new "Hoy"
+    new "hoy"
 
     # game/zz_calendar.rpy:1249
     old "on this date"

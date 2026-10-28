@@ -1463,11 +1463,11 @@ translate spanish strings:
 
     # game/script-affection.rpy:2999
     old "Darling"
-    new "Querida"
+    new "Querid[end_letter_gender]"
 
     # game/script-affection.rpy:2999
     old "darling"
-    new "querida"
+    new "querid[end_letter_gender]"
 
     # game/script-affection.rpy:2999
     old "Honey"
