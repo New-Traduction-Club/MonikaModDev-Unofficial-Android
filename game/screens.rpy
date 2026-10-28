@@ -1502,24 +1502,24 @@ screen preferences():
                     style_prefix "generic_fancy_check"
                     label _("Gameplay")
                     if not main_menu:
-                        if persistent._mas_unstable_mode:
-                            if store.mas_utils.is_ver_stable(config.version):
-                                textbutton _("Unstable"):
-                                    action SetField(persistent, "_mas_unstable_mode", False)
-                                    selected persistent._mas_unstable_mode
-                            else:
-                                textbutton _("Unstable"):
-                                    style "generic_fancy_check_button_disabled"
-                                    text_style "generic_fancy_check_button_disabled_text"
-                                    action SetField(persistent, "_mas_unstable_mode", True)
-                                    selected True
-                                    hovered tooltip.Action(layout.MAS_TT_UNSTABLE_DISABLED)
+                        # if persistent._mas_unstable_mode:
+                        #     if store.mas_utils.is_ver_stable(config.version):
+                        #         textbutton _("Unstable"):
+                        #             action SetField(persistent, "_mas_unstable_mode", False)
+                        #             selected persistent._mas_unstable_mode
+                        #     else:
+                        #         textbutton _("Unstable"):
+                        #             style "generic_fancy_check_button_disabled"
+                        #             text_style "generic_fancy_check_button_disabled_text"
+                        #             action SetField(persistent, "_mas_unstable_mode", True)
+                        #             selected True
+                        #             hovered tooltip.Action(layout.MAS_TT_UNSTABLE_DISABLED)
 
-                        else:
-                            textbutton _("Unstable"):
-                                action [Show(screen="dialog", message=layout.UNSTABLE, ok_action=Hide(screen="dialog")), SetField(persistent, "_mas_unstable_mode", True)]
-                                selected persistent._mas_unstable_mode
-                                hovered tooltip.Action(layout.MAS_TT_UNSTABLE)
+                        # else:
+                        #     textbutton _("Unstable"):
+                        #         action [Show(screen="dialog", message=layout.UNSTABLE, ok_action=Hide(screen="dialog")), SetField(persistent, "_mas_unstable_mode", True)]
+                        #         selected persistent._mas_unstable_mode
+                        #         hovered tooltip.Action(layout.MAS_TT_UNSTABLE)
 
                     textbutton _("Repeat Topics"):
                         action ToggleField(persistent,"_mas_enable_random_repeats", True, False)
