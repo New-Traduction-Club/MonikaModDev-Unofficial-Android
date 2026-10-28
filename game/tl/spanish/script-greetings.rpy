@@ -15,7 +15,7 @@ translate spanish greeting_sweetheart_63b03664:
 translate spanish greeting_sweetheart_0740329d:
 
     # m 1eua "What shall we do this [mas_globals.time_of_day_3state], [player]?"
-    m 1eua "¿Qué haremos esta [mas_globals.time_of_day_3state], [player]?"
+    m 1eua "¿Qué haremos esta [masl_state_day_tl()], [player]?"
 
 # game/script-greetings.rpy:325
 translate spanish greeting_sweetheart_105c7968:

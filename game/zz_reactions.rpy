@@ -1171,7 +1171,7 @@ label mas_reaction_gift_generic_clothes_json(sprite_object):
                 __("I just love it, [player]!"),
                 __("I think it's wonderful, [player]!")
             ]
-            outfit_quip = renpy.random.choice(outfit_quips)
+            outfit_quip = renpy.substitute(renpy.random.choice(outfit_quips))
 
         m 1sua "Oh! {w=0.5}A new outfit!"
         m 1hub "Thank you, [player]!{w=0.5} I'm going to try it on right now!"

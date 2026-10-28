@@ -125,7 +125,10 @@ label monika_gender_redo:
 
         "I'm a boy.":
             if persistent.gender == "M" and not persistent._mas_pm_is_trans:
-                $ gender_var = "boy"
+                if store.persistent.language == "spanish":
+                    $ gender_var = "un chico"
+                else:
+                    $ gender_var = "boy"
                 call mas_gender_redo_same
             else:
                 $ persistent.gender = "M"
@@ -134,7 +137,10 @@ label monika_gender_redo:
 
         "I'm a girl.":
             if persistent.gender == "F" and not persistent._mas_pm_is_trans:
-                $ gender_var = "girl"
+                if store.persistent.language == "spanish":
+                    $ gender_var = "una chica"
+                else:
+                    $ gender_var = "girl"
                 call mas_gender_redo_same
             else:
                 $ persistent.gender = "F"
@@ -193,9 +199,9 @@ label mas_gender_redo_neither_same:
 
 label mas_gender_trans:
     if persistent._mas_pm_is_trans:
-        $ menu_question = "And what gender do you identify as?"
+        $ menu_question = __("And what gender do you identify as?")
     else:
-        $ menu_question = "Oh, okay! {w=0.3}And what gender do you identify as?"
+        $ menu_question = __("Oh, okay! {w=0.3}And what gender do you identify as?")
 
     m 3eub "[menu_question]{nw}"
     $ _history_list.pop()
@@ -819,16 +825,28 @@ label birthdate_set:
         m 3hub "That's amazing!"
         m 1sua "I can't imagine a more special day than celebrating your birthday and our love on the same day..."
 
-        if mas_player_bday_curr() == mas_o31:
-            $ hol_str = "Halloween"
-        elif mas_player_bday_curr() == mas_d25:
-            $ hol_str = "Christmas"
-        elif mas_player_bday_curr() == mas_monika_birthday:
-            $ hol_str = "my birthday"
-        elif mas_player_bday_curr() == mas_f14:
-            $ hol_str = "Valentine's Day"
+        if store.persistent.language == "spanish":
+            if mas_player_bday_curr() == mas_o31:
+                $ hol_str = "Halloween"
+            elif mas_player_bday_curr() == mas_d25:
+                $ hol_str = "Navidad"
+            elif mas_player_bday_curr() == mas_monika_birthday:
+                $ hol_str = "mi cumpleaños"
+            elif mas_player_bday_curr() == mas_f14:
+                $ hol_str = "San Valentín"
+            else:
+                $ hol_str = None
         else:
-            $ hol_str = None
+            if mas_player_bday_curr() == mas_o31:
+                $ hol_str = "Halloween"
+            elif mas_player_bday_curr() == mas_d25:
+                $ hol_str = "Christmas"
+            elif mas_player_bday_curr() == mas_monika_birthday:
+                $ hol_str = "my birthday"
+            elif mas_player_bday_curr() == mas_f14:
+                $ hol_str = "Valentine's Day"
+            else:
+                $ hol_str = None
         if hol_str is not None:
             m "And with it also being [hol_str]..."
         m 3hua "It just sounds magical~"
@@ -1078,7 +1096,7 @@ label mas_random_limit_reached:
             __("I hope I didn't bore you too much."),
             __("You don't mind if I think about what to say next, do you?")
         ]
-        limit_quip=renpy.random.choice(limit_quips)
+        limit_quip=renpy.substitute(renpy.random.choice(limit_quips))
 
     m 1eka "[limit_quip]"
     if len(mas_rev_unseen) > 0 or persistent._mas_enable_random_repeats:

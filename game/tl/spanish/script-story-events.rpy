@@ -261,7 +261,7 @@ translate spanish mas_gender_redo_same_93c6b802:
 translate spanish mas_gender_redo_same_c50e0ced:
 
     # m 3eka "It doesn't matter what your body looks like, so as long as you say you're a [gender_var], you're a [gender_var] to me, all right?"
-    m 3eka "No importa qué aspecto tenga tu cuerpo, así que mientras digas que eres un [gender_var], eres un [gender_var] para mí, ¿vale?"
+    m 3eka "No importa qué aspecto tenga tu cuerpo, así que mientras digas que eres [gender_var], eres [gender_var] para mí, ¿vale?"
 
 # game/script-story-events.rpy:185
 translate spanish mas_gender_redo_same_d43a3139:

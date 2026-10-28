@@ -1822,36 +1822,36 @@ translate spanish strings:
     new "¡Es imposible que puedas sostener más cartas, ja, ja, ja!{w=0.5} No tienes que robarlas todas, [player]."
 
     # game/zz_cardgames.rpy:193
-    old "I think I'll go.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color]!"
-    new "Creo que iré.{w=0.2}.{w=0.2}.{w=0.2} ¡[store.mas_nou.game.monika.chosen_color]!"
+    old "I think I'll go.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color_name]!"
+    new "Creo que iré.{w=0.2}.{w=0.2}.{w=0.2} ¡[store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:193
-    old "I want [store.mas_nou.game.monika.chosen_color]."
-    new "Quiero [store.mas_nou.game.monika.chosen_color]."
+    old "I want [store.mas_nou.game.monika.chosen_color_name]."
+    new "Quiero [store.mas_nou.game.monika.chosen_color_name]."
 
     # game/zz_cardgames.rpy:193
-    old "I choose [store.mas_nou.game.monika.chosen_color]."
-    new "Elijo [store.mas_nou.game.monika.chosen_color]."
+    old "I choose [store.mas_nou.game.monika.chosen_color_name]."
+    new "Elijo [store.mas_nou.game.monika.chosen_color_name]."
 
     # game/zz_cardgames.rpy:193
-    old "Hmm.{w=0.2}.{w=0.2}.{w=0.2}I choose [store.mas_nou.game.monika.chosen_color]!"
-    new "Hmm.{w=0.2}.{w=0.2}.{w=0.2} ¡Elijo [store.mas_nou.game.monika.chosen_color]!"
+    old "Hmm.{w=0.2}.{w=0.2}.{w=0.2}I choose [store.mas_nou.game.monika.chosen_color_name]!"
+    new "Mmm.{w=0.2}.{w=0.2}.{w=0.2} ¡Elijo [store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:200
-    old "I'd prefer [store.mas_nou.game.monika.chosen_color]~"
-    new "Preferiría [store.mas_nou.game.monika.chosen_color]."
+    old "I'd prefer [store.mas_nou.game.monika.chosen_color_name]~"
+    new "Preferiría [store.mas_nou.game.monika.chosen_color_name]."
 
     # game/zz_cardgames.rpy:200
-    old "I want [store.mas_nou.game.monika.chosen_color]~"
-    new "Quiero [store.mas_nou.game.monika.chosen_color]."
+    old "I want [store.mas_nou.game.monika.chosen_color_name]~"
+    new "Quiero [store.mas_nou.game.monika.chosen_color_name]."
 
     # game/zz_cardgames.rpy:200
-    old "I choose [store.mas_nou.game.monika.chosen_color]!"
-    new "¡Elijo [store.mas_nou.game.monika.chosen_color]!"
+    old "I choose [store.mas_nou.game.monika.chosen_color_name]!"
+    new "¡Elijo [store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:200
-    old "It'll be [store.mas_nou.game.monika.chosen_color]!"
-    new "¡Será [store.mas_nou.game.monika.chosen_color]!"
+    old "It'll be [store.mas_nou.game.monika.chosen_color_name]!"
+    new "¡Será [store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:209
     old "NOU, [player]!"
@@ -2194,12 +2194,12 @@ translate spanish strings:
     new "¡Es imposible que puedas contrarrestar esta!"
 
     # game/zz_cardgames.rpy:395
-    old "I think I'll pick.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color]!"
-    new "Creo que elegiré.{w=0.2}.{w=0.2}.{w=0.2} ¡[store.mas_nou.game.monika.chosen_color]!"
+    old "I think I'll pick.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color_name]!"
+    new "Creo que elegiré.{w=0.2}.{w=0.2}.{w=0.2} ¡[store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:395
-    old "Hmm.{w=0.1}.{w=0.1}.{w=0.1} I choose [store.mas_nou.game.monika.chosen_color]!"
-    new "Hmm.{w=0.1}.{w=0.1}.{w=0.1} ¡Elijo [store.mas_nou.game.monika.chosen_color]!"
+    old "Hmm.{w=0.1}.{w=0.1}.{w=0.1} I choose [store.mas_nou.game.monika.chosen_color_name]!"
+    new "Mmm.{w=0.1}.{w=0.1}.{w=0.1} ¡Elijo [store.mas_nou.game.monika.chosen_color_name]!"
 
     # game/zz_cardgames.rpy:408
     old "That's a lot of cards for you, ehehe~"
@@ -2219,7 +2219,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:421
     old "Nope, [player]!"
-    new "¡Nones, [player]!"
+    new "¡No, [player]!"
 
     # game/zz_cardgames.rpy:421
     old "No, I think you're going to skip this turn too~"
@@ -2239,7 +2239,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:440
     old "Alright,{w=0.1} alright...{w=0.3} You win this time."
-    new "¡Vale,{w=0.1} vale... {w=0.3} Ganas esta vez."
+    new "Vale,{w=0.1} vale... {w=0.3} Ganas esta vez."
 
     # game/zz_cardgames.rpy:440
     old "I.{w=0.1}.{w=0.1}.{w=0.1}will let it slide...{w=0.3}but just this time!"
@@ -2423,7 +2423,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:2008
     old " If you have a {}{}{{i}}{}{{/i}}, you could {{i}}try{{/i}} to reflect {} card."
-    new " Si tienes un {}{}{{i}}{}{{/i}}, podrías intentar contrarrestar {} carta."
+    new " Si tienes una carta {{i}}{2}{{/i}}{1}{0}, podrías intentar contrarrestar {3} carta."
 
     # game/zz_cardgames.rpy:2018
     old " Can't promise I won't reflect it back to you~"
@@ -2455,11 +2455,11 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:3582
     old "...And speaking of NOU...{w=0.5}"
-    new "¡... Y hablando de NOU...{w=0.5}"
+    new "Y hablando de NOU...{w=0.5}"
 
     # game/zz_cardgames.rpy:3980
     old "Let's change our house rules for NOU"
-    new "Cambiemos nuestras reglas de la casa para NOU"
+    new "Cambiemos nuestras reglas de la casa"
 
     # game/zz_cardgames.rpy:4017
     old "I'd like to change the number of points required to win"
@@ -2602,3 +2602,15 @@ translate spanish strings:
     # zz_cardgames.rpy:2003
     old "the top"
     new "la primera"
+
+    old "red"
+    new "roja"
+
+    old "blue"
+    new "azul"
+
+    old "yellow"
+    new "amarilla"
+
+    old "Reverse"
+    new "Reversa"

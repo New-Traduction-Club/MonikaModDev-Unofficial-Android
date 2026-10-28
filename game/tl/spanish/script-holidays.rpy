@@ -9879,7 +9879,7 @@ translate spanish strings:
 
     # game/script-holidays.rpy:5722
     old "you"
-    new "tu"
+    new "tú"
 
     # game/script-holidays.rpy:5733
     old "Let's go out for my birthday!"

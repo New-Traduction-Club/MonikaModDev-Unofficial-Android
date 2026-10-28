@@ -6554,7 +6554,7 @@ label monika_sayhappybirthday:
         take_counter = 1 # how many takes
         take_threshold = 5 # multiple of takes that will make monika annoyed
         max_age = 121 # like who the hell is this old and playing ddlc?
-        age_prompt = "What is their age?" # prompt for age question
+        age_prompt = __("What is their age?") # prompt for age question
 
         # age suffix dictionary
         age_suffix = {
@@ -6576,7 +6576,7 @@ label monika_sayhappybirthday:
     while not done:
         show monika 1eua
         # arbitary max name limit
-        $ bday_name = renpy.input("What's their name?",allow=letters_only,length=40).strip()
+        $ bday_name = renpy.input(__("What's their name?"),allow=letters_only,length=40).strip()
         # ensuring proper name checks
         $ same_name = bday_name.upper() == player.upper()
         if bday_name == "":
@@ -6635,14 +6635,21 @@ label monika_sayhappybirthday:
     if age:
         # figure out the age suffix
         python:
-            age_suff = age_suffix.get(age, None)
-            if age_suff:
-                age_str = str(age) + age_suff
+            if store.persistent.language == "spanish":
+                bday_msg = "feliz cumpleaños número " + str(age)
             else:
-                age_str = str(age) + age_suffix.get(age % 10, "th")
-            bday_msg = "happy " + age_str + " birthday"
+                age_suff = age_suffix.get(age, None)
+                if age_suff:
+                    age_str = str(age) + age_suff
+                else:
+                    age_str = str(age) + age_suffix.get(age % 10, "th")
+                bday_msg = "happy " + age_str + " birthday"
     else:
-        $ bday_msg = "happy birthday"
+        python:
+            if store.persistent.language == "spanish":
+                bday_msg = "feliz cumpleaños"
+            else:
+                bday_msg = "happy birthday"
 
     # we do a loop here in case we are recording and we should do a retake
     $ done = False

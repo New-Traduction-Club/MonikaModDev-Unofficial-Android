@@ -197,7 +197,10 @@ label monika_short_stories_menu:
         else:
             switch_str = __("scary")
 
-        switch_item = (__("I'd like to hear a ") + switch_str + __(" story"), "monika_short_stories_menu", False, False, 20)
+        switch_item = (__("Me gustaría escuchar una historia ")  + switch_str,
+            "monika_short_stories_menu", False, False, 20) if persistent.language == "spanish" else (
+            __("I'd like to hear a ") + switch_str + __(" story"),
+            "monika_short_stories_menu", False, False, 20)
 
         final_item = (mas_stories.STORY_RETURN, False, False, False, 0)
 
@@ -267,7 +270,7 @@ label mas_story_begin:
             __("Let's begin~"),
             __("Are you ready?")
         ]
-        story_begin_quip=renpy.random.choice(story_begin_quips)
+        story_begin_quip=renpy.substitute(renpy.random.choice(story_begin_quips))
     $ mas_gainAffection(modifier=0.2)
     m 3eua "[story_begin_quip]"
     m 1duu "Ahem."
@@ -311,7 +314,7 @@ label mas_scary_story_setup:
             __("Let's begin."),
             __("Are you ready?")
         ]
-        story_begin_quip=renpy.random.choice(story_begin_quips)
+        story_begin_quip=renpy.substitute(renpy.random.choice(story_begin_quips))
 
     m 3eua "[story_begin_quip]"
     m 1duu "Ahem."

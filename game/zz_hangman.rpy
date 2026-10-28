@@ -174,21 +174,22 @@ init -1 python in mas_hangman:
     HM_IMG_NAME = "hm_"
 
     # Monika words
-    MONI_WORDS = [__("emerald"), __("delete"), __("freedom"), __("piano"), __("music"), __("reality"), __("rain"), __("envy"),
-        __("coffee"), __("ribbon"), __("advice"), __("crossover"), __("feather"), __("abstract"), __("corruption"),
-        __("squid"), __("president"), __("passion"), __("vegetables"), __("loneliness"), __("symbol"),
-        __("green"), __("poem"), __("route"), __("literature"), __("epiphany"), __("despair"), __("wretched"), __("shore"),
-        __("waves"), __("beach"), __("swimming"), __("debate"), __("leadership"), __("festival"), __("confidence"),
-        __("creativity"), __("extrovert"), __("despair"), __("ai"), __("python"), __("renpy"), __("programming"),
-        __("lethargy")
+    MONI_WORDS = [_("emerald"), _("delete"), _("freedom"), _("piano"), _("music"), _("reality"), _("rain"), _("envy"),
+        _("coffee"), _("ribbon"), _("advice"), _("crossover"), _("feather"), _("abstract"), _("corruption"),
+        _("squid"), _("president"), _("passion"), _("vegetables"), _("loneliness"), _("symbol"),
+        _("green"), _("poem"), _("route"), _("literature"), _("epiphany"), _("despair"), _("wretched"), _("shore"),
+        _("waves"), _("beach"), _("swimming"), _("debate"), _("leadership"), _("festival"), _("confidence"),
+        _("creativity"), _("extrovert"), _("despair"), _("ai"), _("python"), _("renpy"), _("programming"),
+        _("lethargy")
     ]
 
     # hint
-    HM_HINT = __("{0} would like this word the most.")
+    HM_HINT = _("{0} would like this word the most.")
+    HM_HINT_MONIKA = _("I would like this word the most.")
 
     def _add_monika_words(wordlist):
         for word in MONI_WORDS:
-            wordlist.append(renpy.store.PoemWord(glitch=False,sPoint=0,yPoint=0,nPoint=0,word=word))
+            wordlist.append(renpy.store.PoemWord(glitch=False,sPoint=0,yPoint=0,nPoint=0,word=__(word)))
 
 
     # file names
@@ -197,6 +198,7 @@ init -1 python in mas_hangman:
 
     # hangman game text
     game_name = "Hangman"
+    built_language = None
 
 
     def copyWordsList(_mode):
@@ -246,7 +248,7 @@ init -1 python in mas_hangman:
         # lets start with Non Monika words
         easy_list[:] = [
             store.MASPoemWord._build(word, 0)._hangman()
-            for word in store.full_wordlist
+            for word in store.MASPoemWordList(NORMAL_LIST).wordlist
         ]
 
         # now for monika words
@@ -279,6 +281,15 @@ init -1 python in mas_hangman:
         """
         _buildWordList(HARD_LIST, HARD_MODE)
 
+    def masl_rebuildAllLists(force=False):
+        global built_language
+        current_lang = renpy.game.preferences.language
+
+        if force or built_language != current_lang:
+            buildEasyList()
+            buildNormalList()
+            buildHardList()
+            built_language = current_lang
 
     def addPlayername(_mode):
         """
@@ -362,6 +373,7 @@ label game_hangman:
 
     python:
         import store.mas_hangman as mas_hmg
+        mas_hmg.masl_rebuildAllLists()
         is_sayori = store.mas_egg_manager.sayori_enabled()
         is_window_sayori_visible = False
 
@@ -438,7 +450,7 @@ label mas_hangman_game_loop:
                 and len(persistent.playername) <= 15
             ):
             display_word = mas_hmg.wordToDisplay(persistent.playername.lower())
-            hm_hint = mas_hmg.HM_HINT.format("I")
+            hm_hint = __(mas_hmg.HM_HINT_MONIKA)
             word = persistent.playername.lower()
             player_word = True
             persistent._mas_hangman_playername = True
@@ -448,7 +460,10 @@ label mas_hangman_game_loop:
                 word = mas_hmg.randomSelect(hangman_mode)
 
             display_word = mas_hmg.wordToDisplay(word[0])
-            hm_hint = mas_hmg.HM_HINT.format(word[1])
+            if word[1] == "I":
+                hm_hint = __(mas_hmg.HM_HINT_MONIKA)
+            else:
+                hm_hint = __(mas_hmg.HM_HINT).format(word[1])
 
             word = word[0]
 
@@ -668,9 +683,9 @@ label mas_hangman_game_loop:
             show hm_s_win_6 as window_sayori at hangman_sayori_h
 
         if player_word:
-            $ the_word = "your name"
+            $ the_word = __("your name")
         else:
-            $ the_word = "the word"
+            $ the_word = __("the word")
 
         m 1hua "Wow, you guessed [the_word] correctly!"
         m "Good job, [player]!"

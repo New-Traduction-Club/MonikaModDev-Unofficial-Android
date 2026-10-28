@@ -1,4 +1,4 @@
-﻿
+
 # game/zz_hangman.rpy:360
 translate spanish mas_hangman_game_select_diff_0176af25:
 
@@ -229,7 +229,7 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "music"
-    new "música"
+    new "musica"
 
     # game/zz_hangman.rpy:175
     old "reality"
@@ -265,7 +265,7 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "corruption"
-    new "corrupción"
+    new "corrupcion"
 
     # game/zz_hangman.rpy:175
     old "squid"
@@ -277,7 +277,7 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "passion"
-    new "pasión"
+    new "pasion"
 
     # game/zz_hangman.rpy:175
     old "vegetables"
@@ -289,7 +289,7 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "symbol"
-    new "símbolo"
+    new "simbolo"
 
     # game/zz_hangman.rpy:175
     old "green"
@@ -309,11 +309,11 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "epiphany"
-    new "epifanía"
+    new "epifania"
 
     # game/zz_hangman.rpy:175
     old "despair"
-    new "desesperación"
+    new "desesperacion"
 
     # game/zz_hangman.rpy:175
     old "wretched"
@@ -373,7 +373,7 @@ translate spanish strings:
 
     # game/zz_hangman.rpy:175
     old "programming"
-    new "programación"
+    new "programacion"
 
     # game/zz_hangman.rpy:175
     old "lethargy"
@@ -423,3 +423,6 @@ translate spanish strings:
     old "Okay. Let's play again soon!"
     new "Vale, ¡volvamos a jugar pronto!"
 
+    # game/zz_hangman.rpy:188
+    old "I would like this word the most."
+    new "A mí me gustaría más esta palabra."

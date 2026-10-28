@@ -545,8 +545,11 @@ translate spanish strings:
     new "Actualizar Certificado."
 
     # game/screens.rpy:3280
-    old "Clear"
+    old "Clear "
     new "Remover"
+
+    old "Clear"
+    new "Despejado"
 
     # game/screens.rpy:3285
     old "Paste"

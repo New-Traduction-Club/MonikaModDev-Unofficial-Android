@@ -80,9 +80,15 @@ init 5 python in mas_nou:
         # These constants represent parameters for nou cards
         TYPES = ("number", "action", "wild")
         NUMBER_LABELS = ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9")
-        ACTION_LABELS = ("Skip", "Draw Two", "Reverse")
+        ACTION_LABELS = (_("Skip"), _("Draw Two"), _("Reverse"))
         WILD_LABELS = ("Wild", "Wild Draw Four")
         COLORS = ("red", "blue", "green", "yellow")
+        COLOR_NAMES = {
+            "red": _("red"),
+            "blue": _("blue"),
+            "green": _("green"),
+            "yellow": _("yellow")
+        }
 
         # Coordinates
         DRAWPILE_X = 445
@@ -191,17 +197,17 @@ init 5 python in mas_nou:
         # Quips when Monika chooses a color to set
         # Quips for when she gets a wild card on the first turn
         QUIPS_MONIKA_ANNOUNCE_COLOR_FIRST_TURN = (
-            __("I think I'll go.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color]!"),
-            __("I want [store.mas_nou.game.monika.chosen_color]."),
-            __("I choose [store.mas_nou.game.monika.chosen_color]."),
-            __("Hmm.{w=0.2}.{w=0.2}.{w=0.2}I choose [store.mas_nou.game.monika.chosen_color]!")
+            __("I think I'll go.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color_name]!"),
+            __("I want [store.mas_nou.game.monika.chosen_color_name]."),
+            __("I choose [store.mas_nou.game.monika.chosen_color_name]."),
+            __("Hmm.{w=0.2}.{w=0.2}.{w=0.2}I choose [store.mas_nou.game.monika.chosen_color_name]!")
         )
         # Quips for when she reflects a wild card
         QUIPS_MONIKA_ANNOUNCE_COLOR_AFTER_REFLECT = (
-            __("I'd prefer [store.mas_nou.game.monika.chosen_color]~"),
-            __("I want [store.mas_nou.game.monika.chosen_color]~"),
-            __("I choose [store.mas_nou.game.monika.chosen_color]!"),
-            __("It'll be [store.mas_nou.game.monika.chosen_color]!")
+            __("I'd prefer [store.mas_nou.game.monika.chosen_color_name]~"),
+            __("I want [store.mas_nou.game.monika.chosen_color_name]~"),
+            __("I choose [store.mas_nou.game.monika.chosen_color_name]!"),
+            __("It'll be [store.mas_nou.game.monika.chosen_color_name]!")
         )
 
         # NOU quips
@@ -394,10 +400,10 @@ init 5 python in mas_nou:
         # It has only one key - 0 - because it doesn't make sense to keep track of series of this
         REACTIONS_MAP_MONIKA_PLAYED_WILD = {
             0: [
-                (__("I think I'll pick.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color]!"),),
-                (__("I want [store.mas_nou.game.monika.chosen_color]."),),
-                (__("I choose [store.mas_nou.game.monika.chosen_color]."),),
-                (__("Hmm.{w=0.1}.{w=0.1}.{w=0.1} I choose [store.mas_nou.game.monika.chosen_color]!"),)
+                (__("I think I'll pick.{w=0.2}.{w=0.2}.{w=0.2}[store.mas_nou.game.monika.chosen_color_name]!"),),
+                (__("I want [store.mas_nou.game.monika.chosen_color_name]."),),
+                (__("I choose [store.mas_nou.game.monika.chosen_color_name]."),),
+                (__("Hmm.{w=0.1}.{w=0.1}.{w=0.1} I choose [store.mas_nou.game.monika.chosen_color_name]!"),)
             ]
         }
 
@@ -1923,7 +1929,7 @@ init 5 python in mas_nou:
                     __("You need to play a{} '{}' or any {} card.").format(
                         __("n") if card.label == "8" else "",
                         card.label,
-                        card.color
+                        __(card.color)
                     )
                 )
 
@@ -1976,15 +1982,15 @@ init 5 python in mas_nou:
                     if not player.drew_card:
                         if not get_house_rule("reflect_chaos"):
                             if card.type == "action":
-                                card_for_reflect = card.label
+                                card_for_reflect = __(card.label)
                                 if card.label == "Skip":
-                                    color_for_reflect = card.color
+                                    color_for_reflect = __(card.color)
                                 else:
                                     color_for_reflect = ""
 
                             else:
                                 card_for_reflect = __("Draw Two")
-                                color_for_reflect = card.color
+                                color_for_reflect = __(card.color)
 
                         else:
                             if card.type == "action":
@@ -1992,13 +1998,13 @@ init 5 python in mas_nou:
                                     card_for_reflect = __("Draw Two{/i} or {i}Draw Four")
 
                                 else:
-                                    card_for_reflect = card.label
+                                    card_for_reflect = __(card.label)
 
                                 color_for_reflect = ""
 
                             else:
                                 card_for_reflect = __("Draw Two{/i} or {i}Draw Four")
-                                color_for_reflect = card.color
+                                color_for_reflect = __(card.color)
 
                         dlg_line_list.append(
                             __(" If you have a {}{}{{i}}{}{{/i}}, you could {{i}}try{{/i}} to reflect {} card.").format(
@@ -2020,8 +2026,8 @@ init 5 python in mas_nou:
                     if card.type == "action":
                         dlg_line_list.append(
                             __("You need to play a {{i}}{}{{/i}} or any {} card.").format(
-                                card.label,
-                                card.color
+                                __(card.label),
+                                __(card.color)
                             )
                         )
 
@@ -2033,7 +2039,7 @@ init 5 python in mas_nou:
 
                         else:
                             dlg_line_list.append(
-                                __("You need to play any {} card.").format(card.color)
+                                __("You need to play any {} card.").format(__(card.color))
                             )
 
                             if player.drew_card or len(player.hand) >= self.HAND_CARDS_LIMIT:
@@ -2243,6 +2249,12 @@ init 5 python in mas_nou:
 
         def __repr__(self):
             return "<_NOUPlayerAI 'Monika'>"
+
+        @property
+        def chosen_color_name(self):
+            if not self.chosen_color:
+                return ""
+            return __(self.chosen_color.capitalize()).lower()
 
         def thonk_pause(self):
             """

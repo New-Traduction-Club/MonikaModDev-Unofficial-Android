@@ -508,7 +508,7 @@ label monika_idle_game:
                 __("I'll be cheering you on!"),
                 __("Do your best!")
             ]
-            gaming_quip=renpy.random.choice(gaming_quips)
+            gaming_quip=renpy.substitute(renpy.random.choice(gaming_quips))
 
         m 3hub "[gaming_quip]"
 
