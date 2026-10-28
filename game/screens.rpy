@@ -32,6 +32,9 @@ init -1 python:
         "Enables notifications for the selected group."
     )
     layout.MAS_TT_ACTV_WND = (
+        "Activar esto permitirá a Monika ver tu ventana activa "
+        "y poder hacer comentarios según la ocasión."
+    ) if persistent.language == "spanish" else (
         "Enabling this will allow Monika to see your active window "
         "and offer some comments based on what you're doing."
     )
@@ -1501,7 +1504,7 @@ screen preferences():
                 vbox:
                     style_prefix "generic_fancy_check"
                     label _("Gameplay")
-                    if not main_menu:
+                    # if not main_menu:
                         # if persistent._mas_unstable_mode:
                         #     if store.mas_utils.is_ver_stable(config.version):
                         #         textbutton _("Unstable"):
