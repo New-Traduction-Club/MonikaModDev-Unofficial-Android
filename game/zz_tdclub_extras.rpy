@@ -85,12 +85,35 @@ init python:
 
 init 10 python:
     import store
-    # Wrap mas_set_pronouns to automatically update end_letter_gender
+    # Wrap mas_set_pronouns to automatically update end_letter_gender and pronouns
     if hasattr(store, "mas_set_pronouns"):
         _old_mas_set_pronouns = store.mas_set_pronouns
+
+        MAS_PRONOUN_GENDER_MAP_ES = {
+            "hero": {"M": "héroe", "F": "heroína", "X": "héroe"},
+            "bf": {"M": "novio", "F": "novia", "X": "pareja"},
+            "boy": {"M": "chico", "F": "chica", "X": "persona"},
+            "guy": {"M": "chico", "F": "chica", "X": "persona"},
+            "man": {"M": "hombre", "F": "mujer", "X": "persona"},
+            "him": {"M": "él", "F": "ella", "X": "ellos"},
+            "himself": {"M": "él mismo", "F": "ella misma", "X": "sí mismos"},
+            "he": {"M": "él", "F": "ella", "X": "ellos"},
+            "his": {"M": "su", "F": "su", "X": "su"},
+            "hes": {"M": "él es", "F": "ella es", "X": "ellos son"},
+            "heis": {"M": "él es", "F": "ella es", "X": "ellos son"}
+        }
 
         def mas_set_pronouns(key=None):
             _old_mas_set_pronouns(key)
             masl_set_end_letter_gender(key)
 
+            if getattr(store.persistent, "language", None) == "spanish":
+                if key is None:
+                    key = getattr(store.persistent, "gender", "X")
+                for word, sub_map in MAS_PRONOUN_GENDER_MAP_ES.items():
+                    val = sub_map.get(key, sub_map.get("X"))
+                    setattr(store, word, val)
+
         store.mas_set_pronouns = mas_set_pronouns
+
+        mas_set_pronouns()

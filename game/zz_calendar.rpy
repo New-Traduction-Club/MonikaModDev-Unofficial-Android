@@ -1132,8 +1132,26 @@ init -1 python in mas_calendar:
             (12, 31, "capricorn")
         ]
         index = bisect.bisect(zodiac_signs, (date.month, date.day))
+        sign = zodiac_signs[index][-1]
 
-        return zodiac_signs[index][-1]
+        if getattr(store.persistent, "language", None) == "spanish":
+            zodiac_es = {
+                "capricorn": "Capricornio",
+                "aquarius": "Acuario",
+                "pisces": "Piscis",
+                "aries": "Aries",
+                "taurus": "Tauro",
+                "gemini": "Géminis",
+                "cancer": "Cáncer",
+                "leo": "Leo",
+                "virgo": "Virgo",
+                "libra": "Libra",
+                "scorpio": "Escorpio",
+                "sagittarius": "Sagitario"
+            }
+            return zodiac_es.get(sign, __(sign))
+
+        return sign
 
     def _formatDay(day):
         """
