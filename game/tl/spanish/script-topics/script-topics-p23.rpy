@@ -327,7 +327,8 @@ translate spanish monika_being_deleted_e6674349:
 translate spanish monika_being_deleted_a0017396:
 
     # m 2esc "I {i}would{/i} say that we should leave the past behind us and think of the present instead, but I feel like {i}you{/i} might not be ready--{w=0.2}or willing--{w=0.2}to move on from all this."
-    m 2esc "Te diría que deberíamos dejar el pasado atrás y pensar más bien en el presente, pero presiento que igual no estás list[end_letter_gender]... {w=0.2}o dispuest[end_letter_gender]... {w=0.2}a pasar página de todo esto."
+    m 2esc "Te diría que deberíamos dejar el pasado atrás y pensar más bien en el presente,"
+    "pero presiento que igual no estás list[end_letter_gender]... {w=0.2}o dispuest[end_letter_gender]... {w=0.2}a pasar página de todo esto."
 
 # game/script-topics.rpy:17172
 translate spanish monika_being_deleted_235fe4a7:
@@ -807,7 +808,8 @@ translate spanish monika_discworld_d2c4a643:
 translate spanish monika_discworld_5d534058:
 
     # m 3eub "In fact, later books are clearly satires rather than parodies, using a clever mix of slapstick, puns, and light-hearted humor to comment on all kinds of issues."
-    m 3eub "De hecho, los últimos libros son claramente sátiras en lugar de parodias, utilizando una mezcla inteligente de comedia física, juegos de palabras y humor ligero para comentar todo tipo de cuestiones."
+    m 3eub "De hecho, los últimos libros son claramente sátiras en lugar de parodias, utilizando una mezcla inteligente de comedia física,"
+    "juegos de palabras y humor ligero para comentar todo tipo de cuestiones."
 
 # game/script-topics.rpy:17337
 translate spanish monika_discworld_ebf071e1:
@@ -885,7 +887,8 @@ translate spanish monika_discworld_b20d3e32:
 translate spanish monika_discworld_4ed6e32a:
 
     # m 1eud "You can pretty much pick any volume you find and you'll be good to go,{w=0.2} though I'd argue {i}Guards! Guards!{/i} or {i}Mort{/i} would probably make for the best entry points."
-    m 1eud "Puedes coger casi cualquier volumen que encuentres y con eso te valdrá,{w=0.2} aunque yo diría que {i}¡Guardias! ¡Guardias!{/i} o {i}Mort{/i} probablemente sean los mejores puntos de partida."
+    m 1eud "Puedes coger casi cualquier volumen que encuentres y con eso te valdrá,"
+    "aunque yo diría que {i}¡Guardias! ¡Guardias!{/i} o {i}Mort{/i} probablemente sean los mejores puntos de partida."
 
 # game/script-topics.rpy:17350
 translate spanish monika_discworld_d02e6f80:
@@ -933,19 +936,22 @@ translate spanish monika_eating_meat_fe7f5ee2:
 translate spanish monika_eating_meat_4bb56ff4:
 
     # extend 4eud "Sure, the consumption of animal products contributes to environmental damage, but vegan alternatives share or have their own issues too..."
-    extend 4eud "Claro, el consumo de productos animales contribuye al daño medioambiental, pero las alternativas veganas comparten esos problemas o tienen los suyos propios..."
+    extend 4eud "Claro, el consumo de productos animales contribuye al daño medioambiental,"
+    "pero las alternativas veganas comparten esos problemas o tienen los suyos propios..."
 
 # game/script-topics.rpy:17378
 translate spanish monika_eating_meat_29805869:
 
     # m 4euc "These include things like importing perishable products across great distances and mass-farming in conditions that are both cruel for workers and a strain on the local ecosystem."
-    m 4euc "Entre ellos se incluyen cosas como la importación de productos perecederos a grandes distancias y la agricultura intensiva en condiciones que son a la vez crueles para los trabajadores y una carga para el ecosistema local."
+    m 4euc "Entre ellos se incluyen cosas como la importación de productos perecederos a grandes distancias y la agricultura intensiva,"
+    "en condiciones que son a la vez crueles para los trabajadores y una carga para el ecosistema local."
 
 # game/script-topics.rpy:17379
 translate spanish monika_eating_meat_a8847956:
 
     # m 4ekd "Take avocados, for example. {w=0.2}Their farms require massive amounts of water, to the point where some companies resort to illegally taking too much water from rivers, leaving little for drinking."
-    m 4ekd "Tomemos los aguacates, por ejemplo. {w=0.2}Sus plantaciones requieren cantidades masivas de agua, hasta el punto de que algunas empresas recurren a extraer ilegalmente demasiada agua de los ríos, dejando muy poca para el consumo."
+    m 4ekd "Tomemos los aguacates, por ejemplo. {w=0.2}Sus plantaciones requieren cantidades masivas de agua,"
+    "hasta el punto de que algunas empresas recurren a extraer ilegalmente demasiada agua de los ríos, dejando muy poca para el consumo."
 
 # game/script-topics.rpy:17380
 translate spanish monika_eating_meat_9c3bba15:
@@ -999,7 +1005,8 @@ translate spanish monika_eating_meat_98895df6:
 translate spanish monika_eating_meat_f387458c:
 
     # m 1euc "As for meat that comes from local hunting and fishing, I think that's alright to eat as well, but it's important to research what areas might be over-hunted, and what animals to be careful of."
-    m 1euc "En cuanto a la carne que proviene de la caza y la pesca locales, creo que también está bien comerla, pero es importante investigar qué zonas podrían estar sobreexplotadas y con qué animales tener cuidado."
+    m 1euc "En cuanto a la carne que proviene de la caza y la pesca locales, creo que también está bien comerla,"
+    "pero es importante investigar qué zonas podrían estar sobreexplotadas y con qué animales tener cuidado."
 
 # game/script-topics.rpy:17389
 translate spanish monika_eating_meat_9afe47fd:
@@ -1113,7 +1120,8 @@ translate spanish monika_introverts_extroverts_81afdf4d:
 translate spanish monika_introverts_extroverts_1eebef15:
 
     # m 3eua "You might think that extroverts tend to find enjoyment by interacting with other people, while introverts are more at ease in solitary environments, and you'd be right."
-    m 3eua "Podrías pensar que los extrovertidos suelen disfrutar más interactuando con otras personas, mientras que los introvertidos se sienten más a gusto en entornos solitarios, y tendrías razón."
+    m 3eua "Podrías pensar que los extrovertidos suelen disfrutar más interactuando con otras personas,"
+    "mientras que los introvertidos se sienten más a gusto en entornos solitarios, y tendrías razón."
 
 # game/script-topics.rpy:17476
 translate spanish monika_introverts_extroverts_a4b7bbee:
@@ -1125,13 +1133,15 @@ translate spanish monika_introverts_extroverts_a4b7bbee:
 translate spanish monika_introverts_extroverts_d773f3bc:
 
     # m 3eua "For example, did you know extroverts can often react to things faster than most introverts do?{w=0.2} Or that they're more likely to enjoy happy and energetic music?"
-    m 3eua "Por ejemplo, ¿sabías que a menudo los extrovertidos pueden reaccionar a las cosas más rápido que la mayoría de los introvertidos?{w=0.2} ¿O que es más probable que disfruten de la música alegre y enérgica?"
+    m 3eua "Por ejemplo, ¿sabías que a menudo los extrovertidos pueden reaccionar a las cosas más rápido que la mayoría de los introvertidos?"
+    "¿O que es más probable que disfruten de la música alegre y enérgica?"
 
 # game/script-topics.rpy:17478
 translate spanish monika_introverts_extroverts_6c761935:
 
     # m 3eud "Introverts on the other hand, usually take more time to analyze the situation they're in, and are therefore less likely to jump to conclusions."
-    m 3eud "Los introvertidos, por otro lado, suelen tomarse más tiempo para analizar la situación en la que se encuentran y, por tanto, es menos probable que saquen conclusiones precipitadas."
+    m 3eud "Los introvertidos, por otro lado, suelen tomarse más tiempo para analizar la situación en la que se encuentran y, por tanto,"
+    "es menos probable que saquen conclusiones precipitadas."
 
 # game/script-topics.rpy:17479
 translate spanish monika_introverts_extroverts_3e976c89:
@@ -1155,7 +1165,8 @@ translate spanish monika_introverts_extroverts_fd08a6f5:
 translate spanish monika_introverts_extroverts_706a7eca:
 
     # m 4ekd "...while introverts are treated as egotistical people who only think of themselves, or can even be seen as weird for rarely participating in social situations."
-    m 4ekd "Mientras que a los introvertidos se les tacha de personas egoístas que solo piensan en sí mismas, o incluso se les ve como bichos raros por participar poco en situaciones sociales."
+    m 4ekd "Mientras que a los introvertidos se les tacha de personas egoístas que solo piensan en sí mismas,"
+    "o incluso se les ve como bichos raros por participar poco en situaciones sociales."
 
 # game/script-topics.rpy:17484
 translate spanish monika_introverts_extroverts_f99c9852:
@@ -1575,7 +1586,8 @@ translate spanish monika_literature_value_238edfe7:
 translate spanish monika_literature_value_2ff692c4:
 
     # m 3ekd "People who think that often like to discount literature compared to more scientific fields, like physics or mathematics, claiming it's a waste of time since it doesn't produce anything practical."
-    m 3ekd "La gente que piensa así a menudo le resta valor a la literatura en comparación con campos más científicos, como la física o las matemáticas, afirmando que es una pérdida de tiempo ya que no produce nada práctico."
+    m 3ekd "La gente que piensa así a menudo le resta valor a la literatura en comparación con campos más científicos,"
+    "como la física o las matemáticas, afirmando que es una pérdida de tiempo ya que no produce nada práctico."
 
 # game/script-topics.rpy:17614
 translate spanish monika_literature_value_d5cdd0e1:
