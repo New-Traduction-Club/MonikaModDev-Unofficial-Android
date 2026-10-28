@@ -283,13 +283,22 @@ translate spanish strings:
     old "Sunrise"
     new "Amanecer"
 
+    old "Sunrise: "
+    new "Amanecer: "
+
     # game/screens.rpy:1606
     old "Sunset"
     new "Atardecer"
 
+    old "Sunset: "
+    new "Atardecer: "
+
     # game/screens.rpy:1617
     old "Random Chatter"
     new "Chatter aleatorio"
+
+    old "Random Chatter: "
+    new "Charla aleatoria: "
 
     # game/screens.rpy:1630
     old "Ambient Volume"
