@@ -109,7 +109,7 @@ translate spanish strings:
 
     # game/screens.rpy:72
     old "Good [boy]."
-    new "Buen [chico]."
+    new "Ay, que lind[end_letter_gender]."
 
     # game/screens.rpy:73
     old "Good. :)"
@@ -125,7 +125,7 @@ translate spanish strings:
 
     # game/screens.rpy:78
     old "Why are you here?\n Click 'No' and use the 'Goodbye' button, silly!"
-    new "¿Pero qué haces aquí?\n Presiona 'No' y usa el botón 'Adiós', bobo!"
+    new "¿Pero qué haces aquí?\n Presiona 'No' y usa el botón 'Adiós', ¡bobo!"
 
     # game/screens.rpy:713
     old "History"
