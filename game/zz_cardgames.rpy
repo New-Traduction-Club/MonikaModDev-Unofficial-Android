@@ -1882,13 +1882,13 @@ init 5 python in mas_nou:
                 or not player.plays_turn
                 or player.played_card
             ):
-                return "Sorry, I'm not sure, [player]..."
+                return __("Sorry, I'm not sure, [player]...")
 
             card = discardpile[-1]
 
             if get_total_games() > 15 and random.random() < 0.2:
                 if player.should_skip_turn:
-                    return "The give up button is right below~"
+                    return __("The give up button is right below~")
 
                 elif (
                     # If Moni has drawn more than 10 cards in the last 10 turns...
@@ -1898,30 +1898,30 @@ init 5 python in mas_nou:
                         if log_data["drew_card"]
                     ) > 10
                 ):
-                    return "Find a better deck, this one is rigged..."
+                    return __("Find a better deck, this one is rigged...")
 
                 elif (
                     (player.hand and len(monika.hand)/len(player.hand) < 0.7)
                     or monika_win_streak > 2
                 ):
-                    return "Just git gud, [player]! Ahaha~"
+                    return __("Just git gud, [player]! Ahaha~")
 
                 elif (
                     (monika.hand and len(player.hand)/len(monika.hand) < 0.7)
                     or player_win_streak > 2
                 ):
-                    return "Play anything but {i}Draw Two{/i} and {i}Draw Four{/i}, darling. I don't have anything to counter those~"
+                    return __("Play anything but {i}Draw Two{/i} and {i}Draw Four{/i}, darling. I don't have anything to counter those~")
 
                 else:
-                    return "Just draw more cards, always works~"
+                    return __("Just draw more cards, always works~")
 
 
             dlg_line_list = []
 
             if card.type == "number":
                 dlg_line_list.append(
-                    "You need to play a{} '{}' or any {} card.".format(
-                        "n" if card.label == "8" else "",
+                    __("You need to play a{} '{}' or any {} card.").format(
+                        __("n") if card.label == "8" else "",
                         card.label,
                         card.color
                     )
@@ -1929,22 +1929,22 @@ init 5 python in mas_nou:
 
                 if player.drew_card:
                     dlg_line_list.append(
-                        " Since you drew a card, you can try to play it or skip your turn."
+                        __(" Since you drew a card, you can try to play it or skip your turn.")
                     )
 
                 elif len(player.hand) >= self.HAND_CARDS_LIMIT:
                     dlg_line_list.append(
-                        " If you don't have an appropriate card, then you'll have to skip this turn."
+                        __(" If you don't have an appropriate card, then you'll have to skip this turn.")
                     )
 
                 else:
                     dlg_line_list.append(
-                        " If you don't have an appropriate card, you should draw a card and then either play it or skip your turn."
+                        __(" If you don't have an appropriate card, you should draw a card and then either play it or skip your turn.")
                     )
 
             else:
                 if player.should_skip_turn:
-                    dlg_line_list.append("You have to skip this turn")
+                    dlg_line_list.append(__("You have to skip this turn"))
 
                     insert_line = (
                         len(self.game_log) > 2
@@ -1953,21 +1953,21 @@ init 5 python in mas_nou:
                     )
 
                     if insert_line:
-                        dlg_line_list.append("--just like the last one--")
+                        dlg_line_list.append(__("--just like the last one--"))
 
                     if player.should_draw_cards and len(player.hand) < self.HAND_CARDS_LIMIT:
                         dlg_line_list.append(
-                            "{}and draw {}".format(
+                            __("{}and draw {}").format(
                                 "" if insert_line else " ",
                                 player.should_draw_cards
                             )
                         )
                         if player.drew_card:
-                            dlg_line_list.append(" more")
+                            dlg_line_list.append(__(" more"))
 
                         dlg_line_list.append(
-                            " card{}".format(
-                                "s" if player.should_draw_cards != 1 else ""
+                            __(" card{}").format(
+                                __("s") if player.should_draw_cards != 1 else ""
                             )
                         )
 
@@ -1983,13 +1983,13 @@ init 5 python in mas_nou:
                                     color_for_reflect = ""
 
                             else:
-                                card_for_reflect = "Draw Two"
+                                card_for_reflect = __("Draw Two")
                                 color_for_reflect = card.color
 
                         else:
                             if card.type == "action":
                                 if card.label == "Draw Two":
-                                    card_for_reflect = "Draw Two{/i} or {i}Draw Four"
+                                    card_for_reflect = __("Draw Two{/i} or {i}Draw Four")
 
                                 else:
                                     card_for_reflect = card.label
@@ -1997,29 +1997,29 @@ init 5 python in mas_nou:
                                 color_for_reflect = ""
 
                             else:
-                                card_for_reflect = "Draw Two{/i} or {i}Draw Four"
+                                card_for_reflect = __("Draw Two{/i} or {i}Draw Four")
                                 color_for_reflect = card.color
 
                         dlg_line_list.append(
-                            " If you have a {}{}{{i}}{}{{/i}}, you could {{i}}try{{/i}} to reflect {} card.".format(
+                            __(" If you have a {}{}{{i}}{}{{/i}}, you could {{i}}try{{/i}} to reflect {} card.").format(
                                 color_for_reflect,
                                 "" if not color_for_reflect else " ",
                                 card_for_reflect,
-                                "my" if self.monika.played_card else "the top"
+                                __("my") if self.monika.played_card else __("the top")
                             )
                         )
                         if random.random() < 0.33:
                             if random.random() < 0.5:
                                 dlg_line_list.append(
-                                    " Can't promise I won't reflect it back to you~"
+                                    __(" Can't promise I won't reflect it back to you~")
                                 )
                             else:
-                                dlg_line_list.append(".. If you're brave enough~")
+                                dlg_line_list.append(__(".. If you're brave enough~"))
 
                 else:
                     if card.type == "action":
                         dlg_line_list.append(
-                            "You need to play a {{i}}{}{{/i}} or any {} card.".format(
+                            __("You need to play a {{i}}{}{{/i}} or any {} card.").format(
                                 card.label,
                                 card.color
                             )
@@ -2028,28 +2028,28 @@ init 5 python in mas_nou:
                     else:
                         if card.color is None:
                             dlg_line_list.append(
-                                "You need to choose a color before we can continue."
+                                __("You need to choose a color before we can continue.")
                             )
 
                         else:
                             dlg_line_list.append(
-                                "You need to play any {} card.".format(card.color)
+                                __("You need to play any {} card.").format(card.color)
                             )
 
                             if player.drew_card or len(player.hand) >= self.HAND_CARDS_LIMIT:
                                 dlg_line_list.append(
-                                    " Otherwise you'll have to skip your turn~"
+                                    __(" Otherwise you'll have to skip your turn~")
                                 )
 
                             else:
                                 dlg_line_list.append(
-                                    " Otherwise draw a card and try to play it."
+                                    __(" Otherwise draw a card and try to play it.")
                                 )
 
             if dlg_line_list:
                 return "".join(dlg_line_list)
 
-            return "Sorry, I'm not sure, [player]..."
+            return __("Sorry, I'm not sure, [player]...")
 
         def say_help(self):
             """
@@ -4177,7 +4177,7 @@ label .change_points_to_win_loop:
 
         $ points_cap = store.mas_utils.tryparseint(
             renpy.input(
-                "How many points would you like it to be?",
+                __("How many points would you like it to be?"),
                 allow=numbers_only,
                 length=4
             ).strip("\t\n\r"),
@@ -4240,7 +4240,7 @@ label .change_starting_cards_loop:
 
         $ starting_cards = store.mas_utils.tryparseint(
             renpy.input(
-                "How many cards would you like to start the game with?",
+                __("How many cards would you like to start the game with?"),
                 allow=numbers_only,
                 length=2
             ).strip("\t\n\r"),

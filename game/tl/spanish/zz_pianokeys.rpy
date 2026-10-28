@@ -565,11 +565,11 @@ translate spanish strings:
 
     # game/zz_pianokeys.rpy:2406
     old "Reset All"
-    new "Restablecer Todo"
+    new "Reinicar"
 
     # game/zz_pianokeys.rpy:2418
     old "Config"
-    new "Configuración"
+    new "Ajustes"
 
     # game/zz_pianokeys.rpy:2450
     old "Click on a pink area to change the keymap for that piano key"

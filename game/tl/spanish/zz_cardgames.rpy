@@ -1,4 +1,4 @@
-﻿
+
 # game/zz_cardgames.rpy:3968
 translate spanish monika_introduce_nou_house_rules_7813486e:
 
@@ -183,7 +183,7 @@ translate spanish monika_change_nou_house_rules_menu_loop_55e6a42e:
 translate spanish monika_change_nou_house_rules_menu_loop_9bd084e3:
 
     # m 1eud "The Reflect Chaos rule makes the game more {w=0.2}{nw}"
-    m 1eud "La regla de Reflejo de Caos hace que el juego sea más {w=0.2}{nw}"
+    m 1eud "La regla de Caos de Contrarrestar hace que el juego sea más {w=0.2}{nw}"
 
 # game/zz_cardgames.rpy:4140
 translate spanish monika_change_nou_house_rules_menu_loop_e5ace509:
@@ -1807,7 +1807,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:176
     old "I don't think we're already {i}that{/i} far in our relationship~"
-    new "No creo que estemos ya tan lejos en nuestra relación."
+    new "No creo que estemos aún en ese punto de nuestra relación."
 
     # game/zz_cardgames.rpy:181
     old "Are you trying to cheat again?"
@@ -2203,7 +2203,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:408
     old "That's a lot of cards for you, ehehe~"
-    new "Esas son un montón de cartas para ti, je, je, je."
+    new "¡Son un montón de cartas para ti, je, je, je!"
 
     # game/zz_cardgames.rpy:414
     old "Ehehe~ Good thing I'm not drawing all those cards!"
@@ -2255,7 +2255,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:440
     old "You...{w=0.3}{i}could{/i} go a bit easier on your girlfriend, you know~"
-    new "Podrías... {w=0.3}ser un poco más buen[end_letter_gender] con tu novia, ¿sabes?"
+    new "Podrías... {w=0.3}no ser tan dur[end_letter_gender] con tu novia, ¿sabes?"
 
     # game/zz_cardgames.rpy:440
     old "[player]!"
@@ -2411,7 +2411,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:1964
     old "{}and draw {}"
-    new "{}y roba {}"
+    new "{}y robar {}"
 
     # game/zz_cardgames.rpy:1991
     old "Draw Two"
@@ -2431,7 +2431,7 @@ translate spanish strings:
 
     # game/zz_cardgames.rpy:2022
     old ".. If you're brave enough~"
-    new "Si eres lo bastante valiente."
+    new " Si eres lo bastante valiente."
 
     # game/zz_cardgames.rpy:2026
     old "You need to play a {{i}}{}{{/i}} or any {} card."
@@ -2577,3 +2577,28 @@ translate spanish strings:
     old "Can you help me?"
     new "¿Me echas una mano?"
 
+    # zz_cardgames.rpy:1922
+    # keep epmty
+    old "n"
+    new ""
+
+    # zz_cardgames.rpy:1966
+    # keep epmty
+    old " more"
+    new ""
+
+    # zz_cardgames.rpy:1968
+    old " card{}"
+    new " carta{}"
+
+    # zz_cardgames.rpy:1968
+    old "s"
+    new "s"
+
+    # zz_cardgames.rpy:2003
+    old "my"
+    new "mi"
+
+    # zz_cardgames.rpy:2003
+    old "the top"
+    new "la primera"
