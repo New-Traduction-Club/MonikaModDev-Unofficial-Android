@@ -1345,7 +1345,7 @@ translate spanish strings:
 
     # game/chess.rpy:3255
     old "Call Draw"
-    new "Pedir empate"
+    new "Empatar"
 
     # game/chess.rpy:3281
     old "Undo"
